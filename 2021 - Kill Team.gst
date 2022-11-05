@@ -56,8 +56,6 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="15ae-553e-01d1-23a9" name="Imperium" hidden="false"/>
-    <categoryEntry id="51d2-f096-47a9-1956" name="Astra Militarum" hidden="false"/>
-    <categoryEntry id="ba61-d304-9352-ec15" name="Chaos" hidden="false"/>
     <categoryEntry id="ee8c-cc44-acc3-40f0" name="Gunner" hidden="false"/>
     <categoryEntry id="b9a4-31a5-b4ed-b4c7" name="Warrior" hidden="false"/>
     <categoryEntry id="4470-2839-f56b-81ec" name="Fighter" hidden="false"/>
@@ -68,10 +66,8 @@
     <categoryEntry id="fb89-efb1-54e4-59c5" name="Configuration" hidden="false"/>
     <categoryEntry id="8e1d-1094-f504-d8cd" name="Medic" hidden="false"/>
     <categoryEntry id="383e-c92a-c607-c7e1" name="Fly" hidden="false"/>
-    <categoryEntry id="c62e-f54d-e0bb-6940" name="Aeldari" hidden="false"/>
     <categoryEntry id="55b9-413d-e975-492a" name="Psyker" hidden="false"/>
-    <categoryEntry id="c5c1-db85-5269-3c3c" name="Drone" hidden="false"/>
-    <categoryEntry id="5378-18da-9409-091a" name="Mutoid Vermin" hidden="false"/>
+    <categoryEntry id="a94a-b62f-7cb8-a902" name="Support Operative" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7138-2b60-74ce-a90b" name="Roster" hidden="false">
@@ -84,6 +80,7 @@
             <modifier type="decrement" field="2125-5680-e8b9-6f9c" value="1.0">
               <repeats>
                 <repeat field="selections" scope="7138-2b60-74ce-a90b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94a-b62f-7cb8-a902" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -91,8 +88,19 @@
             <constraint field="selections" scope="roster" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2125-5680-e8b9-6f9c" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="adfa-b821-d9f9-04db" name="Drone" hidden="false" targetId="c5c1-db85-5269-3c3c" primary="false"/>
-        <categoryLink id="b6b4-8178-6092-bdff" name="Mutoid Vermin" hidden="false" targetId="5378-18da-9409-091a" primary="false"/>
+        <categoryLink id="2614-a988-4a6e-e419" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false">
+          <modifiers>
+            <modifier type="decrement" field="9e61-1cb9-6af7-5faf" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="7138-2b60-74ce-a90b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f98b-0289-0f1f-b233" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e61-1cb9-6af7-5faf" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
