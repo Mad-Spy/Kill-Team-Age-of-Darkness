@@ -22,6 +22,9 @@
     <categoryEntry id="ffd8-1e7c-d8cb-7331" name="BrSgt" hidden="false"/>
     <categoryEntry id="ad71-b531-92d7-24d9" name="RecSgt" hidden="false"/>
     <categoryEntry id="06f0-ee9e-69a3-2257" name="AssSgt" hidden="false"/>
+    <categoryEntry id="88c7-32ab-0f6b-5c26" name="Heavy Support Astartes" hidden="false"/>
+    <categoryEntry id="e405-06c2-a70b-572a" name="Veteran" hidden="false"/>
+    <categoryEntry id="8089-5c79-863d-629e" name="Seeker Astartes" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -1456,7 +1459,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
             <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
             <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
-            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
         <profile id="fca5-3d80-3342-aaf4" name="Blazing Fire (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
@@ -1543,6 +1546,359 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="8999-9292-adf5-7e2a" name="Legion Heavy Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e105-decb-fac1-5ec0" name="Legion Heavy Support" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="411e-430d-bc7e-8fb0" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="360b-3ef7-e67b-21f9" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="ce68-d045-cbdc-87ae" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="6b27-9428-6be1-e84e" name="Heavy Support Astartes" hidden="false" targetId="88c7-32ab-0f6b-5c26" primary="false"/>
+        <categoryLink id="0566-292c-15bb-83ac" name="Heavy Gunner" hidden="false" targetId="0e59-07ae-65c2-2de6" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="491d-897a-d496-f31e" name="Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc80-5108-b30f-9b1c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006e-fca3-b719-e180" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fe83-02f4-0a66-82fc" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5f9d-f879-566a-5ebe" name="⌖ Autocannon" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP2</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4fd4-1dca-8194-11d4" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="6368-dde7-2ac2-c8b0" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="2b30-4948-fa25-ae6d" name="Heavy boltgun" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="95f6-aed6-f308-8437" name="⌖ Heavy boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Fusillade</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8d59-8955-ffcb-4a72" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="1982-9913-274e-1cd1" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="af5c-827e-b32b-fce1" name="Missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c62b-913c-d476-1d8f" name="⌖ Missile launcher - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Blast ⬤</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="adbe-3786-9491-9092" name="⌖ Missile launcher - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1613-d95e-48cd-fff9" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="a658-1edd-9984-0cf1" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="4919-76bb-8fb5-868b" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="7e1c-6889-8a0a-604f" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2355-4f5f-4420-10ab" name="⌖ Multi-melta" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/3</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP2</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3e2a-2ccb-ca08-4590" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="24d8-06c0-f2c5-7720" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="7eaa-e014-2744-cd08" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="7c60-bdbd-f6e4-70e1" name="Plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f541-730e-c454-5265" name="⌖ Plasma cannon - Supercharged" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/8</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Blast ⬤, AP2, Hot</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="ad6b-fbe8-5d85-d0e5" name="⌖ Plasma cannon - Sustained" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/7</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6d87-585b-295b-72a0" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="c28d-805c-4c82-a894" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+                <infoLink id="c8a0-fd17-a67f-72a9" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="9a89-219e-b153-37cc" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a779-ce4a-39df-f579" name="Volkite culverin" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0d6c-fa9c-4e1d-6379" name="⌖ Volkite culverin" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Deflagrate*, Heavy, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="25f8-4787-9f6a-1720" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="9dcb-faa6-b4e7-4908" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="e0d2-5198-4ac2-ebb1" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+                <infoLink id="0e58-a693-e8fd-dc93" name="*Deflagrate" hidden="false" targetId="585c-13e7-27aa-0d6d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="66cd-c829-edda-c2f2" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="37f1-75a7-4d1c-2786" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="17b6-664a-6b6b-7151" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b66-0e6a-0700-140b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560f-b3c9-9380-fe99" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="7d58-6387-4587-5662" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="924c-f33e-3c7d-6f07" name="Legion Veteran Tactical Astartes" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="011a-66cb-c401-6fb4" name="Fury of the Legion (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Make a shooting attack with this operative&apos;s boltgun. That attack is modified by the number of boltgun equipped TACTICAL ASTARTES operatives within ⬛ of this operative;
+1 - Increase the Attacks characteristic of the boltgun to 6.
+2 - The attack gains the Fusillade special rule.
+3 - Increase the Attacks characteristic of the boltgun to 8.
+4+ - The attack gains the P1 critical rule.
+Until the end of the Turning Point, all operatives involved in this action may not make Overwatch actions.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0abe-b672-5582-a9c1" name="Veteran Tactics" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">At the start of this operative&apos;s activation, select one of the following abilities:
+- Resolve: When this operative gains a suppression token, roll one D6: on a 4+, the token is discarded.
+- Weaponmaster: This model gains +1 to attack rolls during a Fight action.
+- Marksman: This model can re-roll attack dice results of 1 during a Shoot action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cf88-3ccc-1a1d-a6bd" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="8b2b-eead-c07b-f2c2" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="fcb0-4068-eb99-7cda" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="2f95-3030-f0f8-4225" name="Veteran Tactical Astartes" hidden="false" targetId="e405-06c2-a70b-572a" primary="false"/>
+        <categoryLink id="cbe4-ff19-e00b-0a13" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="8951-4e2d-901d-c5e1" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="664a-f880-09ed-dbc6" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ae-81fc-3631-bfed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2484-a675-ac2a-86fb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ed1-4e71-c42b-5ccd" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c7-605d-7dd5-df0e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0f4f-0a2e-b593-0fd3" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa16-7dd2-4755-5d75" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b48e-6b16-3a73-2fab" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b609-7441-a344-bb8a" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="fbbc-164f-1f95-145e" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bde-130f-f81a-cb8a" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5c33-57fe-29c3-bd6a" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edfc-426f-a64d-33a5" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="bbb6-dfb1-88e6-5f17" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d94b-f1e6-fd14-3a5a" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c24a-9ef0-411c-2297" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a2-7a07-bc8b-2c80" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9293-40f2-3518-4fff" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd47-0f16-0284-aba6" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4890-79ce-6a3c-e3c4" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f286-c1a0-252d-7d11" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4315-d5d7-5842-1052" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f716-4a37-263d-485d" name="Legion Seeker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="821c-082a-522c-c456" name="Legion Seeker" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c32-0cb8-e1f9-77c3" name="Scout (Seeker)" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Immediately after deployment, this operative may make a Normal Move action.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d0c-6916-9856-8b83" name="Rapid Fire (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative has already made a Shoot action, and has not performed a Normal Move or Dash action during its activation, it may make a second Shoot action with a different profile for the seeker boltgun.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fb3d-0281-7e08-9454" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="c1c3-09ae-434e-2168" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="1d6b-502a-e4e1-267e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="bec7-4e59-a2d1-accc" name="Seeker Astartes" hidden="false" targetId="8089-5c79-863d-629e" primary="false"/>
+        <categoryLink id="c3a8-b6be-54b4-4a43" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eba6-ff69-114c-734d" name="Seeker boltgun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc7-cfa1-a96c-8304" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="660a-9fdd-4ff9-4ddf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="34e5-a587-8ee7-8a98" name="⌖ Seeker boltgun - Kraken" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2f32-a711-aece-ff44" name="⌖ Seeker boltgun - Scorpius" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6a8e-f810-bd65-b4b0" name="⌖ Seeker boltgun - Tempest" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="092e-fb89-f89a-31f1" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+            <infoLink id="e7d4-f51c-b634-2347" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+            <infoLink id="3011-ebf9-3910-652f" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ec9d-bfe0-83f5-ce4a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7080-7211-dc36-2002" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcac-1bad-1205-48c1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
