@@ -19,6 +19,9 @@
     <categoryEntry id="7a50-1add-1d08-8e76" name="TacSgt" hidden="false"/>
     <categoryEntry id="0527-1bb7-7129-a292" name="Elite" hidden="false"/>
     <categoryEntry id="600e-9dbe-d270-e8c0" name="Destroyer Astartes" hidden="false"/>
+    <categoryEntry id="ffd8-1e7c-d8cb-7331" name="BrSgt" hidden="false"/>
+    <categoryEntry id="ad71-b531-92d7-24d9" name="RecSgt" hidden="false"/>
+    <categoryEntry id="06f0-ee9e-69a3-2257" name="AssSgt" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -89,6 +92,129 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a415-1918-9d99-a3c9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b03-6049-ba43-00ea" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1a2e-71d5-1821-0cb0" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false">
+          <modifiers>
+            <modifier type="increment" field="ce7b-c782-f451-6e2b" value="3.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b1-392e-87bf-dad0" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ce7b-c782-f451-6e2b" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ffd8-1e7c-d8cb-7331" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ce7b-c782-f451-6e2b" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b1-392e-87bf-dad0" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ffd8-1e7c-d8cb-7331" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="ce7b-c782-f451-6e2b" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b1-392e-87bf-dad0" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ffd8-1e7c-d8cb-7331" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce7b-c782-f451-6e2b" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="94bd-c76c-a0ab-59c0" name="Assault Astartes" hidden="false" targetId="a619-bfad-f5b2-5a23" primary="false">
+          <modifiers>
+            <modifier type="increment" field="f01b-d1ef-a6af-94d5" value="3.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="f01b-d1ef-a6af-94d5" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06f0-ee9e-69a3-2257" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="f01b-d1ef-a6af-94d5" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06f0-ee9e-69a3-2257" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="f01b-d1ef-a6af-94d5" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06f0-ee9e-69a3-2257" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f01b-d1ef-a6af-94d5" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="def3-0b9d-95d8-b8d1" name="Recon Astartes" hidden="false" targetId="425a-26dd-5818-bd90" primary="false">
+          <modifiers>
+            <modifier type="increment" field="e576-edc6-c241-f444" value="3.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="425a-26dd-5818-bd90" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="e576-edc6-c241-f444" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad71-b531-92d7-24d9" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="e576-edc6-c241-f444" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="425a-26dd-5818-bd90" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad71-b531-92d7-24d9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="e576-edc6-c241-f444" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="425a-26dd-5818-bd90" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad71-b531-92d7-24d9" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e576-edc6-c241-f444" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7141-1c72-1910-2eba" name="Terminator" hidden="false" targetId="30ce-b0b1-06b0-fd30" primary="false">
+          <modifiers>
+            <modifier type="increment" field="4956-e3f4-6d60-98fc" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4956-e3f4-6d60-98fc" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -497,6 +623,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="25f5-72ec-a43c-089f" name="Assault Astartes" hidden="false" targetId="a619-bfad-f5b2-5a23" primary="false"/>
         <categoryLink id="6bb8-d474-1e3d-8935" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="4632-7f73-2a15-ad03" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
+        <categoryLink id="c1d7-dc23-f3a3-d83f" name="AssSgt" hidden="false" targetId="06f0-ee9e-69a3-2257" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="105b-dbcb-9c59-f194" name="Pistol" hidden="false" collective="false" import="true">
@@ -686,6 +813,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="3260-cd9b-96df-862d" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="4a5a-0a2a-cc51-0f7b" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false"/>
         <categoryLink id="09c1-8d2b-8b3f-ed86" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
+        <categoryLink id="ac51-c128-16a8-d185" name="BrSgt" hidden="false" targetId="ffd8-1e7c-d8cb-7331" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cfc3-15f4-a678-5255" name="Weapon" hidden="false" collective="false" import="true">
@@ -881,6 +1009,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="2dcd-2ff7-038f-a9d7" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0ace-9799-83c5-aaea" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="bf8e-a7ee-12e8-4c98" name="Recon Astartes" hidden="false" targetId="425a-26dd-5818-bd90" primary="false"/>
+        <categoryLink id="37fc-430c-fe2a-7c9a" name="RecSgt" hidden="false" targetId="ad71-b531-92d7-24d9" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4868-34ed-aae6-3816" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -1260,6 +1389,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3238-5885-72fa-731b" name="Legion Support Terminator" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1364,6 +1496,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <infoLinks>
             <infoLink id="5f9a-56fa-74b9-f55e" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0e2c-514a-448d-d156" name="Phosphex bomb" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1392,6 +1527,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <infoLink id="0b6e-baca-6bab-a9a8" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
             <infoLink id="7614-ba45-c3be-3b8e" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1402,6 +1540,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -2374,6 +2515,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <infoLinks>
         <infoLink id="cdb2-bac9-213f-3ec8" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a04e-b083-874a-2497" name="Storm shield" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2383,6 +2527,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="37f1-75a7-4d1c-2786" name="Heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2400,6 +2547,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="83da-a5b6-4874-80d3" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
         <infoLink id="00b9-b526-fc66-44c9" name="Torrent x" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b6a2-5a41-9c65-c689" name="Plasma blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2426,6 +2576,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="cd3f-ba95-8389-a2d0" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
         <infoLink id="0531-9533-9df4-1790" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3a9f-3997-5b4d-50de" name="Reaper autocannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2443,6 +2596,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="2646-d43c-4de7-5b7f" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
         <infoLink id="a141-2cd4-7e32-7947" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
