@@ -576,17 +576,23 @@
     <selectionEntry id="0604-3bbd-f1fa-5c65" name="Combat knife" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="7bf0-f38a-89d0-c2a6" name="⚔ Combat knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifierGroups>
-            <modifierGroup>
+          <modifiers>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0527-1bb7-7129-a292" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
               </conditions>
-              <modifiers>
-                <modifier type="set" field="5f37-25bb-661b-5c9c" value="5"/>
-                <modifier type="set" field="32b4-9a0e-e740-6031" value="2+"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -3451,7 +3457,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <modifiers>
         <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
