@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="065c-b71d-6d81-4827" name="Dark Angels" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="bbfa-2c49-e4e1-6bbd" name="Firewing" hidden="false"/>
+    <categoryEntry id="6b00-e43a-d125-a960" name="Enigmatii" hidden="false"/>
+    <categoryEntry id="9e90-e7e0-1225-b0f2" name="Deathwing" hidden="false"/>
+    <categoryEntry id="2190-aa14-d592-5c7e" name="Companion" hidden="false"/>
+    <categoryEntry id="c61f-de8f-1af3-aaac" name="Dreadwing" hidden="false"/>
+    <categoryEntry id="1ea4-f89e-74fc-917a" name="Interemptor" hidden="false"/>
+    <categoryEntry id="553c-5f43-160d-2d9e" name="Ironwing" hidden="false"/>
+    <categoryEntry id="7bbb-7eac-c7f3-18a0" name="Ravenwing" hidden="false"/>
+    <categoryEntry id="3106-0b0e-d2f7-7d52" name="Stormwing" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="319c-af4b-ba60-5f64" name="Legion Breacher Astartes" hidden="false" collective="false" import="true" targetId="a354-e384-08c9-3869" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fd6c-b6dd-47f5-9036" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="24f9-6013-0e64-878a" name="Legion Assault Champion" hidden="false" collective="false" import="true" targetId="282b-e5bb-54b8-ce23" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="81fe-525f-fc98-6bc1" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f9eb-f94f-c7cf-9109" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="5734-d427-1682-7086" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="925f-3296-3edb-08c2" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f468-13e3-eb56-3dc3" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="60d3-dc9c-420f-7163" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7201-f81d-a84b-a00e" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d767-5f7c-bb86-8424" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3544-8d82-9cb5-0b63" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="3162-df28-e921-be7b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a1ea-0c88-4f16-b974" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="632f-ee41-beab-22d2" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="21ab-1b2f-5085-145c" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="c615-b549-9a75-ae6d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="678f-7531-4108-66e9" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="970a-0fd3-d761-203c" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="77fc-a54a-4036-6efd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e6d9-ac65-c387-7591" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d732-78b7-2904-dbbe" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1e15-3e7e-0790-921c" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="4ffb-09f4-d7ea-c9b7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5189-0f88-0669-0fbd" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5d11-eae0-21ec-5c0c" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="48c7-801b-859f-1e58" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="065a-11e8-d379-9050" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fb6f-d543-2694-e91b" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4866-ccb8-0f8a-72f3" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="68d4-27be-d57f-45a3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d837-2ad1-34cf-3492" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6c36-cd19-7885-9ebc" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="91f4-08a4-b968-4845" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="308e-efb0-0e10-b04d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="04c7-0bf6-7436-519e" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="189e-9df9-bdc2-a1d8" name="Legion Seeker" hidden="false" collective="false" import="true" targetId="a00a-a95b-cefb-f839" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8356-a53c-2b2a-5513" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ed17-9e9e-b078-07c0" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3f0e-bb75-defb-6190" name="Legion Support Breacher" hidden="false" collective="false" import="true" targetId="9554-f807-ba34-2c83" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3ed1-9478-30bf-4faa" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="21a5-9995-da79-b190" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="e0a5-4668-fffe-54c3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bf35-27bf-d7f7-7ab9" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="450e-7762-1973-3361" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" targetId="2f39-8b1b-8c7d-e84f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b5d9-cf4a-f952-41ee" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="05bd-186c-9e93-555f" name="Legion Tactical Astartes Comms" hidden="false" collective="false" import="true" targetId="1272-e8f0-4fd0-afa0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="adf0-52e3-a276-7710" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5e24-6dd9-2ad0-a973" name="Legion Tactical Astartes Vexilla" hidden="false" collective="false" import="true" targetId="7463-79bb-2721-6d88" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="baa9-ffe9-630f-daf1" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bad6-bc80-b734-9a8f" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="a6f9-9ae9-c5d0-64b3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f1ba-f10c-450d-8d2f" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9cd1-027f-ac6e-687b" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="fd54-b5b0-257f-9c0b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="de3e-c535-3df5-e276" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bba9-96ca-b45b-e3ea" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="ffb1-4f7c-2837-1050" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dd35-9750-4de3-9747" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3251-fd87-9cfa-fee8" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="655c-bf9c-fa68-7db5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="820b-cce9-9073-5387" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2053-939a-b899-acab" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="8b54-22df-2119-f703" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="02b2-b459-8766-e80d" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="5563-a365-4181-9106" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b6eb-5dc9-3aaf-f95d" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="069f-b617-c83a-269a" name="Dreadwing Interemptor" hidden="false" collective="false" import="true" targetId="931f-420c-cbb5-651b" type="selectionEntry"/>
+    <entryLink id="0056-2bf4-abd3-7e45" name="Deathwing Companion" hidden="false" collective="false" import="true" targetId="2a1e-94a8-dc9b-13f7" type="selectionEntry"/>
+    <entryLink id="c415-a0a9-6b07-82b0" name="Firewing Engimatii" hidden="false" collective="false" import="true" targetId="0dba-361a-ed5f-7a70" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2a1e-94a8-dc9b-13f7" name="Deathwing Companion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d66c-abdc-5aa2-b07d" name="Deathwing Companion" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="930f-f9f1-0c03-31e8" name="Companion" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is within ⬤ of a friendly LEADER, that LEADER may not be targeted by shooting attacks. In addition, if that friendly LEADER is successfully targeted for a charge action, this operative may immediately be placed within the charging operative&apos;s Engagement Range.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bbea-2e60-7283-ca39" name="Scion of the Deathwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may fight in a Challenge action during which it may re-roll failed attack rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="59b9-7bed-6570-3833" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="0895-8d9d-6e73-7283" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="1f28-b488-47f8-557a" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+        <categoryLink id="7d24-4f67-1c66-fff9" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="9e33-c19b-5d0e-e8ac" name="Deathwing" hidden="false" targetId="9e90-e7e0-1225-b0f2" primary="false"/>
+        <categoryLink id="9127-8132-bb93-ab60" name="Companion" hidden="false" targetId="2190-aa14-d592-5c7e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6f60-957e-100f-1d52" name="Ranged weapon/Aegis" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b1-1b78-8429-00fa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e9e-1576-ef70-3c7a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c13d-8226-d680-6b90" name="Cytheron aegis" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="25ca-c663-5422-14fb" name="Cytheron Aegis" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative has a 4+ invulnerable save and rolls an additional defence dice when targeted by a Shoot action. In addition, each time this operative fights in combat, in the Resolve Successful Hits step of that combat, each time it parries, two of your opponent&apos;s successful hits are discarded (instead of 1).</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1856-379a-6d04-6619" name="Deploy Cytheron Aegis (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+                  <characteristics>
+                    <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Until the end of the Turning Point, friendly operatives within ⬤	of this operative gain a 3+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="4454-a469-f2f9-b41d" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="97e0-3811-6739-db0c" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="395d-e683-eb1c-05db" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry"/>
+            <entryLink id="0126-9b8d-a782-3ad9" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry"/>
+            <entryLink id="7b1f-db31-7bbd-da4e" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry"/>
+            <entryLink id="e8fa-0c8b-c89e-dd0f" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry"/>
+            <entryLink id="e38f-bfb5-cabf-3bf7" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
+            <entryLink id="4085-5a0d-e2f6-5232" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
+            <entryLink id="cf78-6f91-0cf5-f8f4" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
+            <entryLink id="6fa8-ebe8-753a-663a" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5a7d-0e32-f017-bf59" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fa-2845-06e2-b64a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d7-5906-5db3-333a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="48d1-e9ba-868b-e61a" name="Terranic greatsword" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a4a2-2467-8da1-f319" name="⚔ Terranic greatsword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="a1d8-fd94-f956-b410" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
+            <entryLink id="961b-a204-e5c3-95cc" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="5613-cbe0-9afb-11b1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="931f-420c-cbb5-651b" name="Dreadwing Interemptor" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7eee-678f-c2dc-172d" name="Dreadwing Interemptor" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="940d-1e44-50f1-169f" name="Stubborn" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative ignores any and all negative modifiers to its APL.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9353-7112-a60c-a350" name="Purge (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Make a Shoot action with the plasma burner during which it gains the No Cover and Torrent ⬤ special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cd99-c81c-5731-23eb" name="Scion of the Dreadwing" hidden="false" targetId="7dd7-e634-a744-8749" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="132a-73d5-5427-4b0b" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="64bb-6492-f744-43bc" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="be03-3aad-a7c0-ee38" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+        <categoryLink id="3143-7070-3cb0-37d4" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="2fd5-43f1-eb54-0913" name="Dreadwing" hidden="false" targetId="c61f-de8f-1af3-aaac" primary="false"/>
+        <categoryLink id="53db-5659-e3be-cf2d" name="Interemptor" hidden="false" targetId="1ea4-f89e-74fc-917a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e764-dd62-23d3-8aee" name="Plasma burner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b95-069a-9fa3-534f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ed-91a8-6233-6a4c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="98b3-f39b-7474-6002" name="⌖ Plasma burner" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">AP2, Hot</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ac88-77c4-8a25-bb2c" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+            <infoLink id="bc69-b2f4-6f33-4746" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8ee6-d410-9a79-b933" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d027-c3be-d723-6af5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="653d-be60-d228-0122" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dba-361a-ed5f-7a70" name="Firewing Engimatii" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="eb90-55c4-cee8-68bf" name="Firewing Engimatii" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b6f-2002-eef3-3318" name="Engimatii" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When targeting this operative with attacks, abilities or ploys, it is always considered to have a Conceal order unless such attacks originate within ⬟ of this operative.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="662e-b90d-3339-9737" name="Shroud bombs" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When within Engagement Range of an enemy operative, this operative may not be targeted with Overwatch attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6de8-a5c5-f04e-394e" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+        <infoLink id="19dd-c50f-05eb-32a2" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+        <infoLink id="65de-f7dd-f307-4348" name="Scion of the Firewing" hidden="false" targetId="c50c-31eb-902b-9de7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e663-dab3-57b0-38cb" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="8b4a-3181-7f00-261d" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="df05-1560-2de0-5b6e" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+        <categoryLink id="88ba-98c7-e7eb-cf14" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="81ac-8140-d2cf-1304" name="Firewing" hidden="false" targetId="bbfa-2c49-e4e1-6bbd" primary="false"/>
+        <categoryLink id="47b4-f4f1-8363-050e" name="Enigmatii" hidden="false" targetId="6b00-e43a-d125-a960" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0e09-02c6-caa5-c464" name="Needle pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8e-f272-66c8-7390" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e361-68f6-5300-8f1e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c8b6-1630-642a-6ec6" name="⌖ Needle pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+, Rng ⬟</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="736a-904a-4c1b-3a13" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="2893-bee3-d094-f17d" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ba76-49fc-807c-8b4a" name="Calibanite Charge-blade" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="c7ab-b3fa-f201-cedc" name="Calibanite Charge-blade - sustained" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Ceaseless</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8236-6aff-411e-fba6" name="Calibanite Charge-blade - charged" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+, Hot</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d912-4872-3f66-30b3" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
+            <infoLink id="45c0-be43-5f40-6969" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+            <infoLink id="af54-b45b-a4b4-1156" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="8b54-22df-2119-f703" name="Hexagrammaton" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="4ed4-c1c8-4765-5ebe" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2a1e-94a8-dc9b-13f7" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931f-420c-cbb5-651b" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0dba-361a-ed5f-7a70" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="4ed4-c1c8-4765-5ebe" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2a1e-94a8-dc9b-13f7" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931f-420c-cbb5-651b" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0dba-361a-ed5f-7a70" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b72-6bb6-ee56-608f" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ed4-c1c8-4765-5ebe" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="cd93-37b1-d672-526e" name="Scion of the Deathwing" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="b06f-db97-a885-6a77" name="Scion of the Deathwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may re-roll failed attack rolls while engaged in a Challenge action. This operative gains the DEATHWING keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="e2c7-95b5-23d4-5fe2" name="Deathwing" hidden="false" targetId="9e90-e7e0-1225-b0f2" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="f391-b0bd-0940-846d" name="Scion of the Dreadwing" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="4e56-fac3-0703-fbff" name="Scion of the Dreadwing" hidden="false" targetId="7dd7-e634-a744-8749" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ac49-20b7-622d-64f9" name="Dreadwing" hidden="false" targetId="c61f-de8f-1af3-aaac" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="8ee3-4089-a111-6511" name="Scion of the Firewing" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="53af-1e72-3f8f-78d0" name="Scion of the Firewing" hidden="false" targetId="c50c-31eb-902b-9de7" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5bf9-0daf-b23f-5c3d" name="Firewing" hidden="false" targetId="bbfa-2c49-e4e1-6bbd" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="3182-6506-cb11-002c" name="Scion of the Ironwing" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="a206-49fd-7cb9-42e5" name="Scion of the Ironwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative targets an enemy operative that is in cover with a shooting attack, the weapon used gains the Stun critical rule. This operative gains the IRONWING keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="ccd8-ac30-06ac-9be8" name="Ironwing" hidden="false" targetId="553c-5f43-160d-2d9e" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="c523-6f5e-5c13-f99c" name="Scion of the Ravenwing" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="217a-e405-4a91-b227" name="Scion of the Ravenwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative and one Legion Fire team may be deployed along an adjacent board edge up to from the player&apos;s deployment area. This operative and the selected fire team gain the RAVENWING keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="cf19-d2f5-344b-bee7" name="Ravenwing" hidden="false" targetId="7bbb-7eac-c7f3-18a0" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="2fb5-c613-6fd1-8b34" name="Scion of the Stormwing" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="41a5-ffcb-5230-a1e4" name="Scion of the Stormwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When making an Overwatch or Shoot action this operative does not apply any positive or negative modifiers to the attack roll. Additionally when this model makes a Suppress attack, a single normal hit can be retained as a critical hit. This operative gains the STORMWING keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="432e-b2cb-1d68-f9c3" name="Stormwing" hidden="false" targetId="3106-0b0e-d2f7-7d52" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="15f2-ca4f-ddd1-f4cb" name="Shape Reference" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+      <characteristics>
+        <characteristic name="M" typeId="c36f-3952-a91d-5a06">▲</characteristic>
+        <characteristic name="APL" typeId="c84a-a042-6fe6-519b">⬤</characteristic>
+        <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">⬛</characteristic>
+        <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">⬟</characteristic>
+        <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">⌖ </characteristic>
+        <characteristic name="W" typeId="db11-738c-048c-759e">⚔ </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7dd7-e634-a744-8749" name="Scion of the Dreadwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all terrain with the Light trait as also having the Traversable trait. In addition, this operative does not suffer the penalty for moving through traversable terrain. This operative gains the DREADWING keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c50c-31eb-902b-9de7" name="Scion of the Firewing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative can re-roll attack dice rolls of 1 or 2 during a Fight action against an operative which has either the WARRIOR or FIGHTER keywords. This operative gains the FIREWING keyword.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="8bb0-84a6-f429-007e" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>
