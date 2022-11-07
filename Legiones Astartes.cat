@@ -26,6 +26,8 @@
     <categoryEntry id="e405-06c2-a70b-572a" name="Veteran" hidden="false"/>
     <categoryEntry id="8089-5c79-863d-629e" name="Seeker Astartes" hidden="false"/>
     <categoryEntry id="9bfa-52e2-748d-acae" name="Chaplain" hidden="false"/>
+    <categoryEntry id="b514-b2b1-0435-9e21" name="Dark Angels" hidden="false"/>
+    <categoryEntry id="a976-0877-fbf0-ac1d" name="Assault" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
