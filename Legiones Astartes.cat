@@ -1423,9 +1423,43 @@
             <entryLink id="1936-6be5-babe-3ad7" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
             <entryLink id="a748-f538-3a7a-77ad" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="0f3d-cc84-a840-9835" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="0988-3a74-e18c-c1e3" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="16d4-abd4-40b9-5d03" value="0.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d6fc-c529-b310-cb1e" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cc8-1e58-31e5-8ffc" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="6e3c-49ea-21a7-f883" value="1.0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a58-8e91-425b-836d" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35d9-50f9-e06c-8541" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cf4-5488-0b21-f48a" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8036-10be-f5cf-1ef2" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e11-81c0-dc4b-7bea" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1f9a-aec5-e29d-fa44" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5a8-4a1d-6652-7964" type="equalTo"/>
+                        <condition field="selections" scope="6c69-08ce-eb9e-8899" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="056e-626d-d90b-6ab8" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d4-abd4-40b9-5d03" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3c-49ea-21a7-f883" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ddf5-253b-1518-bd4b" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ddf5-253b-1518-bd4b" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3bc-cab3-1ebe-a11f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7727-374c-2b73-62cd" type="max"/>
@@ -1439,11 +1473,8 @@
             <entryLink id="1598-1c3b-4738-4e0e" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
             <entryLink id="894f-01c2-079d-9db6" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
             <entryLink id="8cdf-b250-f603-c3ca" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
-            <entryLink id="f225-0db1-c931-11b0" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0df3-5739-42ba-9244" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="f225-0db1-c931-11b0" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+            <entryLink id="4643-0cb6-84c5-744b" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
