@@ -111,7 +111,7 @@
         <categoryLink id="3506-e178-7b7d-f523" name="Emperor&apos;s Children" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="feb7-af48-a8f9-3239" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
+    <entryLink id="feb7-af48-a8f9-3239" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5488-cd17-c9aa-5be2" name="Dark Angels" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
       </categoryLinks>
@@ -121,7 +121,7 @@
         <categoryLink id="f771-270f-6ea1-8941" name="Dark Angels" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a602-e604-8980-2998" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
+    <entryLink id="a602-e604-8980-2998" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="992a-db01-d0a3-42c2" name="Dark Angels" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
       </categoryLinks>
@@ -133,6 +133,12 @@
     </entryLink>
     <entryLink id="6da0-ef21-235f-7319" name="Kakophoni" hidden="false" collective="false" import="true" targetId="717f-dfad-31e8-8d0a" type="selectionEntry"/>
     <entryLink id="ebdb-786e-d44f-75b2" name="Palatine Blade" hidden="false" collective="false" import="true" targetId="9bc4-8e67-f1f0-ba91" type="selectionEntry"/>
+    <entryLink id="10f2-d02c-6cf9-5f47" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1026-92a6-92f6-91c2" name="Dark Angels" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3a25-21ca-8ef0-e976" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="8bb0-84a6-f429-007e" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>

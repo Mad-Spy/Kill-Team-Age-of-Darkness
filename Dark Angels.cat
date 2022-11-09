@@ -135,7 +135,7 @@
         <categoryLink id="f771-270f-6ea1-8941" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a602-e604-8980-2998" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
+    <entryLink id="a602-e604-8980-2998" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="992a-db01-d0a3-42c2" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
       </categoryLinks>
@@ -145,6 +145,12 @@
         <categoryLink id="05b0-ad60-8829-5171" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="57a9-bab2-8871-2850" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4029-fc51-194e-7016" name="Dark Angels" hidden="false" targetId="b514-b2b1-0435-9e21" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a4a9-c8e2-27aa-e903" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="8bb0-84a6-f429-007e" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>

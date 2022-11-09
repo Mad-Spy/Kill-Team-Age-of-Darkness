@@ -2775,7 +2775,7 @@
         <categoryLink id="d082-9d71-dcf6-48e9" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="5601-6d01-b9c0-9bd1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="2263-3a1d-fc1e-498b" name="Seeker Astartes" hidden="false" targetId="8089-5c79-863d-629e" primary="false"/>
-        <categoryLink id="18c8-e15a-30e8-87cd" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>n
+        <categoryLink id="18c8-e15a-30e8-87cd" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="e70f-3753-f75b-14fc" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntries>
@@ -3461,6 +3461,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="d2ec-6acd-43de-ac27" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
         <categoryLink id="2aea-9bd9-6acd-4460" name="Deathwing" hidden="false" targetId="9e90-e7e0-1225-b0f2" primary="false"/>
         <categoryLink id="8bf7-31c5-be84-4c93" name="Companion" hidden="false" targetId="2190-aa14-d592-5c7e" primary="false"/>
+        <categoryLink id="f868-0721-d904-438e" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1e5c-3129-211b-363c" name="Ranged weapon/Aegis" hidden="false" collective="false" import="true">
@@ -3592,6 +3593,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="4ccb-9404-ef28-9506" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
         <categoryLink id="36ed-d1cc-f0e1-459d" name="Dreadwing" hidden="false" targetId="c61f-de8f-1af3-aaac" primary="false"/>
         <categoryLink id="5529-78f5-4088-14a7" name="Interemptor" hidden="false" targetId="1ea4-f89e-74fc-917a" primary="false"/>
+        <categoryLink id="c834-0567-2648-1011" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="03a7-3dfb-3609-f279" name="Plasma burner" hidden="false" collective="false" import="true" type="upgrade">
@@ -3665,6 +3667,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="1529-7db7-97b0-8062" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
         <categoryLink id="56d5-f6b8-e486-40ea" name="Firewing" hidden="false" targetId="bbfa-2c49-e4e1-6bbd" primary="false"/>
         <categoryLink id="ce02-504f-3520-ef3d" name="Enigmatii" hidden="false" targetId="6b00-e43a-d125-a960" primary="false"/>
+        <categoryLink id="a667-9fb7-4550-1132" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9d33-4673-f305-d046" name="Needle pistol" hidden="false" collective="false" import="true" type="upgrade">
