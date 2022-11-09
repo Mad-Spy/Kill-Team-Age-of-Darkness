@@ -1451,11 +1451,33 @@
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
+        <profile id="7be3-4afb-6a25-ceff" name="Plant the Banner  (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Take this action at the start of the this operative&apos;s activation. While this operative remains stationary double the APL of all friendly operatives within ⬟ of this operative when calculating who controls an objective. This bonus remains in play until this operative is moved for any reason</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af7d-859d-3032-789f" name="Icon Bearer" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When determining control of an objective marker, treat this operative&apos;s APL characteristic as being 1 higher. Note that this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour (See KT-CB). </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f246-6d5e-602f-f52b" name="Icon of the Legion" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Depending on their keyword this operative gains the following ability:
+
+- Dark Banner: BLACKSHIELD only. The Herald and friendly operatives with the LEGIONES ASTARTES keyword have the never apply negative modifiers to ther APL.
+
+- Banner of the Aquila: LOYALIST only. The Herald and friendly operative with the LEGIONES ASTARTES keyword add +1 to their attack rolls during a fight action. 
+
+- Banner of the Eye: TRAITOR only. The Herald and friendly operatives with the LEGIONES ASTARTES keyword gain an additional  +1▲ movement to Charge actions, and may re-roll attack rolls of 1 during a fight action if they made a Charge action i the same turning point. </characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="2805-c5bb-579b-0f18" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="8dc7-7d61-8007-6ca6" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="4a10-7acf-2129-ec5f" name="Icon Bearer" hidden="false" targetId="4807-fa55-8706-89c5" primary="false"/>
+        <categoryLink id="af16-ee98-186a-7a68" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4b96-78b6-9ff1-7fe0" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -1532,7 +1554,7 @@
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c954-6de1-190d-46a5" name="Legion Lexicanium" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c954-6de1-190d-46a5" name="Legion Nuntiare" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f079-d78f-c269-2d91" name="Legion Lexicanium" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -1544,75 +1566,38 @@
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="0a91-c874-3ba1-5a48" name="Manifest Psychic Power (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+        <profile id="eb96-8603-034c-bc73" name="Legion Nuntiare" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Psychic action. Resolve a psychic power, as specified on pages 25 to 27. An operative can perform this action twice during the activation. </characteristic>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ceca-c192-a7fb-4cd2" name="Nuncio-Vox (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within   of and Visible to the operative. Add 1 to its APL. This operative cannot perform this action if its is within Engagement Range of an enemy operative. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ab69-86ee-cd0f-3f22" name="*Barrage (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Once per game this operative may make a shooting action with the Barrage profile.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="515b-42cb-f9ef-73d5" name="Cognis-Signum" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Select one enemy operative visible to this operative. Subtract 1 from its APL. This operative cannot use this ability if it is within Engagement Range of an enemy operative.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="e167-25f2-ef06-5bce" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="38b1-c1f2-cb9b-adf5" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="6d92-6f0d-227e-a889" name="Psyker" hidden="false" targetId="55b9-413d-e975-492a" primary="false"/>
+        <categoryLink id="aee0-c34b-3f3c-4f2b" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="741f-5491-ae0b-9648" name="Melee Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7bc-8551-a047-1a25" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6306-4fe1-0171-9911" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2ad6-3c93-01d7-0274" name="Force Axe" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="9dc6-c180-7be4-5bc3" name="⚔ Force Axe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced. Force*</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7736-ee49-d493-c4d3" name="Force Sword" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="e0d4-0367-9580-9d4e" name="⚔ Force Sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, Lethal 5+</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eedd-6244-b225-8bfe" name="Force Staff" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ec53-4669-f8b4-5936" name="⚔ Force Staff" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, *Block</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun
-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="fca2-d463-1e00-20e6" name="Pistol" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c77-9e80-d4c8-d68c" type="min"/>
@@ -1738,8 +1723,8 @@
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1755,21 +1740,12 @@
           <entryLinks>
             <entryLink id="958f-5ac4-3a55-b024" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry">
               <profiles>
-                <profile id="71c0-d8f0-19b9-927c" name="⌖ Plasma pistol (Sustained)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                <profile id="71c0-d8f0-19b9-927c" name="⌖ Plasma pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="97c6-97b3-8fb9-e257" name="⌖ Plasma pistol (Supercharged)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP2, Hot</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
@@ -3796,6 +3772,137 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="65fb-6190-3cd5-b295" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
         <infoLink id="a8ff-1ce9-3431-ad1f" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfa9-2f08-f9a4-9351" name="Legion Lexicanium" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7b11-10d1-1abc-1450" name="Legion Lexicanium" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc81-b8a6-871d-b68c" name="Manifest Psychic Power (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Psychic action. Resolve a psychic power, as specified on pages 25 to 27. An operative can perform this action twice during the activation. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ceb1-74a2-85cf-8633" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="9fc9-f83b-1fac-98e2" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="f169-4201-8e3f-7146" name="Psyker" hidden="false" targetId="55b9-413d-e975-492a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="95bf-e191-4a12-077f" name="Melee Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="301c-45c2-fba0-116e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b6f-5cdf-452b-fe9f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4daf-188e-2242-3fdd" name="Force Axe" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="928c-5dee-e3d1-2e1c" name="⚔ Force Axe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced. Force*</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5487-ed81-d137-f679" name="Force Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="af68-cf62-68d1-ccc4" name="⚔ Force Sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, Lethal 5+</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="04ce-93b6-984c-b2dd" name="Force Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="98f7-1705-0fc1-fbe7" name="⚔ Force Staff" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, *Block</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f5ae-a32d-cddf-66f8" name="Pistol" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e136-f918-f7c4-ffb8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61dc-a2d2-08ca-9c9a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c25f-8a26-f59b-bc85" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8211-328f-56db-1070" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9bc9-afd1-6a89-3bd4" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="4a64-e9b3-5477-5045" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry">
+              <profiles>
+                <profile id="ff5a-6a8c-9ddc-77e4" name="⌖ Plasma pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="598f-a722-6e76-d78b" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
