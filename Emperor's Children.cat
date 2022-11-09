@@ -131,8 +131,8 @@
         <categoryLink id="05b0-ad60-8829-5171" name="Dark Angels" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6da0-ef21-235f-7319" name="Palatine Blade" hidden="false" collective="false" import="true" targetId="35e1-da36-aa4f-d650" type="selectionEntry"/>
-    <entryLink id="ebdb-786e-d44f-75b2" name="Kakophoni" hidden="false" collective="false" import="true" targetId="cda4-4cf1-726f-a1d2" type="selectionEntry"/>
+    <entryLink id="6da0-ef21-235f-7319" name="Kakophoni" hidden="false" collective="false" import="true" targetId="717f-dfad-31e8-8d0a" type="selectionEntry"/>
+    <entryLink id="ebdb-786e-d44f-75b2" name="Palatine Blade" hidden="false" collective="false" import="true" targetId="9bc4-8e67-f1f0-ba91" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="8bb0-84a6-f429-007e" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>
