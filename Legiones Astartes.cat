@@ -2775,7 +2775,7 @@
         <categoryLink id="d082-9d71-dcf6-48e9" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="5601-6d01-b9c0-9bd1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="2263-3a1d-fc1e-498b" name="Seeker Astartes" hidden="false" targetId="8089-5c79-863d-629e" primary="false"/>
-        <categoryLink id="18c8-e15a-30e8-87cd" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="18c8-e15a-30e8-87cd" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>n
         <categoryLink id="e70f-3753-f75b-14fc" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntries>
