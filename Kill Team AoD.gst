@@ -108,26 +108,6 @@
     <entryLink id="728e-edbd-09b7-433b" name="Game Type" hidden="false" collective="false" import="true" targetId="ce6c-1c61-35c2-8202" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="f18c-06a7-747c-90c0" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1933-6112-bc84-407d" name="⌖ Flamer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/2</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Torrent ⬤</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="918b-0362-76c0-5c04" name="Torrent x" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
-        <infoLink id="84e7-4fad-fbda-d4e0" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ce6c-1c61-35c2-8202" name="Game Type" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe30-9a58-451c-a638" type="min"/>
