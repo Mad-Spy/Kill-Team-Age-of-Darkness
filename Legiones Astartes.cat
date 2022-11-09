@@ -1370,12 +1370,21 @@
             </selectionEntry>
             <selectionEntry id="9c64-58a3-3152-7bd7" name="Paired Volkite Serpentas" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6909-74a3-2960-1908" name="⌖ Paired bolt pistols" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                <profile id="6909-74a3-2960-1908" name="⌖ Paired Volkite Serpentas (Shooting)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d30f-17b1-5c80-e967" name="Paired Volkite Serpentas (Melee)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Deflagrate</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1400,6 +1409,15 @@
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2056-0958-67ea-d9eb" name="Paired bolt pistols (Melee) " hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4	</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1556,6 +1574,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7736-ee49-d493-c4d3" name="Force Sword" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1569,6 +1590,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="eedd-6244-b225-8bfe" name="Force Staff" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1583,6 +1607,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1595,12 +1622,9 @@
             <selectionEntry id="df2a-e935-a611-f2a4" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="1294-d8c4-adaf-511b" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <modifiers>
-                    <modifier type="set" field="32b4-9a0e-e740-6031" value="2+"/>
-                  </modifiers>
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
@@ -1619,12 +1643,9 @@
             <entryLink id="7d34-47e1-4690-9246" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry">
               <profiles>
                 <profile id="8066-dbaa-4792-e48c" name="⌖ Plasma pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <modifiers>
-                    <modifier type="set" field="32b4-9a0e-e740-6031" value="2+"/>
-                  </modifiers>
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
@@ -1654,10 +1675,22 @@
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
+        <profile id="8c9b-f7c5-2dc8-89dc" name="Medicae Systems" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll a D6; on a 5+, that wound is not lost. This operative cannot be injured.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dca1-a6ae-c42e-0755" name="Narthecium (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select 1 friendly LEGIONES ASTARTES operative visible to and within X of this operative. That operative regains 2D3 lost wounds. This operative cannot perform this action while within Engagement Range of enemy operatives. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e876-34f6-309e-cf66" name="Extract Progenoid (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select 1 incapacitated Token within X of this operative. The player removes the token and gains 1VP. This operative cannot perform this action while within Engagement Range of enemy operative (This will require players to mark where friendly models are incapacitated.)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="8f99-9e9d-f22d-4466" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="170f-f73f-d21e-3fe0" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="ea52-c466-15af-2b02" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
@@ -1669,10 +1702,79 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f434-e063-7517-93bc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="705d-e860-79dd-8203" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="4367-a127-3f3b-e873" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2bce-20d3-6608-080e" name="⚔ Chainsword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="7c7a-aaa4-860f-c387" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="60a6-6ebf-a557-485a" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
             <entryLink id="5452-c79b-915f-df69" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1bb1-0c5a-784f-0e8e" name="Pistol" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0207-762e-b5c9-344e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2225-7692-bdf1-fe4a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8056-6daa-5d74-22af" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="04ba-34d3-7cbf-cc16" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="79a2-0cc2-ad8a-94ec" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="958f-5ac4-3a55-b024" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry">
+              <profiles>
+                <profile id="71c0-d8f0-19b9-927c" name="⌖ Plasma pistol (Sustained)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="97c6-97b3-8fb9-e257" name="⌖ Plasma pistol (Supercharged)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP2, Hot</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
