@@ -37,6 +37,9 @@
     <categoryEntry id="553c-5f43-160d-2d9e" name="Ironwing" hidden="false"/>
     <categoryEntry id="7bbb-7eac-c7f3-18a0" name="Ravenwing" hidden="false"/>
     <categoryEntry id="3106-0b0e-d2f7-7d52" name="Stormwing" hidden="false"/>
+    <categoryEntry id="6e45-4f1e-03e1-f6da" name="Emperor&apos;s Children" hidden="false"/>
+    <categoryEntry id="a7fc-3c20-f2f4-a903" name="Palatine Blade" hidden="false"/>
+    <categoryEntry id="848e-ddfb-b3b9-f899" name="Kakophoni" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -2290,6 +2293,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="30f6-f0b9-3eb1-c336" name="Sonic shriekers" hidden="false" targetId="f75f-13d0-0d04-c88a" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a079-74e4-d06a-1556" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="9dca-a12c-5ea4-7ec0" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
@@ -2790,6 +2796,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e410-6adc-4ca2-8410" name="Sonic shriekers" hidden="false" targetId="f75f-13d0-0d04-c88a" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="bc88-cc18-c452-d384" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
         <categoryLink id="322b-8385-333a-076f" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -2839,6 +2848,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="1100-2dd1-2be1-c58d" name="Sonic shriekers" hidden="false" targetId="f75f-13d0-0d04-c88a" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="02e0-509f-5295-0a91" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
         <categoryLink id="314d-3763-314a-7611" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -3056,6 +3068,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e064-cfe4-26af-4898" name="Sonic shriekers" hidden="false" targetId="f75f-13d0-0d04-c88a" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8b00-950a-7387-8a38" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
         <categoryLink id="675d-2538-6b04-10f7" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -3698,6 +3713,242 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="35e1-da36-aa4f-d650" name="Palatine Blade" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="78e4-7d7e-100a-4d4b" name="Palatine Blade" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af9b-c5c4-7bf8-1405" name="Perfection of the Blade" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative fights in combat, in the Roll Attack Dice step of that combat, this operative can re-roll one attack dice.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e88f-85aa-e455-70a2" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="fa3b-4a6a-f695-9617" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="7ab1-03e4-ca19-409c" name="Emperor&apos;s Children" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
+        <categoryLink id="d089-2ea8-549d-bf27" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="73b8-8b68-1c14-02fd" name="Palatine Blade" hidden="false" targetId="a7fc-3c20-f2f4-a903" primary="false"/>
+        <categoryLink id="12ee-3b24-9fb3-e368" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="98fe-7c71-d213-e106" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fd-d1f0-0444-ae75" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa7e-0ec4-0794-8ec6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8f07-9325-13b5-266b" name="Phoenix spear" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c27e-b2a1-906d-484f" name="⚔ Phoenix spear" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Block*, Lethal 5+</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="61a0-39aa-b5ac-a2a5" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+                <infoLink id="29ea-768b-34ce-4a1a" name="*Block" hidden="false" targetId="5899-46f0-2e8e-6568" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2807-2b76-0056-8014" name="Power sword and bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="9c50-519f-b710-bb18" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b0-03be-f56a-e8de" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9961-be15-988c-4b84" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="5349-4213-c22f-c641" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4a8-35ee-2528-145f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e23-defa-a1dd-7059" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0aef-eaef-afdf-3b43" name="Charnabal sabre and bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="9247-b9b9-64f7-56ce" name="Charnabal sabre" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d91-63c9-4651-e2af" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b3d-587d-cec3-60dd" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="e470-47b2-2ac8-6cd8" name="⚔ Charnabal sabre" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                      <characteristics>
+                        <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                        <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                        <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                        <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                        <characteristic name="!" typeId="c495-8d08-b6b8-b434">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="11d0-d557-1ff5-77c1" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="f8ff-7ce1-0605-9b0c" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a094-b9aa-ceee-fb13" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0017-358c-11f8-2db3" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="def7-7890-d063-8727" name="Elite" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ab0-8ed7-9731-6764" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e936-eb47-20c8-1f5b" name="Sonic shriekers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a8dc-6e6a-fecd-2d85" name="Sonic shriekers" hidden="false" targetId="f75f-13d0-0d04-c88a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4891-004d-5805-27f2" name="Jump pack" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0918-ab10-d629-272b" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+                <infoLink id="46d9-e350-904c-6b30" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cda4-4cf1-726f-a1d2" name="Kakophoni" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b748-81e1-e167-4aee" name="Kakophoni" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d184-e4a6-4a08-5503" name="Sensation Seeker" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is attacked, do not apply any critical rules associated with the attacking weapon&apos;s profile.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3779-c27b-bfeb-99d2" name="Stubborn" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative ignores any or all modifiers to its APL characteristic and cannot be Injured.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9d88-5713-4e6e-47e2" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="183f-f6e8-6dd7-db7e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="f300-2a2e-9fa6-7d2b" name="Emperor&apos;s Children" hidden="false" targetId="6e45-4f1e-03e1-f6da" primary="false"/>
+        <categoryLink id="6506-a3f5-5a49-f842" name="Kakophoni" hidden="false" targetId="848e-ddfb-b3b9-f899" primary="false"/>
+        <categoryLink id="8987-4389-71a3-65c1" name="Heavy Gunner" hidden="false" targetId="0e59-07ae-65c2-2de6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8e87-3cfa-5b23-9294" name="The Cacophony" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff8-a307-94ad-3565" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a2-8ffe-3eba-2091" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8d68-b41b-4822-0b01" name="The Cacophony - Staccato" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Fusillade, Heavy, Hot</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1bf8-5be1-2c2b-7694" name="The Cacophony" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">-</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">-</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">-</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Each time this weapon is selected to make a shooting attack with, select one of the profiles below to use.</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8b63-3b2e-09b6-815b" name="The Cacophony - Legato" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">AP2, Blast ⬤, Heavy, Hot, No Cover, Suppress*</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ef2d-5cc0-ab6e-b4cb" name="*Suppress" hidden="false">
+              <description>When this operative makes a Suppress action with this weapon, any model that receives one or more Suppression tokens suffers 2 mortal wounds.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="e428-fb1f-ed8b-9c3f" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+            <infoLink id="efbd-67ff-4b5a-1941" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+            <infoLink id="7275-095a-4a6c-568b" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+            <infoLink id="849a-7a97-22a9-28a0" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+            <infoLink id="5c62-55e6-3bdc-daad" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+            <infoLink id="84fe-ed9b-e33a-ee7f" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="30a4-1a7d-ee54-03d5" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f590-ac0c-1d10-fdea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd32-a3b2-7722-4edc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -3901,6 +4152,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <rule id="9a65-ea69-7fa0-01f4" name="Jump Pack" hidden="false">
       <description>Once per Turning Point when this operative makes a Normal Move, Charge, or Fall Back action, it may elect to use the Jump pack. If it does so, this operative gains the Fly special rule but may not make shoot actions other than Overwatch.</description>
     </rule>
+    <rule id="5899-46f0-2e8e-6568" name="*Block" hidden="false">
+      <description>Each time this operative fights in combat, in the Resolve Successful Hits step of that combat, each time it parries, two of your opponent&apos;s successful hits are discarded (instead of 1). If this operative is also equipped with a Boarding Shield or Storm Shield, they may not use the associated abilities during a combat if they use this ability.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="2c19-14f4-90f9-1e00" name="Shape Reference" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
@@ -3952,6 +4206,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="ad2d-108b-4f42-9607" name="Scion of the Firewing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
         <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative can re-roll attack dice rolls of 1 or 2 during a Fight action against an operative which has either the WARRIOR or FIGHTER keywords. This operative gains the FIREWING keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f75f-13d0-0d04-c88a" name="Sonic shriekers" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e45-4f1e-03e1-f6da" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Enemy operatives within Engagement Range of this operative subtract 1 from attack rolls during a fight action.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
