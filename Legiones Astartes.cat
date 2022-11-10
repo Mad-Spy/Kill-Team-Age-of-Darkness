@@ -332,6 +332,7 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -381,9 +382,14 @@
         <profile id="2535-2264-cd48-0b34" name="⌖ Combi-grav" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -411,9 +417,14 @@
         <profile id="4dfc-0097-e20e-6d2b" name="⌖ Combi-grenade launcher - frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -427,9 +438,14 @@
         <profile id="646f-caa6-b3f2-e636" name="⌖ Combi-grenade launcher - krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -457,9 +473,14 @@
         <profile id="637d-0357-5d95-55df" name="⌖ Combi-melta" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -488,9 +509,14 @@
         <profile id="bcf9-fa01-3a9f-897a" name="⌖ Combi-plasma - Sustained" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -504,9 +530,14 @@
         <profile id="5658-1ab2-ff86-13c2" name="⌖ Combi-plasma - Supercharged" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -534,9 +565,14 @@
         <profile id="3897-9830-5b3c-444a" name="⌖ Combi-volkite" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -679,9 +715,14 @@
         <profile id="c33b-d7d6-94bd-cb6e" name="⚔ Heavy chainsword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -853,9 +894,14 @@
         <profile id="1941-0287-9f22-36bc" name="⌖ Grav-gun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -951,9 +997,14 @@
         <profile id="b6ed-310d-b1b7-3426" name="⌖ Volkite charger" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -978,9 +1029,14 @@
         <profile id="5290-f987-ef9d-329f" name="⌖ Volkite caliver" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -1077,6 +1133,7 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1101,13 +1158,6 @@
     <selectionEntry id="e0c3-1661-2ca1-5a17" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="989f-23c7-74fa-4b04" name="⚔ Thunder hammer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -4371,6 +4421,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <infoLinks>
         <infoLink id="7ae1-d8a9-0671-1815" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="47cb-121e-c305-2b3c" name="Legion Vigilator" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4457,14 +4510,20 @@ Until the end of the Turning Point, all operatives involved in this action may n
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"></characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d99c-f624-30a8-dca9" name="Legion Opsequiari" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4524,6 +4583,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <infoLink id="d00a-6e8c-ccc6-61b5" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
                 <infoLink id="5bc3-67e8-6102-0875" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a12a-7b7b-6bd6-33e3" name="Scorpius Boltgun" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4541,6 +4603,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <infoLink id="3db0-ea2b-af8b-ec73" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
                 <infoLink id="2864-b6d7-b553-980e" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="23e3-744a-a359-bff0" name="Inferno Pistol" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4558,6 +4623,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <infoLink id="b381-46f0-cbc8-2d29" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
                 <infoLink id="b93f-d999-3853-27af" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -4579,6 +4647,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -4589,6 +4660,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
