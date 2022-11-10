@@ -1101,13 +1101,6 @@
     <selectionEntry id="e0c3-1661-2ca1-5a17" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="989f-23c7-74fa-4b04" name="⚔ Thunder hammer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -4360,12 +4353,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ed-6b90-9d5a-a73d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d0-867c-3aab-ee2e" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e272-1dca-5bc7-2d5a" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea03-3d2e-4c72-9de8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd4d-0f29-61f4-cf56" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
