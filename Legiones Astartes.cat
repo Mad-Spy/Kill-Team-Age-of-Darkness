@@ -16,12 +16,8 @@
     <categoryEntry id="7efe-74cb-1ec0-2d8f" name="Demolition" hidden="false"/>
     <categoryEntry id="425a-26dd-5818-bd90" name="Recon Astartes" hidden="false"/>
     <categoryEntry id="d80f-14aa-ea2f-923d" name="Sniper" hidden="false"/>
-    <categoryEntry id="7a50-1add-1d08-8e76" name="TacSgt" hidden="false"/>
     <categoryEntry id="0527-1bb7-7129-a292" name="Elite" hidden="false"/>
     <categoryEntry id="600e-9dbe-d270-e8c0" name="Destroyer Astartes" hidden="false"/>
-    <categoryEntry id="ffd8-1e7c-d8cb-7331" name="BrSgt" hidden="false"/>
-    <categoryEntry id="ad71-b531-92d7-24d9" name="RecSgt" hidden="false"/>
-    <categoryEntry id="06f0-ee9e-69a3-2257" name="AssSgt" hidden="false"/>
     <categoryEntry id="88c7-32ab-0f6b-5c26" name="Heavy Support Astartes" hidden="false"/>
     <categoryEntry id="e405-06c2-a70b-572a" name="Veteran" hidden="false"/>
     <categoryEntry id="8089-5c79-863d-629e" name="Seeker Astartes" hidden="false"/>
@@ -90,7 +86,7 @@
             </modifier>
             <modifier type="increment" field="acac-0f03-11ad-c418" value="1.0">
               <conditions>
-                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a50-1add-1d08-8e76" type="atLeast"/>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="be72-d436-d6cd-1649" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="acac-0f03-11ad-c418" value="3.0">
@@ -98,7 +94,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0704-d04a-aec6-07ea" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a50-1add-1d08-8e76" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="be72-d436-d6cd-1649" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -108,7 +104,17 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0704-d04a-aec6-07ea" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a50-1add-1d08-8e76" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="be72-d436-d6cd-1649" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="acac-0f03-11ad-c418" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="493e-289e-6e91-1b90" type="instanceOf"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a35-2750-ee36-7821" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -127,7 +133,7 @@
             </modifier>
             <modifier type="increment" field="ce7b-c782-f451-6e2b" value="1.0">
               <conditions>
-                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ffd8-1e7c-d8cb-7331" type="atLeast"/>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1f-7f28-7ba2-f456" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="ce7b-c782-f451-6e2b" value="3.0">
@@ -135,7 +141,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b1-392e-87bf-dad0" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ffd8-1e7c-d8cb-7331" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1f-7f28-7ba2-f456" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -145,7 +151,38 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b1-392e-87bf-dad0" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ffd8-1e7c-d8cb-7331" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1f-7f28-7ba2-f456" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="ce7b-c782-f451-6e2b" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="493e-289e-6e91-1b90" type="instanceOf"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a35-2750-ee36-7821" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="ce7b-c782-f451-6e2b" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a35-2750-ee36-7821" type="greaterThan"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1f-7f28-7ba2-f456" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="ce7b-c782-f451-6e2b" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="493e-289e-6e91-1b90" type="instanceOf"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="24b1-392e-87bf-dad0" type="greaterThan"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b1f-7f28-7ba2-f456" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -164,7 +201,7 @@
             </modifier>
             <modifier type="increment" field="f01b-d1ef-a6af-94d5" value="1.0">
               <conditions>
-                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06f0-ee9e-69a3-2257" type="atLeast"/>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="de5c-ff7a-9c80-79fd" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="f01b-d1ef-a6af-94d5" value="3.0">
@@ -172,7 +209,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06f0-ee9e-69a3-2257" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="de5c-ff7a-9c80-79fd" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -182,7 +219,17 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06f0-ee9e-69a3-2257" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="de5c-ff7a-9c80-79fd" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="decrement" field="f01b-d1ef-a6af-94d5" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="493e-289e-6e91-1b90" type="instanceOf"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a35-2750-ee36-7821" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -201,7 +248,7 @@
             </modifier>
             <modifier type="increment" field="e576-edc6-c241-f444" value="1.0">
               <conditions>
-                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad71-b531-92d7-24d9" type="atLeast"/>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ce0-ff35-6298-c5ee" type="atLeast"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="e576-edc6-c241-f444" value="3.0">
@@ -209,7 +256,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="425a-26dd-5818-bd90" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad71-b531-92d7-24d9" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ce0-ff35-6298-c5ee" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -219,7 +266,7 @@
                 <conditionGroup type="and">
                   <conditions>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="425a-26dd-5818-bd90" type="atLeast"/>
-                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad71-b531-92d7-24d9" type="equalTo"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ce0-ff35-6298-c5ee" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -239,6 +286,12 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4956-e3f4-6d60-98fc" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a84e-1321-70a5-db5b" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfec-8c8e-e104-d82f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c106-ecc7-c59c-8179" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -272,7 +325,6 @@
         <categoryLink id="d1e2-3e32-a22a-f85c" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="d164-5350-d558-040b" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="26b8-5202-4409-7199" name="Leader" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="false"/>
-        <categoryLink id="10b4-2050-c1a3-2c1e" name="TacSgt" hidden="false" targetId="7a50-1add-1d08-8e76" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c5e3-e79a-4dd7-47d9" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry"/>
@@ -1238,7 +1290,7 @@
         <profile id="a376-8ce0-4f7c-c16f" name="⚔ Chainfist" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rending</characteristic>
             <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
@@ -1801,6 +1853,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3536-8383-6538-9bf2" name="Legion Assault Champion" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="c80f-94d0-b5b1-2438" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c80f-94d0-b5b1-2438" type="max"/>
+      </constraints>
       <profiles>
         <profile id="1600-113f-d91e-8645" name="Legion Assault Champion" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -1884,6 +1946,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3ac0-784a-7841-f234" name="Legion Assault Terminator" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="b512-66c0-6556-e3d3" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b512-66c0-6556-e3d3" type="max"/>
+      </constraints>
       <profiles>
         <profile id="6c31-b7a8-a6db-e7cc" name="Legion Assault Terminator" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -1968,7 +2040,6 @@
         <categoryLink id="72a0-7e71-009e-913e" name="Assault Astartes" hidden="false" targetId="a619-bfad-f5b2-5a23" primary="false"/>
         <categoryLink id="a1b5-65ba-3916-d1cd" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="58d0-3f10-d09e-fcdf" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
-        <categoryLink id="671a-85b0-9812-e3a1" name="AssSgt" hidden="false" targetId="06f0-ee9e-69a3-2257" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3033-12ad-0577-8e0e" name="Pistol" hidden="false" collective="false" import="true">
@@ -2152,7 +2223,6 @@
         <categoryLink id="f052-313d-24d7-4e4a" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0588-2c05-65ad-3076" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false"/>
         <categoryLink id="29bb-9d93-c661-0909" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
-        <categoryLink id="709f-4e86-10d5-333b" name="BrSgt" hidden="false" targetId="ffd8-1e7c-d8cb-7331" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8c8d-9c2e-478e-ec3a" name="Weapon" hidden="false" collective="false" import="true">
@@ -2187,6 +2257,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="122c-87ae-7fee-ef5f" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="e590-c14f-d00c-febc" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e590-c14f-d00c-febc" type="max"/>
+      </constraints>
       <profiles>
         <profile id="a990-886a-3a80-d8d1" name="Legion Breacher Astartes" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -2532,7 +2612,6 @@
         <categoryLink id="cb8f-02ae-34d4-e344" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="674d-3140-c835-84f2" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="1f12-695f-6f66-1617" name="Recon Astartes" hidden="false" targetId="425a-26dd-5818-bd90" primary="false"/>
-        <categoryLink id="d4f0-a7ac-dccf-7376" name="RecSgt" hidden="false" targetId="ad71-b531-92d7-24d9" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="21a8-2b96-2821-b640" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -2613,6 +2692,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c4bd-e866-1ece-53a0" name="Legion Recon Sniper" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="2de0-4fbe-5994-3f98" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2de0-4fbe-5994-3f98" type="max"/>
+      </constraints>
       <profiles>
         <profile id="d077-beec-638e-9cec" name="Legion Recon Sniper" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -2773,6 +2862,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6575-bf1b-edd2-21f2" name="Legion Support Breacher" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="d101-66fd-5c0b-1045" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d101-66fd-5c0b-1045" type="max"/>
+      </constraints>
       <profiles>
         <profile id="13ec-730a-8895-81c5" name="Legion Support Breacher" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -2825,6 +2924,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b9f9-1f4c-9056-d6ba" name="Legion Support Terminator" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="6c10-e2d0-03c7-fbcc" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c10-e2d0-03c7-fbcc" type="max"/>
+      </constraints>
       <profiles>
         <profile id="d0b1-c4c3-313e-9a3d" name="Legion Terminator" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -3036,14 +3145,14 @@
     </selectionEntry>
     <selectionEntry id="264f-31e0-61c0-69cc" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="7b82-c226-a1f9-14db" value="1.0">
+        <modifier type="set" field="0da1-d6ba-c734-7aaf" value="1.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b82-c226-a1f9-14db" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0da1-d6ba-c734-7aaf" type="max"/>
       </constraints>
       <profiles>
         <profile id="04ad-8974-aa31-73f1" name="Legion Tactical Support Astartes" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
@@ -3289,7 +3398,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="79b4-8305-ec4f-4bf9" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0154-875f-3031-7160" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="ba64-991d-5c7c-01fe" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
-        <categoryLink id="708e-1358-33b8-7a3d" name="TacSgt" hidden="false" targetId="7a50-1add-1d08-8e76" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3ca-e0f2-6499-fe11" name="Ranged weapon" hidden="false" collective="false" import="true">
