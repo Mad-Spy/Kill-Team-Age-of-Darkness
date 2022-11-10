@@ -50,6 +50,8 @@
     <categoryEntry id="1944-2792-c586-a66a" name="Techmarine" hidden="false"/>
     <categoryEntry id="ba58-dcd5-b8dd-997d" name="Siege Breaker" hidden="false"/>
     <categoryEntry id="ac18-215f-2451-7642" name="Opsequiari" hidden="false"/>
+    <categoryEntry id="19a1-27b8-6130-f331" name="Iron Havoc" hidden="false"/>
+    <categoryEntry id="907c-ba25-250c-8d76" name="Iron Warriors" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -2421,76 +2423,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9e4-57ec-ee6b-d8ad" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="272a-78ec-0ef5-4e56" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="754a-fa91-4390-d586" name="⌖ Autocannon" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP2</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="eb39-d5a4-9357-58f4" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
-                <infoLink id="4cdc-786b-3d79-c33f" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0947-99fa-48c8-01d2" name="Heavy boltgun" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="aa51-35ac-9d4f-e74f" name="⌖ Heavy boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Fusillade</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="091d-a542-9f41-706b" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
-                <infoLink id="54af-eea1-e066-520a" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="91c4-0dae-bc9c-7ac6" name="Missile launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="7d69-70d4-60b1-84a7" name="⌖ Missile launcher - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Blast ⬤</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="b10d-522a-edaf-ea78" name="⌖ Missile launcher - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="0eb3-bdfa-d746-268f" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
-                <infoLink id="094d-43b4-c750-ebc9" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
-                <infoLink id="77e3-b6a8-d3d1-2cb2" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="a4bc-625b-9d9c-24ea" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="03e1-6905-7d08-9e09" name="⌖ Multi-melta" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
@@ -2568,6 +2500,9 @@
           </selectionEntries>
           <entryLinks>
             <entryLink id="0c74-901f-609b-3af0" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="37f1-75a7-4d1c-2786" type="selectionEntry"/>
+            <entryLink id="3617-2fd3-f980-6b00" name="Autocannon" hidden="false" collective="false" import="true" targetId="a8d6-141c-9226-9388" type="selectionEntry"/>
+            <entryLink id="61dc-c747-24f2-0c73" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="5c85-d09e-56a8-a0c6" type="selectionEntry"/>
+            <entryLink id="f65f-09cd-3f99-8e4b" name="Missile launcher" hidden="false" collective="false" import="true" targetId="52e9-6c3f-06ba-9c98" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4395,7 +4330,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="93ef-4cc9-8af0-4805" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
             <entryLink id="d785-8501-6aab-bca1" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
             <entryLink id="ab7f-99c8-6671-5db8" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
-            <entryLink id="d9e9-1140-e21b-235b" name="Servo-Arm" hidden="false" collective="false" import="true" targetId="bd69-62a6-2677-ed81" type="selectionEntry"/>
+            <entryLink id="d9e9-1140-e21b-235b" name="Servo arm" hidden="false" collective="false" import="true" targetId="bd69-62a6-2677-ed81" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4444,7 +4379,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="eb80-d11d-5f6f-a936" name="Unstoppable" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all light terrain as having the traversable trait. </characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all light terrain as having the Traversable trait. </characteristic>
           </characteristics>
         </profile>
         <profile id="0ee4-0633-56d6-51d3" name="Camo Cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -4660,6 +4595,127 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="def1-33e1-089e-e12c" name="Iron Havoc" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e468-0063-893a-4116" name="Iron Havoc" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="edc2-66b5-958b-ba5b" name="Iron Suppression (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Suppress action during which their ranged weapons gain the Lethal 5+ special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="941e-184c-dee3-0ced" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="b221-da95-9d55-d1cb" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="d8bc-3d3e-3c70-7cac" name="Iron Warriors" hidden="false" targetId="907c-ba25-250c-8d76" primary="false"/>
+        <categoryLink id="9ed4-0afb-c85c-25ee" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="6372-ff05-91fa-677d" name="Iron Havoc" hidden="false" targetId="19a1-27b8-6130-f331" primary="false"/>
+        <categoryLink id="d50f-8590-b058-751b" name="Heavy Gunner" hidden="false" targetId="0e59-07ae-65c2-2de6" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="33d8-b96f-059b-0961" name="Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0a4-7dbf-969f-fd5e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fc-d47c-2b77-f6b1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d4f8-870a-5626-5bf1" name="Autocannon" hidden="false" collective="false" import="true" targetId="a8d6-141c-9226-9388" type="selectionEntry"/>
+            <entryLink id="893f-c36f-53e8-1dfb" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="5c85-d09e-56a8-a0c6" type="selectionEntry"/>
+            <entryLink id="c09e-d47d-f3b7-fae0" name="Missile launcher" hidden="false" collective="false" import="true" targetId="52e9-6c3f-06ba-9c98" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="01c2-0abc-d1af-8e2d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742b-0fd9-d314-e75f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f58-afd0-1798-300e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8d6-141c-9226-9388" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="07aa-836a-224e-3d5c" name="⌖ Autocannon" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP2</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b968-97b2-5c9c-b8e3" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+        <infoLink id="19fd-0c79-193b-4425" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c85-d09e-56a8-a0c6" name="Heavy boltgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2524-b811-c480-4cfc" name="⌖ Heavy boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Fusillade</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c0e1-b40f-8af6-84e0" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+        <infoLink id="8713-aca4-3349-c14b" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52e9-6c3f-06ba-9c98" name="Missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f79c-24a2-0f47-fc03" name="⌖ Missile launcher - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Blast ⬤</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fe78-fb08-385c-d82f" name="⌖ Missile launcher - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cae7-27c8-d38a-d872" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+        <infoLink id="b715-bfc5-0f82-3043" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="7513-2f45-0f4a-31ed" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
