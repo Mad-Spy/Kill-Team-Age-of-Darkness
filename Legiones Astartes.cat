@@ -4377,6 +4377,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <infoLinks>
         <infoLink id="7ae1-d8a9-0671-1815" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="47cb-121e-c305-2b3c" name="Legion Vigilator" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4447,10 +4450,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
                 <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
                 <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434"></characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4472,6 +4478,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <entryLinks>
         <entryLink id="0793-2970-c75e-e76a" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d99c-f624-30a8-dca9" name="Legion Opsequiari" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4531,6 +4540,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <infoLink id="d00a-6e8c-ccc6-61b5" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
                 <infoLink id="5bc3-67e8-6102-0875" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a12a-7b7b-6bd6-33e3" name="Scorpius Boltgun" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4548,6 +4560,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <infoLink id="3db0-ea2b-af8b-ec73" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
                 <infoLink id="45ca-3cc3-aac9-b4a1" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="23e3-744a-a359-bff0" name="Inferno Pistol" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4566,6 +4581,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <infoLink id="b93f-d999-3853-27af" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
                 <infoLink id="6e18-7686-50d4-502b" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -4590,6 +4608,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <infoLinks>
                 <infoLink id="c8d6-62ed-0d3b-21dc" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -4604,6 +4625,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <entryLinks>
         <entryLink id="da27-ca54-03a9-bdc8" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
