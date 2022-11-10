@@ -4259,8 +4259,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <categoryLinks>
         <categoryLink id="d2a8-ac8a-b1c5-c724" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="6d94-585d-d953-d2f1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="c202-95f8-f6e4-d039" name="Veteran Tactical Astartes" hidden="false" targetId="e405-06c2-a70b-572a" primary="false"/>
-        <categoryLink id="1ce9-c839-9d63-802f" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="3853-8d2f-9459-4dd9" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="6aa7-b549-01a1-8ded" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
         <categoryLink id="2b1d-7adf-6479-2eed" name="Techmarine" hidden="false" targetId="1944-2792-c586-a66a" primary="false"/>
@@ -4404,8 +4402,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="eeb4-84a6-b11e-57cf" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+        <categoryLink id="eeb4-84a6-b11e-57cf" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="1f12-9a02-9dcf-f8c0" name="Vigilator" hidden="false" targetId="48b1-79f4-4a2e-0e8e" primary="false"/>
+        <categoryLink id="939f-6806-f9fe-327d" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ace-f515-c064-1780" name="Melee Weapons" hidden="false" collective="false" import="true">
@@ -4495,7 +4494,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="5258-6f8b-822b-7196" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="6716-1b14-40fd-bea3" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="b4e9-96e7-a1d2-3d7a" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
-        <categoryLink id="ca0d-8087-f643-dc06" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+        <categoryLink id="ca0d-8087-f643-dc06" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="46af-1e6e-3693-61cb" name="Opsequiari" hidden="false" targetId="ac18-215f-2451-7642" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
