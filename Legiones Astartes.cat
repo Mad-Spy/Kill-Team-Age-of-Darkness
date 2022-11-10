@@ -4209,12 +4209,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cfd-bfe2-e5a2-a651" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="c392-7264-b2d2-835c" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9174-d2f4-3a2e-437b" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e5c-00e7-0f8f-0e38" type="min"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f82a-9356-b970-9c18" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -4233,6 +4227,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c4e3-3fc5-4a93-260c" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="92d6-9ed4-01cf-0361" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4558,7 +4553,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
               </profiles>
               <infoLinks>
                 <infoLink id="3db0-ea2b-af8b-ec73" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
-                <infoLink id="45ca-3cc3-aac9-b4a1" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+                <infoLink id="afaf-a160-ac9d-611f" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4591,7 +4586,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="b497-baa0-668e-a7dc" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d0ba-f6a7-d93b-b74d" name="Melee Weapoins" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d0ba-f6a7-d93b-b74d" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c1-958b-eaac-5fb0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e1e-66d5-29d9-1e3c" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="31b7-0a98-667f-a8c1" name="Power Blade" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
