@@ -46,6 +46,10 @@
     <categoryEntry id="a7fc-3c20-f2f4-a903" name="Palatine Blade" hidden="false"/>
     <categoryEntry id="6e45-4f1e-03e1-f6da" name="Emperor&apos;s Children" hidden="false"/>
     <categoryEntry id="be72-7625-3978-94b0" name="Lexicanium" hidden="false"/>
+    <categoryEntry id="48b1-79f4-4a2e-0e8e" name="Vigilator" hidden="false"/>
+    <categoryEntry id="1944-2792-c586-a66a" name="Techmarine" hidden="false"/>
+    <categoryEntry id="ba58-dcd5-b8dd-997d" name="Siege Breaker" hidden="false"/>
+    <categoryEntry id="ac18-215f-2451-7642" name="Opsequiari" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -249,7 +253,7 @@
     <entryLink id="dc4d-914e-46d9-4c71" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry"/>
     <entryLink id="c9c4-2ccc-274b-2a7b" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry"/>
     <entryLink id="c093-1629-a1b8-1ec9" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry"/>
-    <entryLink id="af3c-d503-8d77-a3bc" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry"/>
+    <entryLink id="af3c-d503-8d77-a3bc" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry"/>
     <entryLink id="41bb-eef6-34ee-fab9" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry"/>
     <entryLink id="4731-9f84-fe86-fdcc" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry"/>
     <entryLink id="9807-cd20-be94-c545" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="c2e6-52d7-7247-395a" type="selectionEntry"/>
@@ -273,6 +277,10 @@
     <entryLink id="3265-9106-37f5-f590" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry"/>
     <entryLink id="6810-4922-672f-caf0" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry"/>
     <entryLink id="fd1d-9a9b-1f6f-78e7" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry"/>
+    <entryLink id="9485-b549-67fc-a12c" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry"/>
+    <entryLink id="600c-bd38-d112-6978" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry"/>
+    <entryLink id="81c4-a1f8-3783-051c" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry"/>
+    <entryLink id="0ccb-e3f0-1cf2-595d" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2cc8-1e58-31e5-8ffc" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -1093,13 +1101,6 @@
     <selectionEntry id="e0c3-1661-2ca1-5a17" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="989f-23c7-74fa-4b04" name="⚔ Thunder hammer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -1611,7 +1612,7 @@
         </profile>
         <profile id="ceca-c192-a7fb-4cd2" name="Nuncio-Vox (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within   of and Visible to the operative. Add 1 to its APL. This operative cannot perform this action if its is within Engagement Range of an enemy operative. </characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within ⬟ of and Visible to the operative. Add 1 to its APL. This operative cannot perform this action if its is within Engagement Range of an enemy operative. </characteristic>
           </characteristics>
         </profile>
         <profile id="ab69-86ee-cd0f-3f22" name="*Barrage (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
@@ -1711,12 +1712,12 @@
         </profile>
         <profile id="dca1-a6ae-c42e-0755" name="Narthecium (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select 1 friendly LEGIONES ASTARTES operative visible to and within X of this operative. That operative regains 2D3 lost wounds. This operative cannot perform this action while within Engagement Range of enemy operatives. </characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select 1 friendly LEGIONES ASTARTES operative visible to and within ▲ of this operative. That operative regains 2D3 lost wounds. This operative cannot perform this action while within Engagement Range of enemy operatives. </characteristic>
           </characteristics>
         </profile>
         <profile id="e876-34f6-309e-cf66" name="Extract Progenoid (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select 1 incapacitated Token within X of this operative. The player removes the token and gains 1VP. This operative cannot perform this action while within Engagement Range of enemy operative (This will require players to mark where friendly models are incapacitated.)</characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select 1 incapacitated Token within ▲ of this operative. The player removes the token and gains 1VP. This operative cannot perform this action while within Engagement Range of enemy operative (This will require players to mark where friendly models are incapacitated.)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4113,6 +4114,518 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba9-ed34-5c24-bef6" type="max"/>
           </constraints>
         </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4da-6a1c-3843-19db" name="Legion Siege Breaker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9d4b-4847-097d-5400" name="Legion Siege Breaker" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b6d3-83ba-97a5-dcbb" name="Melta Charge (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Place a Melta Charge token on a terrain feature within ▲ of this operative then perform a free dash action with this operative. This terrain feature now has the Traversable trait. This action cannot be used if this operative is within Engragment Range of an enemy operative. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d80-7fe2-f7fd-75a1" name="Boarding Shield" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative gains an additional defence dice when targeted by a Shoot action. Additionally, each time this operative fights in a combat, in the Resolve Successful HIts steps of that combat, each time it parries, two of your opponents successful hits are discarded (instead of one)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b915-7e40-3943-156c" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="9900-22c0-1b9d-dfee" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="8f54-e961-e17c-d7e3" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="b98a-0c1c-7d03-aa6f" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="5d84-f47f-efc2-3d88" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+        <categoryLink id="dc82-4601-0fba-bafa" name="Siege Breaker" hidden="false" targetId="ba58-dcd5-b8dd-997d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="431c-a507-181c-0197" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c4e-c111-62f9-3aee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d7-c0d7-ecb3-afe9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1539-48bb-46c1-5485" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5efc-8cf5-745d-5b4f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b3aa-7ee1-55ea-cba0" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69f4-6881-3463-513e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="17d5-22d1-027f-1c34" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df0-db0d-2d66-3b1f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="74eb-af34-88d3-7874" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b756-c456-232e-a7e9" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4d74-a6e3-81bf-2b11" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a546-274d-d371-a6fc" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8348-b183-3e6b-c751" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcc7-9ca2-39f2-0930" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="debf-bfdd-5f34-e07e" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e159-ea8e-b86d-d03c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c302-b524-134e-e980" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ec-98a8-794b-6fdf" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b9ea-d3e2-06bd-d929" name="Volkite serpenta" hidden="false" collective="false" import="true" targetId="8fd3-1b11-47d2-7655" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cfd-bfe2-e5a2-a651" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f82a-9356-b970-9c18" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ff2-0c3a-fcca-761e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2526-e8a5-c27e-60c8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="809e-7636-ec58-7974" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="6901-9053-a507-f3f7" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="1fc9-5ddd-f36e-d1bf" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="09c1-ee0d-80f9-db60" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="d641-7766-34e3-1588" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c4e3-3fc5-4a93-260c" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="92d6-9ed4-01cf-0361" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3510-470b-2010-9777" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff8-5f45-661e-4f46" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2102-1e02-ce55-9362" name="Legion Techmarine" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="192f-bc82-4fc1-7ded" name="Legion Techmarine" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="20a0-93f2-fbd2-0381" name="Bolster Defences (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative takes this action within ⬤ of a terrain feature with the traversable trait that terrain feature loses that trait. This operative may not take this action if its is within Engagement Range of enemy operative.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b6c-7fdd-db6e-327e" name="Servo-Arm" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative attacks with combat weapon it may roll an additional dice using the Servo-Arm profile above. In addition enemy operative do not gain the benefit of Combat Support reguardless of how many enemy operatives are with Engagement range of this operative. The Servo-Arm cannot be used by itself in combat. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="79ae-0081-f33b-efe0" name="Construct Barricade (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative takes this action within ⬤ of a terrain feature with the traversable trait that terrain feature loses that trait. This operative may not take this action if its is within Engagement Range of enemy operative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d2a8-ac8a-b1c5-c724" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="6d94-585d-d953-d2f1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="3853-8d2f-9459-4dd9" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="6aa7-b549-01a1-8ded" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+        <categoryLink id="2b1d-7adf-6479-2eed" name="Techmarine" hidden="false" targetId="1944-2792-c586-a66a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d562-d970-7c06-3cd2" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6d0-d929-9d3a-59ec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="727f-2f20-a184-c496" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4360-7ed7-5cb4-eb2c" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8b-1cec-5b39-4f62" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3a9d-fc1e-c778-4c56" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d033-af61-00de-c46e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2544-ac73-b909-243a" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b1-6811-f800-9ada" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b51c-95f2-b32e-5bab" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77cc-f0b1-07a3-f6fc" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6f90-a9dd-87b0-53e9" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d47-8dad-0a03-0330" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c59f-21dc-adc6-a545" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0d-88f7-3f9f-0c66" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4ca1-c42f-4782-e8e1" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d9-6af9-fb07-ea02" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c999-0a91-53c2-c3b9" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="681b-dcf2-1911-dfcc" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7720-4093-c98f-4463" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d5d-7d33-bd79-7802" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="59c9-3d7e-b6f6-83dc" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f77f-7fca-e86c-eab2" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d654-9f5f-6902-ae87" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5dd-1e70-7d2d-c605" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d2a0-9c93-8894-bf86" name="Grav-gun" hidden="false" collective="false" import="true" targetId="e56e-024d-70c0-8868" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="504c-c2aa-bcb0-aac5" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2c32-af84-61e6-a82b" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3468-c2f6-180f-cade" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d043-d756-a549-c778" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="93ef-4cc9-8af0-4805" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
+            <entryLink id="d785-8501-6aab-bca1" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="ab7f-99c8-6671-5db8" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a87d-ac17-08f3-7440" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="12e5-f590-6cef-25b3" name="Servo arm" hidden="false" collective="false" import="true" targetId="bd69-62a6-2677-ed81" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ed-6b90-9d5a-a73d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d0-867c-3aab-ee2e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd69-62a6-2677-ed81" name="Servo arm" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7ebe-d18a-40ba-9270" name="⚔ Servo arm" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">1</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+	</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ae1-d8a9-0671-1815" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47cb-121e-c305-2b3c" name="Legion Vigilator" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="af19-2f4d-9684-c4ec" name="Legion Vigilator" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecdd-6419-a0df-11bc" name="Infiltrate" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may be set up anywhere in the kill zone outside of the enemy drop zone and more than ⬟ from an enemy operative.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eb80-d11d-5f6f-a936" name="Unstoppable" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all light terrain as having the traversable trait. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ee4-0633-56d6-51d3" name="Camo Cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a shooting attack is made against this operative, in the defence dice step of that shooting attack, before rolling your defence dice, if it is in cover, one additional dice can be retained as a successful normal save as a result. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fecd-1074-66c9-8e60" name="Triangulate (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">One friendly operative within ⬟ of this operative that has yet to be activated may, during a shoot actain, retain up to two attack dice results  of 5 as critical hits. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="eeb4-84a6-b11e-57cf" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="1f12-9a02-9dcf-f8c0" name="Vigilator" hidden="false" targetId="48b1-79f4-4a2e-0e8e" primary="false"/>
+        <categoryLink id="939f-6806-f9fe-327d" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d16-190d-1d19-1294" name="Vigilator Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e822-e854-cf32-c751" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ea2-559f-3d7e-6464" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="83cf-13d5-b8b1-5ab0" name="Vigilator Boltgun - Kraken " hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4 </characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="216d-3919-fa92-cf6c" name="Vigilator Boltgun - Scorpius" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4 </characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ba5a-d4a6-544f-1988" name="Vigilator Boltgun - Tempest" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4 </characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ace-f515-c064-1780" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5aa-db43-3e8d-d15b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a5f-e368-69b7-2329" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a679-af44-0d4a-7b62" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="eb7f-32d0-1c15-5f6b" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="a9ed-9bd9-cd1b-1e15" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="826b-d12d-0050-92d0" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="a494-d2bd-19f1-79ad" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="7a16-8ce4-5451-b7f7" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0793-2970-c75e-e76a" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d99c-f624-30a8-dca9" name="Legion Opsequiari" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1ac6-44b2-3272-4718" name="Legion Opsequiari" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="abbf-5a82-427f-dca9" name="Discipline" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Friendly operatives with ⬟ may make any action available to them if they take a suppression token, not only Overwatch and Dash, nor may they be forced to fall back for any reason. Additionally, as long as this operative remains on the killzone, each friendly operative counts thier APL as being one higher when calculating who controls an objective.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="51b6-025e-47b8-be6a" name="Fury of the Legion (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Make a shooting attack with this operative&apos;s boltgun. That attack is modified by the number of boltgun equipped TACTICAL ASTARTES operatives within ⬛ of this operative;
+1 - Increase the Attacks characteristic of the boltgun to 6.
+2 - The attack gains the Fusillade special rule.
+3 - Increase the Attacks characteristic of the boltgun to 8.
+4+ - The attack gains the P1 critical rule.
+Until the end of the Turning Point, all operatives involved in this action may not make Overwatch actions.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5258-6f8b-822b-7196" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="6716-1b14-40fd-bea3" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="b4e9-96e7-a1d2-3d7a" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+        <categoryLink id="ca0d-8087-f643-dc06" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="46af-1e6e-3693-61cb" name="Opsequiari" hidden="false" targetId="ac18-215f-2451-7642" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb83-0ffa-ce2d-0d64" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a853-49cd-d128-2f8f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cbf-ad02-9345-9ed1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b1f2-8809-93b7-a666" name="Scorpius Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0437-8130-7b33-2f50" name="⌖ Scorpius Bolt Pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d00a-6e8c-ccc6-61b5" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="5bc3-67e8-6102-0875" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a12a-7b7b-6bd6-33e3" name="Scorpius Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d895-d2b9-7fb1-17ea" name="⌖ Scorpius Boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3db0-ea2b-af8b-ec73" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="afaf-a160-ac9d-611f" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="23e3-744a-a359-bff0" name="Inferno Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f5ff-7a22-f6e4-5784" name="⌖ Inferno Pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/3</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬛, AP2</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b381-46f0-cbc8-2d29" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="b93f-d999-3853-27af" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+                <infoLink id="6e18-7686-50d4-502b" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="7995-dbd1-116b-caa9" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="b497-baa0-668e-a7dc" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d0ba-f6a7-d93b-b74d" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c1-958b-eaac-5fb0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e1e-66d5-29d9-1e3c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="31b7-0a98-667f-a8c1" name="Power Blade" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="42de-f1c9-c36d-a704" name="⚔ Power Blade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5	</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c8d6-62ed-0d3b-21dc" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5eb2-908c-2c19-036c" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+            <entryLink id="8902-6dc9-6371-c171" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
+            <entryLink id="b206-af51-bb4a-9d02" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="4397-8c80-0f5c-17a3" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="048d-305a-75f5-2d67" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="da27-ca54-03a9-bdc8" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>

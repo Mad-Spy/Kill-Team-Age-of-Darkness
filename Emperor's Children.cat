@@ -139,6 +139,10 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="3a25-21ca-8ef0-e976" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry"/>
+    <entryLink id="5a2d-49fa-555e-b302" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry"/>
+    <entryLink id="5c77-61c0-396c-3758" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry"/>
+    <entryLink id="0bda-b540-e354-b87d" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry"/>
+    <entryLink id="e8da-ad24-bfa1-9855" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="8bb0-84a6-f429-007e" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>
