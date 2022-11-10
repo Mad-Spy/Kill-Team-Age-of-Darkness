@@ -277,6 +277,10 @@
     <entryLink id="3265-9106-37f5-f590" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry"/>
     <entryLink id="6810-4922-672f-caf0" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry"/>
     <entryLink id="fd1d-9a9b-1f6f-78e7" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry"/>
+    <entryLink id="9485-b549-67fc-a12c" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry"/>
+    <entryLink id="600c-bd38-d112-6978" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry"/>
+    <entryLink id="81c4-a1f8-3783-051c" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry"/>
+    <entryLink id="0ccb-e3f0-1cf2-595d" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2cc8-1e58-31e5-8ffc" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
