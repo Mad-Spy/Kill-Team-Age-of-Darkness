@@ -4706,9 +4706,29 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0a4-7dbf-969f-fd5e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fc-d47c-2b77-f6b1" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="e43d-ae9d-6d51-b9d4" name="Heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="75d9-3ecd-3c63-7735" name="⌖ Heavy boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, Fusillade, No Cover</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="82fb-e257-0bd7-f1a6" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+                <infoLink id="9e4e-a917-6f6f-6492" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+                <infoLink id="2766-cbb8-6b4a-3516" name="No Cover" hidden="false" targetId="c091-97f7-8640-5e56" type="rule"/>
+                <infoLink id="0644-d2ad-ad25-d303" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="d4f8-870a-5626-5bf1" name="Autocannon" hidden="false" collective="false" import="true" targetId="a8d6-141c-9226-9388" type="selectionEntry"/>
-            <entryLink id="893f-c36f-53e8-1dfb" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="5c85-d09e-56a8-a0c6" type="selectionEntry"/>
             <entryLink id="c09e-d47d-f3b7-fae0" name="Missile launcher" hidden="false" collective="false" import="true" targetId="52e9-6c3f-06ba-9c98" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -4728,6 +4748,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <selectionEntry id="a8d6-141c-9226-9388" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="07aa-836a-224e-3d5c" name="⌖ Autocannon" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <modifiers>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="4">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19a1-27b8-6130-f331" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
