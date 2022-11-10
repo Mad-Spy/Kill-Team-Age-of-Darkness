@@ -46,6 +46,10 @@
     <categoryEntry id="a7fc-3c20-f2f4-a903" name="Palatine Blade" hidden="false"/>
     <categoryEntry id="6e45-4f1e-03e1-f6da" name="Emperor&apos;s Children" hidden="false"/>
     <categoryEntry id="be72-7625-3978-94b0" name="Lexicanium" hidden="false"/>
+    <categoryEntry id="48b1-79f4-4a2e-0e8e" name="Vigilator" hidden="false"/>
+    <categoryEntry id="1944-2792-c586-a66a" name="Techmarine" hidden="false"/>
+    <categoryEntry id="ba58-dcd5-b8dd-997d" name="Siege Breaker" hidden="false"/>
+    <categoryEntry id="ac18-215f-2451-7642" name="Opsequiari" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -4144,11 +4148,10 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <categoryLinks>
         <categoryLink id="b915-7e40-3943-156c" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="9900-22c0-1b9d-dfee" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="26d3-749d-6d6e-c770" name="Veteran Tactical Astartes" hidden="false" targetId="e405-06c2-a70b-572a" primary="false"/>
         <categoryLink id="8f54-e961-e17c-d7e3" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
-        <categoryLink id="e6a2-eb38-65c2-1cdd" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="b98a-0c1c-7d03-aa6f" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="5d84-f47f-efc2-3d88" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+        <categoryLink id="dc82-4601-0fba-bafa" name="Siege Breaker" hidden="false" targetId="ba58-dcd5-b8dd-997d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="431c-a507-181c-0197" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -4258,9 +4261,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="6d94-585d-d953-d2f1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="c202-95f8-f6e4-d039" name="Veteran Tactical Astartes" hidden="false" targetId="e405-06c2-a70b-572a" primary="false"/>
         <categoryLink id="1ce9-c839-9d63-802f" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
-        <categoryLink id="f994-99e3-f03a-6ee8" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="3853-8d2f-9459-4dd9" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="6aa7-b549-01a1-8ded" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+        <categoryLink id="2b1d-7adf-6479-2eed" name="Techmarine" hidden="false" targetId="1944-2792-c586-a66a" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d562-d970-7c06-3cd2" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -4402,6 +4405,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </profiles>
       <categoryLinks>
         <categoryLink id="eeb4-84a6-b11e-57cf" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+        <categoryLink id="1f12-9a02-9dcf-f8c0" name="Vigilator" hidden="false" targetId="48b1-79f4-4a2e-0e8e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7ace-f515-c064-1780" name="Melee Weapons" hidden="false" collective="false" import="true">
@@ -4492,6 +4496,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="6716-1b14-40fd-bea3" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="b4e9-96e7-a1d2-3d7a" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
         <categoryLink id="ca0d-8087-f643-dc06" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+        <categoryLink id="46af-1e6e-3693-61cb" name="Opsequiari" hidden="false" targetId="ac18-215f-2451-7642" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cb83-0ffa-ce2d-0d64" name="Ranged Weapons" hidden="false" collective="false" import="true">
