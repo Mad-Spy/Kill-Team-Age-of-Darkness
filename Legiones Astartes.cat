@@ -4367,6 +4367,212 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="7ae1-d8a9-0671-1815" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="47cb-121e-c305-2b3c" name="Legion Vigilator" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="af19-2f4d-9684-c4ec" name="Legion Vigilator" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecdd-6419-a0df-11bc" name="Infiltrate" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may be set up anywhere in the kill zone outside of the enemy drop zone and more than ⬟ from an enemy operative.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eb80-d11d-5f6f-a936" name="Unstoppable" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all light terrain as having the traversable trait. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0ee4-0633-56d6-51d3" name="Camo Cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a shooting attack is made against this operative, in the defence dice step of that shooting attack, before rolling your defence dice, if it is in cover, one additional dice can be retained as a successful normal save as a result. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fecd-1074-66c9-8e60" name="Triangulate (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">One friendly operative within x of this operative that has yet to be activated may, during a shoot actain, retain up to two attack dice results </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ace-f515-c064-1780" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a679-af44-0d4a-7b62" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="eb7f-32d0-1c15-5f6b" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="a9ed-9bd9-cd1b-1e15" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="826b-d12d-0050-92d0" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="a494-d2bd-19f1-79ad" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ebb4-39b9-e290-e0bf" name="Range Weapon" hidden="false" collective="false" import="true">
+          <categoryLinks>
+            <categoryLink id="45f4-5253-0af6-7342" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+            <categoryLink id="34a0-a35f-ed7f-da0c" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+            <categoryLink id="daa2-5a52-e540-fb38" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="db89-9e74-dc78-d3e1" name="Vigilator Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af04-679a-b978-0a43" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d8-a376-58f1-7581" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="d3e3-c19e-fb2a-9bc6" name="Vigilator Boltgun - Krakenn " hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4 </characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1370-b4e8-e3a7-83a5" name="Vigilator Boltgun - Scorpius" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4 </characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4cd5-7615-ccba-b9e6" name="Vigilator Boltgun - Tempest" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4 </characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"></characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="d99c-f624-30a8-dca9" name="Legion Opsequiari" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1ac6-44b2-3272-4718" name="Legion Opsequiari" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="abbf-5a82-427f-dca9" name="Discipline" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Friendly operatives with ⬟ may make any action available to them if they take a suppression token, not only Overwatch and Dash, nor may they be forced to fall back for any reason. Additionally, as long as this operative remains on the killzone, each friendly operative counts thier APL as being one higher when calculating who controls an objective.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="51b6-025e-47b8-be6a" name="Fury of the Legion (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Make a shooting attack with this operative&apos;s boltgun. That attack is modified by the number of boltgun equipped TACTICAL ASTARTES operatives within ⬛ of this operative;
+1 - Increase the Attacks characteristic of the boltgun to 6.
+2 - The attack gains the Fusillade special rule.
+3 - Increase the Attacks characteristic of the boltgun to 8.
+4+ - The attack gains the P1 critical rule.
+Until the end of the Turning Point, all operatives involved in this action may not make Overwatch actions.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb83-0ffa-ce2d-0d64" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a853-49cd-d128-2f8f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cbf-ad02-9345-9ed1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b1f2-8809-93b7-a666" name="Scorpius Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0437-8130-7b33-2f50" name="⌖ Scorpius Bolt Pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d00a-6e8c-ccc6-61b5" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="5bc3-67e8-6102-0875" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="a12a-7b7b-6bd6-33e3" name="Scorpius Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d895-d2b9-7fb1-17ea" name="⌖ Scorpius Boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3db0-ea2b-af8b-ec73" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="2864-b6d7-b553-980e" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="23e3-744a-a359-bff0" name="Inferno Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f5ff-7a22-f6e4-5784" name="⌖ Inferno Pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/3</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬛, AP2</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b381-46f0-cbc8-2d29" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="b93f-d999-3853-27af" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="7995-dbd1-116b-caa9" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="b497-baa0-668e-a7dc" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d0ba-f6a7-d93b-b74d" name="Melee Weapoins" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="31b7-0a98-667f-a8c1" name="Power Blade" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="42de-f1c9-c36d-a704" name="⚔ Power Blade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5	</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5eb2-908c-2c19-036c" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+            <entryLink id="8902-6dc9-6371-c171" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
+            <entryLink id="b206-af51-bb4a-9d02" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="4397-8c80-0f5c-17a3" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
