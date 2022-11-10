@@ -4227,7 +4227,12 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c4e3-3fc5-4a93-260c" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
-        <entryLink id="92d6-9ed4-01cf-0361" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry"/>
+        <entryLink id="92d6-9ed4-01cf-0361" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3510-470b-2010-9777" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff8-5f45-661e-4f46" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4351,7 +4356,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a87d-ac17-08f3-7440" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
-        <entryLink id="12e5-f590-6cef-25b3" name="Servo arm" hidden="false" collective="false" import="true" targetId="bd69-62a6-2677-ed81" type="selectionEntry"/>
+        <entryLink id="12e5-f590-6cef-25b3" name="Servo arm" hidden="false" collective="false" import="true" targetId="bd69-62a6-2677-ed81" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ed-6b90-9d5a-a73d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d0-867c-3aab-ee2e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e272-1dca-5bc7-2d5a" name="Melta bomb" hidden="false" collective="false" import="true" targetId="8ecd-c59a-14da-a67f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea03-3d2e-4c72-9de8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd4d-0f29-61f4-cf56" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
