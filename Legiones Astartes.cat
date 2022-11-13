@@ -789,9 +789,14 @@
         <profile id="c33b-d7d6-94bd-cb6e" name="⚔ Heavy chainsword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8cd4-ec72-ba81-9849" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -825,9 +830,20 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">4+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
@@ -853,13 +869,26 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-ffc0-6d28-2338" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-ffc0-6d28-2338" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced</characteristic>
@@ -878,6 +907,17 @@
       <profiles>
         <profile id="4818-a212-4a94-aef6" name="⚔ Power maul" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
               <conditionGroups>
                 <conditionGroup type="or">
@@ -891,7 +931,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
@@ -921,9 +961,20 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+</characteristic>
