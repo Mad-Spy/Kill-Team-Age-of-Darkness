@@ -161,6 +161,11 @@
         <categoryLink id="02d6-64ab-4eae-135d" name="White Scars" hidden="false" targetId="fc42-5528-0704-db72" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="6f9d-b272-af3e-d52e" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="224d-cfc3-34c6-9f9d" name="White Scars" hidden="false" targetId="fc42-5528-0704-db72" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="7f6c-d8f7-bb93-9dc2" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>
