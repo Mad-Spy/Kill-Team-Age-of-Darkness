@@ -163,6 +163,6 @@
     </entryLink>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink id="7f6c-d8f7-bb93-9dc2" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7f6c-d8f7-bb93-9dc2" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>
