@@ -156,6 +156,11 @@
         <categoryLink id="79cf-02e4-56f9-5252" name="White Scars" hidden="false" targetId="fc42-5528-0704-db72" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="4f2e-e8f5-ec94-9e03" name="Falcon&apos;s Claw" hidden="false" collective="false" import="true" targetId="50e5-0d5c-fd09-f7bb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="02d6-64ab-4eae-135d" name="White Scars" hidden="false" targetId="fc42-5528-0704-db72" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="7f6c-d8f7-bb93-9dc2" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="true"/>
