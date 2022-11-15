@@ -54,6 +54,7 @@
     <categoryEntry id="c257-ddb0-6d18-436e" name="Grey Slayer" hidden="false"/>
     <categoryEntry id="8cd4-ec72-ba81-9849" name="Huscarl" hidden="false"/>
     <categoryEntry id="f94d-ffc0-6d28-2338" name="Deathsworn" hidden="false"/>
+    <categoryEntry id="fc42-5528-0704-db72" name="White Scars" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -4584,19 +4585,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="ecdd-6419-a0df-11bc" name="Infiltrate" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may be set up anywhere in the kill zone outside of the enemy drop zone and more than ⬟ from an enemy operative.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="eb80-d11d-5f6f-a936" name="Unstoppable" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
             <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all light terrain as having the Traversable trait. </characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0ee4-0633-56d6-51d3" name="Camo Cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a shooting attack is made against this operative, in the defence dice step of that shooting attack, before rolling your defence dice, if it is in cover, one additional dice can be retained as a successful normal save as a result. </characteristic>
           </characteristics>
         </profile>
         <profile id="fecd-1074-66c9-8e60" name="Triangulate (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
@@ -4605,6 +4596,10 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="b4d5-eb87-080b-f1ee" name="Infiltrate" hidden="false" targetId="d95e-fa98-1225-fc75" type="profile"/>
+        <infoLink id="c393-98de-a2cb-e7f3" name="Camo Cloak" hidden="false" targetId="0169-260e-22d7-0a83" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="eeb4-84a6-b11e-57cf" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="1f12-9a02-9dcf-f8c0" name="Vigilator" hidden="false" targetId="48b1-79f4-4a2e-0e8e" primary="false"/>
@@ -5524,6 +5519,116 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e8b4-931b-1864-147c" name="Falcon&apos;s Claw" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4be7-7591-f4f7-d131" name="Falcon&apos;s Claw" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87d0-73e6-bf30-0f3f" name="Precision Strike (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a fight action during which, in the Roll Attack Dice step of the combat attack, you can retain one normal hit as a critical hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da99-6458-ae87-e0c8" name="Infiltrate" hidden="false" targetId="d95e-fa98-1225-fc75" type="profile"/>
+        <infoLink id="3e2a-1729-5b21-d997" name="Camo Cloak" hidden="false" targetId="0169-260e-22d7-0a83" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d74-4c9b-ef0a-a929" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="9031-0266-3d5d-adc2" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="1b4c-a4f9-d462-d34e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="fea4-aff4-b975-8f5a" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="3c94-7b81-360e-abe8" name="Falcon&apos;s Claw" hidden="false" targetId="aef3-bb6f-fa1d-5414" primary="false"/>
+        <categoryLink id="23e0-e7c1-04f8-ad3f" name="White Scars" hidden="false" targetId="fc42-5528-0704-db72" primary="false"/>
+        <categoryLink id="8c85-7ee9-2b81-0f82" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b2cb-979d-d553-0010" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f0-3699-ef9e-f8aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e60-863c-e302-2736" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d27d-f6eb-6023-815d" name="Power sword and bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="c83e-a281-8280-f6e1" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a3e-a94a-b4e3-5d18" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3a0-9ecd-7486-6185" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="bcb1-1213-d01b-4d4f" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21ad-fe50-e878-67a6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db1-d84b-b65c-d638" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b0d-b8a7-6d0f-8106" name="Power axe and bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="bbed-35a2-51ba-8613" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2223-1e42-34b0-828d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edda-df4f-a13f-756d" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="285f-b65c-a3ee-5c70" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d49-6abb-dade-4309" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688c-6576-9a28-2c7a" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7603-2b0f-d360-b268" name="Power maul and bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="b70f-49b1-4556-087a" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f1e-4709-3503-4013" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b06b-6070-9b54-952e" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="b1f4-90c1-aabf-732e" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd8f-3710-c454-f643" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74e3-7b3a-2b79-6ff6" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="8cc2-9ebc-db50-e42f" name="Lightning claws (Pair)" hidden="false" collective="false" import="true" targetId="408c-e0d3-0e22-be5f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b3b-63e5-fd96-531d" type="max"/>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd27-9998-6a88-bd02" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -5828,6 +5933,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="c08f-370a-6f0d-6386" name="Icon Bearer" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
         <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When determining control of an objective marker, treat this operative&apos;s APL as being 1 higher. Note this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d95e-fa98-1225-fc75" name="Infiltrate" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may be set up anywhere in the kill zone outside of the enemy drop zone and more than ⬟ from an enemy operative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0169-260e-22d7-0a83" name="Camo Cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a shooting attack is made against this operative, in the defence dice step of that shooting attack, before rolling your defence dice, if it is in cover, one additional dice can be retained as a successful normal save as a result. </characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
