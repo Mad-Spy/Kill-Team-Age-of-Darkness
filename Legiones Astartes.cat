@@ -78,6 +78,15 @@
                 <modifier type="decrement" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
               </modifiers>
             </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62f2-dfc6-40ab-375b" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="d10e-575d-c0e1-14a7" value="1.0"/>
+                <modifier type="increment" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
+              </modifiers>
+            </modifierGroup>
           </modifierGroups>
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10e-575d-c0e1-14a7" type="max"/>
@@ -3085,6 +3094,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="be8d-b895-754b-283e" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="a8a1-2c5a-035b-1672" name="Legion Tactical Astartes" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -3128,6 +3149,16 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3182,6 +3213,16 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3241,6 +3282,16 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3462,6 +3513,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="be72-d436-d6cd-1649" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="68d1-a1aa-a1fb-8038" name="Legion Tactical Sergeant" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
