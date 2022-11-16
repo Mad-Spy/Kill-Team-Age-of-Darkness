@@ -49,6 +49,12 @@
     <categoryEntry id="19a1-27b8-6130-f331" name="Iron Havoc" hidden="false"/>
     <categoryEntry id="907c-ba25-250c-8d76" name="Iron Warriors" hidden="false"/>
     <categoryEntry id="fc42-5528-0704-db72" name="White Scars" hidden="false"/>
+    <categoryEntry id="0805-19d3-5ce2-ebea" name="Beast" hidden="false"/>
+    <categoryEntry id="f94d-ffc0-6d28-2338" name="Deathsworn" hidden="false"/>
+    <categoryEntry id="9217-877f-7154-29ad" name="Fenrisian Wolf" hidden="false"/>
+    <categoryEntry id="c257-ddb0-6d18-436e" name="Grey Slayer" hidden="false"/>
+    <categoryEntry id="8cd4-ec72-ba81-9849" name="Huscarl" hidden="false"/>
+    <categoryEntry id="c9c4-335f-39b9-b326" name="Space Wolves" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -70,6 +76,15 @@
               <modifiers>
                 <modifier type="decrement" field="d10e-575d-c0e1-14a7" value="1.0"/>
                 <modifier type="decrement" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62f2-dfc6-40ab-375b" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="d10e-575d-c0e1-14a7" value="1.0"/>
+                <modifier type="increment" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
@@ -293,6 +308,43 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfec-8c8e-e104-d82f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c106-ecc7-c59c-8179" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a8e9-b792-7c0d-eb4a" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false">
+          <modifiers>
+            <modifier type="increment" field="17f8-26b5-d315-77cc" value="3.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="17f8-26b5-d315-77cc" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fc1-8577-e8e2-4697" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="17f8-26b5-d315-77cc" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fc1-8577-e8e2-4697" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="17f8-26b5-d315-77cc" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7fc1-8577-e8e2-4697" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f8-26b5-d315-77cc" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -704,8 +756,8 @@
     <selectionEntry id="a29b-2622-88e6-936e" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="e4ea-3b74-d190-84c6" name="⚔ Chainsword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
+          <modifierGroups>
+            <modifierGroup>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -714,8 +766,12 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
-            </modifier>
-          </modifiers>
+              <modifiers>
+                <modifier type="set" field="32b4-9a0e-e740-6031" value="2+"/>
+                <modifier type="set" field="5f37-25bb-661b-5c9c" value="5"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -770,6 +826,17 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
@@ -798,6 +865,19 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-ffc0-6d28-2338" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-ffc0-6d28-2338" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -834,6 +914,17 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
@@ -856,6 +947,17 @@
         <profile id="9384-cff2-e4af-e3ab" name="⚔ Power sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1875,11 +1977,6 @@
             <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
           </characteristics>
         </profile>
-        <profile id="d2c7-4f8d-dfdd-c71a" name="Redoubtable" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Once per Turning Point, when this operative fights in combat, in the Resolve Successful Hits step of that combat, you can ignore the damage inflicted on it from one normal hit.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="2a75-aea5-fa6d-250a" name="Paired chainswords" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -1905,6 +2002,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8070-145d-381e-b011" name="Redoubtable" hidden="false" targetId="197b-1b15-f8cb-1568" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8d68-4d7a-5fb7-6e46" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="9e3b-c8de-85c3-05fb" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
@@ -2994,6 +3094,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="be8d-b895-754b-283e" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="a8a1-2c5a-035b-1672" name="Legion Tactical Astartes" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -3037,6 +3149,16 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3091,6 +3213,16 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3150,6 +3282,16 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3371,6 +3513,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="be72-d436-d6cd-1649" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="68d1-a1aa-a1fb-8038" name="Legion Tactical Sergeant" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -4930,6 +5084,554 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7fc1-8577-e8e2-4697" name="Grey Slayer Huscarl" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="760f-2a6e-e51a-3c18" name="Grey Slayer Huscarl" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="18fd-042c-d8e4-ca2a" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="7c4e-b0aa-fa67-1a0e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="2029-4757-f1f7-5e2f" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
+        <categoryLink id="6c2c-7f07-3b08-c500" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false"/>
+        <categoryLink id="bdda-1807-7a94-2983" name="Huscarl" hidden="false" targetId="8cd4-ec72-ba81-9849" primary="false"/>
+        <categoryLink id="9d83-b597-395c-fd54" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
+        <categoryLink id="ea37-abdd-798f-f5df" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3d4f-1880-a4d1-17d2" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="3e6b-086f-2033-3c69" value="0.0">
+              <conditions>
+                <condition field="selections" scope="7fc1-8577-e8e2-4697" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="408c-e0d3-0e22-be5f" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2c01-beb2-8cb1-10e8" value="0.0">
+              <conditions>
+                <condition field="selections" scope="7fc1-8577-e8e2-4697" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="408c-e0d3-0e22-be5f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6b-086f-2033-3c69" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c01-beb2-8cb1-10e8" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fa83-14c9-0d2d-d0f9" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="4f85-b7a0-5c4b-d586" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="6ee2-ea45-a5f1-42f0" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4876-d417-e6ec-2f92" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0533-f0d8-8a95-0eaf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d13-6090-6f60-d01d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dc48-d97a-d198-4b0b" name="Frost sword" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="57f9-49b4-93f9-45ce" name="Frost sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Frost*, Lethal 5+</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="494f-974f-4a16-d63d" name="*Frost" hidden="false" targetId="3406-5f43-ed46-5b98" type="rule"/>
+                <infoLink id="abb3-d5d2-6d53-4a38" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="983f-0ea8-7c5d-2634" name="Frost maul" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="67a0-d893-fb55-b507" name="Frost maul" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Frost*</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="147c-4f0b-81e2-c84c" name="*Frost" hidden="false" targetId="3406-5f43-ed46-5b98" type="rule"/>
+                <infoLink id="adc7-0821-311a-9039" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="b9f8-d3d5-1709-4cc9" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="e48d-e58c-8dd6-3cd8" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="ee6d-752f-7a43-d29a" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
+            <entryLink id="127b-7c33-35cd-53e2" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+            <entryLink id="495e-6955-c571-a841" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="ad6b-165d-ec01-f351" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="c107-f47d-6f9a-7eeb" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="49e2-e765-2226-737d" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="8972-2bd2-8e49-7d12" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
+            <entryLink id="c263-961c-91f8-153c" name="Frost axe" hidden="false" collective="false" import="true" targetId="96c3-dd65-3c76-7050" type="selectionEntry"/>
+            <entryLink id="923b-7e50-3f3f-1632" name="Lightning claws (Pair)" hidden="false" collective="false" import="true" targetId="408c-e0d3-0e22-be5f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96c3-dd65-3c76-7050" name="Frost axe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1882-aa1d-95f5-b767" name="Frost axe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced, Frost*</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a490-3639-3c2a-310e" name="*Frost" hidden="false" targetId="3406-5f43-ed46-5b98" type="rule"/>
+        <infoLink id="e1d1-dfe7-9578-41c8" name="Balanced" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16e9-6697-63ee-9066" name="Grey Slayer Champion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5598-782a-4665-a1f8" name="Grey Slayer Champion" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1361-c141-c871-8e7b" name="Redoubtable" hidden="false" targetId="197b-1b15-f8cb-1568" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0736-2175-72bd-6134" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+        <categoryLink id="b9af-ab97-0e7a-c36d" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="7980-1f31-b489-dec0" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="3fda-e9cf-90a2-49d5" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="2ce3-0c28-cccf-4cf2" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false"/>
+        <categoryLink id="5ab6-fe77-3ce9-e8fd" name="Champion" hidden="false" targetId="2fce-b46e-f7a4-5f5c" primary="false"/>
+        <categoryLink id="b9eb-8345-78b4-c38e" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a396-4934-85ea-c913" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d3f-3d81-a6ef-d62b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf9-57b3-1070-6c96" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1593-6e11-3d1e-8190" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="de03-a7d6-f412-fc50" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="572e-6843-51ad-ef43" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="0326-fa87-c541-e630" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
+            <entryLink id="63e9-e4a6-dc44-82ae" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="116d-0505-504c-c791" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="09df-8d57-63fc-df9c" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ed46-84ad-8646-5bbd" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e62f-d3b0-1fdf-1df1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c7-7770-9ddf-afd1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="cc7d-7390-534f-2adc" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="7cbe-818a-d38b-2d35" name="Hand flamer" hidden="false" collective="false" import="true" targetId="3df8-c8ee-f37f-65e6" type="selectionEntry"/>
+            <entryLink id="9f13-7311-6d75-6bea" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28f1-f358-712f-aefb" name="Grey Slayer Comms" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f6e2-df5a-97d1-14b5" name="Grey Slayer Comms" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f27f-5774-a202-6168" name="Nuncio-vox (1AP)" hidden="false" targetId="213a-9257-4a68-3cb7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f5b0-01dd-ed75-441c" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+        <categoryLink id="11cc-62c7-7d20-fd3f" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="c037-4b43-89ab-ea33" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="726b-6024-3198-0c98" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="690d-bbba-f9ea-ac6b" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false"/>
+        <categoryLink id="c652-cf09-9b13-0861" name="Comms" hidden="false" targetId="0bad-0565-b6dc-21e1" primary="false"/>
+        <categoryLink id="8888-2278-6469-798d" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0ef4-3d4b-d6a4-c9d1" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5909-28a7-e1c4-4394" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f0-7497-f4fa-bd64" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f24e-be10-1d65-617d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="2fe6-ba4a-33a2-800a" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="29c2-2824-4db7-6f9f" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c8ea-8a4f-a415-7220" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ec-a652-fa51-2117" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896b-cc0d-a047-ec03" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="466a-58bf-d3a5-595f" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="778b-9ea7-cdf4-a845" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efe3-8eb8-ce53-93ac" name="Grey Slayer Gunner" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c8ee-bed9-899d-df33" name="Grey Slayer Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="00bf-0953-dc57-0571" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+        <categoryLink id="1871-6c13-c5de-e93d" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="2976-6b54-8d44-71f5" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="9e7f-f227-0669-1c69" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="90a8-f73b-d0b2-db89" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false"/>
+        <categoryLink id="7327-a1ff-8ee4-40fa" name="Gunner" hidden="false" targetId="ee8c-cc44-acc3-40f0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1af5-c73e-d3ff-6143" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9143-380b-f39d-fbaa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c3-4c07-db85-ed51" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8d3f-0ae1-cd25-0dec" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="0ce3-06a5-81cc-f29d" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c54e-2349-98db-2d80" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fca-5e1e-5528-ee9b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb40-fbb8-abb4-2902" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6230-0aa7-92a3-cdff" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry"/>
+            <entryLink id="6355-bf37-c9b6-5375" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="bd27-0ec8-fe54-9b7d" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry"/>
+            <entryLink id="76bd-023e-09d3-bce7" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry"/>
+            <entryLink id="34e6-3ce3-0267-efd6" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
+            <entryLink id="43b8-1a04-2b33-92b0" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
+            <entryLink id="5adc-d5f5-4f8e-72d6" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
+            <entryLink id="086c-693f-6617-1dfd" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2ef-e727-a7b7-8527" name="Grey Slayer Vexilla" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a0f4-3365-0fd4-3b8c" name="Grey Slayer Vexilla" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1022-94af-b465-520d" name="On Me! (2AP)" hidden="false" targetId="3167-3f1c-dfe6-07a2" type="profile"/>
+        <infoLink id="3439-c9da-1ea6-d3dc" name="Icon Bearer" hidden="false" targetId="c08f-370a-6f0d-6386" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8758-f211-6266-1c8c" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+        <categoryLink id="9693-30a8-b742-cf39" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="9fb6-1f27-4f80-cb21" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="4c4d-aaa5-7382-3d53" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="377b-5451-75f5-7053" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false"/>
+        <categoryLink id="7185-f728-fe7d-ec60" name="Vexilla" hidden="false" targetId="3f0b-c115-1ee4-f96f" primary="false"/>
+        <categoryLink id="dcde-af70-2485-4dec" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5004-6db1-f7eb-77eb" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="151f-2513-8a22-8538" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16fb-8e25-cdaf-ebcb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="aa23-b1d6-c4cf-7dbd" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="fbdc-0e7a-5fd7-73f3" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="4e79-410b-117b-1442" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="06a6-e902-d085-360e" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56bd-9bdb-dbff-4c27" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef59-70ae-d677-5e10" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5eb6-1a71-7795-ad73" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="bd7b-fae6-462a-9b3b" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19b0-982d-c8fd-20fc" name="Grey Slayer Warrior" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4dd6-40e9-4ada-c747" name="Grey Slayer Warrior" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a4d6-d7d6-87bc-a55e" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+        <categoryLink id="7ddb-34c3-f5ca-3592" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="59a5-475d-32fb-2043" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="7f51-a848-5f9c-349c" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="a5b7-101a-13f0-de8b" name="Grey Slayer" hidden="false" targetId="c257-ddb0-6d18-436e" primary="false"/>
+        <categoryLink id="c23b-ceb9-94ae-a038" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4870-d9de-7fe5-ffa7" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f625-53e3-eaae-ff23" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5e-b48b-9934-e793" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="df37-7dec-2aee-8af6" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="694d-7e81-e5d6-db8c" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+            <entryLink id="1ec1-912c-322b-ada4" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cb65-fa24-de3a-270f" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a23-77ac-43b5-f3f6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ce-cc31-57fd-0da1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="de48-8036-534c-30b9" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="4aad-52ef-c95c-0e3b" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b512-5408-cf35-6cca" name="Deathsworn" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1d83-8476-637d-0568" name="Deathsworn" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="452d-9cd7-8067-aa73" name="Cult of Morkai" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is within ⬤ of an Injured friendly operative, that operative may not be targeted by ranged attacks. In addition, if that operative is 	successfully targeted for a charge action, this operative may immediately be placed within the enemy operative&apos;s Engagement Range.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3c36-c88f-eae9-8b68" name="The Dreams of the Death Wolf" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">If this operative is incapacitated in combat, roll 5 D6: for each 5+, an enemy operative within Engagement Range of this operative suffers 1 mortal wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d10e-19f1-1376-2de6" name="Ymira Dilation" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Operatives within Engagement Range of this operative treat their APL as being 1 lower. Note that this is not a modifier.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="904e-10f5-06c8-83ea" name="Ymira Stasis Bomb (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Once per game, this operative a ranged attack with the Ymira Stasis Bomb weapon profile.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5ac0-1fb7-0302-aa88" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="a735-48ee-78ca-352f" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="d878-5a3d-0896-1307" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="7b76-938b-50c7-64a9" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="26ad-f83e-2f03-07fc" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="685b-b608-b879-e766" name="Deathsworn" hidden="false" targetId="f94d-ffc0-6d28-2338" primary="false"/>
+        <categoryLink id="40eb-c8c2-3e1c-ac65" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="115f-7a0f-64e2-ccd9" name="Ymira stasis bomb" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d77-6064-b3e8-c155" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee4c-c9e3-1449-cada" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9f48-e650-05bf-0ada" name="⌖ Ymira stasis bomb" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/2</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, Hot, Stasis*, Limited</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bc05-c6b7-c0ce-d9df" name="*Stasis" hidden="false">
+              <description>Until the end of the Turning Point, models within the blast radius of this weapon may only make Pass actions but double their Defence characteristic.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="54db-4b6c-f91b-8c4d" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="494f-1fa8-5909-00d2" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+            <infoLink id="25ed-d840-6102-fe6f" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+            <infoLink id="f61f-7e27-e13a-280d" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+            <infoLink id="2530-307f-725a-fe12" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c332-f2d9-d8f3-6b4c" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="766b-2563-2e87-d63f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff02-ec19-a24a-caab" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1cb8-f228-192d-74ff" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="745d-65b8-70f5-4b05" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb4-c855-8aed-0e50" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e69-8f5d-3c1b-8c63" name="Fenrisian Wolf" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e9e7-e3b8-7876-2cdd" name="Fenrisian Wolf" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">4⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">2</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">2</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">5+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b1e-5fc9-ad4b-ac47" name="Bounding Gait" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats all terrain as if it has the Traversable trait.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ddb7-b82c-724d-747d" name="Companion" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative cannot perform Pick Up, Shoot or Overwatch actions. This operative cannot be equipped with equipment.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6b81-c076-e1e9-9e0e" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="219a-2d91-f714-26aa" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="3a29-5576-8a6e-db73" name="Space Wolves" hidden="false" targetId="c9c4-335f-39b9-b326" primary="false"/>
+        <categoryLink id="af75-4899-ef43-8d58" name="Beast" hidden="false" targetId="0805-19d3-5ce2-ebea" primary="false"/>
+        <categoryLink id="d15c-dce8-a408-e608" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0645-114b-4e95-cce5" name="Teeth and claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8347-89e0-8f56-5a57" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="988a-025d-6490-4218" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3d21-13c1-c1ad-c9c0" name="⚔ Teeth and claws" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">4+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b514-cec7-5b02-7d57" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -5133,24 +5835,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <rule id="9a65-ea69-7fa0-01f4" name="Jump Pack" hidden="false">
       <description>Once per Turning Point when this operative makes a Normal Move, Charge, or Fall Back action, it may elect to use the Jump pack. If it does so, this operative gains the Fly special rule but may not make shoot actions other than Overwatch.</description>
     </rule>
-    <rule id="c6e2-fc3e-d8a7-2c60" name="Balance" hidden="false">
-      <description>Each time a friendly operative fights in combat or makes a shooting attack with this weapon, in the Roll Attack Dice step of that combat or shooting attack, you can re-roll one of your attack dice.</description>
-    </rule>
     <rule id="155f-68ee-5bca-04df" name="*Force" hidden="false">
       <description>For each additional action point an operative adds to the Fight action they may roll an additional attack dice. 
 </description>
-    </rule>
-    <rule id="4a96-bccd-8dde-f381" name="Hot" hidden="false">
-      <description>Each time a friendly operative makes a shooting attack with this weapon, in the Roll Attack Dice step of that shooting attack, for each attack dice result of 1 that is discarded, that operative suffers three mortal wounds.</description>
-    </rule>
-    <rule id="8d0d-430c-25cc-ab0c" name="Heavy" hidden="false">
-      <description>An operative cannot perform a Charge, Fall Back or Normal Move action in the same activation in which it performs a Shoot action with this ranged weapon.</description>
     </rule>
     <rule id="0e60-0174-7d5e-5f51" name="*Phosphex" hidden="false">
       <description>Once the shoot action is resolved place a token at the initial target spot, this token remains in play for the rest of the game. Roll a dice for any operative that come within ⬛ of the token. On a result of a 2-5 the model takes 3 wounds at AP2, on a 6 it takes 3 mortal wounds. During the initative phase the player with the initiative may move the marker ⬤ in any direction.</description>
     </rule>
     <rule id="5899-46f0-2e8e-6568" name="*Block" hidden="false">
       <description>Each time this operative fights in combat, in the Resolve Successful Hits step of that combat, each time it parries, two of your opponent&apos;s successful hits are discarded (instead of 1). If this operative is also equipped with a Boarding Shield or Storm Shield, they may not use the associated abilities during a combat if they use this ability.</description>
+    </rule>
+    <rule id="3406-5f43-ed46-5b98" name="*Frost" hidden="false">
+      <description>During the Roll Attack Dice step of a combat, your opponent must retain one Critical hit, if any are rolled, as a normal hit instead.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5236,6 +5932,26 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="d95e-fa98-1225-fc75" name="Infiltrate" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
         <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may be set up anywhere in the kill zone outside of the enemy drop zone and more than ⬟ from an enemy operative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c08f-370a-6f0d-6386" name="Icon Bearer" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When determining control of an objective marker, treat this operative&apos;s APL as being 1 higher. Note this is not a modifier. In narrative play, this is cumulative with the Focused Battle Honour.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="197b-1b15-f8cb-1568" name="Redoubtable" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Once per Turning Point, when this operative fights in combat, in the Resolve Successful Hits step of that combat, you can ignore the damage inflicted on it from one normal hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="213a-9257-4a68-3cb7" name="Nuncio-vox (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+      <characteristics>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within ⬟ of and Visible to this operative. Add 1 to its APL. This operative cannot perform this action if it is within Engagement Range of an enemy operative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3167-3f1c-dfe6-07a2" name="On Me! (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+      <characteristics>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within 2⬟ of this operative. It may immediately make a free Normal Move towards this operative. This may be done even if the operative has already been activated or has already made a Normal Move action this turning point. This operative cannot perform this action if it is within Engagement Range of an enemy operative.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
