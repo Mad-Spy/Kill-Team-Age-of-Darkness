@@ -55,6 +55,10 @@
     <categoryEntry id="c257-ddb0-6d18-436e" name="Grey Slayer" hidden="false"/>
     <categoryEntry id="8cd4-ec72-ba81-9849" name="Huscarl" hidden="false"/>
     <categoryEntry id="c9c4-335f-39b9-b326" name="Space Wolves" hidden="false"/>
+    <categoryEntry id="ec50-5bf6-0f8a-83ac" name="Imperial Fists" hidden="false"/>
+    <categoryEntry id="a0f9-a5e5-119a-b692" name="Night Lords" hidden="false"/>
+    <categoryEntry id="4805-c184-ba38-68aa" name="Templar Brother" hidden="false"/>
+    <categoryEntry id="5071-0ecf-4633-394c" name="Phalanx Warder" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -773,7 +777,7 @@
             </modifierGroup>
           </modifierGroups>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
@@ -839,7 +843,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">4+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
@@ -884,7 +888,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced</characteristic>
@@ -927,7 +931,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
@@ -970,7 +974,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+</characteristic>
@@ -3119,11 +3123,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ecda-11c6-50b7-657d" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
-        <categoryLink id="128f-7857-7b85-d40a" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="ecda-11c6-50b7-657d" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="false"/>
+        <categoryLink id="128f-7857-7b85-d40a" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
         <categoryLink id="99c8-7740-4e03-fdf6" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="623e-9b6f-3179-5e78" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="ecdd-64a8-f67a-441c" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="0ec0-9074-d06f-1f1c" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+        <categoryLink id="d0f9-6e1e-e6c9-d051" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="052b-eeca-db9a-9ad9" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
@@ -5628,6 +5634,179 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d27e-7b78-f506-f156" name="Templar Brother" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0b71-6fcb-eff5-6408" name="Templar Brother" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+	</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="387b-d880-1493-8715" name="Combat Shield" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">During the Firefight phase an operative equipped with a combat shield may add +1 to a single defence or attack dice per roll. If applied to an attack dice the result may only be used to Parry. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c6b-83b7-5ae2-7677" name="Furious Charge (2 AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Charge action and, if in Engagement Range, roll a dice; on a 4+ the target model suffers 1 mortal wound, if the result is 6+ it suffers 2 mortal wounds. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="452e-cbfb-bff6-768e" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="339a-0064-55df-4c41" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+        <categoryLink id="0664-8a01-820b-1299" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="43e1-7e29-96b6-84e9" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="6e8b-5bfb-ac18-633d" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="797b-b550-6620-56eb" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="1119-74ac-0a75-1549" name="Templar Brother" hidden="false" targetId="4805-c184-ba38-68aa" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0d75-5cc8-b155-885d" name="Templar power sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095b-040c-d351-e365" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ded-c4e9-2bd3-683f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4605-1271-be74-6fba" name="⚔ Templar power sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="29fd-a8cc-49ea-de25" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+            <infoLink id="0082-144e-2ec8-5fbc" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ebb8-397a-157c-d122" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f4b-84ee-04fb-d00c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-d1a6-8686-cd0f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a34-0246-3dce-f822" name="Phalanx Warder" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="aa20-f99b-76d5-4e66" name="Phalanx Warder" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dae5-d7b0-eb17-06e2" name="Shield Wall (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative is within Engagement Range of a Friendly Breacher operative then until the end of the Turning Point they are classed as being a terrain element with the Light Cover trait for enemy movement and the targeting of friendly operatives. If this operative is within the Engagement range of 2 or more friendly Breacher Astartes operatives they are treated as being a terrain element with the Heavy cover trait. This operative and any friendly Breacher operative affected by Shield Wall may be targeted as normal. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="22a6-1ed9-57da-93ba" name="Boarding Shield" hidden="false" targetId="0c64-fbc3-66a5-63e6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c22-07d1-db7c-bc25" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="cf6b-f38a-cb85-2d72" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="fc77-c778-65c4-fc40" name="Phalanx Warder" hidden="false" targetId="5071-0ecf-4633-394c" primary="false"/>
+        <categoryLink id="5523-62dc-625f-d271" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="c67b-e25b-373b-4cd1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="668b-c2a6-1b6a-c87d" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1b17-7ee3-9fdd-79d1" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44bc-3510-95b4-ecbc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d23f-7e9a-da11-3f7e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="33f0-ecb5-1073-09c5" name="Power axe and 2 frag grenades" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="be25-b2d9-2b39-57db" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9afa-3f61-8fba-6059" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c01-6b67-67ae-1d07" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="321a-42b2-bf34-52b2" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f4e9-0040-0986-bba0" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3e-c55b-2898-5a96" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d2-3ce7-4425-88c8" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="28ed-4af3-4892-96c8" name="Boltgun and combat knife" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="5a0c-5cae-4dca-e043" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc1-e1dc-4087-eefc" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a87-022f-675b-9b5b" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="e9a8-a5a7-60a1-1652" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a22-b2f5-6bb2-0ce5" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a7-311f-e7f4-388a" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4e9-0040-0986-bba0" name="Frag grenade" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4f78-26db-edc2-324c" name="⌖ Frag grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Limited, Blast ⬤, Indirect</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c4d-edf5-b6a2-de6d" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+        <infoLink id="2a20-a9a3-431c-7168" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+        <infoLink id="dd46-77df-a176-4e3e" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+        <infoLink id="e537-8ccb-325d-037a" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
