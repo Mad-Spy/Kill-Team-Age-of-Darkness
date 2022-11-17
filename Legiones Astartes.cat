@@ -59,6 +59,8 @@
     <categoryEntry id="a0f9-a5e5-119a-b692" name="Night Lords" hidden="false"/>
     <categoryEntry id="4805-c184-ba38-68aa" name="Templar Brother" hidden="false"/>
     <categoryEntry id="5071-0ecf-4633-394c" name="Phalanx Warder" hidden="false"/>
+    <categoryEntry id="2377-289e-20d5-c803" name="Executioner" hidden="false"/>
+    <categoryEntry id="05d3-1fc1-0477-ffb3" name="Night Raptor" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -5810,6 +5812,61 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1a90-407b-16a4-ac5a" name="Executioner" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ae5c-5211-bdbd-61bb" name="Executioner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7754-9ce8-d3e6-7ee2" name="Fearsome" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Reduce the APL of the Enemy Warrior, Gunner and Fighter operatives within ⬛of this operative by 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="afb0-5a48-55c6-e1e2" name="Precision Strike (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a fight action during which, in the Roll Attack Dice step of that combat attack, you can retain one normal hit as a critical hit. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b584-797a-cc1a-880e" name="Infiltrate" hidden="false" targetId="d95e-fa98-1225-fc75" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="be9d-9fda-f819-2de3" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="63c1-30c7-6f9a-0c6f" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="b3da-7c08-4606-88cc" name="Night Lords" hidden="false" targetId="a0f9-a5e5-119a-b692" primary="false"/>
+        <categoryLink id="4f36-e4b5-eeef-cb67" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="9d37-21d5-2ee1-6a21" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="687b-a3e0-e3b9-762d" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2f18-3d8a-6d09-7ec3" name="Melee Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="d19e-71ca-cb71-570a" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7474-807b-f0c0-7a38" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457e-c9cf-0e0c-cd4b" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c06a-a5b9-3a46-e2ba" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry id="1f2c-b3d8-c482-5fe0" name="Ranged Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="1b31-abc7-a9a9-ef95" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="b3a3-b143-0957-af45" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="b8ff-3160-3c7b-20bc" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
