@@ -777,7 +777,7 @@
             </modifierGroup>
           </modifierGroups>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
@@ -843,7 +843,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">4+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/7</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
@@ -888,7 +888,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced</characteristic>
@@ -931,7 +931,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
@@ -974,7 +974,7 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+</characteristic>
@@ -5657,7 +5657,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="5c6b-83b7-5ae2-7677" name="Furious Charge (2 AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Charge action and, if in Engagement range, roll a dice; on a 4+ the target model suffers 1 mortal wound, if the result is 6+ it suffers 2 mortal wounds. </characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Charge action and, if in Engagement Range, roll a dice; on a 4+ the target model suffers 1 mortal wound, if the result is 6+ it suffers 2 mortal wounds. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5744,7 +5744,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d23f-7e9a-da11-3f7e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="33f0-ecb5-1073-09c5" name="Power axe and Frag grenades" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="33f0-ecb5-1073-09c5" name="Power axe and 2 frag grenades" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="be25-b2d9-2b39-57db" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry">
                   <constraints>
@@ -5752,7 +5752,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c01-6b67-67ae-1d07" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="321a-42b2-bf34-52b2" name="Frag grenades" hidden="false" collective="false" import="true" targetId="f4e9-0040-0986-bba0" type="selectionEntry">
+                <entryLink id="321a-42b2-bf34-52b2" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f4e9-0040-0986-bba0" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3e-c55b-2898-5a96" type="max"/>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d2-3ce7-4425-88c8" type="min"/>
@@ -5789,9 +5789,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f4e9-0040-0986-bba0" name="Frag grenades" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f4e9-0040-0986-bba0" name="Frag grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4f78-26db-edc2-324c" name="⌖ Frag grenades" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+        <profile id="4f78-26db-edc2-324c" name="⌖ Frag grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
