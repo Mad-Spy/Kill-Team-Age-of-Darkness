@@ -5848,7 +5848,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="687b-a3e0-e3b9-762d" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2f18-3d8a-6d09-7ec3" name="Melee Weapons" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2f18-3d8a-6d09-7ec3" name="Chainsword and Boltgun or Volkite Charger" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f1-fa8b-c7ba-188b" type="max"/>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a4-4177-4d23-d762" type="max"/>
+          </constraints>
           <entryLinks>
             <entryLink id="d19e-71ca-cb71-570a" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry">
               <constraints>
@@ -5856,17 +5860,71 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457e-c9cf-0e0c-cd4b" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="c06a-a5b9-3a46-e2ba" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntry>
-        <selectionEntry id="1f2c-b3d8-c482-5fe0" name="Ranged Weapons" hidden="false" collective="false" import="true" type="upgrade">
-          <entryLinks>
-            <entryLink id="1b31-abc7-a9a9-ef95" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
-            <entryLink id="b3a3-b143-0957-af45" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
-            <entryLink id="b8ff-3160-3c7b-20bc" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry"/>
+            <entryLink id="9625-7e6b-4cb1-5961" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568d-05c5-3d8d-5089" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d1-376d-c22c-fdde" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c27a-fdcb-f6e4-3057" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b159-3710-a0b0-6be7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6116-fd46-0402-01d7" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="995d-9694-7729-7383" name="Heavy chainsword or chainsword and bolt pistol" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1b-fa8b-cc44-e444" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b29-6fd4-f64d-2b95" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="dded-b112-ab3d-5667" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f71-0a6a-bbb2-08e1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3a-c623-5f9d-8ab6" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2d15-178b-16ab-8373" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5872-859f-6182-4753" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09c9-d2f9-4b01-0f67" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="7ba1-a1f8-65d1-7a9b" name="Night Raptor" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="da08-4d3a-8f36-7423" name="Night Raptor" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a680-913f-bc2d-421d" name="Onslaught" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">If the NIGHT LORDS player has the initiative this operative&apos;s combat attacks gain the Brutal special rule.
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="75ea-a0ca-50a0-d77f" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+        <infoLink id="0041-7d9c-bc64-3929" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="057a-8298-21de-8848" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="447c-b84f-1e03-9151" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
