@@ -55,7 +55,7 @@
     <categoryEntry id="c257-ddb0-6d18-436e" name="Grey Slayer" hidden="false"/>
     <categoryEntry id="8cd4-ec72-ba81-9849" name="Huscarl" hidden="false"/>
     <categoryEntry id="c9c4-335f-39b9-b326" name="Space Wolves" hidden="false"/>
-    <categoryEntry id="ec50-5bf6-0f8a-83ac" name="Imperial Fist" hidden="false"/>
+    <categoryEntry id="ec50-5bf6-0f8a-83ac" name="Imperial Fists" hidden="false"/>
     <categoryEntry id="a0f9-a5e5-119a-b692" name="Night Lords" hidden="false"/>
     <categoryEntry id="4805-c184-ba38-68aa" name="Templar Brother" hidden="false"/>
     <categoryEntry id="5071-0ecf-4633-394c" name="Phalanx Warder" hidden="false"/>
@@ -5671,13 +5671,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="1119-74ac-0a75-1549" name="Templar Brother" hidden="false" targetId="4805-c184-ba38-68aa" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0d75-5cc8-b155-885d" name="Templar Power Sword" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0d75-5cc8-b155-885d" name="Templar power sword" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095b-040c-d351-e365" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ded-c4e9-2bd3-683f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4605-1271-be74-6fba" name="⚔Templar Power Sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="4605-1271-be74-6fba" name="⚔ Templar power sword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -5722,7 +5722,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="dae5-d7b0-eb17-06e2" name="Shield Wall (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative is within Engagement Range of a Friendly Breacher operative then until the end of the Turning Point they are classed as being a terrain element with the Light Cover trait for enemy movement and the targeting of friendly operatives. If this operative is within the Engagement range of 2 or more friendly Breacher operative they are treated as being a terrain element with the Heavy cover trait. This operative and any friendly Breacher operative affected by Shield Wall may be targeted as norma. </characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative is within Engagement Range of a Friendly Breacher operative then until the end of the Turning Point they are classed as being a terrain element with the Light Cover trait for enemy movement and the targeting of friendly operatives. If this operative is within the Engagement range of 2 or more friendly Breacher Astartes operatives they are treated as being a terrain element with the Heavy cover trait. This operative and any friendly Breacher operative affected by Shield Wall may be targeted as normal. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5744,35 +5744,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d23f-7e9a-da11-3f7e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="33f0-ecb5-1073-09c5" name="Power axe and Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="dac8-4e43-4496-3368" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1c5-4b27-c661-7285" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f8-990c-c02f-a6a8" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="c87f-5c61-5acc-63a3" name="⌖Frag Grenades" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                      <characteristics>
-                        <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                        <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                        <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
-                        <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Limited 2, Blast ⬤, Indirect</characteristic>
-                        <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="2aab-e9e4-a97f-5900" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-                    <infoLink id="4e66-34de-d5cd-2ebe" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
-                    <infoLink id="7699-7b08-c422-ce50" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
-                    <infoLink id="74f8-4786-6dd0-2788" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="33f0-ecb5-1073-09c5" name="Power axe and Frag grenades" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="be25-b2d9-2b39-57db" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry">
                   <constraints>
@@ -5780,12 +5752,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c01-6b67-67ae-1d07" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="321a-42b2-bf34-52b2" name="Frag grenades" hidden="false" collective="false" import="true" targetId="f4e9-0040-0986-bba0" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3e-c55b-2898-5a96" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d2-3ce7-4425-88c8" type="min"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="28ed-4af3-4892-96c8" name="Boltgun and Combat Knife" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="28ed-4af3-4892-96c8" name="Boltgun and combat knife" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="5a0c-5cae-4dca-e043" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
                   <constraints>
@@ -5807,6 +5785,28 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4e9-0040-0986-bba0" name="Frag grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4f78-26db-edc2-324c" name="⌖ Frag grenades" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Limited, Blast ⬤, Indirect</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c4d-edf5-b6a2-de6d" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+        <infoLink id="2a20-a9a3-431c-7168" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+        <infoLink id="dd46-77df-a176-4e3e" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+        <infoLink id="e537-8ccb-325d-037a" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>

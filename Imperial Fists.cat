@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bcc2-e833-141f-1df0" name="Imperial Fists" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="4bad-d400-61e6-ebab" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="561d-23db-a75d-43c7" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="108a-b7da-4642-b5ff" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="24b6-5dce-c959-8236" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1027-b2b3-3c66-7bcb" name="Legion Assault Champion" hidden="false" collective="false" import="true" targetId="3536-8383-6538-9bf2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="162c-fa30-77fd-3801" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f304-bad4-f54d-c888" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a606-43e6-ef5d-2923" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8d21-fa68-2649-00b1" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ca02-997e-0ff1-b07f" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1bee-dfa8-3a3b-c4aa" name="Legion Breacher Astartes" hidden="false" collective="false" import="true" targetId="7a35-2750-ee36-7821" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a476-ef83-03ec-a666" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="05a5-6d8e-b93b-1d16" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3021-83f8-25fd-0529" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9c24-8342-dc15-9b74" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="45ec-b75a-5119-e587" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c837-8e51-d2dd-7cb4" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="291b-3379-51c4-3902" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5968-f047-0b71-a0ad" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f76d-4ffd-2ae8-bbb6" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c756-1e77-059b-70b1" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="84e8-382f-824a-9ba9" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7cfb-09cd-ae5a-96bb" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0184-d762-3b8b-bfb9" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b021-2aab-c414-4c32" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d1f0-0956-9879-4c6d" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1331-e88f-3514-1b73" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6f11-1fcf-f6fd-b343" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bc6e-8d71-29f5-c2d5" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f27a-90f6-c91e-bb9b" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f34-c7fb-cc26-f698" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="25f0-7d3f-90a6-f1be" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c201-97e6-584a-ab32" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2daf-0cd3-13ba-1c16" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d1b6-1a5b-c21c-79e1" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="c2e6-52d7-7247-395a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f2e6-3917-8e17-6f98" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1d34-5a60-330b-697a" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6c1b-d033-3c30-9e20" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3721-303d-5aa9-b4a5" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="85f3-935d-6e1f-db28" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8be1-93e0-c081-07d6" name="Legion Seeker" hidden="false" collective="false" import="true" targetId="2441-26d4-df96-3d58" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6690-86ea-0886-2015" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0278-1e96-ae2d-9440" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="da97-816e-6db7-50ab" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9de8-f170-8690-5c46" name="Legion Support Breacher" hidden="false" collective="false" import="true" targetId="6575-bf1b-edd2-21f2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1b2a-ef61-b13d-1540" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fc38-c456-60c6-617f" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="99fa-9f66-7067-fa2b" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e6ef-6d67-7055-0a96" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" targetId="be8d-b895-754b-283e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d27d-5a66-f324-7e36" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="49dc-e2e6-4e27-c679" name="Legion Tactical Astartes Comms" hidden="false" collective="false" import="true" targetId="e661-cc95-3e6b-382b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1f0c-76c1-561e-8355" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bd55-9650-1540-506e" name="Legion Tactical Astartes Vexilla" hidden="false" collective="false" import="true" targetId="634c-97db-0628-917a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d2c-80df-79a2-115a" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f1f2-402d-0c44-fd98" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e713-51d7-94ad-808a" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8820-c102-b5ce-3d50" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="632e-514f-bf5e-c7b9" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c14a-49a3-30cf-438e" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3868-68c1-68e3-1d80" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9be1-2075-3859-4243" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="51cb-5da1-c34d-40bc" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0fb2-6125-7ad8-4a78" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5bcd-2c58-269c-e12b" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b28-c051-d29d-ca11" name="Templar Brother" hidden="false" collective="false" import="true" targetId="d27e-7b78-f506-f156" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3c04-da7c-0713-d756" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="168f-f327-086d-8bf4" name="Phalanx Warder" hidden="false" collective="false" import="true" targetId="4a34-0246-3dce-f822" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5e9d-6e64-b26b-5371" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="7517-5b36-b48b-9d45" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>
