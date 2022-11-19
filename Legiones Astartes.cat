@@ -61,6 +61,9 @@
     <categoryEntry id="5071-0ecf-4633-394c" name="Phalanx Warder" hidden="false"/>
     <categoryEntry id="2377-289e-20d5-c803" name="Executioner" hidden="false"/>
     <categoryEntry id="05d3-1fc1-0477-ffb3" name="Night Raptor" hidden="false"/>
+    <categoryEntry id="aa31-f2b2-9dc3-39d0" name="Blood Angels" hidden="false"/>
+    <categoryEntry id="f6fa-d320-c0cb-412c" name="Angel&apos;s Tear Erelim" hidden="false"/>
+    <categoryEntry id="d586-f6c5-8a82-3795" name="Dawnbreaker Legionary" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -394,6 +397,8 @@
     <entryLink id="600c-bd38-d112-6978" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry"/>
     <entryLink id="81c4-a1f8-3783-051c" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry"/>
     <entryLink id="0ccb-e3f0-1cf2-595d" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry"/>
+    <entryLink id="b544-c6dc-5db6-061f" name="Angel&apos;s Tear Erelim" hidden="false" collective="false" import="true" targetId="354c-9bd6-981e-e521" type="selectionEntry"/>
+    <entryLink id="c656-840e-3c46-9810" name="Dawnbreaker Legionary" hidden="false" collective="false" import="true" targetId="ba74-daa5-ae60-12b8" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2cc8-1e58-31e5-8ffc" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -5976,6 +5981,223 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="354c-9bd6-981e-e521" name="Angel&apos;s Tear Erelim" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="db17-105f-6844-8da3" name="Angel&apos;s Tear Erelim" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="65ba-991b-a35f-f4f5" name="Blazing Fire (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative performs a Shoot action with its Paired Bolt Pistols, which gain the Fusillade special rule for that attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0605-e908-f2a3-6a90" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+        <infoLink id="055e-0e46-fc46-dc2e" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dc9e-2ef6-9c78-8125" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="5436-259c-727d-15e7" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="58c4-67f5-7a6d-f4f5" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="14ae-50ac-2da8-4e8b" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="61d8-a5af-5062-fc75" name="Blood Angels" hidden="false" targetId="aa31-f2b2-9dc3-39d0" primary="false"/>
+        <categoryLink id="1826-ca6f-46c0-533f" name="Angel&apos;s Tear Erelim" hidden="false" targetId="f6fa-d320-c0cb-412c" primary="false"/>
+        <categoryLink id="b2f0-2088-defd-7dca" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c69-f3dc-4a2e-e833" name="Ranged weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntries>
+            <selectionEntry id="05e5-854f-8a30-ce3f" name="Paired bolt pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="257c-964b-7737-7ffe" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f34-fa58-969f-aab9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="42b2-b07b-ee44-0525" name="⌖ Paired bolt pistols" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="893c-ee79-55df-e9a3" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55c6-fd29-63cb-40c0" name="Angel&apos;s Tears grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6b53-4c87-ef94-43ce" name="⌖ Angel&apos;s Tears grenade launcher" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast X, AP1, No Cover, Rad Pulse</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Rending
+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="782e-d118-f5d8-0191" name="Rad Pulse" hidden="false">
+                  <description>Operative within the blast radius of this weapon suffer the negative effects of being Injured regardless of the number of Wounds they currently have. </description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="8bb7-86b6-8f90-3483" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="c300-9bdc-b115-13b8" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+                <infoLink id="a128-8e2b-248c-b1c8" name="No Cover" hidden="false" targetId="c091-97f7-8640-5e56" type="rule"/>
+                <infoLink id="e97b-927c-f525-1929" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2e79-443c-9084-6b0c" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba74-daa5-ae60-12b8" name="Dawnbreaker Legionary" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8abc-c12a-f183-7891" name="Dawnbreaker Legionary" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4a4a-1038-d1ae-f385" name="Meteoric Strike (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Take this combat action in the same turning point in which an operative Falling-Star Power Spear has made their Charge or Jump Pack Assault action. During this combat the weapon profile gains the Rending critical rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b986-66a2-1a5a-c493" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+        <infoLink id="1395-85fd-7ee3-b0f6" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="055a-6586-0f09-534e" name="Blood Angels" hidden="false" targetId="aa31-f2b2-9dc3-39d0" primary="false"/>
+        <categoryLink id="b965-3ab2-abed-eba3" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="0b84-c082-dfcf-f3c3" name="Dawnbreaker Legionary" hidden="false" targetId="d586-f6c5-8a82-3795" primary="false"/>
+        <categoryLink id="31e1-36d5-3363-307b" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="1ac8-beba-723c-107e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="684a-d392-1900-9582" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="72e1-0b19-82eb-45b2" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="469e-8838-e3fc-b93d" name="Melee Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <selectionEntries>
+            <selectionEntry id="b67c-d765-8d30-aef8" name="Falling-Star power spear" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1355-2dd1-690c-c595" name="Falling-Star power spear" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Block, Lethal 5+</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="09cc-0bd9-c42b-418e" name="*Block" hidden="false" targetId="5899-46f0-2e8e-6568" type="rule"/>
+                <infoLink id="5fc9-6168-2397-5896" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e0ac-e01c-6853-581d" name="Equinox power-blade" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="59a4-1544-8a53-6a85" name="⌖ Sunrise" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+, Relentless</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="6bce-8b73-ff2c-13ad" name="⌖ Sunset" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Lethal 5+, Rending</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="82fd-f3ee-883a-6615" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+                <infoLink id="d184-bc89-ccdd-d9ce" name="Relentless" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+                <infoLink id="8c50-3808-71fa-2326" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="67b5-b1db-f89a-6aad" name="Grenade Discharger" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="d4d1-f4b4-3922-b5a4" name="⌖ Grenade Discharger - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤, Rng ⬟</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1038-5dc9-a4f0-c499" name="⌖ Grenade Discharger - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">AP1, Rng ⬟</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
