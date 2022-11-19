@@ -3130,8 +3130,6 @@
         <categoryLink id="99c8-7740-4e03-fdf6" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="623e-9b6f-3179-5e78" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="ecdd-64a8-f67a-441c" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
-        <categoryLink id="0ec0-9074-d06f-1f1c" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
-        <categoryLink id="d0f9-6e1e-e6c9-d051" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="052b-eeca-db9a-9ad9" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
@@ -5847,56 +5845,66 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="9d37-21d5-2ee1-6a21" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="687b-a3e0-e3b9-762d" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2f18-3d8a-6d09-7ec3" name="Chainsword and Boltgun or Volkite Charger" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f1-fa8b-c7ba-188b" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a4-4177-4d23-d762" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="d19e-71ca-cb71-570a" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7474-807b-f0c0-7a38" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457e-c9cf-0e0c-cd4b" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="9625-7e6b-4cb1-5961" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568d-05c5-3d8d-5089" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d1-376d-c22c-fdde" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="c27a-fdcb-f6e4-3057" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b159-3710-a0b0-6be7" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6116-fd46-0402-01d7" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="995d-9694-7729-7383" name="Heavy chainsword or chainsword and bolt pistol" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2147-7f94-e366-3bc9" name="Ranged weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1b-fa8b-cc44-e444" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b29-6fd4-f64d-2b95" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbe1-0124-408d-bac4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0880-b6de-e14a-4b25" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="dded-b112-ab3d-5667" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+            <entryLink id="c0a1-585c-7fd3-a073" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="3578-1935-e5df-0bd5" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="b15a-11cb-14d1-5c06" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="1a90-407b-16a4-ac5a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="861a-9f6d-95bf-71fa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="3182-9d20-1116-ba7b" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="1a90-407b-16a4-ac5a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="861a-9f6d-95bf-71fa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f71-0a6a-bbb2-08e1" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3a-c623-5f9d-8ab6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b15a-11cb-14d1-5c06" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3182-9d20-1116-ba7b" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="2d15-178b-16ab-8373" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry">
+            <entryLink id="e947-d428-47bd-d4ab" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="4081-6e74-84b9-2dfb" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="1a90-407b-16a4-ac5a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="861a-9f6d-95bf-71fa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="0bc2-63dc-a1a8-74e5" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="1a90-407b-16a4-ac5a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="861a-9f6d-95bf-71fa" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5872-859f-6182-4753" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09c9-d2f9-4b01-0f67" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc2-63dc-a1a8-74e5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4081-6e74-84b9-2dfb" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="99a1-09af-d51e-9985" name="Melee weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fc-71b9-fa2f-0897" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8456-d079-45df-491c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="66e1-1d5d-2532-98ef" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="5d1d-a7c8-eef6-4d94" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7ba1-a1f8-65d1-7a9b" name="Night Raptor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -5919,12 +5927,58 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </profiles>
       <infoLinks>
         <infoLink id="75ea-a0ca-50a0-d77f" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
-        <infoLink id="0041-7d9c-bc64-3929" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+        <infoLink id="4dc3-c9f9-17b6-ed70" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="057a-8298-21de-8848" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
         <categoryLink id="447c-b84f-1e03-9151" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c27-1ad6-7f71-aab0" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eca-5d02-b50f-84ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4835-9acd-02a4-2827" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7092-2cdf-60f4-9b24" name="Nostroman chainglaive" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2a71-ce54-fdfe-02f6" name="Nostroman chainglaive" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rending</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2b42-f1dc-99cf-bfd0" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f9de-a23a-d9a6-454f" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="612c-a5ab-8115-cf02" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="0cf6-4830-3133-6c9e" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="c450-c4ca-f924-eefa" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4b71-b3a1-8ab6-d173" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2432-7244-1d47-1082" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb24-ce30-964e-909f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -6246,6 +6300,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="3167-3f1c-dfe6-07a2" name="On Me! (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
       <characteristics>
         <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within 2⬟ of this operative. It may immediately make a free Normal Move towards this operative. This may be done even if the operative has already been activated or has already made a Normal Move action this turning point. This operative cannot perform this action if it is within Engagement Range of an enemy operative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8a9c-cd0b-27be-77cb" name="Jump Pack" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Once per Turning Point when this operative makes a Normal Move, Charge, or Fall Back action, it may elect to use the Jump pack. If it does so, this operative gains the Fly special rule but may not make shoot actions other than Overwatch.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
