@@ -4,13 +4,11 @@
     <entryLink id="e9bf-013a-a9e6-d9e7" name="Executioner" hidden="false" collective="false" import="true" targetId="1a90-407b-16a4-ac5a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2aa6-9755-10a5-f0f9" name="Night Lords" hidden="false" targetId="a0f9-a5e5-119a-b692" primary="false"/>
-        <categoryLink id="6e24-8b6a-3494-ffb1" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1c2e-c858-35e1-38de" name="Night Raptor" hidden="false" collective="false" import="true" targetId="7ba1-a1f8-65d1-7a9b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="99e2-1342-f6e6-4bc6" name="Night Lords" hidden="false" targetId="a0f9-a5e5-119a-b692" primary="false"/>
-        <categoryLink id="41a7-08ce-2dca-e8b7" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1831-6957-934e-1660" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry">
