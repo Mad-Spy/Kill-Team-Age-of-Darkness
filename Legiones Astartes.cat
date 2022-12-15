@@ -66,6 +66,7 @@
     <categoryEntry id="d586-f6c5-8a82-3795" name="Dawnbreaker Legionary" hidden="false"/>
     <categoryEntry id="ff1a-8002-94fa-57ae" name="Erelim" hidden="false"/>
     <categoryEntry id="d0ff-d53f-f2da-21f5" name="Iron Hands" hidden="false"/>
+    <categoryEntry id="cd4f-92cf-4465-7025" name="Immortal" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -6261,6 +6262,60 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="0be6-b4cc-5212-b770" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
         <infoLink id="0d50-4037-6095-9551" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1ea-4cc4-cad4-08e1" name="Immortal" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b136-dad2-0b69-4fbe" name="Immortal" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c954-c32e-f68f-139d" name="Gun Them Down! (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative incapacitates an enemy operative in Combat they may immediately make a free overwatch attack at another enemy operative, rolling an additional attack dice.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7b2d-bc82-fe36-e1b5" name="Boarding Shield" hidden="false" targetId="0c64-fbc3-66a5-63e6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fbfb-e565-f6ec-805d" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="66f7-7816-966c-3744" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="f4b2-f1f0-75e9-dda1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="8e13-566a-6b5d-cda6" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
+        <categoryLink id="8151-6b3e-93c1-f903" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="05d9-5328-159f-01a9" name="Immortal" hidden="false" targetId="cd4f-92cf-4465-7025" primary="false"/>
+        <categoryLink id="5e6d-299f-0bdb-4009" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d208-e803-4814-ae95" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6be1-97ee-ef6e-f785" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5e-3818-7805-9469" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4d29-06db-bee9-d301" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry"/>
+            <entryLink id="9754-0611-033f-1a7e" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="18f5-a1be-9bca-e072" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b5-0bfd-e253-2f99" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbed-ff7e-f48a-06a9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
