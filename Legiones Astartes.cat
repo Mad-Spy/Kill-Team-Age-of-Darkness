@@ -65,6 +65,7 @@
     <categoryEntry id="f6fa-d320-c0cb-412c" name="Angel&apos;s Tear" hidden="false"/>
     <categoryEntry id="d586-f6c5-8a82-3795" name="Dawnbreaker Legionary" hidden="false"/>
     <categoryEntry id="ff1a-8002-94fa-57ae" name="Erelim" hidden="false"/>
+    <categoryEntry id="d0ff-d53f-f2da-21f5" name="Iron Hands" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -141,6 +142,16 @@
                   <conditions>
                     <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="493e-289e-6e91-1b90" type="instanceOf"/>
                     <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7a35-2750-ee36-7821" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="acac-0f03-11ad-c418" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0704-d04a-aec6-07ea" type="equalTo"/>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c483-6e8d-0abc-a21b" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -695,15 +706,10 @@
       <profiles>
         <profile id="7bf0-f38a-89d0-c2a6" name="⚔ Combat knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
-            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0527-1bb7-7129-a292" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+              </conditions>
             </modifier>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
               <conditions>
@@ -848,8 +854,9 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-ffc0-6d28-2338" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5071-0ecf-4633-394c" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="05d3-1fc1-0477-ffb3" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-ffc0-6d28-2338" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -915,13 +922,14 @@
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Slam ▲/⬤</characteristic>
             <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="ff46-1e2e-ed8e-887b" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
+        <infoLink id="6df6-b252-91c5-f71e" name="Slam X/Y" hidden="false" targetId="e212-d14a-07b3-6611" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -1249,13 +1257,14 @@
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Slam ▲/⬛</characteristic>
             <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="21c7-b737-5dda-15f9" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
+        <infoLink id="51b0-193e-2e6a-85b3" name="Slam X/Y" hidden="false" targetId="e212-d14a-07b3-6611" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -1394,11 +1403,11 @@
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a04e-b083-874a-2497" name="Storm shield" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a04e-b083-874a-2497" name="Terminator Storm Shield" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b1a4-f634-018a-2335" name="Storm shield" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+        <profile id="b1a4-f634-018a-2335" name="Terminator Storm Shield" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative gains an additional defence dice when targeted by a Shoot action and increases their Invulnerable save by 1. Additionally, each time this operative fights in a combat, in the Resolve Successful Hits steps of that combat, each time it parries, two of your opponents successful hits are discarded (instead of one).</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative fights in a combat, in the Resolve Successful Hits steps of that combat, each time it parries, two of your opponents  successful hits are discarded (instead of one). Additionally, this operative adds +1 to the result when re-rolling a failed Save roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2091,6 +2100,11 @@
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
+        <profile id="376e-6fe9-7d1f-db5a" name="For the Primarch! (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative and any unactivated friendly &lt;LEGION&gt; operative within ⬛ with either the ASSAULT ASTARTES or FIGHTER keywords may immediately make a Charge action or, if equipped with Jump Packs, a Jump Pack Assault action. All operatives must then make a Fight Action or provide combat support. Operatives may be activated by this action regardless of the order they currently have. All operatives involved are considered to have been activated for this turning point.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="092a-5102-ddd7-82c4" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -2274,6 +2288,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="4ad0-1fee-6ecd-7ff9" name="Boarding Shield" hidden="false" targetId="0c64-fbc3-66a5-63e6" type="profile"/>
+        <infoLink id="b9d8-2bff-15b3-a50a" name="Shield Wall (2AP)" hidden="false" targetId="6876-4c3a-2965-22c7" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4eab-6f48-443c-2fa0" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -2562,17 +2577,39 @@
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Deflagrate*, Heavy, AP1</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Deflagrate*, Heavy, Lethal 5+</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="6c9c-ce50-746c-d934" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="6c9c-ce50-746c-d934" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
                 <infoLink id="c85d-938d-ee82-2cfe" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
                 <infoLink id="1163-0c76-4294-43ea" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
                 <infoLink id="8c67-f3af-7446-7b36" name="*Deflagrate" hidden="false" targetId="585c-13e7-27aa-0d6d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c4b3-0465-3822-3c71" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1fb6-f62a-d259-91d2" name="⌖ Lascannon" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/1</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP2, Unwieldy</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW6</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6c17-7585-0652-dcdd" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+                <infoLink id="d637-e5ff-bab1-023e" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="68f3-850f-758b-f383" name="Unwieldy" hidden="false" targetId="b30a-9fa8-7a06-ce70" type="rule"/>
+                <infoLink id="8ac1-1a83-b008-0598" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2658,6 +2695,11 @@
             <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
             <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb89-f3a4-7da3-a517" name="Strike and Fade (3AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative and any unactivated friendly RECON ASTARTES operatives within ⬛ are immediately activated and make a Shoot or Fight action followed by a Fall Back action. Operatives may be activated by this action regardless of the order they currently have but after they have concluded their Fall Back action these operatives are given a Conceal order. All operatives involved are considered to have been activated for this Turning Point.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3076,8 +3118,8 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ecda-11c6-50b7-657d" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="false"/>
-        <categoryLink id="128f-7857-7b85-d40a" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="ecda-11c6-50b7-657d" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
+        <categoryLink id="128f-7857-7b85-d40a" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="99c8-7740-4e03-fdf6" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="623e-9b6f-3179-5e78" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="ecdd-64a8-f67a-441c" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
@@ -3495,7 +3537,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="8a32-8ae7-573d-d897" name="Fury of the Legion (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Make a shooting attack with this operative&apos;s boltgun. That attack is modified by the number of boltgun equipped TACTICAL ASTARTES operatives within ⬛ of this operative;
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Make a shooting attack with this operative&apos;s boltgun. That attack is modified by the number of boltgun equipped operatives with the  TACTICAL ASTARTES keyword within ⬛ of this operative;
 1 - Increase the Attacks characteristic of the boltgun to 6.
 2 - The attack gains the Fusillade special rule.
 3 - Increase the Attacks characteristic of the boltgun to 8.
@@ -3602,7 +3644,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="9c06-a47a-c575-3274" name="Companion" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is within ⬤ of a friendly LEADER, that LEADER may not be targeted by shooting attacks. In addition, if that friendly LEADER is successfully targeted for a charge action, this operative may immediately be placed within the charging operative&apos;s Engagement Range.</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is within of their Kill Team LEADER that operative may not be targeted by shooting attacks. Additionally, if that operative is successfully targeted for a charge action this operative may immediately be placed within the charging enemy operative&apos;s Engagement Range.</characteristic>
           </characteristics>
         </profile>
         <profile id="2613-7965-8309-8ff9" name="Scion of the Deathwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -3668,8 +3710,8 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <profile id="fb09-e89a-7b3a-d230" name="⚔ Terranic greatsword" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
                   </characteristics>
@@ -4193,7 +4235,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="247c-0196-eff8-0b8f" name="Sensation Seeker" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is attacked, do not apply any critical rules associated with the attacking weapon&apos;s profile.</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative is attacked, do not apply any critical rules associated with the attacking weapon&apos;s profile. Additionally, this operative cannot be Injured.</characteristic>
           </characteristics>
         </profile>
         <profile id="4427-8e23-6fb2-c2dc" name="Stubborn" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -4239,13 +4281,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
                 <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/6</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">AP2, Blast ⬤, Heavy, Hot, No Cover, Suppress*</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">AP2, Blast ⬤, Heavy, Hot, No Cover, Sonic Overload*</characteristic>
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
-            <rule id="7684-802a-3235-254c" name="*Suppress" hidden="false">
+            <rule id="7684-802a-3235-254c" name="*Sonic Overload" hidden="false">
               <description>When this operative makes a Suppress action with this weapon, any model that receives one or more Suppression tokens suffers 2 mortal wounds.</description>
             </rule>
           </rules>
@@ -4813,9 +4855,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fc-d47c-2b77-f6b1" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e43d-ae9d-6d51-b9d4" name="Heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e43d-ae9d-6d51-b9d4" name="Shrapnel heavy boltgun" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="75d9-3ecd-3c63-7735" name="⌖ Heavy boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                <profile id="75d9-3ecd-3c63-7735" name="⌖ Shrapnel heavy boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -5049,6 +5091,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
+        <profile id="e885-0c44-113d-c36d" name="Strength of the Pack (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative and any unactivated GREY SLAYER operatives within ⬛ may immediately make a Fight action. If any target operatives do not take Critical damage repeat the attack on them. All GREY SLAYER operatives involved are considered to have been activated for this turning point.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="18fd-042c-d8e4-ca2a" name="Legiones Astartes" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -5116,7 +5163,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Frost*</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Frost*, Slam ▲/⬤</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
                   </characteristics>
                 </profile>
@@ -5124,6 +5171,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <infoLinks>
                 <infoLink id="147c-4f0b-81e2-c84c" name="*Frost" hidden="false" targetId="3406-5f43-ed46-5b98" type="rule"/>
                 <infoLink id="adc7-0821-311a-9039" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
+                <infoLink id="6df9-23c3-2087-2f0b" name="Slam X/Y" hidden="false" targetId="e212-d14a-07b3-6611" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -5454,12 +5502,12 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">If this operative is incapacitated in combat, roll 5 D6: for each 5+, an enemy operative within Engagement Range of this operative suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d10e-19f1-1376-2de6" name="Ymira Dilation" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+        <profile id="d10e-19f1-1376-2de6" name="Yimira Dilation" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Operatives within Engagement Range of this operative treat their APL as being 1 lower. Note that this is not a modifier.</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Operatives within Engagement Range of this operative treat their APL as being 1 lower. This does not count as a modifier.</characteristic>
           </characteristics>
         </profile>
-        <profile id="904e-10f5-06c8-83ea" name="Ymira Stasis Bomb (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+        <profile id="904e-10f5-06c8-83ea" name="Yimira Stasis Bomb (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
             <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Once per game, this operative a ranged attack with the Ymira Stasis Bomb weapon profile.</characteristic>
           </characteristics>
@@ -5475,18 +5523,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="40eb-c8c2-3e1c-ac65" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="115f-7a0f-64e2-ccd9" name="Ymira stasis bomb" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="115f-7a0f-64e2-ccd9" name="Yimira stasis bomb" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d77-6064-b3e8-c155" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee4c-c9e3-1449-cada" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9f48-e650-05bf-0ada" name="⌖ Ymira stasis bomb" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="9f48-e650-05bf-0ada" name="⌖ Yimira stasis bomb" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                 <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/2</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, Hot, Stasis*, Limited</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, Hot, No Cover, Stasis*</characteristic>
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
               </characteristics>
             </profile>
@@ -5500,7 +5548,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <infoLink id="54db-4b6c-f91b-8c4d" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
             <infoLink id="494f-1fa8-5909-00d2" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
             <infoLink id="25ed-d840-6102-fe6f" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
-            <infoLink id="f61f-7e27-e13a-280d" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+            <infoLink id="f61f-7e27-e13a-280d" name="No Cover" hidden="false" targetId="c091-97f7-8640-5e56" type="rule"/>
             <infoLink id="2530-307f-725a-fe12" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
           </infoLinks>
           <costs>
@@ -5604,18 +5652,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="5c6b-83b7-5ae2-7677" name="Furious Charge (2 AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Charge action and, if in Engagement Range, roll a dice; on a 4+ the target model suffers 1 mortal wound, if the result is 6+ it suffers 2 mortal wounds. </characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Charge action and, once in Engagement Range with the target operative, roll a dice; on a 4+ the target model suffers 1 mortal wound, if the result is 6+ it suffers 2 mortal wounds. </characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="452e-cbfb-bff6-768e" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
-        <categoryLink id="339a-0064-55df-4c41" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
-        <categoryLink id="0664-8a01-820b-1299" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="43e1-7e29-96b6-84e9" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
-        <categoryLink id="6e8b-5bfb-ac18-633d" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
         <categoryLink id="797b-b550-6620-56eb" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
-        <categoryLink id="1119-74ac-0a75-1549" name="Templar Brother" hidden="false" targetId="4805-c184-ba38-68aa" primary="false"/>
+        <categoryLink id="ec91-68e5-bace-4294" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="a920-66cd-e76c-5399" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="8360-675f-247f-6c9a" name="Imperial Fists" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+        <categoryLink id="fd2a-965a-4e7d-83e9" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="3b42-80c4-1d5d-65df" name="Templar Brother" hidden="false" targetId="4805-c184-ba38-68aa" primary="false"/>
+        <categoryLink id="4172-41e5-3dcf-0be1" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0d75-5cc8-b155-885d" name="Templar power sword" hidden="false" collective="false" import="true" type="upgrade">
@@ -5667,22 +5715,19 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="dae5-d7b0-eb17-06e2" name="Shield Wall (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
-          <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative is within Engagement Range of a Friendly Breacher operative then until the end of the Turning Point they are classed as being a terrain element with the Light Cover trait for enemy movement and the targeting of friendly operatives. If this operative is within the Engagement range of 2 or more friendly Breacher Astartes operatives they are treated as being a terrain element with the Heavy cover trait. This operative and any friendly Breacher operative affected by Shield Wall may be targeted as normal. </characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="22a6-1ed9-57da-93ba" name="Boarding Shield" hidden="false" targetId="0c64-fbc3-66a5-63e6" type="profile"/>
+        <infoLink id="5d65-c12a-04f4-3267" name="Shield Wall (2AP)" hidden="false" targetId="6876-4c3a-2965-22c7" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c22-07d1-db7c-bc25" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
-        <categoryLink id="cf6b-f38a-cb85-2d72" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
-        <categoryLink id="fc77-c778-65c4-fc40" name="Phalanx Warder" hidden="false" targetId="5071-0ecf-4633-394c" primary="false"/>
         <categoryLink id="5523-62dc-625f-d271" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
-        <categoryLink id="c67b-e25b-373b-4cd1" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="668b-c2a6-1b6a-c87d" name="Imperial Fist" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+        <categoryLink id="4fc3-f061-ab6f-c016" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="bf4c-f0e9-0a29-f895" name="Imperial Fists" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
+        <categoryLink id="def2-73a1-c88f-71bd" name="Phalanx Warder" hidden="false" targetId="5071-0ecf-4633-394c" primary="false"/>
+        <categoryLink id="5054-726e-d225-bf8c" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false"/>
+        <categoryLink id="b7ed-f137-2669-1dce" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1b17-7ee3-9fdd-79d1" name="Weapons" hidden="false" collective="false" import="true">
@@ -5701,8 +5746,8 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 </entryLink>
                 <entryLink id="321a-42b2-bf34-52b2" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f4e9-0040-0986-bba0" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3e-c55b-2898-5a96" type="max"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d2-3ce7-4425-88c8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3e-c55b-2898-5a96" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d2-3ce7-4425-88c8" type="min"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -5739,12 +5784,19 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <selectionEntry id="f4e9-0040-0986-bba0" name="Frag grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4f78-26db-edc2-324c" name="⌖ Frag grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <modifiers>
+            <modifier type="set" field="c9c0-f6c9-c787-e650" value="Rng ⬟, Limited 2, Blast ⬤, Indirect">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5071-0ecf-4633-394c" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Limited, Blast ⬤, Indirect</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6250,7 +6302,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <profiles>
             <profile id="cec9-bffe-282f-aeca" name="Sweeping Advance" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
               <characteristics>
-                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When this operative causes an enemy operative to become Injured or Incapacitated it may immediately move up to ⬛. This not only allows this operative to leave Engagement Range but may bring the operative into another operative&apos;s Engagement Range.</characteristic>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When, as part of a Fight action, this operative causes an enemy operative to become Injured or Incapacitated it may immediately move up to ⬛. This not only allows this operative to leave an engagement zone but may bring the operative into another operative engagement range.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6405,13 +6457,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <description>Each time this operative makes a shooting attack with this weapon, if the target has an unmodified Save characteristic of 3+ or better, this weapon has the Lethal 4+ special rule for that attack.</description>
     </rule>
     <rule id="585c-13e7-27aa-0d6d" name="*Deflagrate" hidden="false">
-      <description>If one or more critical hit is rolled during the Roll Attack Dice step of a shooting attack made with this weapon, the defender immediately suffers 1 mortal wound before moving to the next step.</description>
+      <description>If a critical hit is rolled during the Roll Attack Dice step of a shooting attack that critical hit is resolved at AP1 and has the Splash1 special rule.</description>
     </rule>
     <rule id="83d1-b115-4b07-7ded" name="*Suppress" hidden="false">
       <description>When an operative makes an attack with this weapon, any operatives taking damage also receive a single Suppression token.</description>
     </rule>
     <rule id="937e-e365-bcd0-c8aa" name="Terminator Armour" hidden="false">
-      <description>This operative cannot be given a Conceal order nor may it make Climb actions. This operative treats all Light Terrain as having the Traversable trait. Each time this operative is the target of a shooting attack they roll a number of defence dice equal to attack stat of the weapon used in that attack. Additionally this operative ignores the Px or Lethal X+ special rules of a weapon used to attack them.</description>
+      <description>Each time this operative is the target of a shooting attack they roll a number of defence dice equal to Attack stat of the weapon used in that attack. This operative may re-roll any failed Save rolls, ignoring APx, succeeding on a result of 5+. This operative may not perform a Climb action on Light Terrain but treats such terrain as having the Traversable trait. This operative cannot be given a Conceal order.</description>
     </rule>
     <rule id="9a65-ea69-7fa0-01f4" name="Jump Pack" hidden="false">
       <description>Once per Turning Point when this operative makes a Normal Move, Charge, or Fall Back action, it may elect to use the Jump pack. If it does so, this operative gains the Fly special rule but may not make shoot actions other than Overwatch.</description>
@@ -6543,6 +6595,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="512a-6246-9daf-a17c" name="Precision Strike (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
       <characteristics>
         <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a Fight action during which, in the Roll Attack Dice step of that combat attack, you can retain one normal hit as a critical hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6876-4c3a-2965-22c7" name="Shield Wall (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+      <characteristics>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative is within Engagement Range of a Friendly BREACHER ASTARTES operative then until the end of the Turning Point they are classed as being a terrain element with the Light cover trait for enemy movement and the targeting of friendly operatives. If this operative is within the Engagement range of 2 or more friendly BREACHER ASTARTES operatives they are treated as being a terrain element with the Heavy cover trait. This operative and any friendly BREACHER ASTARTES operative affected by Shield Wall may be targeted as normal.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
