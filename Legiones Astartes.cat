@@ -62,8 +62,9 @@
     <categoryEntry id="2377-289e-20d5-c803" name="Executioner" hidden="false"/>
     <categoryEntry id="05d3-1fc1-0477-ffb3" name="Night Raptor" hidden="false"/>
     <categoryEntry id="aa31-f2b2-9dc3-39d0" name="Blood Angels" hidden="false"/>
-    <categoryEntry id="f6fa-d320-c0cb-412c" name="Angel&apos;s Tear Erelim" hidden="false"/>
+    <categoryEntry id="f6fa-d320-c0cb-412c" name="Angel&apos;s Tear" hidden="false"/>
     <categoryEntry id="d586-f6c5-8a82-3795" name="Dawnbreaker Legionary" hidden="false"/>
+    <categoryEntry id="ff1a-8002-94fa-57ae" name="Erelim" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -359,47 +360,6 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <entryLinks>
-    <entryLink id="a5bf-0aac-292d-e588" name="Legion Assault Champion" hidden="false" collective="false" import="true" targetId="3536-8383-6538-9bf2" type="selectionEntry"/>
-    <entryLink id="b9e7-2c12-357f-d9f0" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry"/>
-    <entryLink id="cb12-1040-e97f-bc36" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry"/>
-    <entryLink id="d221-3f86-838f-a020" name="Legion Breacher Astartes" hidden="false" collective="false" import="true" targetId="7a35-2750-ee36-7821" type="selectionEntry"/>
-    <entryLink id="cf99-3567-6955-b41d" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry"/>
-    <entryLink id="44b4-f820-7cf2-6d0a" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry"/>
-    <entryLink id="9aa9-d0d0-ac33-55a2" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry"/>
-    <entryLink id="dc4d-914e-46d9-4c71" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry"/>
-    <entryLink id="c9c4-2ccc-274b-2a7b" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry"/>
-    <entryLink id="c093-1629-a1b8-1ec9" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry"/>
-    <entryLink id="af3c-d503-8d77-a3bc" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry"/>
-    <entryLink id="41bb-eef6-34ee-fab9" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry"/>
-    <entryLink id="4731-9f84-fe86-fdcc" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry"/>
-    <entryLink id="9807-cd20-be94-c545" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="c2e6-52d7-7247-395a" type="selectionEntry"/>
-    <entryLink id="49c7-3ef2-b3cd-cdc0" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry"/>
-    <entryLink id="02a6-bb61-a709-b121" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry"/>
-    <entryLink id="b4cc-7d92-c94b-1fc2" name="Legion Seeker" hidden="true" collective="false" import="true" targetId="2441-26d4-df96-3d58" type="selectionEntry"/>
-    <entryLink id="d8d3-4e22-111c-1609" name="Legion Support Breacher" hidden="false" collective="false" import="true" targetId="6575-bf1b-edd2-21f2" type="selectionEntry"/>
-    <entryLink id="822e-9b6b-afc0-9279" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry"/>
-    <entryLink id="ef32-ae58-00ef-9929" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" targetId="be8d-b895-754b-283e" type="selectionEntry"/>
-    <entryLink id="c3f2-abdd-298b-a7a6" name="Legion Tactical Astartes Comms" hidden="false" collective="false" import="true" targetId="e661-cc95-3e6b-382b" type="selectionEntry"/>
-    <entryLink id="2ab8-7f58-9ce1-efe9" name="Legion Tactical Astartes Vexilla" hidden="false" collective="false" import="true" targetId="634c-97db-0628-917a" type="selectionEntry"/>
-    <entryLink id="0991-3945-712f-9668" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d1e2-3e32-a22a-f85c" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
-        <categoryLink id="d164-5350-d558-040b" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="26b8-5202-4409-7199" name="Leader" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="c5e3-e79a-4dd7-47d9" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry"/>
-    <entryLink id="3265-9106-37f5-f590" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry"/>
-    <entryLink id="6810-4922-672f-caf0" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry"/>
-    <entryLink id="fd1d-9a9b-1f6f-78e7" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry"/>
-    <entryLink id="9485-b549-67fc-a12c" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry"/>
-    <entryLink id="600c-bd38-d112-6978" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry"/>
-    <entryLink id="81c4-a1f8-3783-051c" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry"/>
-    <entryLink id="0ccb-e3f0-1cf2-595d" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry"/>
-    <entryLink id="b544-c6dc-5db6-061f" name="Angel&apos;s Tear Erelim" hidden="false" collective="false" import="true" targetId="354c-9bd6-981e-e521" type="selectionEntry"/>
-    <entryLink id="c656-840e-3c46-9810" name="Dawnbreaker Legionary" hidden="false" collective="false" import="true" targetId="ba74-daa5-ae60-12b8" type="selectionEntry"/>
-  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2cc8-1e58-31e5-8ffc" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1362,8 +1322,8 @@
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Deflagrate*, Rng ⬟</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1595,39 +1555,6 @@
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9c64-58a3-3152-7bd7" name="Paired volkite serpentas" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="6909-74a3-2960-1908" name="⌖ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="d30f-17b1-5c80-e967" name="⚔ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Deflagrate</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="e1c9-128e-e642-cd47" name="*Deflagrate" hidden="false">
-                  <description>If one or more critical hit is rolled during the Roll Attack Dice step of a shooting attack made with this weapon, the defender immediately suffers 1 mortal wound before moving to the next step.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="caf3-f75e-8d36-1c1c" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="7308-c26b-ecbb-c8d9" name="Paired bolt pistols" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="89e6-f2fd-af76-93e4" name="⌖ Paired bolt pistols" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
@@ -1657,6 +1584,9 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="e2b8-7450-d76f-90f4" name="Paired volkite serpentas" hidden="false" collective="false" import="true" targetId="feb9-5693-4c25-24f9" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6040,24 +5970,20 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="65ba-991b-a35f-f4f5" name="Blazing Fire (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
-          <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative performs a Shoot action with its Paired Bolt Pistols, which gain the Fusillade special rule for that attack.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0605-e908-f2a3-6a90" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
         <infoLink id="055e-0e46-fc46-dc2e" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="dc9e-2ef6-9c78-8125" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
-        <categoryLink id="5436-259c-727d-15e7" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="58c4-67f5-7a6d-f4f5" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
-        <categoryLink id="14ae-50ac-2da8-4e8b" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
-        <categoryLink id="61d8-a5af-5062-fc75" name="Blood Angels" hidden="false" targetId="aa31-f2b2-9dc3-39d0" primary="false"/>
-        <categoryLink id="1826-ca6f-46c0-533f" name="Angel&apos;s Tear Erelim" hidden="false" targetId="f6fa-d320-c0cb-412c" primary="false"/>
         <categoryLink id="b2f0-2088-defd-7dca" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="dc9e-2ef6-9c78-8125" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="bbf3-6ba3-26ba-827b" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="0a95-d1fa-bd8c-035f" name="Blood Angels" hidden="false" targetId="aa31-f2b2-9dc3-39d0" primary="false"/>
+        <categoryLink id="2bdb-e474-54cd-cd6c" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="768a-6f3a-cac3-c351" name="Angel&apos;s Tear" hidden="false" targetId="f6fa-d320-c0cb-412c" primary="false"/>
+        <categoryLink id="3c69-0850-4ec3-5bf8" name="Erelim" hidden="false" targetId="ff1a-8002-94fa-57ae" primary="false"/>
+        <categoryLink id="588e-3f27-89d0-647a" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c50d-41c3-4316-8b83" name="Ranged weapons" hidden="false" collective="false" import="true">
@@ -6066,25 +5992,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f68-dbec-83e9-2f99" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="552f-3fbd-920b-710b" name="Paired bolt pistols" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="011d-90fd-8426-4c55" name="⌖ Paired bolt pistols" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="0b72-43bc-e5f8-2a17" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="ec0f-867e-e00f-ae2c" name="Angel&apos;s Tears grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="f010-94a7-e877-af3b" name="⌖ Angel&apos;s Tears grenade launcher" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
@@ -6092,15 +5999,15 @@ Until the end of the Turning Point, all operatives involved in this action may n
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast X, AP1, No Cover, Rad Pulse</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤, AP1, No Cover, Rad Pulse*</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">Rending
 </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <rules>
-                <rule id="b0c2-1e29-d3c7-7319" name="Rad Pulse" hidden="false">
-                  <description>Operative within the blast radius of this weapon suffer the negative effects of being Injured regardless of the number of Wounds they currently have. </description>
+                <rule id="b0c2-1e29-d3c7-7319" name="*Rad Pulse" hidden="false">
+                  <description>Operatives within the blast radius of this weapon suffer the negative effects of being Injured regardless of the number of Wounds they currently have. </description>
                 </rule>
               </rules>
               <infoLinks>
@@ -6114,6 +6021,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="f030-9996-9ec4-89c6" name="Paired volkite serpentas" hidden="false" collective="false" import="true" targetId="feb9-5693-4c25-24f9" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6140,33 +6050,28 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="4a4a-1038-d1ae-f385" name="Meteoric Strike (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
-          <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Take this combat action in the same turning point in which an operative Falling-Star Power Spear has made their Charge or Jump Pack Assault action. During this combat the weapon profile gains the Rending critical rule.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b986-66a2-1a5a-c493" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
         <infoLink id="1395-85fd-7ee3-b0f6" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="055a-6586-0f09-534e" name="Blood Angels" hidden="false" targetId="aa31-f2b2-9dc3-39d0" primary="false"/>
-        <categoryLink id="b965-3ab2-abed-eba3" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
-        <categoryLink id="0b84-c082-dfcf-f3c3" name="Dawnbreaker Legionary" hidden="false" targetId="d586-f6c5-8a82-3795" primary="false"/>
-        <categoryLink id="31e1-36d5-3363-307b" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
-        <categoryLink id="1ac8-beba-723c-107e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="684a-d392-1900-9582" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="72e1-0b19-82eb-45b2" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="684a-d392-1900-9582" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="1ea8-fed3-8bf2-885e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="917b-13fb-60d7-1c72" name="Blood Angels" hidden="false" targetId="aa31-f2b2-9dc3-39d0" primary="false"/>
+        <categoryLink id="21c8-1aff-9b6e-3987" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="2dff-cd94-2e23-3100" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="d638-48ce-7fee-be1f" name="Dawnbreaker Legionary" hidden="false" targetId="d586-f6c5-8a82-3795" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="67b5-b1db-f89a-6aad" name="Grenade Discharger" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="67b5-b1db-f89a-6aad" name="Grenade discharger" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa8-c1ee-b0d0-772f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="714d-673f-c48d-9016" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d4d1-f4b4-3922-b5a4" name="⌖ Grenade Discharger - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="d4d1-f4b4-3922-b5a4" name="⌖ Grenade discharger - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -6175,7 +6080,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="1038-5dc9-a4f0-c499" name="⌖ Grenade Discharger - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="1038-5dc9-a4f0-c499" name="⌖ Grenade discharger - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -6185,6 +6090,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="c79a-f8f6-933e-5b4d" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="fa91-8cc3-8b29-ba98" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+            <infoLink id="f49f-31cf-3632-95e7" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
@@ -6199,7 +6109,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <selectionEntries>
             <selectionEntry id="d3d9-f87e-c877-c544" name="Equinox power-blade" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="b65c-edac-cf3e-8c8a" name="⌖ Sunrise" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                <profile id="b65c-edac-cf3e-8c8a" name="⚔ Equinox power blade - Sunrise" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -6208,7 +6118,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="e74a-743c-becb-48e0" name="⌖ Sunset" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                <profile id="e74a-743c-becb-48e0" name="⚔ Equinox power blade - Sunset" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -6229,13 +6139,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </selectionEntry>
             <selectionEntry id="017c-99c6-9b48-b399" name="Falling-Star power spear" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="f76e-3879-def8-d89b" name="Falling-Star power spear" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                <profile id="f76e-3879-def8-d89b" name="⚔ Falling-Star power spear" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
                     <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Block, Lethal 5+</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f8f9-a1dd-8d59-9a72" name="Meteoric Strike (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+                  <characteristics>
+                    <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Take this combat action in the same turning point in which an operative equipped with a Falling-Star Power Spear has made either a Charge or Jump Pack Assault action. During this combat the weapon profile gains the Rending critical rule.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6250,6 +6165,50 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="feb9-5693-4c25-24f9" name="Paired volkite serpentas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="df03-9364-6846-9c4c" name="⌖ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <modifiers>
+            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94c-9345-b4b1-9473" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Ceaseless, Rng ⬟</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af4b-ce2a-060d-3ee3" name="⚔ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94c-9345-b4b1-9473" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="268d-78c3-614a-84eb" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+        <infoLink id="0be6-b4cc-5212-b770" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
+        <infoLink id="0d50-4037-6095-9551" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6515,7 +6474,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="8f3d-e000-7405-4b24" name="Jump Pack Assault (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
       <characteristics>
-        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a charge action, using the Jump Pack ability. Roll a D6 for the target operative, on a 5+ that operative is pushed back and counts as being hit once with a combat weapon that has the Stun rule.</characteristic>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a charge action, using the Jump Pack ability. Roll a D6 for the target operative, on a 5+ that operative is pushed back ⬤ and counts as being hit once with a combat weapon that has the Stun rule. This operative may then be moved into Engagement Range with the target operative.</characteristic>
       </characteristics>
     </profile>
     <profile id="d860-18b0-9682-7494" name="Scion of the Dreadwing" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
