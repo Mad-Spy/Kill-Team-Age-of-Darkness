@@ -67,6 +67,8 @@
     <categoryEntry id="ff1a-8002-94fa-57ae" name="Erelim" hidden="false"/>
     <categoryEntry id="d0ff-d53f-f2da-21f5" name="Iron Hands" hidden="false"/>
     <categoryEntry id="cd4f-92cf-4465-7025" name="Immortal" hidden="false"/>
+    <categoryEntry id="f958-d4f0-329b-9f08" name="World Eaters" hidden="false"/>
+    <categoryEntry id="d2bb-d8fb-6e33-1c06" name="Rampager" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -751,6 +753,7 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2bb-d8fb-6e33-1c06" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2377-289e-20d5-c803" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -761,8 +764,8 @@
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -780,6 +783,7 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2377-289e-20d5-c803" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2bb-d8fb-6e33-1c06" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1550,11 +1554,11 @@
                 </profile>
                 <profile id="b753-2d58-7b2f-8c03" name="⚔ Pistol whip" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c"/>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031"/>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489"/>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1593,10 +1597,16 @@
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="465b-e852-0aab-5eb3" name="Paired volkite serpentas" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="e987-95ac-e3c9-9fb2" name="⌖ Paired volkite serpentas" hidden="false" targetId="7ed9-76e9-226d-5dfb" type="profile"/>
+                <infoLink id="617c-aed2-6053-e4b0" name="⚔ Paired volkite serpentas" hidden="false" targetId="f462-a5c0-ce1a-fb54" type="profile"/>
+                <infoLink id="73aa-9dd3-6e6b-028f" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
+                <infoLink id="9de9-bf83-0f4f-cd45" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+                <infoLink id="7f0d-b31e-da81-ef95" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="e2b8-7450-d76f-90f4" name="Paired volkite serpentas" hidden="false" collective="false" import="true" targetId="feb9-5693-4c25-24f9" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -1694,6 +1704,7 @@
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3c-49ea-21a7-f883" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="c94d-7ccd-02ab-74bc" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ddf5-253b-1518-bd4b" name="Ranged Weapon" hidden="false" collective="false" import="true">
@@ -1807,6 +1818,7 @@
             <entryLink id="f4e2-49bc-cb3a-c2e3" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
             <entryLink id="a19f-ffed-9a11-8b11" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="087e-0229-a006-9a7e" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="4a9d-1e87-4fbb-5c9e" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1864,6 +1876,7 @@
             <entryLink id="60a6-6ebf-a557-485a" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
             <entryLink id="5452-c79b-915f-df69" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
             <entryLink id="c5ce-132f-65a3-bc88" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="f74f-5bf5-875b-4a64" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1bb1-0c5a-784f-0e8e" name="Pistol" hidden="false" collective="false" import="true">
@@ -2154,6 +2167,7 @@
             <entryLink id="adb3-7368-d235-10c5" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="a457-638c-f879-79e9" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
             <entryLink id="521d-27e6-80fb-6994" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="7672-9f4d-38d0-168a" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2263,10 +2277,10 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1f20-abb1-0ff5-a2f2" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
-        <entryLink id="0d2e-3a7c-d265-4bcf" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry">
+        <entryLink id="3795-c85d-c809-02f4" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7025-f7b2-497f-ef21" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b121-e140-65b9-e48f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df35-fe2a-e76b-c7e5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a56-b09e-4c31-56c3" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2299,7 +2313,7 @@
         <categoryLink id="29bb-9d93-c661-0909" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8c8d-9c2e-478e-ec3a" name="Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8c8d-9c2e-478e-ec3a" name="Ranged weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d72-2cde-2e32-ad9d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b0-1266-1041-b893" type="max"/>
@@ -2316,14 +2330,18 @@
             <entryLink id="348a-b9fa-8389-1530" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="aea5-a3df-73e5-e3a4" name="Melee weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="007a-2bec-90ad-bfb2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6520-2197-20c4-5670" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb18-2b4d-4d8c-8f53" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="007a-2bec-90ad-bfb2" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="f62a-ab9d-6449-d30f" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4b68-e08f-a1c5-d56f" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28f-a1a1-a8cc-5f38" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="966b-eed7-4ada-ab6b" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="2289-2a88-c392-664f" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -2782,6 +2800,7 @@
             <entryLink id="29a6-6f34-9e6f-5835" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
             <entryLink id="bada-b6da-dbc6-866b" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="55e9-6ac9-94d5-6b49" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="bae9-253a-e464-9981" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3621,6 +3640,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="b4b8-3aac-d055-009f" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
             <entryLink id="0a82-abf9-312b-09a8" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="ac4c-fb59-8c5b-13d9" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="9d5e-1e11-7e0a-6c1a" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4413,6 +4433,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="1fc9-5ddd-f36e-d1bf" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
             <entryLink id="09c1-ee0d-80f9-db60" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
             <entryLink id="d641-7766-34e3-1588" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="57a6-719e-6931-289a" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4541,7 +4562,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <entryLinks>
             <entryLink id="93ef-4cc9-8af0-4805" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
             <entryLink id="d785-8501-6aab-bca1" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
-            <entryLink id="ab7f-99c8-6671-5db8" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4662,6 +4682,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="826b-d12d-0050-92d0" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
             <entryLink id="a494-d2bd-19f1-79ad" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="7a16-8ce4-5451-b7f7" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="88e6-d097-5d30-22ae" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4813,6 +4834,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="b206-af51-bb4a-9d02" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
             <entryLink id="4397-8c80-0f5c-17a3" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="048d-305a-75f5-2d67" name="Calibanite warblade" hidden="false" collective="false" import="true" targetId="8201-32a5-f903-b087" type="selectionEntry"/>
+            <entryLink id="35b4-01ea-b172-d375" name="Chainaxe" hidden="false" collective="false" import="true" targetId="365b-4592-6a39-53b3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6073,10 +6095,19 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="e366-e583-0fcc-22fe" name="Paired volkite serpentas" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="15e8-8777-2ad7-7be7" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+                <infoLink id="93a1-78fc-7c77-809f" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
+                <infoLink id="4052-7bba-8aad-02a5" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+                <infoLink id="b7ec-a517-4781-2314" name="⌖ Paired volkite serpentas" hidden="false" targetId="7ed9-76e9-226d-5dfb" type="profile"/>
+                <infoLink id="92cc-85ea-fa49-668f" name="⚔ Paired volkite serpentas" hidden="false" targetId="f462-a5c0-ce1a-fb54" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="f030-9996-9ec4-89c6" name="Paired volkite serpentas" hidden="false" collective="false" import="true" targetId="feb9-5693-4c25-24f9" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6222,50 +6253,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="feb9-5693-4c25-24f9" name="Paired volkite serpentas" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="df03-9364-6846-9c4c" name="⌖ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94c-9345-b4b1-9473" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Ceaseless, Rng ⬟</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="af4b-ce2a-060d-3ee3" name="⚔ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94c-9345-b4b1-9473" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="268d-78c3-614a-84eb" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-        <infoLink id="0be6-b4cc-5212-b770" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
-        <infoLink id="0d50-4037-6095-9551" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f1ea-4cc4-cad4-08e1" name="Immortal" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b136-dad2-0b69-4fbe" name="Immortal" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
@@ -6316,6 +6303,218 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fc2-dc2f-f60e-673f" name="Rampager" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f378-7f84-9219-572e" name="Rampager" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4eeb-77ef-bae0-1289" name="Frenzied Killer" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may never be given a Conceal order.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2bb0-c5e6-70b5-545c" name="Heedless Rage" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll one D6: on a 5+ that wound is not lost.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6ed1-23fc-784e-5146" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="e4e9-9301-35da-aef2" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="610a-9e2c-b6f3-961c" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="3aba-559e-ae46-e141" name="World Eaters" hidden="false" targetId="f958-d4f0-329b-9f08" primary="false"/>
+        <categoryLink id="35bd-c596-b71b-b04b" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="03ab-c639-5fe4-becd" name="Rampager" hidden="false" targetId="d2bb-d8fb-6e33-1c06" primary="false"/>
+        <categoryLink id="85d9-f0fd-a9d1-adf6" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cae0-6e34-02e1-220e" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1f-8b42-af27-1296" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537b-d978-4085-4555" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="acc6-189e-3c18-a5f0" name="Bolt pistol and chainsword" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="fe70-4b39-1a03-0018" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9776-e3da-d2c8-96a5" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b22-0905-196b-2916" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="ad67-d98e-59bb-3dfa" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c4c-a4cf-9225-c63c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0d0-f195-5e5d-0bd3" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="98fa-03e2-1186-b88f" name="Bolt pistol and heavy chainsword" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="a050-e8c6-c7ee-db8f" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdb1-88b7-654e-60d2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5890-d5bc-048c-5ff5" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="49a3-628f-884c-f71e" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e9-45f5-f9c1-620e" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e2b-50eb-d40a-8513" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="16e4-329f-7f86-ed26" name="Barb hook lash" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="79c8-013b-40f5-1afc" name="⚔ Barb hook lash" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Entangle*</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ac04-ec4d-6cd0-c98b" name="*Entangle" hidden="false" targetId="c8ed-cdea-0565-ebe0" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f8ba-9d21-9398-7fa9" name="Excoriator chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6bfc-003e-9566-c2fd" name="⚔ Excoriator chainaxe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7250-eedb-f447-88f8" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+                <infoLink id="1f77-72fe-b3cb-c7c6" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c9d-8001-7344-6c18" name="Meteor hammer" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6cca-d0ad-6aa4-ac16" name="⚔ Meteor hammer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/7</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal, Slam ▲/⬛</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c5e5-b862-883f-54de" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+                <infoLink id="6fd4-a418-9737-d5ab" name="Slam X/Y" hidden="false" targetId="e212-d14a-07b3-6611" type="rule"/>
+                <infoLink id="3756-c119-7374-0428" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c117-0d8a-4cf5-1b75" name="Twin falax blades" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4402-b9df-2971-d2ca" name="⚔ Twin falax blades" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Relentless</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="34ca-8289-cb2e-5190" name="Relentless" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="365b-4592-6a39-53b3" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f958-d4f0-329b-9f08" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="b9f5-227c-5b9b-d1b5" name="⚔ Chainaxe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <modifiers>
+            <modifier type="set" field="5f37-25bb-661b-5c9c" value="5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2377-289e-20d5-c803" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6e58-2a1f-9975-9bf1" name="Balanced" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6536,6 +6735,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <rule id="3406-5f43-ed46-5b98" name="*Frost" hidden="false">
       <description>During the Roll Attack Dice step of a combat, your opponent must retain one Critical hit, if any are rolled, as a normal hit instead.</description>
     </rule>
+    <rule id="c8ed-cdea-0565-ebe0" name="*Entangle" hidden="false">
+      <description>Enemy operatives within Engagement Range may not make Fall Back actions.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="2c19-14f4-90f9-1e00" name="Shape Reference" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
@@ -6655,6 +6857,43 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="6876-4c3a-2965-22c7" name="Shield Wall (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
       <characteristics>
         <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">If this operative is within Engagement Range of a Friendly BREACHER ASTARTES operative then until the end of the Turning Point they are classed as being a terrain element with the Light cover trait for enemy movement and the targeting of friendly operatives. If this operative is within the Engagement range of 2 or more friendly BREACHER ASTARTES operatives they are treated as being a terrain element with the Heavy cover trait. This operative and any friendly BREACHER ASTARTES operative affected by Shield Wall may be targeted as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7ed9-76e9-226d-5dfb" name="⌖ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+      <modifiers>
+        <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94c-9345-b4b1-9473" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+        <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+        <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+        <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Ceaseless, Rng ⬟</characteristic>
+        <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f462-a5c0-ce1a-fb54" name="⚔ Paired volkite serpentas" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a94c-9345-b4b1-9473" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="365b-4592-6a39-53b3" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+        <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+        <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+        <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+        <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
