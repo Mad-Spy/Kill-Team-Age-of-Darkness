@@ -1029,8 +1029,8 @@
     <rule id="be29-25db-e215-b3b0" name="Lethal x" hidden="false">
       <description>Each time a friendly operative fights in combat or makes a shooting attack with this weapon, in the Roll Attack Dice step of that combat or shooting attack, your attack dice results of equal to or greater than x that are successful hits are critical hits. x is the number after the weapon&apos;s Lethal, e.g. Lethal 5+.</description>
     </rule>
-    <rule id="1eb0-6ad3-3e5a-d8ec" name="Limited" hidden="false">
-      <description>This weapon can only be selected for use once per battle. If the weapon has a special rule that would allow it to make more than one shooting attack for an action (e.g. Blast), make each of those attacks as normal.</description>
+    <rule id="1eb0-6ad3-3e5a-d8ec" name="Limited x" hidden="false">
+      <description>This weapon can be selected for use during your game a number of times equal to X. If the weapon has a special rule that would allow it to make more than one shooting attack for an action (e.g. Blast), make each of those attacks as normal. This weapon may be used in conjunction with a Ploy, Ability or Psychic Power that allows multiple attack actions per Turning Point though the number of attack actions may never exceed X.</description>
     </rule>
     <rule id="0d4b-7a76-d266-bcc1" name="MWx" hidden="false">
       <description>Each time a friendly operative makes a shooting attack with this weapon, in the Roll Attack Dice step of that shooting attack, for each critical hit retained, inflict x mortal wounds on the target. x is the number after the weapon&apos;s MW, e.g. MW3.</description>
@@ -1068,6 +1068,9 @@ Each time a friendly operative fights in combat with this weapon, in the Resolve
     </rule>
     <rule id="e2ae-574a-94ab-3550" name="Fusillade" hidden="false">
       <description>Each time a friendly operative performs a Shoot action and selects this weapon, after selecting a valid target, you can select any number of other valid targets within ⬤ of the original target. Distribute your attack dice between the targets you have selected. Make a shooting attack with this weapon (using the same profile) against each of the targets you have selected using the attack dice you have distributed to each of them.</description>
+    </rule>
+    <rule id="e212-d14a-07b3-6611" name="Slam X/Y" hidden="false">
+      <description>Each time a friendly operative fights in combat with this weapon, at the end of the Resolve Successful Hits step, if the operative applied a one or more Normal or Critical hits the enemy operative is moved backwards the distance noted. Where two options are available the first is for a successful normal hit and the second for a successful Critical hit. Only one option may be selected per fight action. The distance moved may be reduced by terrain and, in some cases, cause the enemy operative to Fall from a terrain feature.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
