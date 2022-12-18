@@ -69,6 +69,10 @@
     <categoryEntry id="cd4f-92cf-4465-7025" name="Immortal" hidden="false"/>
     <categoryEntry id="f958-d4f0-329b-9f08" name="World Eaters" hidden="false"/>
     <categoryEntry id="d2bb-d8fb-6e33-1c06" name="Rampager" hidden="false"/>
+    <categoryEntry id="0fab-30c0-e6a6-564c" name="Ultramarines" hidden="false"/>
+    <categoryEntry id="192d-e0c2-6a19-5f91" name="Locutarus" hidden="false"/>
+    <categoryEntry id="06dc-4501-00c5-24a4" name="Invictarus Suzerain" hidden="false"/>
+    <categoryEntry id="bdce-2ec7-310f-3924" name="Breacher" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -1513,7 +1517,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="236f-43cf-5b87-97c8" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+        <infoLink id="236f-43cf-5b87-97c8" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
         <infoLink id="7e0b-14cb-d1de-f1db" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -1605,6 +1609,9 @@
                 <infoLink id="9de9-bf83-0f4f-cd45" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
                 <infoLink id="7f0d-b31e-da81-ef95" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2429,7 +2436,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9a46-59cf-b30e-baa7" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+        <infoLink id="9a46-59cf-b30e-baa7" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
         <infoLink id="e165-267c-f1aa-9375" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -3876,7 +3883,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="aab5-bfbb-3dae-5457" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
+        <infoLink id="aab5-bfbb-3dae-5457" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
         <infoLink id="f952-9b4b-7ab5-fa33" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
         <infoLink id="a988-13b3-81b0-e79a" name="Scion of the Firewing" hidden="false" targetId="ad2d-108b-4f42-9607" type="profile"/>
       </infoLinks>
@@ -4228,8 +4235,8 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </selectionEntry>
             <selectionEntry id="55fd-d0b7-4f23-7984" name="Jump pack" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="dc6e-92c7-639c-6c5a" name="Jump Pack" hidden="false" targetId="9a65-ea69-7fa0-01f4" type="rule"/>
-                <infoLink id="4905-d5c4-7040-2284" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+                <infoLink id="e281-e7fe-20db-4198" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+                <infoLink id="5a01-08d1-84b0-af4a" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -5749,8 +5756,8 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="4fc3-f061-ab6f-c016" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
         <categoryLink id="bf4c-f0e9-0a29-f895" name="Imperial Fists" hidden="false" targetId="ec50-5bf6-0f8a-83ac" primary="false"/>
         <categoryLink id="def2-73a1-c88f-71bd" name="Phalanx Warder" hidden="false" targetId="5071-0ecf-4633-394c" primary="false"/>
-        <categoryLink id="5054-726e-d225-bf8c" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false"/>
-        <categoryLink id="b7ed-f137-2669-1dce" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="3b12-c316-96df-98f8" name="Breacher" hidden="false" targetId="bdce-2ec7-310f-3924" primary="false"/>
+        <categoryLink id="87af-54c9-0a01-672f" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1b17-7ee3-9fdd-79d1" name="Weapons" hidden="false" collective="false" import="true">
@@ -6519,6 +6526,133 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="71b7-991d-2b8a-bc58" name="Locutarus" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="301b-6cc3-5260-b25c" name="Locutarus" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c400-5796-a48c-f18b" name="Precise Intervention (3AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Remove this operative from the killzone and place it anywhere, either in open ground or on a Vantage Point, that is more than ⬛ from an enemy operative or ▲ from any other terrain feature. This operative immediately makes 2 shooting actions.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7722-b4b0-a448-345b" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+        <infoLink id="786c-b326-0cdd-7f8c" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bc26-3c92-e11b-ed3e" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="6769-036e-23e9-0dcd" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="ad6c-f825-c93c-6c34" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="761e-fa7c-52a0-096d" name="Ultramarines" hidden="false" targetId="0fab-30c0-e6a6-564c" primary="false"/>
+        <categoryLink id="830a-5315-e0a5-3fb0" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="1276-6426-d619-dd8c" name="Locutarus" hidden="false" targetId="192d-e0c2-6a19-5f91" primary="false"/>
+        <categoryLink id="2cb6-79a4-7fc2-8a10" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cb71-97a8-174c-d419" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e988-8e33-3455-7703" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6e0-4ed4-1d25-41ec" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5cc4-6d35-1d89-b941" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7349-10d3-13a8-d8b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="718b-d5c4-17cd-1412" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c59a-7054-da6d-14f8" name="Invictarus Suzerain" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8157-0ed2-d5af-4cc4" name="Invictarus Suzerain" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a95e-b659-c7e9-d4b5" name="Chosen Warrior" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative may make a Challenge action as if it were a LEADER or SUB-CONSUL.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38e0-19c0-e19d-d259" name="Lord of Ultramar (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly ULTRAMARINES operative within 2 ⬟ of this operative. It may immediately make a free Normal Move towards this operative. This may be done even if the operative has already been activated this turning point. This operative cannot perform this action if it is within Engagement Range of an enemy operative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d13c-8260-2592-4481" name="Boarding Shield" hidden="false" targetId="0c64-fbc3-66a5-63e6" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9bf1-14d1-f35b-84e8" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="55e7-ca2a-ca1d-bc5e" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="402a-0016-a41f-dcc4" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="b69c-5e33-eba8-fa59" name="Ultramarines" hidden="false" targetId="0fab-30c0-e6a6-564c" primary="false"/>
+        <categoryLink id="bcba-6336-11ad-2116" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="330f-1824-1675-8720" name="Invictarus Suzerain" hidden="false" targetId="06dc-4501-00c5-24a4" primary="false"/>
+        <categoryLink id="6eff-5e3a-6081-c3dc" name="Breacher" hidden="false" targetId="bdce-2ec7-310f-3924" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="efcb-b871-cc5e-ef49" name="Pistol" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe46-a1b7-9ced-d747" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23a9-01d6-1859-8621" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="79d6-fafa-b4bb-4ffd" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="78dd-8cf0-8e94-528b" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="268f-0757-4d75-c677" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b93-714a-d1f5-064e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5f9-f046-2329-d10e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cb19-9fe6-555e-3815" name="Legatine axe" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="00e0-bb4d-dac3-d39d" name="⚔ Legatine axe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/3</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="ef6c-283e-9ef9-c816" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -6718,9 +6852,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </rule>
     <rule id="937e-e365-bcd0-c8aa" name="Terminator Armour" hidden="false">
       <description>Each time this operative is the target of a shooting attack they roll a number of defence dice equal to Attack stat of the weapon used in that attack. This operative may re-roll any failed Save rolls, ignoring APx, succeeding on a result of 5+. This operative may not perform a Climb action on Light Terrain but treats such terrain as having the Traversable trait. This operative cannot be given a Conceal order.</description>
-    </rule>
-    <rule id="9a65-ea69-7fa0-01f4" name="Jump Pack" hidden="false">
-      <description>Once per Turning Point when this operative makes a Normal Move, Charge, or Fall Back action, it may elect to use the Jump pack. If it does so, this operative gains the Fly special rule but may not make shoot actions other than Overwatch.</description>
     </rule>
     <rule id="155f-68ee-5bca-04df" name="*Force" hidden="false">
       <description>For each additional action point an operative adds to the Fight action they may roll an additional attack dice. 
