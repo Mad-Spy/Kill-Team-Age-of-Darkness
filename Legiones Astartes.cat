@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1a5f-0de4-9908-1f09" name="Legiones Astartes" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1a5f-0de4-9908-1f09" name="Legiones Astartes" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6a32-cc91-35ed-7708" name="LEGIONES ASTARTES" hidden="false"/>
     <categoryEntry id="0e50-f163-6440-5bf8" name="Sergeant" hidden="false"/>
@@ -73,6 +73,8 @@
     <categoryEntry id="192d-e0c2-6a19-5f91" name="Locutarus" hidden="false"/>
     <categoryEntry id="06dc-4501-00c5-24a4" name="Invictarus Suzerain" hidden="false"/>
     <categoryEntry id="bdce-2ec7-310f-3924" name="Breacher" hidden="false"/>
+    <categoryEntry id="723d-18ab-1bf4-b040" name="Death Guard" hidden="false"/>
+    <categoryEntry id="5f12-f4f0-0678-936f" name="Mortus Poisoner" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -2480,37 +2482,6 @@
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f051-6336-f364-b44c" name="Phosphex bomb" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae17-b4cf-a753-0a5d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2d4-d58d-80d2-ebff" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0bda-73a3-042c-cd06" name="⌖ Phosphex bomb" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-              <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, AP2, Phosphex*, Limited</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="f06c-0e7a-daa6-943d" name="*Phosphex" hidden="false">
-              <description>Once the shoot action is resolved place a token at the initial target spot, this token remains in play for the rest of the game. Roll a dice for any operative that comes within ⬛ of the token. On a result of 2-5 the model takes 3 wounds at AP2, on a 6 it takes 3 mortal wounds. During the Initiative phase, the player with the initiative may move the marker ⬤ in any direction.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="99e1-a767-b206-8c30" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
-            <infoLink id="3bfa-4ac5-c2c6-bbfc" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
-            <infoLink id="e5b5-13d5-4962-dc87" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
-            <infoLink id="10d7-6008-bedf-5576" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="4c07-1865-ed1c-46c8" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry">
@@ -2520,6 +2491,7 @@
           </constraints>
         </entryLink>
         <entryLink id="efdf-5239-cc40-1a86" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="6846-5a64-04a8-af67" name="Phosphex bomb" hidden="false" collective="false" import="true" targetId="7a04-e0ca-e5d7-7fa7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -6659,6 +6631,145 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec26-2a49-415c-8db1" name="Mortus Poisoner" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ca38-dac6-b0e0-faea" name="Mortus Poisoner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="781d-3a70-5118-3fef" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="fdb4-97c7-3512-43d9" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="91d2-4be3-578c-36df" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="7717-1557-7dee-0d20" name="Death Guard" hidden="false" targetId="723d-18ab-1bf4-b040" primary="false"/>
+        <categoryLink id="9331-9d23-cb34-1855" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="f7a0-ce2b-d41f-40da" name="Mortus Poisoner" hidden="false" targetId="5f12-f4f0-0678-936f" primary="false"/>
+        <categoryLink id="690f-b1c1-9260-5328" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9693-9fbf-2d97-1e73" name="Rad grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41d9-abd6-dce7-dcc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa9e-7461-0050-6206" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7165-46e2-2d7d-e5b7" name="⌖ Rad grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/3</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, Indirect, Limited 2</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="59ff-d033-6594-2a61" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="cfa9-58a5-6ce3-41f5" name="Limited x" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+            <infoLink id="b366-af57-5569-ef46" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+            <infoLink id="e437-0aa4-ba00-cae4" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+            <infoLink id="d756-0180-80ed-23b6" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a16b-5d14-d13a-fbd1" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5474-ccca-dbbc-5c65" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79f-57fc-e82d-e8ba" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="da30-b967-cd9d-3bae" name="Chem-flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="27a8-0016-3cec-5e15" name="⌖ Chem-flamer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/2</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Torrent ⬤</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e8db-d419-43b7-bd6f" name="Torrent x" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
+                <infoLink id="f75a-d582-03ba-cd84" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+                <infoLink id="2ed3-2da2-9496-54a3" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1594-e167-8150-f231" name="Boltgun and phosphex bomb" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="9901-fed7-1f32-7a04" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace7-262c-8249-0fb6" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fb-4ab6-6fce-40df" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="5acd-880d-ee50-3c84" name="Phosphex bomb" hidden="false" collective="false" import="true" targetId="7a04-e0ca-e5d7-7fa7" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f611-ec36-5b02-4710" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac3-f684-0e00-5f2d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e368-fded-d472-01ce" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a04-e0ca-e5d7-7fa7" name="Phosphex bomb" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="504f-97c9-8d89-f719" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b99-4a5c-140b-58f7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="144c-3712-bf27-9dbe" name="⌖ Phosphex bomb" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">3</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, AP2, Phosphex*, Limited</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b969-e4e8-20ba-ae9f" name="*Phosphex" hidden="false">
+          <description>Once the shoot action is resolved place a token at the initial target spot, this token remains in play for the rest of the game. Roll a dice for any operative that comes within ⬛ of the token. On a result of 2-5 the model takes 3 wounds at AP2, on a 6 it takes 3 mortal wounds. During the Initiative phase, the player with the initiative may move the marker ⬤ in any direction.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3776-e413-a77a-4207" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+        <infoLink id="194e-ee65-e9e7-9ba3" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="46cb-a007-b1c5-6e88" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+        <infoLink id="9c97-9258-c6bc-749c" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
