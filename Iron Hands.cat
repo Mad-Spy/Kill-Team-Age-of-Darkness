@@ -5,164 +5,409 @@
       <categoryLinks>
         <categoryLink id="3e08-37f2-7378-c9b7" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="efc7-801f-6722-3607" name="Bionics (Sgt)" hidden="false" collective="false" import="true" targetId="efa2-f3c9-0a37-bcb3" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="4bdd-69ed-4b44-696b" name="Legion Assault Champion" hidden="false" collective="false" import="true" targetId="3536-8383-6538-9bf2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c34c-601b-ba80-401e" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="544b-b448-0ed9-9091" name="Bionics (Assault)" hidden="false" collective="false" import="true" targetId="86dc-824c-b773-61a0" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="1e87-7a16-3e1f-71f2" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b18f-704a-0b8f-f847" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="90da-01fc-98f7-ce52" name="Bionics (Terminator)" hidden="false" collective="false" import="true" targetId="03f5-2167-59c9-1600" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="a425-c02e-9855-6899" name="Legion Breacher Astartes" hidden="false" collective="false" import="true" targetId="7a35-2750-ee36-7821" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ba03-df00-e979-370b" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e55a-43fe-4ee6-d677" name="Bionics" hidden="false" collective="false" import="true" targetId="599f-83ce-db49-bd15" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="dfc8-a7c8-f23c-c26f" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="141d-a625-2b53-eb15" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="baec-1d6f-6775-4801" name="Bionics (Sgt)" hidden="false" collective="false" import="true" targetId="efa2-f3c9-0a37-bcb3" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="90ee-aba4-ef2b-bd5f" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c50d-c7e2-7a24-463b" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="0435-d67a-d3d6-05a4" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="72ac-37ff-c1ca-3fd5" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1fbe-1724-a23c-40f5" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ede5-b905-7495-b111" name="Bionics (Breacher)" hidden="false" collective="false" import="true" targetId="599f-83ce-db49-bd15" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="7267-a33a-3eeb-26ea" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="595c-55e8-6290-d20d" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="7540-0ae5-b52b-90de" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="4714-2573-4b5e-14c3" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="da8f-328e-aa83-0dd0" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="798d-182c-a74d-ceb8" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="2265-6319-db50-8e2f" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="09d8-ccc1-04fa-b17c" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="04d3-f981-f91e-8b81" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="4d68-f17f-2c27-5bac" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a7c8-31bf-45a5-d8a3" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="d1fa-8e6b-cdfa-24e6" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="6273-37f6-5bee-af52" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7a05-af0b-6bcb-bbad" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e101-fb6b-c30e-db1c" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="7e69-3308-03c1-8667" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ee44-f1ce-141b-5fda" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="3425-0c01-d68f-104b" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="33aa-eac6-04d1-1a90" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="92b9-a878-c13b-124b" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="21d9-3c18-c980-e074" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="4149-e04e-49e5-fbcc" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="c2e6-52d7-7247-395a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bd9c-c368-b927-60fa" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="e098-26ba-6cbb-563b" name="Bionics (Recon)" hidden="false" collective="false" import="true" targetId="8136-f9b9-9661-b54e" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="114a-51f3-d981-99d0" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="81cd-80a2-3393-05bd" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="2c7d-3160-1dbd-6ced" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="c90a-f8b8-3702-9861" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1ab2-25e1-1bd3-e09e" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="bc39-d673-7240-0160" name="Bionics (Sgt)" hidden="false" collective="false" import="true" targetId="efa2-f3c9-0a37-bcb3" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="4719-ccfd-bb6c-47b9" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4dd3-ab90-b71d-b035" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="88bc-4791-d74a-d805" name="Bionics (Recon)" hidden="false" collective="false" import="true" targetId="8136-f9b9-9661-b54e" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="c21c-7391-40b5-ff27" name="Legion Seeker" hidden="false" collective="false" import="true" targetId="2441-26d4-df96-3d58" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="dcd5-a271-1608-afcd" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="5941-2b43-f3ae-ffd0" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="dc86-2f91-34b6-e567" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="06d6-4cf8-56ad-a483" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="d05d-a4a9-5197-51d6" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="e942-98b8-eb2d-e76f" name="Legion Support Breacher" hidden="false" collective="false" import="true" targetId="6575-bf1b-edd2-21f2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4455-3cb0-62ce-2b9c" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ce42-b372-bd7d-d780" name="Bionics" hidden="false" collective="false" import="true" targetId="599f-83ce-db49-bd15" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="cd91-e115-d064-3ba8" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="dd14-c328-03d7-4dcd" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="7702-d167-630e-3a3f" name="Bionics (Terminator)" hidden="false" collective="false" import="true" targetId="03f5-2167-59c9-1600" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="64bd-2845-f06a-d4ca" name="Legion Tactical Astartes Comms" hidden="false" collective="false" import="true" targetId="e661-cc95-3e6b-382b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b3ab-2d3a-dcb4-742f" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="dc8e-c3aa-612e-9fe3" name="Bionics (Tactical)" hidden="false" collective="false" import="true" targetId="5ac6-bba8-33b9-4aa0" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="8a71-35a7-20f6-94da" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" targetId="be8d-b895-754b-283e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a6c4-0eb0-17c1-dd12" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="d8a5-fcbd-4205-23ed" name="Bionics (Tactical)" hidden="false" collective="false" import="true" targetId="5ac6-bba8-33b9-4aa0" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="f8b6-f626-fe65-e607" name="Legion Tactical Astartes Vexilla" hidden="false" collective="false" import="true" targetId="634c-97db-0628-917a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="341e-db94-5d55-9801" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="b862-40d4-49ad-8d0f" name="Bionics (Tactical)" hidden="false" collective="false" import="true" targetId="5ac6-bba8-33b9-4aa0" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="f707-4592-d65e-9c53" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9de0-abb8-f5a2-e183" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="311e-8ae8-09cc-e305" name="Bionics (Sgt)" hidden="false" collective="false" import="true" targetId="efa2-f3c9-0a37-bcb3" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="6fef-dea8-8d1b-a850" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="aee7-4c39-cf04-708d" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="3343-68fe-2896-62f5" name="Bionics (Tactical)" hidden="false" collective="false" import="true" targetId="5ac6-bba8-33b9-4aa0" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="6311-c833-845d-3062" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5eee-b20e-7fdc-e8ac" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="f8db-cb75-4bd4-4824" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="d1b7-38f9-8d7e-1b4b" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="03e6-77e5-419e-2d42" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ae5f-bae2-3452-a41e" name="Bionics (Terminator)" hidden="false" collective="false" import="true" targetId="03f5-2167-59c9-1600" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="341c-b753-fa44-f3e5" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="71cd-50e3-50be-c37b" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="c4f0-f130-6e87-3bff" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="3e24-2ca0-f247-5361" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="66cf-4109-137d-c9cc" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="f8d3-f492-1763-9c2b" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="3a41-bffc-4d1d-ac6d" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e58f-fb44-e7ed-4d12" name="Iron Hands" hidden="false" targetId="d0ff-d53f-f2da-21f5" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ba9a-e229-e29c-d22f" name="Bionics (Assault)" hidden="false" collective="false" import="true" targetId="86dc-824c-b773-61a0" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
-    <entryLink id="f4de-f87b-423d-190b" name="Immortal" hidden="false" collective="false" import="true" targetId="f1ea-4cc4-cad4-08e1" type="selectionEntry"/>
+    <entryLink id="f4de-f87b-423d-190b" name="Immortal" hidden="false" collective="false" import="true" targetId="f1ea-4cc4-cad4-08e1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="bbb2-1b6a-3795-fd6a" name="Bionics (SO)" hidden="false" collective="false" import="true" targetId="1ad1-bbaa-acd6-5eeb" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
   </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="efa2-f3c9-0a37-bcb3" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Sergeant Bionics</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1235-d887-f8e7-8d1c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2076-f8cc-e70b-1957" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="92c5-be9c-976b-fb9e" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="599f-83ce-db49-bd15" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Breacher Bionics</comment>
+      <modifiers>
+        <modifier type="set" field="4b16-acdc-2738-4006" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fbd-3878-ca2b-f1a9" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b16-acdc-2738-4006" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9adf-329d-e604-6e01" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ad1-bbaa-acd6-5eeb" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Support Operative Bionics</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0687-afc9-9954-76e3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="93aa-8446-209c-3382" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0945-7dbe-0034-fd0e" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ac6-bba8-33b9-4aa0" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Tactical Bionics</comment>
+      <modifiers>
+        <modifier type="increment" field="8c63-8f45-e1d1-0b65" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0704-d04a-aec6-07ea" type="atLeast"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8c63-8f45-e1d1-0b65" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c2c-660d-76ed-3eb1" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c63-8f45-e1d1-0b65" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8925-9078-5ae4-1090" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8136-f9b9-9661-b54e" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Recon Bionics</comment>
+      <modifiers>
+        <modifier type="set" field="2186-5e95-a991-2937" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a171-1721-cb4a-2f44" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2186-5e95-a991-2937" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5f41-4b81-0159-2061" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86dc-824c-b773-61a0" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Assault Bionics</comment>
+      <modifiers>
+        <modifier type="set" field="ede3-208e-bdc7-d184" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc0-6fc5-cba0-ba3e" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ede3-208e-bdc7-d184" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="adfc-88a0-e758-90bc" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03f5-2167-59c9-1600" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Terminator Bionics</comment>
+      <modifiers>
+        <modifier type="set" field="f19a-f25c-b9c3-8a1b" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19de-223e-d573-eb05" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f19a-f25c-b9c3-8a1b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="10a9-9a3d-d1fe-846c" name="Bionics" hidden="false" targetId="5be4-376c-4af9-504f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="5be4-376c-4af9-504f" name="Bionics" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound, roll on D6; on a 6+, that wound is not lost. Other than the effects of Battle Scars, this operative cannot be injured.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="0f9c-a28b-6a76-7ee0" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
