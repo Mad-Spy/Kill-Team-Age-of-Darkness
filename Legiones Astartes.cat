@@ -77,6 +77,7 @@
     <categoryEntry id="5f12-f4f0-0678-936f" name="Mortus Poisoner" hidden="false"/>
     <categoryEntry id="8ff4-fb46-7cc1-1baa" name="Scout" hidden="false"/>
     <categoryEntry id="c7e6-0fa5-b1ec-ef45" name="Thousand Sons" hidden="false"/>
+    <categoryEntry id="a6dd-3447-1c00-d08a" name="Sons of Horus" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -6925,6 +6926,84 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="22cf-3627-8e11-5665" name="Reaver" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="496a-8277-3f57-6176" name="Reaver" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06"/>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b"/>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b"/>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c"/>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2"/>
+            <characteristic name="W" typeId="db11-738c-048c-759e"/>
+          </characteristics>
+        </profile>
+        <profile id="f6f3-a1d3-84df-74ce" name="Loner" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Regardless of their proximity this operative always counts asbeing further than ⬟ from all other friendly operatives</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7d56-f95a-d3ba-f40b" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+        <infoLink id="7aa3-85d4-5e69-001c" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+        <infoLink id="03fb-2128-6b64-5fa2" name="Assassins Eye (2AP)" hidden="false" targetId="ee57-8cc3-22d7-ca6d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aaa4-f0a8-6874-56c5" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="c71f-2171-51c1-2e1f" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="d09d-5e44-7fe2-8566" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="32a6-a437-534a-9c7e" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="aa52-c8c4-9b74-356a" name="Sons of Horus" hidden="false" targetId="a6dd-3447-1c00-d08a" primary="false"/>
+        <categoryLink id="6ce0-9606-6cc1-3e85" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2abd-9070-3354-cb49" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca6-3814-f590-f741" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eaf-534d-2e38-cc81" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e3b6-3c0a-e3cd-0ebf" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a50a-d0f5-74ee-cc00" name="⚔ Chainaxe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5011-9bea-e90c-8d0d" name="Balanced" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="e714-75fb-ca3a-feec" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="4775-e7ab-8083-89f4" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="e890-fda9-5be5-6138" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="07c3-f563-6e2f-c714" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5f4b-4865-62e3-9d3f" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5edc-8c33-c8dd-67f4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05e-ebf3-7fb1-41a2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -7318,6 +7397,23 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="6ae2-b5e6-a186-cd15" name="Stealth" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
         <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time an enemy operative makes a shooting attack, unless it is within ⬤ of this operative or it is a subsequent attackmade as a result of the Blast special rule , this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ee57-8cc3-22d7-ca6d" name="Assassins Eye (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+      <characteristics>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes either a shooting or combat action during which its weapon gains the Relentless special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="86c7-27eb-5879-e88a" name="Bane Bolts" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6dd-3447-1c00-d08a" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Once per game an operative with Banestrike Bolts and equipped with a Bolt Pistol, Boltgun, Boltgun component of a Combi-Weapon, or Heavy Boltgun adds the P1 critical rule to that weapon.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
