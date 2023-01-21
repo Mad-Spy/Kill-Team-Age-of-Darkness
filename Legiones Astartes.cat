@@ -78,6 +78,8 @@
     <categoryEntry id="8ff4-fb46-7cc1-1baa" name="Scout" hidden="false"/>
     <categoryEntry id="c7e6-0fa5-b1ec-ef45" name="Thousand Sons" hidden="false"/>
     <categoryEntry id="a6dd-3447-1c00-d08a" name="Sons of Horus" hidden="false"/>
+    <categoryEntry id="387a-85c6-5ce0-f3f2" name="Word Bearers" hidden="false"/>
+    <categoryEntry id="fe85-23b7-e3ea-9545" name="Daemon" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -6997,6 +6999,160 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5edc-8c33-c8dd-67f4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05e-ebf3-7fb1-41a2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d63-1035-4c71-e71e" name="Incendiary" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="38e7-36c0-4e0b-6c4a" name="Incendiary" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e974-fbb3-0f10-bd31" name="Loner" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Regardless of their proximity this operative always counts asbeing further than ⬟ from all other friendly operatives</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eef3-d0cf-4950-7d9a" name="Burning Assault (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative makes a charge action, using the Jump Pack ability. Roll a D6 for the target operative and any operative within ⬤ of the target operative, on a 5+ that operative takes 2 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="54ad-5327-b798-8e96" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ecb1-f6ec-6914-487e" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
+        <categoryLink id="643f-83e2-8e93-e127" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="ba1a-a718-aef9-8b52" name="Word Bearers" hidden="false" targetId="387a-85c6-5ce0-f3f2" primary="false"/>
+        <categoryLink id="0f0b-0012-2b9a-e26f" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="2594-ba35-d005-be88" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="0739-d1af-8d12-275d" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="15c8-0d6e-0cfd-e54f" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587c-531d-0742-37be" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d81f-7a02-0fe8-ca82" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="92bf-ac02-29f1-457f" name="Axe Rake" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="80fb-af30-34c2-8164" name="⚔ Axe Rake" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+		</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced, Grapple</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="220a-2eee-89c7-849b" name="Grapple" hidden="false">
+                  <description>When enemy operatives within Engagement Range ofthis operative make a Fall Back action they may only move up to ⬛</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="9b0c-087d-1b37-8528" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="540c-d779-c88a-c496" name="Hand flamer" hidden="false" collective="false" import="true" targetId="3df8-c8ee-f37f-65e6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f9-f8ee-c138-52be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5497-fdc6-b056-094c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59fc-8ab6-b780-4f19" name="Gal Vorbak" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="13ac-05f1-520d-2c05" name="Gal Vorbak" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7468-2305-9279-d315" name="Twin Soul" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">After Deployment select one option from The Primordial Truth legion ability. This operative gains this ability for the rest of the game.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cb1b-85e2-f50e-96a8" name="Stubborn" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative ignores any or all modifiers to its APL characteristic and cannot be Injured</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e3c6-6ce2-be26-aaef" name="Damned" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Unless they have been given the Desire optionas part of the Twin Soul ability above, ignore this operative’s APL when calculating who controls an objective.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3487-1e71-3640-0d71" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="8481-5cfa-a286-092c" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="dfd3-76ba-d248-bae5" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="4a0c-7834-38c8-ef6c" name="Word Bearers" hidden="false" targetId="387a-85c6-5ce0-f3f2" primary="false"/>
+        <categoryLink id="dbe4-1f27-e7ec-071c" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="2abb-6d8c-6c00-cf63" name="Daemon" hidden="false" targetId="fe85-23b7-e3ea-9545" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2aad-0b34-4b70-0ca8" name="Blessed Talons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a99-c66a-d886-8a3d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a2d-47b4-f280-6293" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4b87-5b8f-5c2d-fd6d" name="⚔ Blessed Talons" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rending</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="fbb8-8a70-8137-4765" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+            <infoLink id="1548-cd73-7b95-1d7f" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="cceb-53c3-cf58-04e2" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca9f-4d70-8c90-9a31" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce0-2579-6ff0-069d" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
