@@ -80,6 +80,9 @@
     <categoryEntry id="a6dd-3447-1c00-d08a" name="Sons of Horus" hidden="false"/>
     <categoryEntry id="387a-85c6-5ce0-f3f2" name="Word Bearers" hidden="false"/>
     <categoryEntry id="fe85-23b7-e3ea-9545" name="Daemon" hidden="false"/>
+    <categoryEntry id="297e-077f-c863-a6d0" name="Salamanders" hidden="false"/>
+    <categoryEntry id="3817-8f6c-0bbf-6c1e" name="Alpha Legion" hidden="false"/>
+    <categoryEntry id="d715-20e7-c5bd-8919" name="Raven Guard" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -7153,6 +7156,89 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca9f-4d70-8c90-9a31" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce0-2579-6ff0-069d" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54dc-5ebf-fca4-51a4" name="Pyroclast" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f6a4-fdc4-50d3-4a34" name="Pyroclast" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d5ba-bee7-4f52-37c6" name="Mantle of Ash" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When attacked by a weapon which is classed as a Flamer, Plasma, Melta or Volkite weapon this model gains an Invulnerable Save of 4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d304-e985-2571-d4a8" name="Focused Flame Projector (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative may make a combat attack with the Focused Flame Projector profile.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d651-9d84-f805-3c77" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="false"/>
+        <categoryLink id="b5d3-b336-c2a3-e05d" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="65bc-82ac-0dac-ad1c" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="ec52-7110-6957-07fc" name="Gunner" hidden="false" targetId="ee8c-cc44-acc3-40f0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7a70-d94a-69d1-9d89" name="Flame Projector" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8174-ce64-3869-2a77" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142f-abc2-13db-1bb0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="62ea-0040-6a54-1c9a" name="⌖ Flame Projector" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f9a9-d397-5fe7-2bab" name="Focused Flame Projector" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d1-a756-fe35-bf7b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c650-10f6-c056-7a43" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="79d1-4d2b-d2ea-0170" name="⚔ Focused Flame Projector" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/2</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3eab-8b75-3438-29a7" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e97-b3b2-e8a1-4309" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf71-2642-2985-720f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
