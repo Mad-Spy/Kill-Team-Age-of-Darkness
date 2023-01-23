@@ -83,6 +83,7 @@
     <categoryEntry id="297e-077f-c863-a6d0" name="Salamanders" hidden="false"/>
     <categoryEntry id="3817-8f6c-0bbf-6c1e" name="Alpha Legion" hidden="false"/>
     <categoryEntry id="d715-20e7-c5bd-8919" name="Raven Guard" hidden="false"/>
+    <categoryEntry id="ffa6-1bef-cacc-f9b5" name="Pyroclast" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -7191,9 +7192,10 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="b5d3-b336-c2a3-e05d" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
         <categoryLink id="65bc-82ac-0dac-ad1c" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
         <categoryLink id="ec52-7110-6957-07fc" name="Gunner" hidden="false" targetId="ee8c-cc44-acc3-40f0" primary="false"/>
+        <categoryLink id="ca32-ffba-6d81-56f2" name="Pyroclast" hidden="false" targetId="ffa6-1bef-cacc-f9b5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7a70-d94a-69d1-9d89" name="Flame Projector" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7a70-d94a-69d1-9d89" name="Flame projector" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8174-ce64-3869-2a77" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="142f-abc2-13db-1bb0" type="min"/>
@@ -7213,7 +7215,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f9a9-d397-5fe7-2bab" name="Focused Flame Projector" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f9a9-d397-5fe7-2bab" name="Focused flame projector" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d1-a756-fe35-bf7b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c650-10f6-c056-7a43" type="min"/>

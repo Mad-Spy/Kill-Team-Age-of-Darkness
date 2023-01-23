@@ -108,11 +108,6 @@
         <categoryLink id="4d9b-1e00-a471-0f53" name="Salamanders" hidden="false" targetId="297e-077f-c863-a6d0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b0ca-f48f-2d99-1c42" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="72a2-bd75-2993-eea5" name="Salamanders" hidden="false" targetId="297e-077f-c863-a6d0" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="1b50-1b49-55e9-23e3" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4bd0-7584-b36a-d4a0" name="Salamanders" hidden="false" targetId="297e-077f-c863-a6d0" primary="false"/>
@@ -131,11 +126,6 @@
     <entryLink id="afdb-8e4a-3ed0-5141" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8899-194c-a280-96ea" name="Salamanders" hidden="false" targetId="297e-077f-c863-a6d0" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="aa1a-7c86-69c2-16d5" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="830b-6f98-d3ad-a086" name="Salamanders" hidden="false" targetId="297e-077f-c863-a6d0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="79e9-eb6d-f134-03a8" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
