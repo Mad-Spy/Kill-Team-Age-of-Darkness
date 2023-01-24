@@ -85,6 +85,8 @@
     <categoryEntry id="d715-20e7-c5bd-8919" name="Raven Guard" hidden="false"/>
     <categoryEntry id="ffa6-1bef-cacc-f9b5" name="Pyroclast" hidden="false"/>
     <categoryEntry id="3fac-7b68-fefa-8760" name="Khenetai Blade" hidden="false"/>
+    <categoryEntry id="0568-a8be-2b7f-9677" name="Initiate" hidden="false"/>
+    <categoryEntry id="c94e-318b-acbb-4729" name="Ammitara Intercessor" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -738,12 +740,7 @@
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d4-896d-2f79-cf96" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c94e-318b-acbb-4729" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2156,6 +2153,7 @@
         <categoryLink id="72a0-7e71-009e-913e" name="Assault Astartes" hidden="false" targetId="a619-bfad-f5b2-5a23" primary="false"/>
         <categoryLink id="a1b5-65ba-3916-d1cd" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="58d0-3f10-d09e-fcdf" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
+        <categoryLink id="a26b-dc3d-8af7-cc15" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3033-12ad-0577-8e0e" name="Pistol" hidden="false" collective="false" import="true">
@@ -2341,6 +2339,7 @@
         <categoryLink id="f052-313d-24d7-4e4a" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0588-2c05-65ad-3076" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false"/>
         <categoryLink id="29bb-9d93-c661-0909" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
+        <categoryLink id="14d8-8478-fa74-53db" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8c8d-9c2e-478e-ec3a" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -2731,6 +2730,7 @@
         <categoryLink id="cb8f-02ae-34d4-e344" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="674d-3140-c835-84f2" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="1f12-695f-6f66-1617" name="Recon Astartes" hidden="false" targetId="425a-26dd-5818-bd90" primary="false"/>
+        <categoryLink id="db05-1afa-71fa-aa04" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="21a8-2b96-2821-b640" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -3572,6 +3572,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="79b4-8305-ec4f-4bf9" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0154-875f-3031-7160" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="ba64-991d-5c7c-01fe" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
+        <categoryLink id="17b0-3e0a-4423-effe" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3ca-e0f2-6499-fe11" name="Ranged weapon" hidden="false" collective="false" import="true">
