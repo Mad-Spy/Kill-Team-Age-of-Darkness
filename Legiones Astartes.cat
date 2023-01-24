@@ -7137,17 +7137,30 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="2379-d90a-ecd3-3d13" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="052b-db08-baf0-7ed0" name="Scout" hidden="false" targetId="8ff4-fb46-7cc1-1baa" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="650b-032d-0dc1-3aa1" name="Combat Knife" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc61-4182-25a5-9bcc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e92b-9be8-86c7-92e7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c7d5-6d7a-9fc8-4b49" name="⚔ Combat Knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="9a7f-7551-b79e-59e5" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e7-c69b-8a67-a09e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-a45d-bb81-52e9" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="d757-81ad-60c3-eee7" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308a-82ce-934b-b439" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf2-9869-e0bf-9125" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
