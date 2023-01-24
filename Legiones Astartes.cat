@@ -84,6 +84,7 @@
     <categoryEntry id="3817-8f6c-0bbf-6c1e" name="Alpha Legion" hidden="false"/>
     <categoryEntry id="d715-20e7-c5bd-8919" name="Raven Guard" hidden="false"/>
     <categoryEntry id="ffa6-1bef-cacc-f9b5" name="Pyroclast" hidden="false"/>
+    <categoryEntry id="3fac-7b68-fefa-8760" name="Khenetai Blade" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -737,6 +738,7 @@
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d4-896d-2f79-cf96" type="instanceOf"/>
               </conditions>
             </modifier>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
@@ -6783,155 +6785,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c170-25e6-e91e-5a5e" name="Ammitara Intercessor" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="630d-2e40-88b7-3214" name="Ammitara Intercessor" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
-          <characteristics>
-            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
-            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
-            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
-            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
-            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
-            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="bd81-9fb3-ef8b-8f48" name="Mind Killer" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
-          <characteristics>
-            <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the end of the Turning Point this operative may re-roll any failed attack dice when making any shooting attacks. Additionally, the Sniper Rifle increases the MW1 critical rule to MW2.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="6795-3d68-51fa-38cf" name="Infiltrate" hidden="false" targetId="d95e-fa98-1225-fc75" type="profile"/>
-        <infoLink id="9c7d-f763-f813-4c4d" name="Move Through Cover" hidden="false" targetId="1227-5e54-467d-df90" type="profile"/>
-        <infoLink id="1aae-35db-2d14-2849" name="Shroud Bombs" hidden="false" targetId="1afc-f10e-c680-c907" type="profile"/>
-        <infoLink id="c4de-0278-b8c6-3272" name="Inititate" hidden="false" targetId="f37a-1f94-3ab0-eae6" type="profile"/>
-        <infoLink id="3118-1756-3e9f-0f15" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
-        <infoLink id="13eb-91c7-80c5-b188" name="Stealth" hidden="false" targetId="6ae2-b5e6-a186-cd15" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="b5be-48d4-af9b-e262" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
-        <categoryLink id="e987-e001-1b0f-609b" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="ea7e-207d-67a3-3e45" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
-        <categoryLink id="a1aa-fcad-ccca-fdcd" name="Psyker" hidden="false" targetId="55b9-413d-e975-492a" primary="false"/>
-        <categoryLink id="cb8e-664c-aa80-e92e" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
-        <categoryLink id="15bd-b3a4-d9e5-c66d" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="59c6-1b94-a12f-12f9" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf13-e239-e5f5-6662" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ed-105f-bfa6-99fb" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5bd8-b27e-f005-d4c7" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa2-1401-e749-5770" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67e-790c-3622-72a8" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4de4-04dc-fad7-b3d1" name="Khenetai Blade" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="424f-3eba-43f9-b284" name="Khenetai Blade" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
-          <characteristics>
-            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
-            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
-            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
-            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
-            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
-            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c04a-a8f2-daa2-0707" name="Mindsong of Blades" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">At the start of each Turning Point this operative must select a Khenetai Blade Form to use. It may only attack with that specific weapon ability but must also follow the associated restriction
-- Fury of Sutekh: This operative may not Parry enemy attack dice
-- Embrace of Anpu: This operative may not Parry with Critical Hits
-- Blessings of Nephthys: This operative may Parry enemy Critical hits with Normal hits.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ff1b-99c5-14d2-66a5" name="*Force" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">For each additional action point an operative adds to the Fight action they may roll an additional attack dice.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="8164-080e-adad-88ec" name="Inititate" hidden="false" targetId="f37a-1f94-3ab0-eae6" type="profile"/>
-        <infoLink id="4ba6-fefb-3f79-4c6e" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="4111-d690-8914-4ba6" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
-        <categoryLink id="89d7-333e-6318-39bd" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
-        <categoryLink id="884a-3e73-a144-7650" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
-        <categoryLink id="3311-7575-aac5-1e14" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
-        <categoryLink id="848a-88c2-a4a8-d1f4" name="Psyker" hidden="false" targetId="55b9-413d-e975-492a" primary="false"/>
-        <categoryLink id="ed5a-d290-a92a-0bee" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
-        <categoryLink id="5f1d-9896-f4b4-5263" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1344-7a9d-282a-9e92" name="Paired Force Swords" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69d7-2fc2-ee03-626d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe9d-ba01-6380-c58c" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="e5e5-1812-9daf-be28" name="Blessings of Nephthys" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-              <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force*</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="cccc-311e-2fc7-bd8d" name="Fury of Sutekh" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-              <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/6</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force*, Relentless</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="1bdb-9203-67df-845e" name="Embrace of Anpu" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-              <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force* Lethat 5+		</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="f138-5185-acd3-0ad0" name="*Force" hidden="false" targetId="155f-68ee-5bca-04df" type="rule"/>
-            <infoLink id="dd88-45c1-2b39-fd99" name="Relentless" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
-            <infoLink id="d4db-a3b0-ecdc-09f7" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
-            <infoLink id="d6e3-8ae1-08e5-de02" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="8874-4e4b-8778-cffd" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0004-2c0d-d0fb-263a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="304f-fed0-1367-fe89" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="22cf-3627-8e11-5665" name="Reaver" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="496a-8277-3f57-6176" name="Reaver" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
@@ -7248,6 +7101,166 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="07d4-896d-2f79-cf96" name="Ammitara Intercessor" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="90ff-b857-acb1-4edb" name="Ammitara Intercessor" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="10a8-e2e8-9ee3-66bc" name="Mind Killer" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the end of the Turning Point this operative may re-roll any failed attack dice when making any shooting attacks. Additionally, the Sniper Rifle increases the MW1 critical rule to MW2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d480-17b3-e76d-1a30" name="Infiltrate" hidden="false" targetId="d95e-fa98-1225-fc75" type="profile"/>
+        <infoLink id="9f9b-ecc2-3300-5966" name="Move Through Cover" hidden="false" targetId="1227-5e54-467d-df90" type="profile"/>
+        <infoLink id="c2ee-5041-8667-4754" name="Shroud Bombs" hidden="false" targetId="1afc-f10e-c680-c907" type="profile"/>
+        <infoLink id="8d31-beca-2103-8b34" name="Inititate" hidden="false" targetId="f37a-1f94-3ab0-eae6" type="profile"/>
+        <infoLink id="ea28-54f9-7275-83b9" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+        <infoLink id="a00a-e6fb-ac9f-45d8" name="Stealth" hidden="false" targetId="6ae2-b5e6-a186-cd15" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7a2-1bbd-d703-4ec6" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="1381-3ec8-b06d-1f79" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="e205-ed9c-209b-3300" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="07b9-204c-40b4-f736" name="Psyker" hidden="false" targetId="55b9-413d-e975-492a" primary="false"/>
+        <categoryLink id="999d-12b4-dfe0-649d" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="2379-d90a-ecd3-3d13" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="052b-db08-baf0-7ed0" name="Scout" hidden="false" targetId="8ff4-fb46-7cc1-1baa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9a7f-7551-b79e-59e5" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e7-c69b-8a67-a09e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-a45d-bb81-52e9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d757-81ad-60c3-eee7" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308a-82ce-934b-b439" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf2-9869-e0bf-9125" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f078-8e1d-0cca-6446" name="Khenetai Blade" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="124d-5e3f-5a70-c1fa" name="Khenetai Blade" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="46e7-e105-5ec9-41f3" name="Mindsong of Blades" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">At the start of each Turning Point this operative must select a Khenetai Blade Form to use. It may only attack with that specific weapon ability but must also follow the associated restriction
+- Fury of Sutekh: This operative may not Parry enemy attack dice
+- Embrace of Anpu: This operative may not Parry with Critical Hits
+- Blessings of Nephthys: This operative may Parry enemy Critical hits with Normal hits.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc19-8350-5cca-ec5f" name="*Force" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">For each additional action point an operative adds to the Fight action they may roll an additional attack dice.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f6cc-1e34-17f8-5617" name="Inititate" hidden="false" targetId="f37a-1f94-3ab0-eae6" type="profile"/>
+        <infoLink id="f1ba-653c-2ac2-335d" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f263-1b9a-40d9-f071" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="1dc7-5955-2661-396e" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
+        <categoryLink id="176a-762d-b6c2-3f54" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="2af8-998b-293d-2178" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
+        <categoryLink id="95d3-b310-9a84-d09c" name="Psyker" hidden="false" targetId="55b9-413d-e975-492a" primary="false"/>
+        <categoryLink id="c83f-8eba-99d1-568a" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
+        <categoryLink id="d7de-7854-c949-f1aa" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="f22c-390e-558d-11c3" name="Khenetai Blade" hidden="false" targetId="3fac-7b68-fefa-8760" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d70c-f138-afa3-0112" name="Paired Force Swords" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3936-43f8-cb91-2f47" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ca-f010-552e-a0b0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bb88-b6ff-eff4-a6a5" name="⚔ Paired Force Swords - Blessings of Nephthys" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force*</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ff14-e813-1ea6-c48e" name="⚔ Paired Force Swords - Fury of Sutekh" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/6</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force*, Relentless</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0326-73b2-0584-42ef" name="⚔ Paired Force Swords - Embrace of Anpu" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force* Lethat 5+		</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b911-1dd0-882c-040b" name="Paired Force Swords" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c"/>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031"/>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489"/>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Each time this weapon is selected to make a shooting attack with, select one of the profiles below to use.</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f5b3-4450-80cc-c502" name="*Force" hidden="false" targetId="155f-68ee-5bca-04df" type="rule"/>
+            <infoLink id="ed4c-19fb-5137-f5ae" name="Relentless" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+            <infoLink id="5e0e-caca-fe79-ef32" name="Lethal x" hidden="false" targetId="be29-25db-e215-b3b0" type="rule"/>
+            <infoLink id="5c3d-e303-7540-f7cc" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ebec-0635-54b1-11c8" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff11-95c9-86d4-9e33" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce8-3eac-1d3e-e9e3" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -7431,6 +7444,105 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="2258-48cb-6de9-8696" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3c76-028b-8c67-3be7" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3198-c1ce-dfd0-fb4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="ff1d-47c3-a4ca-6829" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1d-47c3-a4ca-6829" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c76-028b-8c67-3be7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4004-489f-4870-c73d" name="Corvidae" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="20e9-bc64-0070-a777" name="Corvidae" hidden="false" targetId="b0a1-a005-fd2c-b728" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="08cd-0f8e-5b8d-1ab4" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c139-19d0-2e7d-81bb" name="Pavoni" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="dfe3-aedf-3837-e3fc" name="Pavoni" hidden="false" targetId="b3a2-b790-3522-0df9" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a1d3-9377-e0a1-27fd" name="Raptora" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="8c6a-59d6-5981-8979" name="Raptora" hidden="false" targetId="e11a-7748-90c9-615a" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="96a1-9250-aa1d-4aeb" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8a8a-7d3d-78bd-9582" name="Athenean" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="c156-fe18-7fb5-c798" name="Athenean" hidden="false" targetId="33e5-d4ff-0b5e-313b" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7988-bd2e-b520-2228" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="191d-4b36-3a32-587d" name="Pyrae" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="6361-69b1-2069-2dfd" name="Pyrae" hidden="false" targetId="976a-c0cb-180b-0817" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="557b-d928-34c1-3339" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8412-33cb-a289-dc81" name="*Combi" hidden="false">
@@ -7536,7 +7648,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="1afc-f10e-c680-c907" name="Shroud Bombs" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When within engagement range of an  enemy operative this operative may not be targeted with Overwatch attacks.
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When within Engagement Range of an  enemy operative this operative may not be targeted with Overwatch attacks.
 </characteristic>
       </characteristics>
     </profile>
@@ -7630,7 +7742,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="1227-5e54-467d-df90" name="Move Through Cover" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats terrain with the light trait as also having the traversable trait.</characteristic>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats terrain with the Light trait as also having the Traversable trait.</characteristic>
       </characteristics>
     </profile>
     <profile id="8c37-d6a2-83b3-a09c" name="Manifest Psychic Powers (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
@@ -7640,7 +7752,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="6ae2-b5e6-a186-cd15" name="Stealth" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time an enemy operative makes a shooting attack, unless it is within ⬤ of this operative or it is a subsequent attackmade as a result of the Blast special rule , this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).</characteristic>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time an enemy operative makes a shooting attack, unless it is within ⬤ of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).</characteristic>
       </characteristics>
     </profile>
     <profile id="ee57-8cc3-22d7-ca6d" name="Assassins Eye (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
@@ -7658,6 +7770,31 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </modifiers>
       <characteristics>
         <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Once per game an operative with Banestrike Bolts and equipped with a Bolt Pistol, Boltgun, Boltgun component of a Combi-Weapon, or Heavy Boltgun adds the P1 critical rule to that weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="33e5-d4ff-0b5e-313b" name="Athenean" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative ignores critical hits until the next turning point, they are considered to be failed attack rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b0a1-a005-fd2c-b728" name="Corvidae" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative can re-roll attack or defence dice results of 1 until the next turning point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3a2-b790-3522-0df9" name="Pavoni" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative adds 1⬤ to all movement actions until the next turning point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="976a-c0cb-180b-0817" name="Pyrae" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative rolls an additional attack dice in fight actions until the next turning point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e11a-7748-90c9-615a" name="Raptora" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative within ⬤ of a terrain feature with the barricade, light or heavy trait counts as being obscured until the next turning point, even if in the open.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
