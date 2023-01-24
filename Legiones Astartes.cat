@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1a5f-0de4-9908-1f09" name="Legiones Astartes" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1a5f-0de4-9908-1f09" name="Legiones Astartes" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="6a32-cc91-35ed-7708" name="LEGIONES ASTARTES" hidden="false"/>
     <categoryEntry id="0e50-f163-6440-5bf8" name="Sergeant" hidden="false"/>
@@ -767,6 +767,7 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cf-3627-8e11-5665" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -779,6 +780,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2bb-d8fb-6e33-1c06" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2377-289e-20d5-c803" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cf-3627-8e11-5665" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -6488,6 +6490,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22cf-3627-8e11-5665" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -6790,12 +6793,12 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <profiles>
         <profile id="496a-8277-3f57-6176" name="Reaver" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
-            <characteristic name="M" typeId="c36f-3952-a91d-5a06"/>
-            <characteristic name="APL" typeId="c84a-a042-6fe6-519b"/>
-            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b"/>
-            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c"/>
-            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2"/>
-            <characteristic name="W" typeId="db11-738c-048c-759e"/>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
         <profile id="f6f3-a1d3-84df-74ce" name="Loner" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -6816,7 +6819,31 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="32a6-a437-534a-9c7e" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
         <categoryLink id="aa52-c8c4-9b74-356a" name="Sons of Horus" hidden="false" targetId="a6dd-3447-1c00-d08a" primary="false"/>
         <categoryLink id="6ce0-9606-6cc1-3e85" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
+        <categoryLink id="26cf-746d-d881-1972" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fd52-22de-0361-9b6f" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35e-b3f0-6609-9180" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f5-9e46-2657-a187" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0dd5-a741-c0b9-c7fb" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c09e-3a3e-34e3-3945" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="9ca9-b2f0-95ca-fce6" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2abd-9070-3354-cb49" name="Melee Weapons" hidden="false" collective="false" import="true">
           <constraints>
@@ -6852,14 +6879,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="5f4b-4865-62e3-9d3f" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5edc-8c33-c8dd-67f4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05e-ebf3-7fb1-41a2" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -7154,6 +7173,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
