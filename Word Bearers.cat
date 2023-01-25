@@ -81,11 +81,6 @@
         <categoryLink id="7b0a-7881-33c3-c592" name="Word Bearers" hidden="false" targetId="387a-85c6-5ce0-f3f2" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a9e2-567b-2c19-c5b8" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="fee6-10c7-7af3-8b60" name="Word Bearers" hidden="false" targetId="387a-85c6-5ce0-f3f2" primary="false"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="9eab-be60-331a-b2a7" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6ecf-9fa6-404c-2ef0" name="Word Bearers" hidden="false" targetId="387a-85c6-5ce0-f3f2" primary="false"/>
