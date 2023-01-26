@@ -31,6 +31,7 @@
       <categoryLinks>
         <categoryLink id="ba41-2883-9c99-6f22" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="0fea-f990-ce4d-616b" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
+        <categoryLink id="c224-da0e-4591-6ae5" name="Lexicanium" hidden="false" targetId="be72-7625-3978-94b0" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9133-3222-ac47-d6c6" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -50,6 +51,7 @@
       <categoryLinks>
         <categoryLink id="01c8-407d-2eb0-3359" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="d3cb-082d-a590-d6a1" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
+        <categoryLink id="65a6-dc2d-231f-5571" name="Lexicanium" hidden="false" targetId="be72-7625-3978-94b0" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="062f-8550-9d53-0987" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -123,6 +125,7 @@
       <categoryLinks>
         <categoryLink id="f617-a352-6f7c-9969" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="6ccd-8316-815d-c61e" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
+        <categoryLink id="bf5d-38ad-a02e-c0d3" name="Lexicanium" hidden="false" targetId="be72-7625-3978-94b0" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a142-b724-dd31-490a" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -167,6 +170,7 @@
       <categoryLinks>
         <categoryLink id="e607-094f-9141-5ce0" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="1454-9596-1d3d-b657" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
+        <categoryLink id="f66c-233f-b871-80dd" name="Lexicanium" hidden="false" targetId="be72-7625-3978-94b0" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b644-1d37-32af-1608" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>

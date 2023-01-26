@@ -253,7 +253,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cef1-798c-6876-bef6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="65e2-c597-a2f9-b929" name="The Censured" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+        <profile id="65e2-c597-a2f9-b929" name="The Sable Brand" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
             <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">At the start of the game pick one operative from your kill team other than the leader. This operative cannot become Injured and cannot be given suppression tokens. However, this operative must always Charge if able and may never fall back for any reason.</characteristic>
           </characteristics>
