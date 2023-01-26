@@ -6785,6 +6785,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f958-d4f0-329b-9f08" type="notInstanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c85-01bd-9535-a811" type="notInstanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
