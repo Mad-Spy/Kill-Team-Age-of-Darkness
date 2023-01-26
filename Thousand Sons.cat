@@ -30,6 +30,7 @@
     <entryLink id="030e-5d1a-f685-101c" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ba41-2883-9c99-6f22" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="0fea-f990-ce4d-616b" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="9133-3222-ac47-d6c6" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -48,6 +49,7 @@
     <entryLink id="9349-f0db-fe25-1326" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="01c8-407d-2eb0-3359" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="d3cb-082d-a590-d6a1" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="062f-8550-9d53-0987" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -86,6 +88,7 @@
     <entryLink id="20b5-b11e-a2f4-ddf9" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0da2-8223-a60e-5312" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="5597-4d8e-a606-0eef" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ea76-5a20-a293-fa86" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -119,6 +122,7 @@
     <entryLink id="a1ad-3884-ec9c-b927" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f617-a352-6f7c-9969" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="6ccd-8316-815d-c61e" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a142-b724-dd31-490a" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
@@ -162,7 +166,11 @@
     <entryLink id="4f6a-87ba-99d2-680d" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e607-094f-9141-5ce0" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
+        <categoryLink id="1454-9596-1d3d-b657" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="b644-1d37-32af-1608" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="d0b3-699d-e264-201e" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">
       <categoryLinks>

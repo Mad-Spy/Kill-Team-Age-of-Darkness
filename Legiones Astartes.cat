@@ -92,6 +92,7 @@
     <categoryEntry id="5375-6f8a-6293-7467" name="Dark Fury" hidden="false"/>
     <categoryEntry id="cf39-af33-3b0b-da02" name="Mor Deythan" hidden="false"/>
     <categoryEntry id="2572-63e0-b966-e590" name="Headhunter" hidden="false"/>
+    <categoryEntry id="5c85-01bd-9535-a811" name="Reaver" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -412,12 +413,24 @@
       <profiles>
         <profile id="b6db-7084-d887-77cc" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c85-01bd-9535-a811" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="667c-1b1d-408a-6b11" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c85-01bd-9535-a811" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -451,6 +464,16 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="667c-1b1d-408a-6b11" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -472,6 +495,16 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -533,6 +566,15 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="dbbb-45d3-e57b-3500" name="Torrent x" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
@@ -555,6 +597,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -578,6 +621,16 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -605,6 +658,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -627,6 +681,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -650,6 +705,16 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -677,6 +742,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -685,9 +751,9 @@
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">5/3</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/3</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Combi*, Rng ⬟, AP2, Limited</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW3</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -700,6 +766,16 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -728,6 +804,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -750,6 +827,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -773,6 +851,16 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -800,6 +888,7 @@
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -827,6 +916,16 @@
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="30ce-b0b1-06b0-fd30" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2572-63e0-b966-e590" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P1">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf39-af33-3b0b-da02" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
@@ -894,14 +993,22 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0604-3bbd-f1fa-5c65" name="Combat knife" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c0e-1d29-67ee-cef2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa17-bf51-d800-c01b" type="min"/>
+      </constraints>
       <profiles>
         <profile id="7bf0-f38a-89d0-c2a6" name="⚔ Combat knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c94e-318b-acbb-4729" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c94e-318b-acbb-4729" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e50-f163-6440-5bf8" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -1366,17 +1473,6 @@
     <selectionEntry id="3df8-c8ee-f37f-65e6" name="Hand flamer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="05c5-fe7a-12e4-7c87" name="⌖ Hand flamer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-          <modifiers>
-            <modifier type="set" field="32b4-9a0e-e740-6031" value="2+">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="00c0-70e6-72ab-8171" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -2170,6 +2266,16 @@
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="c80f-94d0-b5b1-2438" value="3.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+                <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71f9-8192-ea7e-afff" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c80f-94d0-b5b1-2438" type="max"/>
@@ -2354,7 +2460,6 @@
         <categoryLink id="72a0-7e71-009e-913e" name="Assault Astartes" hidden="false" targetId="a619-bfad-f5b2-5a23" primary="false"/>
         <categoryLink id="a1b5-65ba-3916-d1cd" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="58d0-3f10-d09e-fcdf" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
-        <categoryLink id="a26b-dc3d-8af7-cc15" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3033-12ad-0577-8e0e" name="Pistol" hidden="false" collective="false" import="true">
@@ -2540,7 +2645,6 @@
         <categoryLink id="f052-313d-24d7-4e4a" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0588-2c05-65ad-3076" name="Breacher Astartes" hidden="false" targetId="24b1-392e-87bf-dad0" primary="false"/>
         <categoryLink id="29bb-9d93-c661-0909" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
-        <categoryLink id="14d8-8478-fa74-53db" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8c8d-9c2e-478e-ec3a" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -2931,7 +3035,6 @@
         <categoryLink id="cb8f-02ae-34d4-e344" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="674d-3140-c835-84f2" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="1f12-695f-6f66-1617" name="Recon Astartes" hidden="false" targetId="425a-26dd-5818-bd90" primary="false"/>
-        <categoryLink id="db05-1afa-71fa-aa04" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="21a8-2b96-2821-b640" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -3773,7 +3876,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="79b4-8305-ec4f-4bf9" name="New CategoryLink" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="0154-875f-3031-7160" name="Tactical Astartes" hidden="false" targetId="0704-d04a-aec6-07ea" primary="false"/>
         <categoryLink id="ba64-991d-5c7c-01fe" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
-        <categoryLink id="17b0-3e0a-4423-effe" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3ca-e0f2-6499-fe11" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -7002,7 +7104,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="f6f3-a1d3-84df-74ce" name="Loner" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Regardless of their proximity this operative always counts asbeing further than ⬟ from all other friendly operatives</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Regardless of their proximity this operative always counts as being further than ⬟ from all other friendly operatives.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7018,34 +7120,8 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="32a6-a437-534a-9c7e" name="Assault" hidden="false" targetId="a976-0877-fbf0-ac1d" primary="false"/>
         <categoryLink id="aa52-c8c4-9b74-356a" name="Sons of Horus" hidden="false" targetId="a6dd-3447-1c00-d08a" primary="false"/>
         <categoryLink id="6ce0-9606-6cc1-3e85" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
-        <categoryLink id="26cf-746d-d881-1972" name="Sub-consul" hidden="false" targetId="6540-3b94-ae84-32eb" primary="false"/>
+        <categoryLink id="f371-76b8-2c26-4c20" name="Reaver" hidden="false" targetId="5c85-01bd-9535-a811" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="fd52-22de-0361-9b6f" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35e-b3f0-6609-9180" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f5-9e46-2657-a187" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="0dd5-a741-c0b9-c7fb" name="⌖ Bolt pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-              <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="c09e-3a3e-34e3-3945" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-            <infoLink id="9ca9-b2f0-95ca-fce6" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2abd-9070-3354-cb49" name="Melee Weapons" hidden="false" collective="false" import="true">
           <constraints>
@@ -7149,6 +7225,14 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a052-1a26-ed45-f9ab" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2f-8069-a373-198e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baac-a59c-ebdd-3492" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -7195,20 +7279,20 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d81f-7a02-0fe8-ca82" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="92bf-ac02-29f1-457f" name="Axe Rake" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="92bf-ac02-29f1-457f" name="Axe rake" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="80fb-af30-34c2-8164" name="⚔ Axe Rake" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
                   <characteristics>
                     <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
                     <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+		</characteristic>
                     <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced, Grapple</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Balanced, Grapple*</characteristic>
                     <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <rules>
-                <rule id="220a-2eee-89c7-849b" name="Grapple" hidden="false">
+                <rule id="220a-2eee-89c7-849b" name="*Grapple" hidden="false">
                   <description>When enemy operatives within Engagement Range ofthis operative make a Fall Back action they may only move up to ⬛</description>
                 </rule>
               </rules>
@@ -7326,10 +7410,10 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="d5ba-bee7-4f52-37c6" name="Mantle of Ash" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When attacked by a weapon which is classed as a Flamer, Plasma, Melta or Volkite weapon this model gains an Invulnerable Save of 4+</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When attacked by a weapon which is classed as a Flamer, Plasma, Melta or Volkite weapon this model gains an Invulnerable Save of 4+.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d304-e985-2571-d4a8" name="Focused Flame Projector (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+        <profile id="d304-e985-2571-d4a8" name="Focused flame projector (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
             <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative may make a combat attack with the Focused Flame Projector profile.</characteristic>
           </characteristics>
@@ -7430,29 +7514,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="999d-12b4-dfe0-649d" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="2379-d90a-ecd3-3d13" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="052b-db08-baf0-7ed0" name="Scout" hidden="false" targetId="8ff4-fb46-7cc1-1baa" primary="false"/>
+        <categoryLink id="0540-e1df-60f0-7375" name="Ammitara Intercessor" hidden="false" targetId="c94e-318b-acbb-4729" primary="false"/>
+        <categoryLink id="d8a8-c5ba-3181-18d8" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="650b-032d-0dc1-3aa1" name="Combat Knife" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc61-4182-25a5-9bcc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e92b-9be8-86c7-92e7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c7d5-6d7a-9fc8-4b49" name="⚔ Combat Knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-              <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="9a7f-7551-b79e-59e5" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry">
           <constraints>
@@ -7460,6 +7524,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-a45d-bb81-52e9" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="a3b6-e6c4-5ea3-5561" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7504,15 +7569,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="c83f-8eba-99d1-568a" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
         <categoryLink id="d7de-7854-c949-f1aa" name="Support Operative" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
         <categoryLink id="f22c-390e-558d-11c3" name="Khenetai Blade" hidden="false" targetId="3fac-7b68-fefa-8760" primary="false"/>
+        <categoryLink id="8503-fdd9-4010-2460" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d70c-f138-afa3-0112" name="Paired Force Swords" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d70c-f138-afa3-0112" name="Paired force swords" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3936-43f8-cb91-2f47" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ca-f010-552e-a0b0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bb88-b6ff-eff4-a6a5" name="⚔ Paired Force Swords - Blessings of Nephthys" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="bb88-b6ff-eff4-a6a5" name="⚔ Paired force swords - Blessings of Nephthys" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -7521,7 +7587,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="ff14-e813-1ea6-c48e" name="⚔ Paired Force Swords - Fury of Sutekh" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="ff14-e813-1ea6-c48e" name="⚔ Paired force swords - Fury of Sutekh" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
@@ -7530,16 +7596,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
               </characteristics>
             </profile>
-            <profile id="0326-73b2-0584-42ef" name="⚔ Paired Force Swords - Embrace of Anpu" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="0326-73b2-0584-42ef" name="⚔ Paired force swords - Embrace of Anpu" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
                 <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force* Lethat 5+		</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Force*, Lethal 5+		</characteristic>
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
               </characteristics>
             </profile>
-            <profile id="b911-1dd0-882c-040b" name="Paired Force Swords" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="b911-1dd0-882c-040b" name="⚔ Paired force swords" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c"/>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031"/>
@@ -7581,7 +7647,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="b09f-b6d8-b75e-2fe5" name="Dark Fury" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
-            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3</characteristic>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
             <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
             <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
             <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
@@ -7693,71 +7759,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f4-f83c-53f8-bf40" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff8-3db0-fff5-8b68" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="1b48-fa70-eaa9-068b" name="Boltgun" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="1d28-7b4b-e50b-aa1d" name="Boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="30ad-96b9-7b63-1626" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dd64-7631-2bbd-499f" name="Combi-boltgun" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="8f09-f67b-63eb-184f" name="⌖ Combi-boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Ceaseless</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="4193-a1f2-609b-8003" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
-                <infoLink id="367d-37a4-94f2-b02d" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2890-486d-f3fa-9c6a" name="Combi-melta" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="7086-3663-658b-1dab" name="⌖ Combi-melta" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/3</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Combi*, Rng ⬟, AP2, Limited</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW4</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="086b-194b-d159-51e4" name="⌖ Boltgun" hidden="false" targetId="825e-f617-b712-41bf" type="profile"/>
-                <infoLink id="8562-f105-d330-af10" name="*Combi" hidden="false" targetId="8412-33cb-a289-dc81" type="rule"/>
-                <infoLink id="533b-ebe8-b1e0-557a" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
-                <infoLink id="9be4-5654-10ed-2373" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
-                <infoLink id="f1cc-797b-e9e8-03ad" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
-                <infoLink id="b8a5-64ef-280e-dc32" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="141f-d624-c5b4-3c4c" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry"/>
             <entryLink id="6380-a6c9-34a0-170b" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry"/>
@@ -7766,6 +7767,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="ffd9-f70e-7fa7-0b9c" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
             <entryLink id="7fa8-8438-6624-e081" name="Astartes shotgun" hidden="false" collective="false" import="true" targetId="4b54-897a-43c5-6839" type="selectionEntry"/>
             <entryLink id="ac87-9137-cced-bd0a" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry"/>
+            <entryLink id="0714-5543-7912-a59d" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="6c5b-7d59-883b-a794" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry"/>
+            <entryLink id="622a-2568-2236-341e" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7792,7 +7796,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="ef4a-ff6d-171e-7aaf" name="Venom Spheres" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
-            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">After this operative has charged in a turning point it and any Enemy operatives within this operatives Engagement Range cannot be targeted by Overwatch attacks.</characteristic>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">After this operative has charged in a Turning Point it and any Enemy operatives within this operative&apos;s Engagement Range cannot be targeted by Overwatch attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7806,6 +7810,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="3e98-136c-f15b-af3a" name="Elite" hidden="false" targetId="0527-1bb7-7129-a292" primary="false"/>
         <categoryLink id="1c82-1132-b281-fae5" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
         <categoryLink id="0630-20ca-f0cf-4f7e" name="Headhunter" hidden="false" targetId="2572-63e0-b966-e590" primary="false"/>
+        <categoryLink id="b152-9a49-862c-6c4a" name="New CategoryLink" hidden="false" targetId="a94a-b62f-7cb8-a902" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="994c-d75a-7979-1b79" name="Power blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -7835,79 +7840,21 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decf-cf54-14f7-ed42" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ca-4f73-d1ba-dd2a" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="ca04-8e64-64c7-6f79" name="Boltgun" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="1c70-e609-b794-a800" name="Boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650"/>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="2723-bde9-48aa-faee" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1682-6172-fd68-74bd" name="Combi-boltgun" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="6d24-f982-c391-9964" name="⌖ Combi-boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Ceaseless</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"></characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="ea75-37fd-d000-3051" name="Ceaseless" hidden="false" targetId="ce9a-aa0d-7b46-3d04" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3f03-07db-2ee3-37f5" name="Combi-melta" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="9f00-14e1-27a8-860c" name="⌖ Combi-melta" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">6/3</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Combi*, Rng ⬟, AP2, Limited</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW4</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="6025-045b-c0b0-6474" name="⌖ Boltgun" hidden="false" targetId="825e-f617-b712-41bf" type="profile"/>
-                <infoLink id="239f-277c-b729-a5b2" name="*Combi" hidden="false" targetId="8412-33cb-a289-dc81" type="rule"/>
-                <infoLink id="07c8-8d95-2121-c6a6" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
-                <infoLink id="f8d2-2703-615a-99d3" name="Limited" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
-                <infoLink id="e9a2-8466-054e-1209" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
-                <infoLink id="b385-4a06-69fa-99bb" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="c9a7-7ff8-c519-97bc" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry"/>
             <entryLink id="2d92-9727-d750-afb1" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry"/>
             <entryLink id="84f6-c52b-12dd-0152" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry"/>
             <entryLink id="faa1-2c20-c7ce-c718" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
             <entryLink id="dd59-c39e-ecc8-b034" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
+            <entryLink id="9315-7862-5032-9335" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="fd3c-6cef-a374-094e" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry"/>
+            <entryLink id="95bf-84f7-78ae-ec08" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -8400,7 +8347,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="6ae2-b5e6-a186-cd15" name="Stealth" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time an enemy operative makes a shooting attack, unless it is within ⬤ of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).</characteristic>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time an enemy operative makes a shooting attack, unless it is within ⬟ of this operative or it is a subsequent attack made as a result of the Blast special rule, this operative is always treated as being in Cover for that shooting attack. While this operative has a Conceal order, it is always treated as having a Conceal order, regardless of any other rules (e.g. Vantage Point).</characteristic>
       </characteristics>
     </profile>
     <profile id="ee57-8cc3-22d7-ca6d" name="Assassins Eye (2AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
