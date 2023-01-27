@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ea96-3cf0-8224-bb25" name="Blackshields" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b014-be9d-2256-8576" name="Warbands" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="primary-catalogue" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ee-5d70-edaa-aa6b" type="max"/>
+        <constraint field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a6-6862-a483-7036" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8623-956d-3fb4-6884" name="Warbands" hidden="false" collective="false" import="true" targetId="6e50-0b08-1c1c-2176" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="29dd-a3e6-0a03-2762" name="Marauder Chief" hidden="false" collective="false" import="true" targetId="58f6-1a24-559e-3bbd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="18e0-5f78-25c2-afaa" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4f7a-171e-2497-7bdb" name="Marauder Champion" hidden="false" collective="false" import="true" targetId="479f-342b-0ea7-bb1b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f3e0-a29f-dac3-b61b" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3f57-c00d-0572-abc1" name="Marauder Warrior Comms" hidden="false" collective="false" import="true" targetId="a9d7-033a-00c1-06b5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1ce8-3201-d96e-d084" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c0ea-12cc-f51f-7762" name="Marauder Gunner" hidden="false" collective="false" import="true" targetId="95d3-b2c8-8d89-58e1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a3b-9ee0-9c18-e4b1" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e215-2726-e2f8-cf81" name="Marauder Heavy Gunner" hidden="false" collective="false" import="true" targetId="b5b6-5895-9207-68c8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e1e9-5ce7-b1ec-797d" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4a18-0549-ec3d-9ff2" name="Marauder Warrior" hidden="false" collective="false" import="true" targetId="6d67-f1e7-e877-2da8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="90a4-1d65-3e0a-442e" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9090-4928-94de-4db8" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="39e3-f947-c68f-53d8" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dece-6d11-687e-cb13" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b825-f527-2e17-8424" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5d54-5ec9-8687-20dd" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bf7d-20cf-2b9c-f0f7" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="79e3-a529-7f94-257a" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0205-5859-91e2-ba16" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9f3b-93c9-f2f0-57e5" name="Legion Seeker" hidden="false" collective="false" import="true" targetId="2441-26d4-df96-3d58" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="454b-5856-0d57-58c6" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f549-3c2a-d384-7ba8" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="52c2-2469-0574-59d8" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="91ef-2447-7aa8-61f0" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="db2a-981c-0f2d-4ab3" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5239-5825-6622-15b9" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9210-7049-d439-b4cb" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0983-4927-d5f7-1cb6" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dd1f-6cb6-671c-c4b9" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8ffe-0705-106f-e177" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bb15-0046-96bf-889d" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e664-3c28-b87a-0e06" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2987-a853-18f0-7877" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6171-d56a-36ac-0ec3" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="07eb-deb9-fdc4-29de" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a158-aabd-f521-23c3" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7fa2-9147-a5ad-1fba" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6e50-0b08-1c1c-2176" name="Warbands" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb7-4e7d-15d0-d47c" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17a2-253f-e922-50d8" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f908-56a9-0c7a-6dd4" name="Outlanders" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="bf8a-feb7-32a4-d4e6" name="Outlanders" hidden="false" targetId="79c8-7e05-e155-cba9" type="profile"/>
+            <infoLink id="7c0f-2120-7f22-a0b8" name="Void Reavers" hidden="false" targetId="9d08-ad1c-cbd4-e4f5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b35-37fa-6d11-7c83" name="Death Seekers" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c0b-df27-307b-adac" name="Orphans of War" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="a5be-d3a4-fd13-7858" name="No Gods, No Masters" hidden="false" targetId="c16d-2403-d53d-a518" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c84d-261c-19c7-e4b3" name="Chymeriae" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f452-f3f0-0469-3c55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a3a-21ef-d5bc-b442" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="aa00-e318-9178-0be7" name="Chymeriae" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Select one of the following Chymeric abilities for all of the operatives in a Chymeriae Kill Team.
+- Hyper Aggression: Roll an additional attack dice in Fight actions
+- Physiological Efficiency: Increase the operative’s Move characteristic by +1
+- Sub-Dermal Plating: Increase the operative’s Defence characteristic by 1
+- Neuro-Prophetic Reflexes: Increase the operative’s Weapon Skill characteristic by 1 (e.g. WS 3+ becomes WS 2+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="e674-3627-b0bd-f58b" name="Hyper Aggression" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c7ad-948c-c316-6f68" name="Hyper Aggression" hidden="false" targetId="10a7-e360-4c8f-74eb" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb02-46c4-fb8d-3203" name="Physiological Efficiency:" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="419c-c86a-bb16-f005" name="Physiological Efficiency" hidden="false" targetId="cab4-d088-f2eb-f1c3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7386-78ee-9fd7-3e9c" name="Sub-Dermal Plating" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="bab7-e97e-cee6-a90b" name="Sub-Dermal Plating" hidden="false" targetId="dc89-a2b9-49e4-c58f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="10a1-0933-44f4-868f" name="Neuro-Prophetic Reflexes" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="546f-e0cc-b069-52f2" name="Neuro-Prophetic Reflexes" hidden="false" targetId="fb23-78a0-73c1-724e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="cab4-d088-f2eb-f1c3" name="Physiological Efficiency" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’sMove characteristic by +1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc89-a2b9-49e4-c58f" name="Sub-Dermal Plating" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’sDefence characteristic by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fb23-78a0-73c1-724e" name="Neuro-Prophetic Reflexes" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’sWeapon Skill characteristic by 1 (e.g. WS 3+ becomesWS 2+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c16d-2403-d53d-a518" name="No Gods, No Masters" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Orphans of War kill teams may not include the Chaplain operative or any operative with the LOYALIST or TRAITOR keyword. In addition all Orphans of War operative may re-roll attack dice of 1 when targeting an enemy Leader or Sub-Consul operative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d08-ad1c-cbd4-e4f5" name="Void Reavers" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">During Deployment place one Outlander fire team at any point outside of your opponent’s deployment zone. It must be placed so that each operative is wholly within of the other two and one edge of the kill zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="79c8-7e05-e155-cba9" name="Outlanders" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d"/>
+      </characteristics>
+    </profile>
+    <profile id="10a7-e360-4c8f-74eb" name="Hyper Aggression" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Roll an additional attack dice in Fight actions.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="ace2-247c-8ec3-cd47" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

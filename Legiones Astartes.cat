@@ -93,6 +93,14 @@
     <categoryEntry id="cf39-af33-3b0b-da02" name="Mor Deythan" hidden="false"/>
     <categoryEntry id="2572-63e0-b966-e590" name="Headhunter" hidden="false"/>
     <categoryEntry id="5c85-01bd-9535-a811" name="Reaver" hidden="false"/>
+    <categoryEntry id="ad09-f2e5-e2f2-7c24" name="Marauder" hidden="false"/>
+    <categoryEntry id="c9ae-9e7f-06fc-0af9" name="Chief" hidden="false"/>
+    <categoryEntry id="9577-1960-12d1-f406" name="Outlanders" hidden="false"/>
+    <categoryEntry id="83a4-b80e-c55a-698d" name="Orphans of War" hidden="false"/>
+    <categoryEntry id="64d2-84ac-bd35-c4db" name="Chymeriae" hidden="false"/>
+    <categoryEntry id="50b2-f849-f36b-a2c2" name="Death Seekers" hidden="false"/>
+    <categoryEntry id="a54a-3452-a021-d373" name="Blackshield" hidden="false"/>
+    <categoryEntry id="9955-926a-0d97-74b1" name="Blackshield Marauder" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -403,6 +411,43 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f8-26b5-d315-77cc" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c2f7-8433-966b-eb3b" name="Maurader" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false">
+          <modifiers>
+            <modifier type="increment" field="5aa7-80b0-6022-6e0b" value="3.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="5aa7-80b0-6022-6e0b" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58f6-1a24-559e-3bbd" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="5aa7-80b0-6022-6e0b" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58f6-1a24-559e-3bbd" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="5aa7-80b0-6022-6e0b" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+                    <condition field="selections" scope="b393-d845-760a-1cca" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58f6-1a24-559e-3bbd" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa7-80b0-6022-6e0b" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -7776,6 +7821,489 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="58f6-1a24-559e-3bbd" name="Marauder Chief" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="630d-c5dd-ce74-0889" name="Marauder Chief" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0507-84e4-eb62-cf4a" name="Iconoclastic Fervour (3AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative and any unactivated friendly BLACKSHIELD operatives within ⬛are immediately activated and make a Shoot action followed by a Charge action. Operatives being activated by this action may have any order but after they have concluded their Charge action these operatives are given an Engage order. All operatives involved are considered to have been activated for this Turning Point.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c034-fdde-b2e8-9dad" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="ecb2-d0ee-b7a8-e1c0" name="Leader" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="false"/>
+        <categoryLink id="4d89-e5d9-b640-7524" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
+        <categoryLink id="fcc7-cff6-57ed-2ba3" name="Maurader" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+        <categoryLink id="c5cd-5a83-2e88-f653" name="Chief" hidden="false" targetId="c9ae-9e7f-06fc-0af9" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9eae-3d57-1887-7210" name="Melee weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="626b-4a6f-3254-bdf7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3fd-dd72-bf95-a4ed" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6ee8-16f3-0b64-6c66" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="fb37-4576-4062-076c" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="ce9d-03ef-ab80-3a81" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
+            <entryLink id="ea66-f73e-cd37-242d" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+            <entryLink id="9b30-7792-f30c-6e61" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="bcd4-1726-49de-efd0" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="cdf1-144e-3f7f-47a8" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="0950-56fb-d1b8-a18c" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="e0c3-1661-2ca1-5a17" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1f86-d5c4-c6e2-f5b6" name="Ranged weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c39-9a36-a6ff-1245" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4035-9e78-3fd3-56fe" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8c2d-df31-32e7-a6ca" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="4343-5844-ccd5-7a01" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="18d0-d19d-8a9b-f8f2" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+            <entryLink id="2bef-6c59-40e5-c188" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry"/>
+            <entryLink id="4165-0724-8ecb-c711" name="Combi-flamer" hidden="false" collective="false" import="true" targetId="0cf4-5488-0b21-f48a" type="selectionEntry"/>
+            <entryLink id="23e8-5fde-ef07-ed8f" name="Combi-grav" hidden="false" collective="false" import="true" targetId="35d9-50f9-e06c-8541" type="selectionEntry"/>
+            <entryLink id="701c-48aa-bf84-5ae0" name="Combi-grenade launcher" hidden="false" collective="false" import="true" targetId="5e11-81c0-dc4b-7bea" type="selectionEntry"/>
+            <entryLink id="485b-b75d-051b-8862" name="Combi-melta" hidden="false" collective="false" import="true" targetId="1f9a-aec5-e29d-fa44" type="selectionEntry"/>
+            <entryLink id="c555-fa8f-3b3e-4ce9" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
+            <entryLink id="0fc0-feea-bad1-da26" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
+            <entryLink id="9b24-dbcc-0217-9e05" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc66-4d12-9fad-e267" name="Bane bolts" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e315-d606-5bc0-bc05" name="Bane Bolts" hidden="false" targetId="86c7-27eb-5879-e88a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1612-9dfc-e40a-b3ab" name="Sons of Horus" hidden="false" targetId="a6dd-3447-1c00-d08a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d67-f1e7-e877-2da8" name="Marauder Warrior" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="18a2-3759-6314-fbfb" name="Marauder Warrior" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fc80-012f-a975-d37b" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="6223-521e-4b24-3832" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
+        <categoryLink id="7ced-7cb9-5073-b695" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+        <categoryLink id="d17b-1ff9-387e-0813" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5222-a8ea-bd5c-57af" name="Ranged weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c180-17c5-a35e-abd6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b25c-de1e-5c25-37e1" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3cf0-c7f3-6635-ccd7" name="Astartes shotgun" hidden="false" collective="false" import="true" targetId="4b54-897a-43c5-6839" type="selectionEntry"/>
+            <entryLink id="ecbc-7ebe-0ec7-1421" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="d3bb-e0fc-54cf-cfb4" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="8111-b0d1-2d9d-27c8" name="Lascutter" hidden="false" collective="false" import="true" targetId="4b8a-b6f6-b32e-e6e6" type="selectionEntry"/>
+            <entryLink id="6ca3-e379-3666-bd43" name="Autogun/Lascarbine" hidden="false" collective="false" import="true" targetId="bf7a-685b-3dd1-0529" type="selectionEntry"/>
+            <entryLink id="68b3-006b-e697-1fdc" name="Laslock" hidden="false" collective="false" import="true" targetId="68e0-3a78-f4f3-5d69" type="selectionEntry"/>
+            <entryLink id="e6bc-a4b2-b3b5-cde9" name="Pariah boltgun" hidden="false" collective="false" import="true" targetId="837d-42da-d5ac-382c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b871-5cee-f4b8-0b11" name="Melee weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9f56-6d1a-21fa-db84" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="ce87-e435-3b01-6501" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a9d7-033a-00c1-06b5" name="Marauder Warrior Comms" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c579-9cf7-5870-8163" name="Nuncio-vox (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+          <characteristics>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within ⬟ of and Visible to this operative. Add 1 to its APL. This operative cannot perform this action if it is within Engagement Range of an enemy operative.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="daa3-53bb-0d41-28c4" name="Marauder Warrior Comms" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bcfd-b79d-67fe-86b6" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="e911-b540-bf66-5540" name="Comms" hidden="false" targetId="0bad-0565-b6dc-21e1" primary="false"/>
+        <categoryLink id="f28b-3930-bf63-cc62" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+        <categoryLink id="31f3-2cf1-0035-5caa" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
+        <categoryLink id="c37b-9f15-8563-1538" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b3d4-8b1e-08f8-6e9a" name="Melee weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="85b8-891a-73e8-57ca" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="a5fb-b6e3-fa13-8145" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="55e1-72ae-f60a-7ece" name="Ranged weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b34-0644-a4d7-4683" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f44-ae7e-a7f2-8a41" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c879-392a-2cd3-d90d" name="Astartes shotgun" hidden="false" collective="false" import="true" targetId="4b54-897a-43c5-6839" type="selectionEntry"/>
+            <entryLink id="1f41-2b80-89d2-0d2d" name="Boltgun" hidden="false" collective="false" import="true" targetId="056e-626d-d90b-6ab8" type="selectionEntry"/>
+            <entryLink id="0f5c-6510-19b7-0299" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="c76e-1583-477a-0595" name="Lascutter" hidden="false" collective="false" import="true" targetId="4b8a-b6f6-b32e-e6e6" type="selectionEntry"/>
+            <entryLink id="3e2b-ece7-4fbc-dc1f" name="Autogun/Lascarbine" hidden="false" collective="false" import="true" targetId="bf7a-685b-3dd1-0529" type="selectionEntry"/>
+            <entryLink id="473e-b2bf-20b2-938e" name="Laslock" hidden="false" collective="false" import="true" targetId="68e0-3a78-f4f3-5d69" type="selectionEntry"/>
+            <entryLink id="1dbe-de3c-b8f2-3f5c" name="Pariah boltgun" hidden="false" collective="false" import="true" targetId="837d-42da-d5ac-382c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="479f-342b-0ea7-bb1b" name="Marauder Champion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7ab8-7758-ab4e-e1eb" name="Paired bolt pistols" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="479f-342b-0ea7-bb1b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cc8-1e58-31e5-8ffc" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">If this operative is armed with 2 bolt pistols, add the Ceaseless special rule to the profile of bolt pistols it is equipped with.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="36fe-c930-1dfb-0f48" name="Paired chainswords" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="479f-342b-0ea7-bb1b" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a29b-2622-88e6-936e" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">If this operative is armed with 2 chainswords, add the Relentless special rule to the profile of chainswords it is equipped with.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b43-3472-7124-d62f" name="Marauder Champion" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d4ff-875e-cf33-d15b" name="Redoubtable" hidden="false" targetId="197b-1b15-f8cb-1568" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1989-e0fb-9358-f31e" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="0dc3-1075-bb39-6e7a" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
+        <categoryLink id="2b68-de4e-9129-d341" name="Champion" hidden="false" targetId="2fce-b46e-f7a4-5f5c" primary="false"/>
+        <categoryLink id="cb8f-e3be-8ce1-62e8" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0f73-8d8a-5c8c-d43b" name="Weapon 1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="075c-f219-3c40-1431" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6efb-4742-aeab-badf" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1964-f77e-b50e-7db3" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="0904-2cee-2f88-0f93" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
+            <entryLink id="05b1-9c6e-3cdf-cc0b" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
+            <entryLink id="4c62-892e-cb23-7046" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
+            <entryLink id="90ee-61de-3e62-e179" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="0489-ba6e-53bd-4e0b" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="14ba-477f-b886-65f1" name="Weapon 2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f15-d83d-47d4-df51" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e30-880a-3a55-21d5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="82c8-373e-61a5-d0d3" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="da65-f97d-dad2-a2f6" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+            <entryLink id="8eb2-f517-44c7-56da" name="Hand flamer" hidden="false" collective="false" import="true" targetId="3df8-c8ee-f37f-65e6" type="selectionEntry"/>
+            <entryLink id="82b6-045d-acb5-f534" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95d3-b2c8-8d89-58e1" name="Marauder Gunner" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0c00-d59b-7c30-a7bf" name="Marauder Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2efc-2bbd-cca8-be5f" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="22df-f712-416f-6273" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
+        <categoryLink id="586c-a596-6092-bfea" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+        <categoryLink id="f446-130d-a5ce-4900" name="Gunner" hidden="false" targetId="ee8c-cc44-acc3-40f0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="170c-a947-eaa7-2b5b" name="Ranged weapons" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="e84a-3e42-8a9a-228f" name="Pariah flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="42a6-ec32-0500-2e40" name="⌖ Pariah flamer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5	</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/2</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Torrent</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6c2e-b6b9-3428-ccc1" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+                <infoLink id="d2d0-e59f-59d3-65c2" name="Torrent x" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="afe4-2bee-bce2-8687" name="Grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="92fe-df77-b401-096d" name="⌖ Grenade launcher" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c"/>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031"/>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489"/>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">When making a shooting attack with this weapon select one of the profiles below to use</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+                  </characteristics>
+                </profile>
+                <profile id="ce63-cbc5-98ae-24c1" name="⌖ Grenade launcher - Frag" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/4</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤, Indirect</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="2b55-d330-162f-c6c3" name="⌖ Grenade launcher - Krak" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">AP1, Indirect</characteristic>
+                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="b95d-3d88-5e3f-0d38" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+                <infoLink id="e8ee-8c4c-0013-c046" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+                <infoLink id="cd4e-cdf4-4b63-fc0a" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5c36-9af7-23b4-962d" name="Flamer" hidden="false" collective="false" import="true" targetId="5bf6-3a13-0377-e5a2" type="selectionEntry"/>
+            <entryLink id="8ea5-0603-8969-21e8" name="Meltagun" hidden="false" collective="false" import="true" targetId="f813-af79-dc6d-128a" type="selectionEntry"/>
+            <entryLink id="fafb-fc1c-472c-569a" name="Plasma gun" hidden="false" collective="false" import="true" targetId="fb6e-80c4-b439-951b" type="selectionEntry"/>
+            <entryLink id="f048-3176-6a71-021b" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry"/>
+            <entryLink id="5a4a-b534-e86d-ad05" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b498-7890-12e7-f611" name="Melee weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a0af-cf3e-e297-723f" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="6cfb-fff4-7459-9fdf" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5b6-5895-9207-68c8" name="Marauder Heavy Gunner" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8f1a-9ad8-aa2c-33ee" name="Marauder Heavy Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">3⬤</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f5c6-91f7-7f88-23f3" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="6a2d-1d69-5ef2-eaa4" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
+        <categoryLink id="eae0-bba8-f5da-9824" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+        <categoryLink id="b55f-8c06-9cb0-8406" name="Heavy Gunner" hidden="false" targetId="0e59-07ae-65c2-2de6" primary="false"/>
+        <categoryLink id="7783-4307-0d0f-0008" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f165-57c1-772c-03d2" name="Ranged weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="967b-c6b7-bd00-184c" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
+            <entryLink id="1211-e525-a836-9630" name="Rotor cannon" hidden="false" collective="false" import="true" targetId="222a-1743-b675-c651" type="selectionEntry"/>
+            <entryLink id="c5bc-7fcc-513e-946a" name="Missile launcher" hidden="false" collective="false" import="true" targetId="52e9-6c3f-06ba-9c98" type="selectionEntry"/>
+            <entryLink id="18d0-8e60-bc1b-acbc" name="Autocannon" hidden="false" collective="false" import="true" targetId="a8d6-141c-9226-9388" type="selectionEntry"/>
+            <entryLink id="df07-3b56-c16b-702a" name="Heavy boltgun" hidden="false" collective="false" import="true" targetId="5c85-d09e-56a8-a0c6" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b408-84d1-976c-def5" name="Melee weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8397-75a1-cfe6-d594" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="dea0-0a83-de31-2d1a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="68e0-3a78-f4f3-5d69" name="Laslock" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e95b-16ed-b51a-1fec" name="⌖ Laslock" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+          <characteristics>
+            <characteristic name="M" typeId="c36f-3952-a91d-5a06">4</characteristic>
+            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3+</characteristic>
+            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">3/4</characteristic>
+            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">-</characteristic>
+            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">-</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf7a-685b-3dd1-0529" name="Autogun/Lascarbine" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f930-f6b2-b2a5-7b47" name="⌖ Autogun/Lascarbine" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="837d-42da-d5ac-382c" name="Pariah boltgun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="307f-63ea-8bc0-041b" name="⌖ Pariah boltgun" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6fc-9707-7488-03bf" name="Xenos Deathlock" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9577-1960-12d1-f406" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="9d69-1f9e-8d3f-dce2" name="Xenos Deathlock" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <modifiers>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="P2">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c85-01bd-9535-a811" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1, Hot</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">P2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ce8d-717b-f318-b56f" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
+        <infoLink id="d995-84b4-9c5e-4e4b" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+        <infoLink id="3f58-9b9b-719d-6b77" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e7b8-eca6-d467-6f97" name="Armour pattern" hidden="false" collective="false" import="true" defaultSelectionEntryId="b27f-f3b0-62b8-8c7c">
@@ -8310,6 +8838,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
     <profile id="e11a-7748-90c9-615a" name="Raptora" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
       <characteristics>
         <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative within ⬤ of a terrain feature with the barricade, light or heavy trait counts as being obscured until the next turning point, even if in the open.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0143-2219-a3f9-6dd0" name="New Profile" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+      <characteristics>
+        <characteristic name="M" typeId="c36f-3952-a91d-5a06"/>
+        <characteristic name="APL" typeId="c84a-a042-6fe6-519b"/>
+        <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b"/>
+        <characteristic name="DF" typeId="4a18-41c1-51f2-c88c"/>
+        <characteristic name="SV" typeId="dd03-76d2-dda8-eca2"/>
+        <characteristic name="W" typeId="db11-738c-048c-759e"/>
       </characteristics>
     </profile>
   </sharedProfiles>
