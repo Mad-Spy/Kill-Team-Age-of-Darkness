@@ -2098,6 +2098,7 @@
             <entryLink id="8cdf-b250-f603-c3ca" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
             <entryLink id="f225-0db1-c931-11b0" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
             <entryLink id="4643-0cb6-84c5-744b" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="2cc8-1e58-31e5-8ffc" type="selectionEntry"/>
+            <entryLink id="e5f1-da34-4f3a-7043" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2713,6 +2714,7 @@
             <entryLink id="1d3b-1994-f882-72e5" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
             <entryLink id="d2a6-be9a-5770-9d80" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
             <entryLink id="348a-b9fa-8389-1530" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+            <entryLink id="010e-8f87-1770-eb35" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="aea5-a3df-73e5-e3a4" name="Melee weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="007a-2bec-90ad-bfb2">
@@ -3104,6 +3106,7 @@
             <entryLink id="0fed-d0dd-f9b5-d47a" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
             <entryLink id="0886-6218-9773-f1b4" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
             <entryLink id="5712-974a-8d54-18a8" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+            <entryLink id="0665-5f99-58b4-3bbc" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="c213-8914-5b0a-5cd3" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -3870,6 +3873,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0052-ffd2-ec56-c0a3" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="62a7-5b67-e82d-78d0" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3945,6 +3949,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="c0f9-bac1-e29d-6bc6" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
             <entryLink id="3626-272b-1507-1aa6" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
             <entryLink id="ee48-788b-87ae-1764" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="d6fc-c529-b310-cb1e" type="selectionEntry"/>
+            <entryLink id="fcdf-0fdb-3dad-03ce" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="badd-13a9-d878-f4e2" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -4775,6 +4780,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cfd-bfe2-e5a2-a651" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="0fee-661a-f99e-9f4f" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f82a-9356-b970-9c18" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -4907,6 +4913,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="504c-c2aa-bcb0-aac5" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="cd88-3afd-3c7d-b4cf" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="2c32-af84-61e6-a82b" name="Melee weapon" hidden="false" collective="false" import="true">
