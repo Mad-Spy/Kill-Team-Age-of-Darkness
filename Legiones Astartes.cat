@@ -95,10 +95,10 @@
     <categoryEntry id="5c85-01bd-9535-a811" name="Reaver" hidden="false"/>
     <categoryEntry id="ad09-f2e5-e2f2-7c24" name="Marauder" hidden="false"/>
     <categoryEntry id="c9ae-9e7f-06fc-0af9" name="Chief" hidden="false"/>
-    <categoryEntry id="9577-1960-12d1-f406" name="Outlanders" hidden="false"/>
-    <categoryEntry id="83a4-b80e-c55a-698d" name="Orphans of War" hidden="false"/>
-    <categoryEntry id="64d2-84ac-bd35-c4db" name="Chymeriae" hidden="false"/>
-    <categoryEntry id="50b2-f849-f36b-a2c2" name="Death Seekers" hidden="false"/>
+    <categoryEntry id="9577-1960-12d1-f406" name="Warband: Outlanders" hidden="false"/>
+    <categoryEntry id="83a4-b80e-c55a-698d" name="Warband: Orphans of War" hidden="false"/>
+    <categoryEntry id="64d2-84ac-bd35-c4db" name="Warband: Chymeriae" hidden="false"/>
+    <categoryEntry id="50b2-f849-f36b-a2c2" name="Warband: Death Seekers" hidden="false"/>
     <categoryEntry id="a54a-3452-a021-d373" name="Blackshield" hidden="false"/>
     <categoryEntry id="9955-926a-0d97-74b1" name="Blackshield Marauder" hidden="false"/>
   </categoryEntries>
@@ -7845,6 +7845,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="4d89-e5d9-b640-7524" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="fcc7-cff6-57ed-2ba3" name="Maurader" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
         <categoryLink id="c5cd-5a83-2e88-f653" name="Chief" hidden="false" targetId="c9ae-9e7f-06fc-0af9" primary="false"/>
+        <categoryLink id="d9ae-57b7-f4bc-19f1" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9eae-3d57-1887-7210" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -8280,7 +8281,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c85-01bd-9535-a811" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5b6-5895-9207-68c8" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
