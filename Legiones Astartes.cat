@@ -95,10 +95,10 @@
     <categoryEntry id="5c85-01bd-9535-a811" name="Reaver" hidden="false"/>
     <categoryEntry id="ad09-f2e5-e2f2-7c24" name="Marauder" hidden="false"/>
     <categoryEntry id="c9ae-9e7f-06fc-0af9" name="Chief" hidden="false"/>
-    <categoryEntry id="9577-1960-12d1-f406" name="Warband: Outlanders" hidden="false"/>
-    <categoryEntry id="83a4-b80e-c55a-698d" name="Warband: Orphans of War" hidden="false"/>
-    <categoryEntry id="64d2-84ac-bd35-c4db" name="Warband: Chymeriae" hidden="false"/>
-    <categoryEntry id="50b2-f849-f36b-a2c2" name="Warband: Death Seekers" hidden="false"/>
+    <categoryEntry id="9577-1960-12d1-f406" name="Outlanders" hidden="false"/>
+    <categoryEntry id="83a4-b80e-c55a-698d" name="Orphans of War" hidden="false"/>
+    <categoryEntry id="64d2-84ac-bd35-c4db" name="Chymeriae" hidden="false"/>
+    <categoryEntry id="50b2-f849-f36b-a2c2" name="Death Seekers" hidden="false"/>
     <categoryEntry id="a54a-3452-a021-d373" name="Blackshield" hidden="false"/>
     <categoryEntry id="9955-926a-0d97-74b1" name="Blackshield Marauder" hidden="false"/>
   </categoryEntries>
@@ -122,6 +122,15 @@
               <modifiers>
                 <modifier type="decrement" field="d10e-575d-c0e1-14a7" value="1.0"/>
                 <modifier type="decrement" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea96-3cf0-8224-bb25" type="instanceOf"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="d10e-575d-c0e1-14a7" value="1.0"/>
+                <modifier type="increment" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
@@ -413,7 +422,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f8-26b5-d315-77cc" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="c2f7-8433-966b-eb3b" name="Maurader" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false">
+        <categoryLink id="c2f7-8433-966b-eb3b" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false">
           <modifiers>
             <modifier type="increment" field="5aa7-80b0-6022-6e0b" value="3.0">
               <conditions>
@@ -2464,6 +2473,7 @@
           <entryLinks>
             <entryLink id="1e1f-35c8-0ba4-b34a" name="Combi-boltgun" hidden="false" collective="false" import="true" targetId="7a58-8e91-425b-836d" type="selectionEntry"/>
             <entryLink id="8210-3916-3e50-4b75" name="Storm shield" hidden="false" collective="false" import="true" targetId="a04e-b083-874a-2497" type="selectionEntry"/>
+            <entryLink id="48a7-2f35-7922-9862" name="Xenos deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0e48-3cfb-2037-c926" name="Melee weapon" hidden="false" collective="false" import="true">
@@ -2484,6 +2494,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cf2a-83d2-9c5b-6f68" name="Armour pattern" hidden="false" collective="false" import="true" targetId="e7b8-eca6-d467-6f97" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -3478,6 +3491,7 @@
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3533,6 +3547,7 @@
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3597,6 +3612,7 @@
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3666,6 +3682,7 @@
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3777,6 +3794,7 @@
             <entryLink id="208e-06e4-5c4a-2465" name="Combi-plasma" hidden="false" collective="false" import="true" targetId="b5a8-4a1d-6652-7964" type="selectionEntry"/>
             <entryLink id="1985-6f94-ce3a-1377" name="Combi-volkite" hidden="false" collective="false" import="true" targetId="8036-10be-f5cf-1ef2" type="selectionEntry"/>
             <entryLink id="e748-8315-49b4-2f09" name="Volkite charger" hidden="false" collective="false" import="true" targetId="eb2c-e2d1-b0a8-5c44" type="selectionEntry"/>
+            <entryLink id="e926-847b-e6cd-21c5" name="Xenos deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3898,6 +3916,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c257-ddb0-6d18-436e" type="atLeast"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5691,7 +5710,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f0-7497-f4fa-bd64" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f24e-be10-1d65-617d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="f24e-be10-1d65-617d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="2fe6-ba4a-33a2-800a" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="29c2-2824-4db7-6f9f" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
@@ -5739,7 +5762,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c3-4c07-db85-ed51" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8d3f-0ae1-cd25-0dec" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="8d3f-0ae1-cd25-0dec" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="0ce3-06a5-81cc-f29d" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -5797,9 +5824,14 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16fb-8e25-cdaf-ebcb" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="aa23-b1d6-c4cf-7dbd" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="aa23-b1d6-c4cf-7dbd" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="fbdc-0e7a-5fd7-73f3" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="4e79-410b-117b-1442" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
+            <entryLink id="78ad-fe88-0cfc-36d1" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="06a6-e902-d085-360e" name="Ranged weapon" hidden="false" collective="false" import="true">
@@ -5845,7 +5877,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5e-b48b-9934-e793" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="df37-7dec-2aee-8af6" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="df37-7dec-2aee-8af6" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="694d-7e81-e5d6-db8c" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="1ec1-912c-322b-ada4" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
@@ -7847,8 +7883,8 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c034-fdde-b2e8-9dad" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
-        <categoryLink id="ecb2-d0ee-b7a8-e1c0" name="Leader" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="false"/>
+        <categoryLink id="c034-fdde-b2e8-9dad" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="ecb2-d0ee-b7a8-e1c0" name="Leader" hidden="false" targetId="3198-c1ce-dfd0-fb4f" primary="true"/>
         <categoryLink id="4d89-e5d9-b640-7524" name="Sergeant" hidden="false" targetId="0e50-f163-6440-5bf8" primary="false"/>
         <categoryLink id="fcc7-cff6-57ed-2ba3" name="Maurader" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
         <categoryLink id="c5cd-5a83-2e88-f653" name="Chief" hidden="false" targetId="c9ae-9e7f-06fc-0af9" primary="false"/>
@@ -7861,7 +7897,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3fd-dd72-bf95-a4ed" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6ee8-16f3-0b64-6c66" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="fb37-4576-4062-076c" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
             <entryLink id="ce9d-03ef-ab80-3a81" name="Power fist" hidden="false" collective="false" import="true" targetId="ab47-2002-cf7f-40ef" type="selectionEntry"/>
             <entryLink id="ea66-f73e-cd37-242d" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
@@ -7915,15 +7950,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
             <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
             <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
-            <characteristic name="W" typeId="db11-738c-048c-759e">11	</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="fc80-012f-a975-d37b" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="fc80-012f-a975-d37b" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="6223-521e-4b24-3832" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
         <categoryLink id="7ced-7cb9-5073-b695" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
         <categoryLink id="d17b-1ff9-387e-0813" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="a5b2-7e96-cf01-1653" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5222-a8ea-bd5c-57af" name="Ranged weapons" hidden="false" collective="false" import="true">
@@ -7942,8 +7978,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b871-5cee-f4b8-0b11" name="Melee weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b11e-31f2-ee00-03fc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4147-e70e-f3ec-9ea5" type="min"/>
+          </constraints>
           <entryLinks>
-            <entryLink id="9f56-6d1a-21fa-db84" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="9f56-6d1a-21fa-db84" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="ce87-e435-3b01-6501" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -7953,6 +7997,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="a9d7-033a-00c1-06b5" name="Marauder Warrior Comms" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="6f26-413e-5609-aabb" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f26-413e-5609-aabb" type="max"/>
+      </constraints>
       <profiles>
         <profile id="c579-9cf7-5870-8163" name="Nuncio-vox (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
@@ -7975,12 +8029,21 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <categoryLink id="e911-b540-bf66-5540" name="Comms" hidden="false" targetId="0bad-0565-b6dc-21e1" primary="false"/>
         <categoryLink id="f28b-3930-bf63-cc62" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
         <categoryLink id="31f3-2cf1-0035-5caa" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
-        <categoryLink id="c37b-9f15-8563-1538" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="c37b-9f15-8563-1538" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
+        <categoryLink id="572c-41d8-c486-121b" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3d4-8b1e-08f8-6e9a" name="Melee weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d8-6643-645e-9c1a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2b-9b1f-602b-d24e" type="min"/>
+          </constraints>
           <entryLinks>
-            <entryLink id="85b8-891a-73e8-57ca" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="85b8-891a-73e8-57ca" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="a5fb-b6e3-fa13-8145" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -8005,6 +8068,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="479f-342b-0ea7-bb1b" name="Marauder Champion" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="d8a8-4da4-0a41-4f0f" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a8-4da4-0a41-4f0f" type="max"/>
+      </constraints>
       <profiles>
         <profile id="7ab8-7758-ab4e-e1eb" name="Paired bolt pistols" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <modifiers>
@@ -8045,10 +8118,12 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="d4ff-875e-cf33-d15b" name="Redoubtable" hidden="false" targetId="197b-1b15-f8cb-1568" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1989-e0fb-9358-f31e" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="1989-e0fb-9358-f31e" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="0dc3-1075-bb39-6e7a" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
         <categoryLink id="2b68-de4e-9129-d341" name="Champion" hidden="false" targetId="2fce-b46e-f7a4-5f5c" primary="false"/>
         <categoryLink id="cb8f-e3be-8ce1-62e8" name="Fighter" hidden="false" targetId="4470-2839-f56b-81ec" primary="false"/>
+        <categoryLink id="6c37-9d8f-59cf-41ba" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
+        <categoryLink id="bbf1-c4ad-1e58-ebda" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0f73-8d8a-5c8c-d43b" name="Weapon 1" hidden="false" collective="false" import="true">
@@ -8083,6 +8158,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="95d3-b2c8-8d89-58e1" name="Marauder Gunner" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="2795-c00b-0455-3304" value="2.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2795-c00b-0455-3304" type="max"/>
+      </constraints>
       <profiles>
         <profile id="0c00-d59b-7c30-a7bf" name="Marauder Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -8096,13 +8181,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2efc-2bbd-cca8-be5f" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="2efc-2bbd-cca8-be5f" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="22df-f712-416f-6273" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
         <categoryLink id="586c-a596-6092-bfea" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
         <categoryLink id="f446-130d-a5ce-4900" name="Gunner" hidden="false" targetId="ee8c-cc44-acc3-40f0" primary="false"/>
+        <categoryLink id="231a-cf1f-c319-46bd" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="170c-a947-eaa7-2b5b" name="Ranged weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="684f-e324-2b50-cffb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08d3-e94f-f799-bc6c" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="e84a-3e42-8a9a-228f" name="Pariah flamer" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -8169,12 +8259,19 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <entryLink id="8ea5-0603-8969-21e8" name="Meltagun" hidden="false" collective="false" import="true" targetId="f813-af79-dc6d-128a" type="selectionEntry"/>
             <entryLink id="fafb-fc1c-472c-569a" name="Plasma gun" hidden="false" collective="false" import="true" targetId="fb6e-80c4-b439-951b" type="selectionEntry"/>
             <entryLink id="f048-3176-6a71-021b" name="Astartes sniper rifle" hidden="false" collective="false" import="true" targetId="6809-35df-2e46-98fa" type="selectionEntry"/>
-            <entryLink id="5a4a-b534-e86d-ad05" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b498-7890-12e7-f611" name="Melee weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a7-9bee-ed2e-57d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e91-ed2d-8810-6737" type="min"/>
+          </constraints>
           <entryLinks>
-            <entryLink id="a0af-cf3e-e297-723f" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="a0af-cf3e-e297-723f" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
             <entryLink id="6cfb-fff4-7459-9fdf" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -8184,6 +8281,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="b5b6-5895-9207-68c8" name="Marauder Heavy Gunner" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="d73a-5c49-ace1-12d4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d73a-5c49-ace1-12d4" type="max"/>
+      </constraints>
       <profiles>
         <profile id="8f1a-9ad8-aa2c-33ee" name="Marauder Heavy Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -8197,16 +8304,21 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="f5c6-91f7-7f88-23f3" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="true"/>
+        <categoryLink id="f5c6-91f7-7f88-23f3" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="6a2d-1d69-5ef2-eaa4" name="Blackshield" hidden="false" targetId="a54a-3452-a021-d373" primary="false"/>
         <categoryLink id="eae0-bba8-f5da-9824" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
         <categoryLink id="b55f-8c06-9cb0-8406" name="Heavy Gunner" hidden="false" targetId="0e59-07ae-65c2-2de6" primary="false"/>
         <categoryLink id="7783-4307-0d0f-0008" name="Warrior" hidden="false" targetId="b9a4-31a5-b4ed-b4c7" primary="false"/>
+        <categoryLink id="bf8d-6d10-904d-5444" name="New CategoryLink" hidden="false" targetId="f98b-0289-0f1f-b233" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f165-57c1-772c-03d2" name="Ranged weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cbc-c69d-4bd7-4eb8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae61-1f6a-5715-b698" type="min"/>
+          </constraints>
           <entryLinks>
-            <entryLink id="967b-c6b7-bd00-184c" name="Xenos Deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
+            <entryLink id="967b-c6b7-bd00-184c" name="Xenos deathlock" hidden="false" collective="false" import="true" targetId="c6fc-9707-7488-03bf" type="selectionEntry"/>
             <entryLink id="1211-e525-a836-9630" name="Rotor cannon" hidden="false" collective="false" import="true" targetId="222a-1743-b675-c651" type="selectionEntry"/>
             <entryLink id="c5bc-7fcc-513e-946a" name="Missile launcher" hidden="false" collective="false" import="true" targetId="52e9-6c3f-06ba-9c98" type="selectionEntry"/>
             <entryLink id="18d0-8e60-bc1b-acbc" name="Autocannon" hidden="false" collective="false" import="true" targetId="a8d6-141c-9226-9388" type="selectionEntry"/>
@@ -8214,9 +8326,17 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b408-84d1-976c-def5" name="Melee weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31b0-7a22-29fe-d2c7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bc2-ec96-a8d2-2fc1" type="min"/>
+          </constraints>
           <entryLinks>
             <entryLink id="8397-75a1-cfe6-d594" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
-            <entryLink id="dea0-0a83-de31-2d1a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+            <entryLink id="dea0-0a83-de31-2d1a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -8226,14 +8346,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </selectionEntry>
     <selectionEntry id="68e0-3a78-f4f3-5d69" name="Laslock" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e95b-16ed-b51a-1fec" name="⌖ Laslock" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+        <profile id="e95b-16ed-b51a-1fec" name="⌖ Laslock" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <characteristics>
-            <characteristic name="M" typeId="c36f-3952-a91d-5a06">4</characteristic>
-            <characteristic name="APL" typeId="c84a-a042-6fe6-519b">3+</characteristic>
-            <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">3/4</characteristic>
-            <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">-</characteristic>
-            <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">-</characteristic>
-            <characteristic name="W" typeId="db11-738c-048c-759e"/>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">-</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8273,16 +8392,21 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6fc-9707-7488-03bf" name="Xenos Deathlock" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c6fc-9707-7488-03bf" name="Xenos deathlock" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9577-1960-12d1-f406" type="notInstanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5b6-5895-9207-68c8" type="instanceOf"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <profiles>
-        <profile id="9d69-1f9e-8d3f-dce2" name="Xenos Deathlock" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+        <profile id="9d69-1f9e-8d3f-dce2" name="⌖ Xenos deathlock" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
           <modifiers>
             <modifier type="set" field="c495-8d08-b6b8-b434" value="P2">
               <conditionGroups>
@@ -8299,7 +8423,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
             <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
             <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Heavy, AP1, Hot</characteristic>
-            <characteristic name="!" typeId="c495-8d08-b6b8-b434">P2</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
           </characteristics>
         </profile>
       </profiles>

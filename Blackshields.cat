@@ -2,10 +2,6 @@
 <catalogue id="ea96-3cf0-8224-bb25" name="Blackshields" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b014-be9d-2256-8576" name="Warbands" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="forces" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a6-6862-a483-7036" type="max"/>
-        <constraint field="forces" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="441f-55eb-4be1-49b2" type="min"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="dc76-7688-b990-b89f" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="true"/>
       </categoryLinks>
@@ -45,9 +41,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="18e0-5f78-25c2-afaa" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="4f7a-171e-2497-7bdb" name="Marauder Champion" hidden="false" collective="false" import="true" targetId="479f-342b-0ea7-bb1b" type="selectionEntry">
       <modifierGroups>
@@ -76,9 +69,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="f3e0-a29f-dac3-b61b" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="3f57-c00d-0572-abc1" name="Marauder Warrior Comms" hidden="false" collective="false" import="true" targetId="a9d7-033a-00c1-06b5" type="selectionEntry">
       <modifierGroups>
@@ -107,9 +97,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="1ce8-3201-d96e-d084" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="c0ea-12cc-f51f-7762" name="Marauder Gunner" hidden="false" collective="false" import="true" targetId="95d3-b2c8-8d89-58e1" type="selectionEntry">
       <modifierGroups>
@@ -138,9 +125,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="8a3b-9ee0-9c18-e4b1" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="e215-2726-e2f8-cf81" name="Marauder Heavy Gunner" hidden="false" collective="false" import="true" targetId="b5b6-5895-9207-68c8" type="selectionEntry">
       <modifierGroups>
@@ -169,9 +153,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="e1e9-5ce7-b1ec-797d" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="4a18-0549-ec3d-9ff2" name="Marauder Warrior" hidden="false" collective="false" import="true" targetId="6d67-f1e7-e877-2da8" type="selectionEntry">
       <modifierGroups>
@@ -200,9 +181,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="90a4-1d65-3e0a-442e" name="New CategoryLink" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="true"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="9090-4928-94de-4db8" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry">
       <modifiers>
@@ -238,9 +216,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="39e3-f947-c68f-53d8" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="dece-6d11-687e-cb13" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry">
       <modifierGroups>
@@ -269,9 +244,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="b825-f527-2e17-8424" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="5d54-5ec9-8687-20dd" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
       <modifiers>
@@ -302,9 +274,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="bf7d-20cf-2b9c-f0f7" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="79e3-a529-7f94-257a" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry">
       <modifiers>
@@ -340,9 +309,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="0205-5859-91e2-ba16" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="9f3b-93c9-f2f0-57e5" name="Legion Seeker" hidden="false" collective="false" import="true" targetId="2441-26d4-df96-3d58" type="selectionEntry">
       <modifiers>
@@ -378,9 +344,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="454b-5856-0d57-58c6" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="f549-3c2a-d384-7ba8" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry">
       <modifiers>
@@ -421,9 +384,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="52c2-2469-0574-59d8" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="91ef-2447-7aa8-61f0" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry">
       <modifiers>
@@ -459,9 +419,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="db2a-981c-0f2d-4ab3" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="5239-5825-6622-15b9" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
       <modifierGroups>
@@ -490,9 +447,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="9210-7049-d439-b4cb" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="0983-4927-d5f7-1cb6" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry">
       <modifiers>
@@ -528,9 +482,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="dd1f-6cb6-671c-c4b9" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="8ffe-0705-106f-e177" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry">
       <modifiers>
@@ -566,9 +517,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="bb15-0046-96bf-889d" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="e664-3c28-b87a-0e06" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
       <modifiers>
@@ -604,9 +552,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="2987-a853-18f0-7877" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="6171-d56a-36ac-0ec3" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry">
       <modifiers>
@@ -642,9 +587,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="07eb-deb9-fdc4-29de" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="a158-aabd-f521-23c3" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
       <modifiers>
@@ -680,9 +622,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="7fa2-9147-a5ad-1fba" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="2e5d-ea42-2b98-bfe4" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" targetId="be8d-b895-754b-283e" type="selectionEntry">
       <modifierGroups>
@@ -711,9 +650,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="1b5b-fc9e-8260-79f0" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="c023-b6c5-919f-e1a7" name="Legion Tactical Astartes Comms" hidden="false" collective="false" import="true" targetId="e661-cc95-3e6b-382b" type="selectionEntry">
       <modifierGroups>
@@ -742,9 +678,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="cdf1-baf6-8bf2-cff0" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="6796-49c9-a4be-6a63" name="Legion Tactical Astartes Vexilla" hidden="false" collective="false" import="true" targetId="634c-97db-0628-917a" type="selectionEntry">
       <modifierGroups>
@@ -773,9 +706,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="9570-e017-7678-6e6c" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="806b-5415-61d2-6d2b" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
       <modifierGroups>
@@ -804,9 +734,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="615c-8195-b05b-1ebc" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="a5b3-6889-e1b9-be8e" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">
       <modifierGroups>
@@ -897,9 +824,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="98fd-4f35-b04a-407c" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="7d36-40b0-66b9-0d1c" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
       <modifierGroups>
@@ -928,9 +852,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="569f-295a-61b9-9897" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="5923-f344-2f68-cf81" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">
       <modifierGroups>
@@ -959,9 +880,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="b7a4-48de-309f-4491" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="5fb0-16d7-5fb3-4e5c" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="c2e6-52d7-7247-395a" type="selectionEntry">
       <modifierGroups>
@@ -990,9 +908,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="7d66-4d23-78e8-6a81" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="d584-3613-5710-0f67" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
       <modifierGroups>
@@ -1021,9 +936,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="1a2e-e982-74ed-4943" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="98b1-e459-26f6-e95d" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry">
       <modifierGroups>
@@ -1052,9 +964,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="6082-b200-3091-3b9a" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="11a2-bd97-a77d-4f05" name="Legion Breacher Astartes" hidden="false" collective="false" import="true" targetId="7a35-2750-ee36-7821" type="selectionEntry">
       <modifierGroups>
@@ -1083,9 +992,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="2776-4978-4b28-21a8" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="c320-2cda-97eb-70ef" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
       <modifierGroups>
@@ -1114,9 +1020,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="0fbc-e00d-b489-2243" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="5392-7100-02d8-99e6" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
       <modifierGroups>
@@ -1145,9 +1048,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="6cc7-70b7-8212-3e55" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="3df5-3e5b-e7c1-e80b" name="Legion Support Breacher" hidden="false" collective="false" import="true" targetId="6575-bf1b-edd2-21f2" type="selectionEntry">
       <modifierGroups>
@@ -1176,15 +1076,77 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="6f83-8c71-c54f-efde" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
+    </entryLink>
+    <entryLink id="6366-146b-66e7-2008" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="7eaf-7867-f1c9-a4d8" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry"/>
+    <entryLink id="fa23-cdbe-0aec-5315" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6e50-0b08-1c1c-2176" name="Warbands" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38dd-913a-7490-23eb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8517-371d-7e24-134b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2f-56e1-125e-52e9" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="f908-56a9-0c7a-6dd4" name="Outlanders" hidden="false" collective="false" import="true" type="upgrade">
@@ -1211,7 +1173,7 @@
           <profiles>
             <profile id="a748-5f21-04d2-5821" name="Inured To Pain" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
               <characteristics>
-                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a Death Seeker operative would lose awound, roll a D6; on a 5+, that wound is not lost. Death Seeker operatives cannot be Injured.</characteristic>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a Death Seeker operative would lose a wound, roll a D6; on a 5+, that wound is not lost. Death Seeker operatives cannot be Injured.</characteristic>
               </characteristics>
             </profile>
             <profile id="92bc-7178-0e3c-ee3e" name="Lure of Battle" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -1240,8 +1202,15 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="afb0-bfb4-9e0c-fa96" name="Chymeriae" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="8d89-26ab-0cf1-c3e3" name="Shunned and Distrusted" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Chymeriae kill teams may only take a Legion Veteran Astartes, Legion Medicae, or Legion Chaplain as their Support Operatives.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b839-5a03-5b1a-3f30" name="Chymeriae" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="b839-5a03-5b1a-3f30" name="Chymeriae Attributes" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c42-c8ab-e551-e117" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="965e-a99b-b88e-5832" type="max"/>
@@ -1313,7 +1282,7 @@
     </profile>
     <profile id="fb23-78a0-73c1-724e" name="Neuro-Prophetic Reflexes" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’s Weapon Skill characteristic by 1 (e.g. WS 3+ becomesWS 2+)</characteristic>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’s Weapon Skill characteristic by 1 (e.g. WS 3+ becomes WS 2+)</characteristic>
       </characteristics>
     </profile>
     <profile id="c16d-2403-d53d-a518" name="No Gods, No Masters" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -1323,7 +1292,7 @@
     </profile>
     <profile id="9d08-ad1c-cbd4-e4f5" name="Void Reavers" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
       <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">During Deployment place one Outlander fire team at any point outside of your opponent’s deployment zone. It must be placed so that each operative is wholly within of the other two and one edge of the kill zone.</characteristic>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">During Deployment place one Outlander fire team at any point outside of your opponent’s deployment zone. It must be placed so that each operative is wholly within ⬟ of the other two and one edge of the kill zone.</characteristic>
       </characteristics>
     </profile>
     <profile id="10a7-e360-4c8f-74eb" name="Hyper Aggression" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
