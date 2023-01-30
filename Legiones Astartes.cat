@@ -5622,6 +5622,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="16e9-6697-63ee-9066" name="Grey Slayer Champion" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="b79e-06c8-1167-17aa" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b79e-06c8-1167-17aa" type="max"/>
+      </constraints>
       <profiles>
         <profile id="5598-782a-4665-a1f8" name="Grey Slayer Champion" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -5679,6 +5689,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="28f1-f358-712f-aefb" name="Grey Slayer Comms" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="a24d-294d-acd6-19bf" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a24d-294d-acd6-19bf" type="max"/>
+      </constraints>
       <profiles>
         <profile id="f6e2-df5a-97d1-14b5" name="Grey Slayer Comms" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -5735,6 +5755,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="efe3-8eb8-ce53-93ac" name="Grey Slayer Gunner" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="8255-9c71-2747-af6b" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8255-9c71-2747-af6b" type="max"/>
+      </constraints>
       <profiles>
         <profile id="c8ee-bed9-899d-df33" name="Grey Slayer Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -5792,6 +5822,16 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </costs>
     </selectionEntry>
     <selectionEntry id="e2ef-e727-a7b7-8527" name="Grey Slayer Vexilla" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="3462-479b-6ef1-3e9b" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3462-479b-6ef1-3e9b" type="max"/>
+      </constraints>
       <profiles>
         <profile id="a0f4-3365-0fd4-3b8c" name="Grey Slayer Vexilla" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
           <characteristics>
@@ -5831,7 +5871,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </entryLink>
             <entryLink id="fbdc-0e7a-5fd7-73f3" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="4e79-410b-117b-1442" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
-            <entryLink id="78ad-fe88-0cfc-36d1" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="06a6-e902-d085-360e" name="Ranged weapon" hidden="false" collective="false" import="true">
