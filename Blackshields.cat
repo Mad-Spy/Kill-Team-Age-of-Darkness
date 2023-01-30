@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ea96-3cf0-8224-bb25" name="Blackshields" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b014-be9d-2256-8576" name="Warbands" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84b5-917c-c073-230b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c60-077f-49fd-2434" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="dc76-7688-b990-b89f" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8623-956d-3fb4-6884" name="Warbands" hidden="false" collective="false" import="true" targetId="6e50-0b08-1c1c-2176" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="29dd-a3e6-0a03-2762" name="Marauder Chief" hidden="false" collective="false" import="true" targetId="58f6-1a24-559e-3bbd" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="4f7a-171e-2497-7bdb" name="Marauder Champion" hidden="false" collective="false" import="true" targetId="479f-342b-0ea7-bb1b" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="3f57-c00d-0572-abc1" name="Marauder Warrior Comms" hidden="false" collective="false" import="true" targetId="a9d7-033a-00c1-06b5" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="c0ea-12cc-f51f-7762" name="Marauder Gunner" hidden="false" collective="false" import="true" targetId="95d3-b2c8-8d89-58e1" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="e215-2726-e2f8-cf81" name="Marauder Heavy Gunner" hidden="false" collective="false" import="true" targetId="b5b6-5895-9207-68c8" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="4a18-0549-ec3d-9ff2" name="Marauder Warrior" hidden="false" collective="false" import="true" targetId="6d67-f1e7-e877-2da8" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="9090-4928-94de-4db8" name="Legion Heavy Support" hidden="false" collective="false" import="true" targetId="6519-b6f9-186f-29ee" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="dece-6d11-687e-cb13" name="Legion Veteran Tactical Astartes" hidden="false" collective="false" import="true" targetId="d6a9-d8e8-2220-780e" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="5d54-5ec9-8687-20dd" name="Legion Chaplain" hidden="false" collective="false" import="true" targetId="f726-4ea6-25b5-4cee" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="79e3-a529-7f94-257a" name="Legion Lexicanium" hidden="false" collective="false" import="true" targetId="cfa9-2f08-f9a4-9351" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="9f3b-93c9-f2f0-57e5" name="Legion Seeker" hidden="false" collective="false" import="true" targetId="2441-26d4-df96-3d58" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="f549-3c2a-d384-7ba8" name="Legion Destroyer" hidden="false" collective="false" import="true" targetId="a905-fc34-628e-adfd" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="91ef-2447-7aa8-61f0" name="Legion Moritat" hidden="false" collective="false" import="true" targetId="402f-b8e5-0d3f-c9f0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="5239-5825-6622-15b9" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="0983-4927-d5f7-1cb6" name="Legion Opsequiari" hidden="false" collective="false" import="true" targetId="d99c-f624-30a8-dca9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="8ffe-0705-106f-e177" name="Legion Siege Breaker" hidden="false" collective="false" import="true" targetId="d4da-6a1c-3843-19db" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="e664-3c28-b87a-0e06" name="Legion Nuntiare" hidden="false" collective="false" import="true" targetId="c954-6de1-190d-46a5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="6171-d56a-36ac-0ec3" name="Legion Vigilator" hidden="false" collective="false" import="true" targetId="47cb-121e-c305-2b3c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="a158-aabd-f521-23c3" name="Legion Herald" hidden="false" collective="false" import="true" targetId="6c69-08ce-eb9e-8899" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="2e5d-ea42-2b98-bfe4" name="Legion Tactical Astartes" hidden="false" collective="false" import="true" targetId="be8d-b895-754b-283e" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="c023-b6c5-919f-e1a7" name="Legion Tactical Astartes Comms" hidden="false" collective="false" import="true" targetId="e661-cc95-3e6b-382b" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="6796-49c9-a4be-6a63" name="Legion Tactical Astartes Vexilla" hidden="false" collective="false" import="true" targetId="634c-97db-0628-917a" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="806b-5415-61d2-6d2b" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="a5b3-6889-e1b9-be8e" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="e913-40f7-f1a3-0d1b" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="73ba-fe72-3373-cf7b" name="Legion Assault Champion" hidden="false" collective="false" import="true" targetId="3536-8383-6538-9bf2" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="7d36-40b0-66b9-0d1c" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="5923-f344-2f68-cf81" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="5fb0-16d7-5fb3-4e5c" name="Legion Recon Astartes" hidden="false" collective="false" import="true" targetId="c2e6-52d7-7247-395a" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="d584-3613-5710-0f67" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="98b1-e459-26f6-e95d" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="11a2-bd97-a77d-4f05" name="Legion Breacher Astartes" hidden="false" collective="false" import="true" targetId="7a35-2750-ee36-7821" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="c320-2cda-97eb-70ef" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="5392-7100-02d8-99e6" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="3df5-3e5b-e7c1-e80b" name="Legion Support Breacher" hidden="false" collective="false" import="true" targetId="6575-bf1b-edd2-21f2" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="6366-146b-66e7-2008" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="7eaf-7867-f1c9-a4d8" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry"/>
+    <entryLink id="fa23-cdbe-0aec-5315" name="Legion Techmarine" hidden="false" collective="false" import="true" targetId="2102-1e02-ce55-9362" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="83a4-b80e-c55a-698d">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8c0b-df27-307b-adac" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9577-1960-12d1-f406">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f908-56a9-0c7a-6dd4" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="64d2-84ac-bd35-c4db">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afb0-bfb4-9e0c-fa96" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="50b2-f849-f36b-a2c2">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b35-37fa-6d11-7c83" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6e50-0b08-1c1c-2176" name="Warbands" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8517-371d-7e24-134b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a2f-56e1-125e-52e9" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f908-56a9-0c7a-6dd4" name="Outlanders" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="09bb-7c83-6f71-9e2b" name="Unsanctioned Weaponry" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Any operative in this kill team who can be equipped with a Combi-Bolter may instead be equipped with a Xenos Deathlock.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b4c8-1408-fa53-dfbc" name="Shadows of Oblivion" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Once an Outlander Operative becomes injured roll a D6 at the start of each subsequent Turning Point, on a 3+ it takes 2 mortal wounds. This applies even if the operative later becomes not injured.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7c0f-2120-7f22-a0b8" name="Void Reavers" hidden="false" targetId="9d08-ad1c-cbd4-e4f5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b35-37fa-6d11-7c83" name="Death Seekers" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="a748-5f21-04d2-5821" name="Inured To Pain" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a Death Seeker operative would lose a wound, roll a D6; on a 5+, that wound is not lost. Death Seeker operatives cannot be Injured.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92bc-7178-0e3c-ee3e" name="Lure of Battle" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Death Seeker operatives may not be given Conceal orders if a Visible enemy operative is within range of a Charge action. Additionally Death Seeker operatives may not make a fall back action unless doing so would bring them within ▲ of a terrain feature.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c0b-df27-307b-adac" name="Orphans of War" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="4f38-7008-d411-2f24" name="Scornful Veterans" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">All operatives in an orphans of War kill team ignore all negative modifiers to the APL from enemy abilities, ploys or injury.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a5be-d3a4-fd13-7858" name="No Gods, No Masters" hidden="false" targetId="c16d-2403-d53d-a518" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="afb0-bfb4-9e0c-fa96" name="Chymeriae" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="8d89-26ab-0cf1-c3e3" name="Shunned and Distrusted" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Chymeriae kill teams may only take a Legion Veteran Astartes, Legion Medicae, or Legion Chaplain as their Support Operatives.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b839-5a03-5b1a-3f30" name="Chymeriae Attributes" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c42-c8ab-e551-e117" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="965e-a99b-b88e-5832" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b5e0-c774-b764-93e4" name="Chymeriae" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Select one of the following Chymeric abilities for all of the operatives in a Chymeriae Kill Team.
+- Hyper Aggression: Roll an additional attack dice in Fight actions
+- Physiological Efficiency: Increase the operative’s Move characteristic by +1
+- Sub-Dermal Plating: Increase the operative’s Defence characteristic by 1
+- Neuro-Prophetic Reflexes: Increase the operative’s Weapon Skill characteristic by 1 (e.g. WS 3+ becomes WS 2+)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="df22-bcf5-f98b-1395" name="Hyper Aggression" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="235c-581d-3f44-f06d" name="Hyper Aggression" hidden="false" targetId="10a7-e360-4c8f-74eb" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c529-a37f-9160-730e" name="Neuro-Prophetic Reflexes" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="6e9f-9d52-f826-5c99" name="Neuro-Prophetic Reflexes" hidden="false" targetId="fb23-78a0-73c1-724e" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9854-d1ea-5107-d452" name="Physiological Efficiency" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="b51e-a95a-fc3b-e9be" name="Physiological Efficiency" hidden="false" targetId="cab4-d088-f2eb-f1c3" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="00f6-c496-7699-c80b" name="Sub-Dermal Plating" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="b29c-01b0-3333-5f86" name="Sub-Dermal Plating" hidden="false" targetId="dc89-a2b9-49e4-c58f" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="cab4-d088-f2eb-f1c3" name="Physiological Efficiency" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’s Move characteristic by +1▲.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc89-a2b9-49e4-c58f" name="Sub-Dermal Plating" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’s Defence characteristic by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fb23-78a0-73c1-724e" name="Neuro-Prophetic Reflexes" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Increase the operative’s Weapon Skill characteristic by 1 (e.g. WS 3+ becomes WS 2+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c16d-2403-d53d-a518" name="No Gods, No Masters" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Orphans of War kill teams may not include the Chaplain operative or any operative with the LOYALIST or TRAITOR keyword. In addition all Orphans of War operative may re-roll attack dice of 1 when targeting an enemy Leader or Sub-Consul operative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d08-ad1c-cbd4-e4f5" name="Void Reavers" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">During Deployment place one Outlander fire team at any point outside of your opponent’s deployment zone. It must be placed so that each operative is wholly within ⬟ of the other two and one edge of the kill zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10a7-e360-4c8f-74eb" name="Hyper Aggression" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Roll an additional attack dice in Fight actions.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="ace2-247c-8ec3-cd47" name="Legiones Astartes" targetId="1a5f-0de4-9908-1f09" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
