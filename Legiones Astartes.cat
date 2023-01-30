@@ -100,7 +100,6 @@
     <categoryEntry id="64d2-84ac-bd35-c4db" name="Chymeriae" hidden="false"/>
     <categoryEntry id="50b2-f849-f36b-a2c2" name="Death Seekers" hidden="false"/>
     <categoryEntry id="a54a-3452-a021-d373" name="Blackshield" hidden="false"/>
-    <categoryEntry id="9955-926a-0d97-74b1" name="Blackshield Marauder" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b393-d845-760a-1cca" name="Legiones Astartes Kill Team" hidden="false">
@@ -122,15 +121,6 @@
               <modifiers>
                 <modifier type="decrement" field="d10e-575d-c0e1-14a7" value="1.0"/>
                 <modifier type="decrement" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
-              </modifiers>
-            </modifierGroup>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="primary-catalogue" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea96-3cf0-8224-bb25" type="instanceOf"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="d10e-575d-c0e1-14a7" value="1.0"/>
-                <modifier type="increment" field="34c0-f9c0-c3aa-7af3" value="1.0"/>
               </modifiers>
             </modifierGroup>
             <modifierGroup>
@@ -7917,7 +7907,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </profile>
         <profile id="0507-84e4-eb62-cf4a" name="Iconoclastic Fervour (3AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
           <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative and any unactivated friendly BLACKSHIELD operatives within ⬛are immediately activated and make a Shoot action followed by a Charge action. Operatives being activated by this action may have any order but after they have concluded their Charge action these operatives are given an Engage order. All operatives involved are considered to have been activated for this Turning Point.</characteristic>
+            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">This operative and any unactivated friendly BLACKSHIELD operatives within ⬛ are immediately activated and make a Shoot action followed by a Charge action. Operatives being activated by this action may have any order but after they have concluded their Charge action these operatives are given an Engage order. All operatives involved are considered to have been activated for this Turning Point.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8044,7 +8034,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f26-413e-5609-aabb" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f26-413e-5609-aabb" type="max"/>
       </constraints>
       <profiles>
         <profile id="c579-9cf7-5870-8163" name="Nuncio-vox (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
@@ -8059,7 +8049,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b">1</characteristic>
             <characteristic name="DF" typeId="4a18-41c1-51f2-c88c">3</characteristic>
             <characteristic name="SV" typeId="dd03-76d2-dda8-eca2">3+</characteristic>
-            <characteristic name="W" typeId="db11-738c-048c-759e">11</characteristic>
+            <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8108,14 +8098,41 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </selectionEntry>
     <selectionEntry id="479f-342b-0ea7-bb1b" name="Marauder Champion" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="d8a8-4da4-0a41-4f0f" value="2.0">
+        <modifier type="set" field="d8a8-4da4-0a41-4f0f" value="1.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="d8a8-4da4-0a41-4f0f" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9ae-9e7f-06fc-0af9" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9ae-9e7f-06fc-0af9" type="equalTo"/>
+                        <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a8-4da4-0a41-4f0f" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d8a8-4da4-0a41-4f0f" type="max"/>
       </constraints>
       <profiles>
         <profile id="7ab8-7758-ab4e-e1eb" name="Paired bolt pistols" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
@@ -8198,14 +8215,41 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </selectionEntry>
     <selectionEntry id="95d3-b2c8-8d89-58e1" name="Marauder Gunner" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="2795-c00b-0455-3304" value="2.0">
+        <modifier type="set" field="b1f8-97bc-22db-41a3" value="1.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="b1f8-97bc-22db-41a3" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9ae-9e7f-06fc-0af9" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9ae-9e7f-06fc-0af9" type="equalTo"/>
+                        <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad09-f2e5-e2f2-7c24" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2795-c00b-0455-3304" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1f8-97bc-22db-41a3" type="max"/>
       </constraints>
       <profiles>
         <profile id="0c00-d59b-7c30-a7bf" name="Marauder Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
@@ -8321,14 +8365,14 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </selectionEntry>
     <selectionEntry id="b5b6-5895-9207-68c8" name="Marauder Heavy Gunner" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="d73a-5c49-ace1-12d4" value="1.0">
+        <modifier type="set" field="5183-9f3b-0b95-eeb6" value="1.0">
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d73a-5c49-ace1-12d4" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5183-9f3b-0b95-eeb6" type="max"/>
       </constraints>
       <profiles>
         <profile id="8f1a-9ad8-aa2c-33ee" name="Marauder Heavy Gunner" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">

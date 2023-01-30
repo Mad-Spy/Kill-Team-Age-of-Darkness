@@ -2,6 +2,10 @@
 <catalogue id="ea96-3cf0-8224-bb25" name="Blackshields" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f2b2-e428-3efe-8cdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b014-be9d-2256-8576" name="Warbands" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84b5-917c-c073-230b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c60-077f-49fd-2434" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="dc76-7688-b990-b89f" name="Configuration" hidden="false" targetId="fb89-efb1-54e4-59c5" primary="true"/>
       </categoryLinks>
@@ -762,9 +766,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="1882-4ffe-cde5-de5b" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="e913-40f7-f1a3-0d1b" name="Legion Assault Astartes" hidden="false" collective="false" import="true" targetId="2de2-b0b8-e6bb-15bc" type="selectionEntry">
       <modifierGroups>
@@ -793,9 +794,6 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
-      <categoryLinks>
-        <categoryLink id="aa8c-2f48-3e73-eab7" name="Marauder" hidden="false" targetId="ad09-f2e5-e2f2-7c24" primary="false"/>
-      </categoryLinks>
     </entryLink>
     <entryLink id="73ba-fe72-3373-cf7b" name="Legion Assault Champion" hidden="false" collective="false" import="true" targetId="3536-8383-6538-9bf2" type="selectionEntry">
       <modifierGroups>
@@ -1145,8 +1143,8 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6e50-0b08-1c1c-2176" name="Warbands" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8517-371d-7e24-134b" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2f-56e1-125e-52e9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8517-371d-7e24-134b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a2f-56e1-125e-52e9" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="f908-56a9-0c7a-6dd4" name="Outlanders" hidden="false" collective="false" import="true" type="upgrade">
