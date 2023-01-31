@@ -35,6 +35,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9133-3222-ac47-d6c6" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="893e-629e-fd10-1c1a" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="1667-0f6b-0cac-d02c" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">
@@ -55,6 +56,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="062f-8550-9d53-0987" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="9fc0-a206-c8d7-999c" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="6e3a-b712-8d24-3b8a" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
@@ -94,6 +96,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ea76-5a20-a293-fa86" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="df70-06bb-e8f2-ba94" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="1c1b-c229-d540-4726" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
@@ -129,6 +132,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="a142-b724-dd31-490a" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="eb66-c3ef-6c5e-3e8f" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="55b2-11e9-07cd-546c" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry">
@@ -174,6 +178,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="b644-1d37-32af-1608" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="985d-ea9f-1fb7-ad78" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="d0b3-699d-e264-201e" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">

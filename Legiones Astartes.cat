@@ -4465,6 +4465,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="598f-a722-6e76-d78b" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="4f5d-cbeb-e2f0-7c56" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7542,6 +7543,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="8d31-beca-2103-8b34" name="Inititate" hidden="false" targetId="f37a-1f94-3ab0-eae6" type="profile"/>
         <infoLink id="ea28-54f9-7275-83b9" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
         <infoLink id="a00a-e6fb-ac9f-45d8" name="Stealth" hidden="false" targetId="6ae2-b5e6-a186-cd15" type="profile"/>
+        <infoLink id="e626-11ad-e25a-5470" name="No Focus" hidden="false" targetId="fbd4-1c49-fe73-79ab" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d7a2-1bbd-d703-4ec6" name="New CategoryLink" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -7596,6 +7598,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <infoLinks>
         <infoLink id="f6cc-1e34-17f8-5617" name="Inititate" hidden="false" targetId="f37a-1f94-3ab0-eae6" type="profile"/>
         <infoLink id="f1ba-653c-2ac2-335d" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+        <infoLink id="973c-d71d-90c6-eb23" name="No Focus" hidden="false" targetId="fbd4-1c49-fe73-79ab" type="infoGroup"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f263-1b9a-40d9-f071" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
@@ -8702,49 +8705,10 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2258-48cb-6de9-8696" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="notInstanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="3c76-028b-8c67-3be7" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="3198-c1ce-dfd0-fb4f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="ff1d-47c3-a4ca-6829" value="1.0">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+    <selectionEntryGroup id="2258-48cb-6de9-8696" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" defaultSelectionEntryId="8a8a-7d3d-78bd-9582">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff1d-47c3-a4ca-6829" type="max"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c76-028b-8c67-3be7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c76-028b-8c67-3be7" type="min"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="4004-489f-4870-c73d" name="Corvidae" hidden="false" collective="false" import="true" type="upgrade">
@@ -8795,6 +8759,189 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <categoryLinks>
             <categoryLink id="557b-d928-34c1-3339" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
           </categoryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5476-29e2-7e6a-c426" name="Psychic Disciplines" hidden="false" collective="false" import="true" defaultSelectionEntryId="8992-9f12-33d6-ebaa">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a3a-04df-84d2-6910" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec18-e9a7-4b56-6d53" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8d87-68b4-a0c4-1e50" name="Biomancy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="811e-bfec-3b61-cbe6" name="Warp speed" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative Visible to this operative. That operative may make multiple movement or fight actions this Turning Point to their APL total. When in a fight action their weapon gains the Relentless special rule.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c80f-2f68-c1e2-ec23" name="Enfeeble" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select one enemy operative Visible to this operative. Before they are activated that operative increases the AP cost of all actions by +1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2860-bb56-d0e9-67c6" name="Endurance" hidden="false" targetId="205c-c5b2-2ef5-d7b7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b57d-5679-fb48-5c4d" name="Pyromancy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="4bc4-659a-7c66-f468" name="⌖ Inferno" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/3</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, No Cover</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8544-e622-314b-b176" name="⌖ Flame Breath" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/2</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Torrent ⬤</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e1dc-9ddc-01ff-22f6" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="6ce8-c85a-7767-d636" name="Torrent x" hidden="false" targetId="ec4b-2d70-51a7-5653" type="rule"/>
+            <infoLink id="7ed7-a96c-607c-79ff" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+            <infoLink id="0f5b-fe98-8aff-e3a2" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+            <infoLink id="4e9d-0951-0e14-53d2" name="No Cover" hidden="false" targetId="c091-97f7-8640-5e56" type="rule"/>
+            <infoLink id="d3cb-fe45-d902-7113" name="Fire Shield" hidden="false" targetId="34d2-d4f1-ae0a-caa4" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="920b-5673-8611-b19e" name="Telekinesis" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="e19f-273b-30bf-1d44" name="Force Barrier" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative Visible to this operative. So long as that operative does not make any movement actions it gains the Invulnerable 2+ special rule.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7a6a-7488-b168-e8e7" name="Psychic Storm" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/3</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Fusillade</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4041-94f0-1524-358d" name="⌖ Crush*" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Grav*</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7aa2-f765-af18-ecde" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
+            <infoLink id="9562-c12c-1b62-9f51" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+            <infoLink id="cb84-d1c4-c14e-f290" name="*Grav" hidden="false" targetId="c119-0c1b-a3d7-8060" type="rule"/>
+            <infoLink id="25b5-16f4-84c7-53e9" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+            <infoLink id="b82f-4661-151f-47d1" name="⌖ Crush" hidden="false" targetId="8672-8a80-5e36-4031" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7819-ee40-c9b7-feaf" name="Telepathy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="46ec-23c9-c75b-3b78" name="Mind Howl" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone, reduce their APL by -1. Additionally that operative may not use ploys until the next Turning Point.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dc3a-4445-1ca5-e859" name="Hallucination" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an Enemy operative in the killzone. If the psyker spent 1AP the enemy operative treats all opposing operatives as having a Conceal order. If they spent 2AP the enemy operative and any enemy operatives within ⬤ treat all opposing operatives as having a Conceal order.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4d80-08ed-4af7-1543" name="Dominate" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone to take a single action. If the psyker spent 1AP the enemy operative makes a Dash action in the direction of the psykers choosing. If they spent 2AP the enemy operative makes either an overwatch or fight action against a target of psykers choosing.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="81cc-ff3d-59f2-0163" name="Divination" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="a2f1-fbb9-c7c3-dae0" name="Scrier&apos;s Gaze" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select one enemy operative in the killzone. If the psyker spent 1AP the enemy operative must change their order to Engage. If they spent 2AP then the ranged weapons of friendly operatives targeting that operative gain the Indirect special rule.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="51ce-aec8-4b30-594c" name="Precognition" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the End of the turning point after  spending any CP on ploys roll a D6, on a 4+ the ploy isused but the CP are retained by the player.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3d82-2290-b356-0cc7" name="Prescience" hidden="false" targetId="11fb-28e7-4e5b-392f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8992-9f12-33d6-ebaa" name="*No Focus*" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="94d2-baf0-482c-88a8" name="No Focus" hidden="false" targetId="fbd4-1c49-fe73-79ab" type="infoGroup"/>
+          </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
@@ -9055,15 +9202,47 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <characteristic name="Effect" typeId="3895-3533-1c76-676a">One THOUSAND SONS operative visible to this operative within ⬤ of a terrain feature with the barricade, light or heavy trait counts as being obscured until the next turning point, even if in the open.</characteristic>
       </characteristics>
     </profile>
-    <profile id="0143-2219-a3f9-6dd0" name="New Profile" hidden="false" typeId="350c-2ddd-8a24-377b" typeName="Operative">
+    <profile id="205c-c5b2-2ef5-d7b7" name="Endurance" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
       <characteristics>
-        <characteristic name="M" typeId="c36f-3952-a91d-5a06"/>
-        <characteristic name="APL" typeId="c84a-a042-6fe6-519b"/>
-        <characteristic name="GA" typeId="7a85-5063-6d1a-2a0b"/>
-        <characteristic name="DF" typeId="4a18-41c1-51f2-c88c"/>
-        <characteristic name="SV" typeId="dd03-76d2-dda8-eca2"/>
-        <characteristic name="W" typeId="db11-738c-048c-759e"/>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative Visible to this operative, that operative regains 2D3 wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34d2-d4f1-ae0a-caa4" name="Fire Shield" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative that is Visible to this operative, as long as that operative does not make any movement actions it counts as being within ▲ of a barricade and any enemy operative that is within, or moves within, Engagement Range of that operative takes 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9600-ce9e-0cbc-d187" name="Mind Howl" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone, reduce their APL by -1. Additionally that operative may not use ploys until the next Turning Point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="11fb-28e7-4e5b-392f" name="Prescience" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select one friendly operative visible to this operative. Add 1 to its APL.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8672-8a80-5e36-4031" name="⌖ Crush" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+      <characteristics>
+        <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+        <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+        <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+        <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Grav*</characteristic>
+        <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="fbd4-1c49-fe73-79ab" name="No Focus" hidden="false">
+      <infoLinks>
+        <infoLink id="2176-8e81-355b-25f7" name="*Grav" hidden="false" targetId="c119-0c1b-a3d7-8060" type="rule"/>
+        <infoLink id="89ed-16b3-b390-b8c2" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
+        <infoLink id="91e3-30a9-f25f-0b28" name="Endurance" hidden="false" targetId="205c-c5b2-2ef5-d7b7" type="profile"/>
+        <infoLink id="e080-7fa8-2d8c-0ba6" name="Fire Shield" hidden="false" targetId="34d2-d4f1-ae0a-caa4" type="profile"/>
+        <infoLink id="7187-caf5-280d-279a" name="Mind Howl" hidden="false" targetId="9600-ce9e-0cbc-d187" type="profile"/>
+        <infoLink id="90da-9f55-2182-9e43" name="Prescience" hidden="false" targetId="11fb-28e7-4e5b-392f" type="profile"/>
+        <infoLink id="308c-0002-e14a-8909" name="⌖ Crush" hidden="false" targetId="8672-8a80-5e36-4031" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
 </catalogue>
