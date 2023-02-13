@@ -28,6 +28,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="030e-5d1a-f685-101c" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="a9bc-226b-95c7-e279" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ba41-2883-9c99-6f22" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="0fea-f990-ce4d-616b" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -49,6 +52,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="9349-f0db-fe25-1326" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="2c64-cd1f-9297-96eb" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="01c8-407d-2eb0-3359" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="d3cb-082d-a590-d6a1" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -125,6 +131,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="a1ad-3884-ec9c-b927" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="3449-5a4b-f2d8-aae7" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f617-a352-6f7c-9969" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="6ccd-8316-815d-c61e" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -171,6 +180,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="4f6a-87ba-99d2-680d" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="62c9-6e70-d06f-438e" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e607-094f-9141-5ce0" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="1454-9596-1d3d-b657" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>

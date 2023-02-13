@@ -1218,6 +1218,15 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="c495-8d08-b6b8-b434" value="Brutal">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f3e5-3aab-da89-8d07" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
@@ -1230,6 +1239,15 @@
       </profiles>
       <infoLinks>
         <infoLink id="9a4c-2b3f-b338-32ee" name="Balanced" hidden="false" targetId="547c-e6e5-64d4-a519" type="rule"/>
+        <infoLink id="d600-748e-e2b6-6318" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c0f-2b5b-bd68-a43f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -1512,7 +1530,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a4b2-f399-efdc-a3ee" name="*Suppress" hidden="false" targetId="83d1-b115-4b07-7ded" type="rule"/>
+        <infoLink id="a4b2-f399-efdc-a3ee" name="*Suppress" hidden="false" targetId="3cc1-9937-73cc-2604" type="rule"/>
         <infoLink id="cdf1-bfc6-599d-b9ad" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
         <infoLink id="dc26-c79f-12a2-d2ec" name="Fusillade" hidden="false" targetId="e2ae-574a-94ab-3550" type="rule"/>
       </infoLinks>
@@ -1985,6 +2003,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8fa5-695e-72f0-57d5" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="294e-7916-f4d7-4adb" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2103,6 +2122,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e6ee-5782-d447-1ef7" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="2f81-61f3-0ef9-3b7e" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2199,6 +2219,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e418-fc9a-6e37-003a" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="9a35-2223-0dc6-1e30" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2267,6 +2288,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="205a-4d59-ca2f-b509" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="935d-3efa-2eb1-288e" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2305,6 +2327,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64f0-0395-37ae-8b3e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3243-af09-ad77-86f7" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2407,6 +2430,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="38f3-0d5c-94d0-4cb1" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -2486,6 +2512,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cf2a-83d2-9c5b-6f68" name="Armour pattern" hidden="false" collective="false" import="true" targetId="e7b8-eca6-d467-6f97" type="selectionEntryGroup"/>
+        <entryLink id="a679-6ae6-f5fd-41c4" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2562,6 +2589,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="24f5-41cb-5396-5ac4" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="4278-0aa2-a54e-cc8f" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2603,6 +2631,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85a-dcfd-958f-a327" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="42cc-9034-437d-d6dc" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2672,6 +2701,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a56-b09e-4c31-56c3" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="4598-49f2-7d85-7b9d" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2733,6 +2763,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2289-2a88-c392-664f" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="9971-804a-0cb7-6fe4" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2795,6 +2826,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d585-470f-6f8f-0a3e" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="e211-0766-23a8-12d8" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -2863,6 +2895,7 @@
         </entryLink>
         <entryLink id="efdf-5239-cc40-1a86" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
         <entryLink id="6846-5a64-04a8-af67" name="Phosphex bomb" hidden="false" collective="false" import="true" targetId="7a04-e0ca-e5d7-7fa7" type="selectionEntry"/>
+        <entryLink id="9418-af0f-ba03-a677" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3011,6 +3044,7 @@
           </constraints>
         </entryLink>
         <entryLink id="fa3c-7a18-c72d-9c06" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="ad86-e029-dd99-1bdd" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3059,6 +3093,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c641-b6e5-ee06-f0c4" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="cab1-666d-5422-ff07" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3167,6 +3202,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6617-5b8b-3195-b29a" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="414a-a9df-3f20-82da" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3250,6 +3286,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="20b3-05cb-59e5-3319" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -3337,6 +3376,7 @@
           </constraints>
         </entryLink>
         <entryLink id="9409-57e0-2c2b-6b08" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="211f-1519-393f-3783" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3399,6 +3439,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165e-c058-c044-ef01" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="5a45-e824-d23e-0b0c" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3468,6 +3509,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d4d5-f311-a8b6-8fc9" name="Armour pattern" hidden="false" collective="false" import="true" targetId="e7b8-eca6-d467-6f97" type="selectionEntryGroup"/>
+        <entryLink id="7476-8a01-f85a-c87c" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3519,6 +3561,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8448-7682-7924-23ba" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="e448-a342-1361-5dc1" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3584,6 +3627,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54fb-f1fe-fda0-ab6b" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="bc1a-2a55-782a-d481" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3654,6 +3698,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a01-0e80-2ecf-e5ac" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="f0f3-5b22-c716-4963" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3729,6 +3774,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b158-042b-6846-a28a" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="c08d-5b46-6053-9fa6" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3790,6 +3836,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="24e8-7d5e-736f-b0d8" name="Armour pattern" hidden="false" collective="false" import="true" targetId="e7b8-eca6-d467-6f97" type="selectionEntryGroup"/>
+        <entryLink id="24d3-a41f-90c5-10b6" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -3893,6 +3940,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </constraints>
         </entryLink>
         <entryLink id="7f33-24b7-59d2-0c27" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="9ebb-b745-2718-51d7" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4015,6 +4063,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3412-9b3d-cc2d-4318" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="98a1-2970-fe6c-96d4" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4118,6 +4167,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5407-c612-e1ce-5c86" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -4216,6 +4268,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f8b-5af3-3729-0a87" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="5c3d-07c8-b510-0522" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4313,6 +4366,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="eefb-404c-ba52-99d3" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -4366,17 +4422,15 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <characteristic name="W" typeId="db11-738c-048c-759e">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="bc81-b8a6-871d-b68c" name="Manifest Psychic Power (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
-          <characteristics>
-            <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Psychic action. Resolve a psychic power, as specified on pages 25 to 27. An operative can perform this action twice during the activation. </characteristic>
-          </characteristics>
-        </profile>
         <profile id="7ef8-97c4-1089-33c5" name="Psychic Hood" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
           <characteristics>
             <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time this operative would lose a wound due to a psychic action, roll one D6: on a 5+, that wound is not lost.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d4eb-079a-b695-ea06" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ceb1-74a2-85cf-8633" name="LEGIONES ASTARTES" hidden="false" targetId="6a32-cc91-35ed-7708" primary="false"/>
         <categoryLink id="9fc9-f83b-1fac-98e2" name="Imperium" hidden="false" targetId="15ae-553e-01d1-23a9" primary="false"/>
@@ -4430,27 +4484,10 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="04ce-93b6-984c-b2dd" name="Force Staff" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="98f7-1705-0fc1-fbe7" name="⚔ Force Staff" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, *Block</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun
-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="ad58-4890-894d-4503" name="*Force" hidden="false" targetId="155f-68ee-5bca-04df" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="5ccf-33e7-9fc9-b1dd" name="Force Staff" hidden="false" collective="false" import="true" targetId="3c6f-9839-9604-f974" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f5ae-a32d-cddf-66f8" name="Pistol" hidden="false" collective="false" import="true">
           <constraints>
@@ -4466,6 +4503,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <entryLinks>
         <entryLink id="598f-a722-6e76-d78b" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
         <entryLink id="4f5d-cbeb-e2f0-7c56" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
+        <entryLink id="e2d2-aa2e-7ca6-1f97" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4608,6 +4646,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4e5a-46fb-b1b4-b8e9" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -4702,6 +4743,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba9-ed34-5c24-bef6" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="1aee-c2e5-2a92-6f02" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4816,6 +4858,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff8-5f45-661e-4f46" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="9b26-6ce0-c8a2-b262" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -4945,6 +4988,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7d0-867c-3aab-ee2e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="1b8f-42a6-f91c-2d8b" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -5060,6 +5104,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0793-2970-c75e-e76a" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="e386-4712-3990-051d" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -5212,6 +5257,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="da27-ca54-03a9-bdc8" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
+        <entryLink id="4f61-bf20-b36a-614c" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -5286,6 +5332,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f58-afd0-1798-300e" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="34de-4fa6-abc2-e3d5" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -5470,6 +5517,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bef8-9984-b63b-74f2" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -5588,6 +5638,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="326f-5eb6-da3d-708d" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -5675,6 +5728,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ea57-0334-cf5c-1c0b" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -5741,6 +5797,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f60f-6cd5-6c3a-eb16" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -5808,6 +5867,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7d12-b92b-0380-d0fc" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -5875,6 +5937,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="24c8-8e9a-d4ad-9acd" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -5927,6 +5992,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="71eb-e846-9c40-9f65" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6020,6 +6088,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb4-c855-8aed-0e50" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="e0e5-7fee-d8d7-0685" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -6149,6 +6218,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcab-d1a6-8686-cd0f" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="79d0-2e63-facb-7f02" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -6228,6 +6298,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="37ac-449d-ca11-9570" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6378,6 +6451,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3d3a-50aa-0311-210c" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6420,32 +6496,12 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eca-5d02-b50f-84ef" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4835-9acd-02a4-2827" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="7092-2cdf-60f4-9b24" name="Nostraman chainglaive" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="2a71-ce54-fdfe-02f6" name="⌖ Nostraman chainglaive" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rending</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="2b42-f1dc-99cf-bfd0" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="f9de-a23a-d9a6-454f" name="Power axe" hidden="false" collective="false" import="true" targetId="2b23-6158-e741-39e7" type="selectionEntry"/>
             <entryLink id="612c-a5ab-8115-cf02" name="Power maul" hidden="false" collective="false" import="true" targetId="8623-eba1-e089-b973" type="selectionEntry"/>
             <entryLink id="0cf6-4830-3133-6c9e" name="Power sword" hidden="false" collective="false" import="true" targetId="8471-5f15-f3c2-a81f" type="selectionEntry"/>
             <entryLink id="c450-c4ca-f924-eefa" name="Lightning claw" hidden="false" collective="false" import="true" targetId="aec1-3fb6-9b92-bba7" type="selectionEntry"/>
+            <entryLink id="a3de-45ce-f6d2-63cb" name="Nostraman chainglaive" hidden="false" collective="false" import="true" targetId="c2e6-5a60-f89a-be57" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6456,6 +6512,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb24-ce30-964e-909f" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="fa8d-dc84-43e5-b4ff" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -6545,6 +6602,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecc4-1db1-5ee8-65c9" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="4115-4eb8-d8aa-d4c5" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -6677,6 +6735,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f202-9332-cba1-2a65" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6730,6 +6791,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbed-ff7e-f48a-06a9" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="281d-02b1-53dd-339b" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -6812,88 +6874,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="16e4-329f-7f86-ed26" name="Barb hook lash" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="79c8-013b-40f5-1afc" name="⚔ Barb hook lash" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Entangle*</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="ac04-ec4d-6cd0-c98b" name="*Entangle" hidden="false" targetId="c8ed-cdea-0565-ebe0" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f8ba-9d21-9398-7fa9" name="Excoriator chainaxe" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="6bfc-003e-9566-c2fd" name="⚔ Excoriator chainaxe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="7250-eedb-f447-88f8" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
-                <infoLink id="1f77-72fe-b3cb-c7c6" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1c9d-8001-7344-6c18" name="Meteor hammer" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="6cca-d0ad-6aa4-ac16" name="⚔ Meteor hammer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/7</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal, Slam ▲/⬛</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="c5e5-b862-883f-54de" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
-                <infoLink id="6fd4-a418-9737-d5ab" name="Slam X/Y" hidden="false" targetId="e212-d14a-07b3-6611" type="rule"/>
-                <infoLink id="3756-c119-7374-0428" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c117-0d8a-4cf5-1b75" name="Twin falax blades" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="4402-b9df-2971-d2ca" name="⚔ Twin falax blades" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
-                  <characteristics>
-                    <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
-                    <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
-                    <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
-                    <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Relentless</characteristic>
-                    <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="34ca-8289-cb2e-5190" name="Relentless" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="2760-a4fe-6a12-dd74" name="Barb hook lash" hidden="false" collective="false" import="true" targetId="7cc2-88a2-8bda-4fa6" type="selectionEntry"/>
+            <entryLink id="c7b4-1a2e-138e-900f" name="Excoriator chainaxe" hidden="false" collective="false" import="true" targetId="1f09-2936-d378-53be" type="selectionEntry"/>
+            <entryLink id="b2dd-62a3-6e55-1dc7" name="Meteor hammer" hidden="false" collective="false" import="true" targetId="5a5c-e726-4461-07ad" type="selectionEntry"/>
+            <entryLink id="365a-4436-f05f-d70d" name="Twin falax blades" hidden="false" collective="false" import="true" targetId="83a9-3f16-d1e8-a2fd" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4f3a-b6c2-890c-2c7a" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -6994,6 +6986,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="718b-d5c4-17cd-1412" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="05dd-5f30-d4b0-f794" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7073,6 +7066,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9fba-f095-8486-f67e" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -7180,6 +7176,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e368-fded-d472-01ce" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="b5a4-07b0-3475-8c03" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7270,6 +7267,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baac-a59c-ebdd-3492" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3836-6457-53f5-7d7d" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7354,6 +7352,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5497-fdc6-b056-094c" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="d2ad-07ef-47fa-eca8" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7429,6 +7428,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce0-2579-6ff0-069d" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="a85b-621b-3d67-d34e" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7513,6 +7513,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf71-2642-2985-720f" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="2fc4-963b-21e8-942c" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7564,6 +7565,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </constraints>
         </entryLink>
         <entryLink id="a3b6-e6c4-5ea3-5561" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+        <entryLink id="cbe1-5ef0-405d-19d6" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7673,6 +7675,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce8-3eac-1d3e-e9e3" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="f097-33d2-ae50-9ba7" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -7736,6 +7739,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="d3b2-0ebc-758b-b1d8" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -7813,6 +7819,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7522-7b81-4cc7-93a2" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -7892,6 +7901,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="694a-7a8a-9bdd-cbf5" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -7958,6 +7970,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5fae-7289-21f2-9e30" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -8024,6 +8039,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ddc4-0c86-c858-5533" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -8095,6 +8113,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0042-9962-6612-96e2" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -8212,6 +8233,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="16e3-855a-463a-55b4" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -8362,6 +8386,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c650-a85a-6b49-9587" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -8426,6 +8453,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5c0d-05e4-c718-e73a" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
       </costs>
@@ -8517,6 +8547,124 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="ce8d-717b-f318-b56f" name="Heavy" hidden="false" targetId="1e77-6974-cf90-6008" type="rule"/>
         <infoLink id="d995-84b4-9c5e-4e4b" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
         <infoLink id="3f58-9b9b-719d-6b77" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2e6-5a60-f89a-be57" name="Nostraman chainglaive" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0ae9-2bc2-ae62-2e1e" name="⌖ Nostraman chainglaive" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rending</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3cd4-ef11-4ca9-0ce9" name="Rending" hidden="false" targetId="0550-3332-7a93-ab5b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7cc2-88a2-8bda-4fa6" name="Barb hook lash" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fd22-497e-cc78-54c7" name="⚔ Barb hook lash" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Entangle*</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="36c9-6a14-d654-9b3e" name="*Entangle" hidden="false" targetId="c8ed-cdea-0565-ebe0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f09-2936-d378-53be" name="Excoriator chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4d51-99e0-075c-76d4" name="⚔ Excoriator chainaxe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2b93-4a10-b180-fcbf" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+        <infoLink id="b8c9-2628-d6b6-976d" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a5c-e726-4461-07ad" name="Meteor hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e708-755b-f5e5-aaf1" name="⚔ Meteor hammer" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/7</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal, Slam ▲/⬛</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9f1b-0650-bd97-1111" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+        <infoLink id="fcd3-605c-6bca-f054" name="Slam X/Y" hidden="false" targetId="e212-d14a-07b3-6611" type="rule"/>
+        <infoLink id="e252-b256-e862-855c" name="Stun" hidden="false" targetId="a1e3-4e0b-f7c2-eb59" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83a9-3f16-d1e8-a2fd" name="Twin falax blades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c0a6-bc37-40b1-6f99" name="⚔ Twin falax blades" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Relentless</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5626-873d-9199-009c" name="Relentless" hidden="false" targetId="1875-9b07-2a07-aacc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c6f-9839-9604-f974" name="Force Staff" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ce5a-fe2c-a083-04e9" name="⚔ Force Staff" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+          <characteristics>
+            <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+            <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+            <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+            <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, *Block</characteristic>
+            <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun
+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3d65-c5af-29a4-9381" name="*Force" hidden="false" targetId="155f-68ee-5bca-04df" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -8804,15 +8952,22 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c0f-2b5b-bd68-a43f" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="4bc4-659a-7c66-f468" name="⌖ Inferno" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="4bc4-659a-7c66-f468" name="⌖ Inferno (1AP)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
                 <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/3</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, Blast ⬤, No Cover</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬤, Indirect, No Cover</characteristic>
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
               </characteristics>
             </profile>
@@ -8825,6 +8980,20 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
               </characteristics>
             </profile>
+            <profile id="ba07-9787-ef54-3eee" name="Flame Breath" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Perform a freeShoot action using the following profile:</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c7c6-76fb-ef7d-eb35" name="⌖ Inferno (2AP)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/3</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Blast ⬛, Indirect, No Cover</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="e1dc-9ddc-01ff-22f6" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
@@ -8833,6 +9002,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <infoLink id="0f5b-fe98-8aff-e3a2" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
             <infoLink id="4e9d-0951-0e14-53d2" name="No Cover" hidden="false" targetId="c091-97f7-8640-5e56" type="rule"/>
             <infoLink id="d3cb-fe45-d902-7113" name="Fire Shield" hidden="false" targetId="34d2-d4f1-ae0a-caa4" type="profile"/>
+            <infoLink id="944e-9e23-67dc-56f3" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -8844,6 +9014,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c0f-2b5b-bd68-a43f" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
@@ -8852,7 +9029,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative Visible to this operative. So long as that operative does not make any movement actions it gains the Invulnerable 2+ special rule.</characteristic>
               </characteristics>
             </profile>
-            <profile id="7a6a-7488-b168-e8e7" name="Psychic Storm" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="7a6a-7488-b168-e8e7" name="⌖ Psychic Storm" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">6</characteristic>
                 <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
@@ -8861,13 +9038,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW2</characteristic>
               </characteristics>
             </profile>
-            <profile id="4041-94f0-1524-358d" name="⌖ Crush*" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+            <profile id="0109-f1c4-631f-3552" name="Psychic Storm " hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
-                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
-                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">3/4</characteristic>
-                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Grav*</characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">If the psyker spent 1AP they perform a free Shoot action using the following profile. However if the psyker spent 2AP they make the same shooting attack but move all Operatives hit by the attack up to in a direction of their choosing.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8877,6 +9050,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <infoLink id="cb84-d1c4-c14e-f290" name="*Grav" hidden="false" targetId="c119-0c1b-a3d7-8060" type="rule"/>
             <infoLink id="25b5-16f4-84c7-53e9" name="Px" hidden="false" targetId="1f11-c169-2746-13cf" type="rule"/>
             <infoLink id="b82f-4661-151f-47d1" name="⌖ Crush" hidden="false" targetId="8672-8a80-5e36-4031" type="profile"/>
+            <infoLink id="7614-c8e2-116e-0fe8" name="Crush" hidden="false" targetId="fe7e-3c88-6581-5300" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
@@ -8891,22 +9065,20 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </modifier>
           </modifiers>
           <profiles>
-            <profile id="46ec-23c9-c75b-3b78" name="Mind Howl" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
-              <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone, reduce their APL by -1. Additionally that operative may not use ploys until the next Turning Point.</characteristic>
-              </characteristics>
-            </profile>
             <profile id="dc3a-4445-1ca5-e859" name="Hallucination" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an Enemy operative in the killzone. If the psyker spent 1AP the enemy operative treats all opposing operatives as having a Conceal order. If they spent 2AP the enemy operative and any enemy operatives within ⬤ treat all opposing operatives as having a Conceal order.</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone. If the psyker spent 1AP the enemy operative treats all opposing operatives as having a Conceal order. If they spent 2AP the enemy operative and any enemy operatives within ⬤ treat all opposing operatives as having a Conceal order.</characteristic>
               </characteristics>
             </profile>
             <profile id="4d80-08ed-4af7-1543" name="Dominate" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone to take a single action. If the psyker spent 1AP the enemy operative makes a Dash action in the direction of the psykers choosing. If they spent 2AP the enemy operative makes either an overwatch or fight action against a target of psykers choosing.</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone to take a single action. If the psyker spent 1AP the enemy operative makes a Dash action in the direction of the psyker&apos;s choosing. If they spent 2AP the enemy operative makes either an overwatch or fight action against a target of psykers choosing.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="a848-866c-78ad-b570" name="Mind Howl" hidden="false" targetId="9600-ce9e-0cbc-d187" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
           </costs>
@@ -8917,6 +9089,13 @@ Until the end of the Turning Point, all operatives involved in this action may n
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be72-7625-3978-94b0" type="notInstanceOf"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c0f-2b5b-bd68-a43f" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <profiles>
@@ -8927,7 +9106,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </profile>
             <profile id="51ce-aec8-4b30-594c" name="Precognition" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the End of the turning point after  spending any CP on ploys roll a D6, on a 4+ the ploy isused but the CP are retained by the player.</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the end of the Turning Point after spending any CP on ploys roll a D6, on a 4+ the ploy isused but the CP are retained by the player.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8948,6 +9127,764 @@ Until the end of the Turning Point, all operatives involved in this action may n
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="33d6-b4aa-9a64-d198" name="Equipment" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b393-d845-760a-1cca" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="c61a-51a3-370d-bf55" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="adea-a113-9964-c0a0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c6f1-f67f-eb56-949d" name="Archeotech pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="187c-4f5c-a00e-3d88" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9912-f098-03c1-38ad" name="⌖ Archeotech pistol" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/4</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟, AP2</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8130-2ecc-adb0-1d14" name="Archeotech pistol" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. Replace this operative’s pistol weapon with a relic weapon from the Age of Strife. The operative gains the following ranged weapon:</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4889-2b5f-bdc7-e559" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
+            <infoLink id="a03b-54c9-52ed-8b87" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+            <infoLink id="6bb4-db35-0b79-c143" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d42a-69be-fb9f-b7c0" name="Artificer armor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee29-84ee-80b1-535a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a116-7cf5-289d-2871" name="Artificer Armor" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. This operative is clad in the finest armour from the Legion&apos;s Forges. Increase this operatives Defence characteristic by +1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b3f7-aff9-40a0-7dea" name="Augury" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e2b-856a-8140-1df9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="172e-6de7-3a01-5ee7" name="Augury" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER only. This operative can perform the following action during the battle:</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3764-ff66-ddfc-b5f2" name="Augury" hidden="false" targetId="9d49-4fd4-a962-e9ae" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b29f-2a17-3004-7122" name="Camo cloak" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="425a-26dd-5818-bd90" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ffd-53b4-2d12-f181" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="48fa-59a3-30a9-27ac" name="Camo cloak" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="425a-26dd-5818-bd90" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Any RECON operative may take a Camo Cloak, that operative gains the following ability;</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f811-784c-a4f0-4df3" name="Camo cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a Shooting attack is made against this operative, in the Defence Dice step of that Shooting attack, before rolling your defence dice, if it is in Cover, one additional dice can be retained as a successful normal save as a result of Cover.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f360-5cca-6d27-49ef" name="Combat shield" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a976-0877-fbf0-ac1d" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4470-2839-f56b-81ec" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb1-7912-9fb9-c17d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7fab-36b8-bb09-9995" name="Combat shield" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a976-0877-fbf0-ac1d" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4470-2839-f56b-81ec" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Any ASSAULT, FIGHTER, or LEADER operative armed with a pistol may take a Combat Shield gaining the following ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ad90-d832-a2a9-408b" name="Combat shield" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+              <characteristics>
+                <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">During the Firefight Phase an operative equipped with a combat shield may add +1 to a single defence or attack dice per roll. If applied to an attack dice as part of a Fight action the result may only be used toParry.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e71d-198e-df70-220e" name="Digital weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9604-be07-8095-e1cf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dcc6-dfdd-9df2-6b8b" name="Digital weapons" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. Once per game, during the Roll Attack Dice step of a Fight action, this operative may retain a single failed hit as a critical hit. This hit must be used as a Strike.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="567b-c45f-7b5a-2751" name="Frag grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd23-a637-c21e-8faa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c0e7-937f-a7d0-ee3a" name="Frag grenade" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">The operative is equipped with the following ranged weapon for the battle:</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c10a-6d18-78e7-a621" name="⌖Frag grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟,  Limited, Blast ⬤, Indirect
+ </characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="680d-c084-f322-c591" name="Blast x" hidden="false" targetId="d848-be09-6d6d-4708" type="rule"/>
+            <infoLink id="edf6-07be-8192-3d89" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+            <infoLink id="8536-7304-68e9-af0a" name="Limited x" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+            <infoLink id="2f8a-5d3e-0269-4590" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e94-d316-2026-0d2d" name="Halo blade" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a54a-3452-a021-d373" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9ae-9e7f-06fc-0af9" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a6-4be1-4c45-b6aa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ec13-caee-74d2-d0b6" name="Halo Blade" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">BLACKSHIELD LEADER or SUB-CONSUL only. Replace this operative’s combat weapons with the following;</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8ce4-af4d-3f3e-df79" name="⚔ Halo Blade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6	</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Brutal, Hot</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0c3f-b8ba-aeeb-c56d" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+            <infoLink id="2928-a597-5d28-cf06" name="Brutal" hidden="false" targetId="16e9-a975-03a1-91c0" type="rule"/>
+            <infoLink id="87f3-ece9-8fd0-8e13" name="Hot" hidden="false" targetId="83c3-fce7-8ac1-9872" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1885-f291-db4f-bbdd" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b6-dba2-b177-5fc3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="01b3-498f-f9d3-aff8" name="Jump Pack" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Any ASSAULT operative may take a Jump Pack, thatoperative gains the following ability and action;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="97f1-26c3-eab5-4043" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
+            <infoLink id="5f42-983f-7e68-07be" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="63a8-dbff-2a67-cf08" name="Smoke grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="425a-26dd-5818-bd90" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12dd-3bd7-9dd2-a5fb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dada-4c95-5b85-00e5" name="Smoke grenade" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">RECON operative only. The operative can perform the followingaction during the battle: </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ff8f-4685-3345-8704" name="Smoke Grenade (1AP)" hidden="false" targetId="5e6d-8ada-564d-383f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cd12-85c4-6de7-a8fe" name="Suspensor web" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd09-a7b0-6117-304b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4cc7-edee-8b60-0dc9" name="Suspensor web" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">This operative ignores the movement restrictions associated with wielding a ranged weapon with the HEAVY special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2583-67e5-9906-5d83" name="Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5632-a9b5-ea46-98e1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0413-6cba-7f66-71a8" name="Terminator Armour" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. This operatives DF characteristic changes to * and their Wounds are increased to 15. Additionally they gain the following ability;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e4ea-4d12-9705-eeef" name="Terminator Armour" hidden="false" targetId="937e-e365-bcd0-c8aa" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="70da-a221-6bb6-9261" name="Armour pattern" hidden="false" collective="false" import="true" targetId="e7b8-eca6-d467-6f97" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3331-a92f-402c-684f" name="Oath of moment" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c5-3e2b-51ca-ed60" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="211a-fbae-793f-7d15" name="Oath of Moment" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">The operative gains the following ability for the battle</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e7fc-1501-c95f-4181" name="Oath of Moment" hidden="false" targetId="b256-b881-7021-70fa" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dea7-6d07-7699-c039" name="Refractor field" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8200-dc99-bbc7-2263" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="775c-03e3-86ba-4b53" name="Refractor field" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. When targeted by a Shooting attack this operative may retain a defence dice as a normal success as if they were in Cover.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b46-b98f-f372-0250" name="Phoenix spear" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e45-4f1e-03e1-f6da" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b161-0bba-b965-7cbf" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c86e-d1a8-4318-69ab" name="Phoenix spear" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">An Emperor’s Children LEADER or SUB-CONSUL may replace all weapon options with a Phoenix Spear using the profile below;</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d6df-cfc2-5dd1-c6cd" name="⚔ Phoenix spear" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6	</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Block*, Lethal 5+</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c08c-2ef4-53ce-1a28" name="*Block" hidden="false" targetId="5899-46f0-2e8e-6568" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a36a-ac7e-c19a-09a4" name="Sonic shriekers" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e45-4f1e-03e1-f6da" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee0f-f2d1-b150-feea" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1056-35fb-2140-a8b6" name="Sonic shriekers" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">An Emperor’s Children LEADER or SUB-CONSUL may be equipped with Sonic Shriekers. This operative gains the Sonic Shriekers legion ability as if it had the Gunner keyword</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="80aa-51c4-4f62-694e" name="Sonic shriekers" hidden="false" targetId="f75f-13d0-0d04-c88a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="877e-78c5-e813-847d" name="Frost axe" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9c4-335f-39b9-b326" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc4-9de0-d3f6-c695" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fa63-0c8e-297f-8f47" name="Frost axe" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="bef3-e7eb-5bcb-ccff" name="Frost axe" hidden="false" collective="false" import="true" targetId="96c3-dd65-3c76-7050" type="selectionEntry">
+              <costs>
+                <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="676c-104f-c824-2ef2" name="Nostraman duelling chainglaive" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0f9-a5e5-119a-b692" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8d49-8f74-6748-b4d9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="064f-1fc6-5a52-8293" name="Nostraman duelling chainglaive" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">An Night Lords LEADER or SUB-CONSUL may replace all combat weapon options with a Nostraman Chainglaive using the profile below.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="2add-b972-57ee-1fee" name="Nostraman chainglaive" hidden="false" collective="false" import="true" targetId="c2e6-5a60-f89a-be57" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9e0e-2c57-cede-af04" name="Caedere weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f958-d4f0-329b-9f08" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="132c-6052-9c98-27f2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e924-2a49-8167-ef58" name="Caedere weapons" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">A World Eaters LEADER or SUB-CONSUL may replace all weapon options with one of the Caedere Weapons below;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="61a2-83a0-61c5-eb43" name="New SelectionEntryGroup" hidden="false" collective="false" import="true" defaultSelectionEntryId="00f8-9e4b-9c54-92c4">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e522-a6f6-bdc1-8ac3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72be-e789-a27a-6bb7" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="00f8-9e4b-9c54-92c4" name="Barb hook lash" hidden="false" collective="false" import="true" targetId="7cc2-88a2-8bda-4fa6" type="selectionEntry"/>
+                <entryLink id="b016-99ad-165e-de77" name="Excoriator chainaxe" hidden="false" collective="false" import="true" targetId="1f09-2936-d378-53be" type="selectionEntry"/>
+                <entryLink id="806c-602c-653f-ffd4" name="Meteor hammer" hidden="false" collective="false" import="true" targetId="5a5c-e726-4461-07ad" type="selectionEntry"/>
+                <entryLink id="1b01-6073-6545-e9c2" name="Twin falax blades" hidden="false" collective="false" import="true" targetId="83a9-3f16-d1e8-a2fd" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="73af-d6c8-0518-75f5" name="Power scythe" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="723d-18ab-1bf4-b040" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b573-7871-8ef2-2e1c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8b5a-0ba8-ce86-7e97" name="Power scythe" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">A Death Guard LEADER or SUB-CONSUL may replace their combat weapon with a Power Scythe using the profile below.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9752-9e4e-56ad-85e2" name="⚔ Power scythe" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/6</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Block</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Reap 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2a13-5cbb-7b1f-edbd" name="*Block" hidden="false" targetId="5899-46f0-2e8e-6568" type="rule"/>
+            <infoLink id="bf17-5b24-f023-082f" name="Reap x" hidden="false" targetId="bed1-0d23-de84-30a1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5c0f-2b5b-bd68-a43f" name="Burning Lore" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="387a-85c6-5ce0-f3f2" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2be1-afaa-bfda-60e5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5c0c-4c84-dd39-692a" name="Burning Lore" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <modifiers>
+                <modifier type="set" field="f20a-32bc-0370-b877" value="0.0"/>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Word Bearers LEADER or SUB-CONSUL only. This operative gains the LEXICANIUM keyword and the Manifest Psychic Power ability with access to either the Biomancy or Telepathy disciplines. See pages 25 to 27 for details.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="0890-9742-15bc-e659" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f3e5-3aab-da89-8d07" name="Tainted Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="387a-85c6-5ce0-f3f2" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f8d-1f13-d927-991d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dc08-f4ee-fcfb-ef43" name="Tainted Weapon" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">WORD BEARERS Operatives equipped with a Power axe, Power maul, or Power sword only. This operative adds the Brutal special rule to their chosen weapon’s profile.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1bd9-5bc1-cb3a-ce97" name="&quot;Dragonscale&quot; Storm Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="297e-077f-c863-a6d0" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964c-0d58-f55b-b79a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="be61-e552-91f8-f571" name="&quot;Dragonscale&quot; Storm Shield" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">One Salamanders LEADER or SUB-CONSUL may replace all their ranged weapon options with a Storm Shield gaining the following ability;</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fb74-67af-f67e-6414" name="Storm Shield" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative has the Invulnerable Save 4+ special rule and rolls an additional defence dice when targeted by a Shoot action. Additionally, each time this operative fights in a combat, in the Resolve Successful Hits steps of that combat, each time it parries, two of your opponents successful hits are discarded (instead of one)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8246-b570-d8c9-2b4c" name="Invulnerable Save x+" hidden="false" targetId="d7a8-7b6e-b437-a6fc" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b96d-4ebe-3046-21ee" name="Force Staff" hidden="false" collective="false" import="true" targetId="3c6f-9839-9604-f974" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c7e6-0fa5-b1ec-ef45" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71be-d0bb-6e79-e851" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7c6b-bb86-a454-f140" name="⚔ Force Staff" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">5</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">2+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">*Force, *Block</characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">Stun
+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1c5d-c040-efab-4a1e" name="Force Staff" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+              <characteristics>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">A Thousand Sons LEADER may replace their combat weapon with a Force Staff using the profile below.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="4.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8412-33cb-a289-dc81" name="*Combi" hidden="false">
@@ -8958,9 +9895,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </rule>
     <rule id="585c-13e7-27aa-0d6d" name="*Deflagrate" hidden="false">
       <description>If a critical hit is rolled during the Roll Attack Dice step of a shooting attack that critical hit is resolved at AP1 and has the Splash1 special rule.</description>
-    </rule>
-    <rule id="83d1-b115-4b07-7ded" name="*Suppress" hidden="false">
-      <description>When an operative makes an attack with this weapon, any operatives taking damage also receive a single Suppression token.</description>
     </rule>
     <rule id="937e-e365-bcd0-c8aa" name="Terminator Armour" hidden="false">
       <description>Each time this operative is the target of a shooting attack they roll a number of defence dice equal to Attack stat of the weapon used in that attack. This operative may re-roll any failed Save rolls, ignoring APx, succeeding on a result of 5+. This operative may not perform a Climb action on Light Terrain but treats such terrain as having the Traversable trait. This operative cannot be given a Conceal order.</description>
@@ -8980,6 +9914,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </rule>
     <rule id="c8ed-cdea-0565-ebe0" name="*Entangle" hidden="false">
       <description>Enemy operatives within Engagement Range may not make Fall Back actions.</description>
+    </rule>
+    <rule id="3cc1-9937-73cc-2604" name="*Suppress" hidden="false">
+      <description>When an operative makes an attack with this weaponany operatives taking damage also receive a single suppressiontoken.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9150,7 +10087,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">This operative treats terrain with the Light trait as also having the Traversable trait.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8c37-d6a2-83b3-a09c" name="Manifest Psychic Powers (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+    <profile id="8c37-d6a2-83b3-a09c" name="Manifest Psychic Power (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
       <characteristics>
         <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Psychic action. Resolve a psychic power, as specified on pages 25 to 27 of the Kill Team: Age of Darkness supplement. An operative can perform this action twice during its activation.</characteristic>
       </characteristics>
@@ -9209,7 +10146,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="34d2-d4f1-ae0a-caa4" name="Fire Shield" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
       <characteristics>
-        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative that is Visible to this operative, as long as that operative does not make any movement actions it counts as being within ▲ of a barricade and any enemy operative that is within, or moves within, Engagement Range of that operative takes 1 mortal wound.</characteristic>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select a friendly operative that is Visible to this operative. As long as that operative does not make any movement actions it counts as being within ▲ of a barricade and any enemy operative that is within, or moves within, Engagement Range of that operative takes 1 mortal wound.</characteristic>
       </characteristics>
     </profile>
     <profile id="9600-ce9e-0cbc-d187" name="Mind Howl" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
@@ -9231,6 +10168,31 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
       </characteristics>
     </profile>
+    <profile id="5e6d-8ada-564d-383f" name="Smoke Grenade (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+      <characteristics>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Place the centre of one Smoke token on a point within ⬟ of this operative. That token creates an area of smoke with a ⬤ radius and unlimited upward height (but not below) measured from the centre of that token. Until the end of the Turning Point, an operative is not Visible if a Cover line drawn to it crosses an area of smoke. This operative can only perform this action once, and cannot perform this action while within Engagement Range of enemy operatives.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d49-4fd4-a962-e9ae" name="Augury (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
+      <characteristics>
+        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within ⬛of and Visible to this operative. Until the end of the Turning Point, that operative&apos;s ranged weapons are treated as having the No Cover special rule. This operative cannot performthis action while within Engagement Range of enemy operatives.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b256-b881-7021-70fa" name="Oath of Moment" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Oath of Moment: Once per battle, when this operative is fighting in combat, making a shooting attack or a shooting attack is being made against it, you can use the Command Re-roll Tactical Ploy (see the Kill Team CoreBook) without spending any CP.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe7e-3c88-6581-5300" name="Crush" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Perform a free Shoot action using thefollowing profile:</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbfe-edf5-3cf5-ac6d" name="Suppress" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">When an operative makes an attack with this weapon any operatives taking damage also receive a single suppression token.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="fbd4-1c49-fe73-79ab" name="No Focus" hidden="false">
@@ -9242,6 +10204,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <infoLink id="7187-caf5-280d-279a" name="Mind Howl" hidden="false" targetId="9600-ce9e-0cbc-d187" type="profile"/>
         <infoLink id="90da-9f55-2182-9e43" name="Prescience" hidden="false" targetId="11fb-28e7-4e5b-392f" type="profile"/>
         <infoLink id="308c-0002-e14a-8909" name="⌖ Crush" hidden="false" targetId="8672-8a80-5e36-4031" type="profile"/>
+        <infoLink id="8c8d-9fa9-71b6-3034" name="Crush" hidden="false" targetId="fe7e-3c88-6581-5300" type="profile"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
