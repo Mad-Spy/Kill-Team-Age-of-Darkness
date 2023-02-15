@@ -8982,7 +8982,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </profile>
             <profile id="ba07-9787-ef54-3eee" name="Flame Breath" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Perform a freeShoot action using the following profile:</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Perform a free Shoot action using the profile below.</characteristic>
               </characteristics>
             </profile>
             <profile id="c7c6-76fb-ef7d-eb35" name="⌖ Inferno (2AP)" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
@@ -9040,7 +9040,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </profile>
             <profile id="0109-f1c4-631f-3552" name="Psychic Storm " hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">If the psyker spent 1AP they perform a free Shoot action using the following profile. However if the psyker spent 2AP they make the same shooting attack but move all Operatives hit by the attack up to in a direction of their choosing.</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">If the psyker spent 1AP they perform a free Shoot action using the profile below. However if the psyker spent 2AP they make the same shooting attack but move all Operatives hit by the attack up to ⬤ in a direction of their choosing.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9106,7 +9106,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </profile>
             <profile id="51ce-aec8-4b30-594c" name="Precognition" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the end of the Turning Point after spending any CP on ploys roll a D6, on a 4+ the ploy isused but the CP are retained by the player.</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Until the end of the Turning Point after spending any CP on ploys roll a D6, on a 4+ the ploy is used but the CP are retained by the player.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10185,7 +10185,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
     </profile>
     <profile id="fe7e-3c88-6581-5300" name="Crush" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
       <characteristics>
-        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Perform a free Shoot action using thefollowing profile:</characteristic>
+        <characteristic name="Effect" typeId="3895-3533-1c76-676a">Perform a free Shoot action using the profile below.</characteristic>
       </characteristics>
     </profile>
     <profile id="fbfe-edf5-3cf5-ac6d" name="Suppress" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
