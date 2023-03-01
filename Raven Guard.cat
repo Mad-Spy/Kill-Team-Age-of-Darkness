@@ -245,6 +245,16 @@
         <entryLink id="5df9-3a4f-a08f-7409" name="The Sable Brand" hidden="false" collective="false" import="true" targetId="ca46-59ab-adeb-7271" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="6933-0e9a-03f9-2cf0" name="Legion Terminator" hidden="false" collective="false" import="true" targetId="19f8-263e-7e16-6d71" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f5b6-e311-cdfc-fca8" name="The Sable Brand" hidden="false" collective="false" import="true" targetId="ca46-59ab-adeb-7271" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d9cf-00af-81af-7be2" name="Legion Support Terminator" hidden="false" collective="false" import="true" targetId="b9f9-1f4c-9056-d6ba" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="8123-6f69-8244-f448" name="The Sable Brand" hidden="false" collective="false" import="true" targetId="ca46-59ab-adeb-7271" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ca46-59ab-adeb-7271" name="The Sable Brand" hidden="false" collective="false" import="true" type="upgrade">
