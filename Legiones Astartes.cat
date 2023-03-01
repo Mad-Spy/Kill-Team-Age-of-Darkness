@@ -1039,7 +1039,6 @@
     <selectionEntry id="0604-3bbd-f1fa-5c65" name="Combat knife" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c0e-1d29-67ee-cef2" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa17-bf51-d800-c01b" type="min"/>
       </constraints>
       <profiles>
         <profile id="7bf0-f38a-89d0-c2a6" name="⚔ Combat knife" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
@@ -2627,7 +2626,6 @@
         </entryLink>
         <entryLink id="bb52-5220-a2b7-e0e5" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7184-79d5-1994-da14" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85a-dcfd-958f-a327" type="min"/>
           </constraints>
         </entryLink>
@@ -2816,7 +2814,6 @@
         </entryLink>
         <entryLink id="72e7-c728-66fe-2d2d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af13-3f10-c3ae-d7da" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e1c-fc6d-23f8-826f" type="min"/>
           </constraints>
         </entryLink>
@@ -3089,7 +3086,6 @@
       <entryLinks>
         <entryLink id="1826-eb9f-c30f-502a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21cb-329a-8365-224b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c641-b6e5-ee06-f0c4" type="min"/>
           </constraints>
         </entryLink>
@@ -3372,7 +3368,6 @@
         <entryLink id="e4f3-6ec8-4573-fa9d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b9-0f52-bd25-b92c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4224-9c41-93b6-16b1" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="9409-57e0-2c2b-6b08" name="Hexagrammaton" hidden="false" collective="false" import="true" targetId="61ae-f62e-bd7b-b27e" type="selectionEntryGroup"/>
@@ -3435,7 +3430,6 @@
       <entryLinks>
         <entryLink id="892e-09b0-29a0-417e" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2af-4184-b043-94fd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165e-c058-c044-ef01" type="min"/>
           </constraints>
         </entryLink>
@@ -3623,7 +3617,6 @@
         </entryLink>
         <entryLink id="5ff4-5421-9bad-6aa3" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fce-b01f-b766-5bee" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54fb-f1fe-fda0-ab6b" type="min"/>
           </constraints>
         </entryLink>
@@ -3694,7 +3687,6 @@
         </entryLink>
         <entryLink id="17f0-82c7-f163-6eb9" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="704b-4c77-05c4-d3f3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a01-0e80-2ecf-e5ac" type="min"/>
           </constraints>
         </entryLink>
@@ -3770,7 +3762,6 @@
       <entryLinks>
         <entryLink id="8a3d-5097-c504-729d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e15-dfd1-249b-cdb9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b158-042b-6846-a28a" type="min"/>
           </constraints>
         </entryLink>
@@ -3935,7 +3926,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <entryLinks>
         <entryLink id="c5c1-ad95-afbc-7847" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b75-2ee3-298e-5b65" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2b-4e17-ee5b-1d57" type="min"/>
           </constraints>
         </entryLink>
@@ -4265,7 +4255,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <entryLink id="daab-fa40-2dd8-efbb" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95b3-9d32-6412-5c7d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f8b-5af3-3729-0a87" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="5c3d-07c8-b510-0522" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
@@ -4740,7 +4729,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <entryLink id="2f21-07e9-0679-c91a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e537-4cb1-ab2d-1a32" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba9-ed34-5c24-bef6" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="1aee-c2e5-2a92-6f02" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
@@ -5329,7 +5317,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <entryLink id="01c2-0abc-d1af-8e2d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742b-0fd9-d314-e75f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f58-afd0-1798-300e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="34de-4fa6-abc2-e3d5" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
@@ -5777,11 +5764,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f0-7497-f4fa-bd64" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f24e-be10-1d65-617d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="f24e-be10-1d65-617d" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="2fe6-ba4a-33a2-800a" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="29c2-2824-4db7-6f9f" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
@@ -5842,11 +5825,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c3-4c07-db85-ed51" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8d3f-0ae1-cd25-0dec" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="8d3f-0ae1-cd25-0dec" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="0ce3-06a5-81cc-f29d" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -5917,11 +5896,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16fb-8e25-cdaf-ebcb" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="aa23-b1d6-c4cf-7dbd" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="aa23-b1d6-c4cf-7dbd" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="fbdc-0e7a-5fd7-73f3" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="4e79-410b-117b-1442" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
@@ -5972,11 +5947,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5e-b48b-9934-e793" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="df37-7dec-2aee-8af6" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="df37-7dec-2aee-8af6" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="694d-7e81-e5d6-db8c" name="Heavy chainsword" hidden="false" collective="false" import="true" targetId="861a-9f6d-95bf-71fa" type="selectionEntry"/>
             <entryLink id="1ec1-912c-322b-ada4" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
@@ -6598,7 +6569,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <entryLinks>
         <entryLink id="2e79-443c-9084-6b0c" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c4b-42fe-f6d3-7318" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecc4-1db1-5ee8-65c9" type="min"/>
           </constraints>
         </entryLink>
@@ -6788,7 +6758,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <entryLink id="18f5-a1be-9bca-e072" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4b5-0bfd-e253-2f99" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbed-ff7e-f48a-06a9" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="281d-02b1-53dd-339b" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
@@ -7509,7 +7478,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
       <entryLinks>
         <entryLink id="3eab-8b75-3438-29a7" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e97-b3b2-e8a1-4309" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf71-2642-2985-720f" type="min"/>
           </constraints>
         </entryLink>
@@ -7564,7 +7532,11 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-a45d-bb81-52e9" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="a3b6-e6c4-5ea3-5561" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
+        <entryLink id="a3b6-e6c4-5ea3-5561" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c7-3646-bf30-0e20" type="min"/>
+          </constraints>
+        </entryLink>
         <entryLink id="cbe1-5ef0-405d-19d6" name="Equipment" hidden="false" collective="false" import="true" targetId="33d6-b4aa-9a64-d198" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -8030,11 +8002,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4147-e70e-f3ec-9ea5" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9f56-6d1a-21fa-db84" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="9f56-6d1a-21fa-db84" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="ce87-e435-3b01-6501" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -8089,11 +8057,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e2b-9b1f-602b-d24e" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="85b8-891a-73e8-57ca" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="85b8-891a-73e8-57ca" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="a5fb-b6e3-fa13-8145" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -8377,11 +8341,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e91-ed2d-8810-6737" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a0af-cf3e-e297-723f" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="a0af-cf3e-e297-723f" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
             <entryLink id="6cfb-fff4-7459-9fdf" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -8445,11 +8405,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </constraints>
           <entryLinks>
             <entryLink id="8397-75a1-cfe6-d594" name="Chainsword" hidden="false" collective="false" import="true" targetId="a29b-2622-88e6-936e" type="selectionEntry"/>
-            <entryLink id="dea0-0a83-de31-2d1a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="fa17-bf51-d800-c01b" value="0.0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink id="dea0-0a83-de31-2d1a" name="Combat knife" hidden="false" collective="false" import="true" targetId="0604-3bbd-f1fa-5c65" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9072,7 +9028,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
             </profile>
             <profile id="4d80-08ed-4af7-1543" name="Dominate" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone to take a single action. If the psyker spent 1AP the enemy operative makes a Dash action in the direction of the psyker&apos;s choosing. If they spent 2AP the enemy operative makes either an overwatch or fight action against a target of psykers choosing.</characteristic>
+                <characteristic name="Effect" typeId="3895-3533-1c76-676a">Select an enemy operative in the killzone to take a single action. If the psyker spent 1AP, the enemy operative makes a Dash action in the direction of the psyker&apos;s choosing. If they spent 2AP, the enemy operative makes either an overwatch or fight action against a target of psyker&apos;s choosing.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9142,10 +9098,29 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <selectionEntry id="c6f1-f67f-eb56-949d" name="Archeotech pistol" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cc8-1e58-31e5-8ffc" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6fc-c529-b310-cb1e" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3df8-c8ee-f37f-65e6" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d492-9c42-c951-c003" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e7f-779a-debf-c777" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="465b-e852-0aab-5eb3" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7308-c26b-ecbb-c8d9" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9161,11 +9136,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="!" typeId="c495-8d08-b6b8-b434">MW1</characteristic>
               </characteristics>
             </profile>
-            <profile id="8130-2ecc-adb0-1d14" name="Archeotech pistol" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. Replace this operative’s pistol weapon with a relic weapon from the Age of Strife. The operative gains the following ranged weapon:</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="4889-2b5f-bdc7-e559" name="MWx" hidden="false" targetId="0d4b-7a76-d266-bcc1" type="rule"/>
@@ -9177,21 +9147,21 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </costs>
         </selectionEntry>
         <selectionEntry id="d42a-69be-fb9f-b7c0" name="Artificer armor" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee29-84ee-80b1-535a" type="max"/>
           </constraints>
           <profiles>
             <profile id="a116-7cf5-289d-2871" name="Artificer Armor" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. This operative is clad in the finest armour from the Legion&apos;s Forges. Increase this operatives Defence characteristic by +1.</characteristic>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Increase this operatives Defence characteristic by +1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9200,25 +9170,18 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </costs>
         </selectionEntry>
         <selectionEntry id="b3f7-aff9-40a0-7dea" name="Augury" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e2b-856a-8140-1df9" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="172e-6de7-3a01-5ee7" name="Augury" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER only. This operative can perform the following action during the battle:</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
-            <infoLink id="3764-ff66-ddfc-b5f2" name="Augury" hidden="false" targetId="9d49-4fd4-a962-e9ae" type="profile"/>
+            <infoLink id="3764-ff66-ddfc-b5f2" name="Augury (1AP)" hidden="false" targetId="9d49-4fd4-a962-e9ae" type="profile"/>
           </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="3.0"/>
@@ -9236,18 +9199,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ffd-53b4-2d12-f181" type="max"/>
           </constraints>
           <profiles>
-            <profile id="48fa-59a3-30a9-27ac" name="Camo cloak" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="425a-26dd-5818-bd90" type="notInstanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Any RECON operative may take a Camo Cloak, that operative gains the following ability;</characteristic>
-              </characteristics>
-            </profile>
             <profile id="f811-784c-a4f0-4df3" name="Camo cloak" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
               <characteristics>
                 <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Each time a Shooting attack is made against this operative, in the Defence Dice step of that Shooting attack, before rolling your defence dice, if it is in Cover, one additional dice can be retained as a successful normal save as a result of Cover.</characteristic>
@@ -9262,12 +9213,27 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a976-0877-fbf0-ac1d" type="notInstanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4470-2839-f56b-81ec" type="notInstanceOf"/>
-                  </conditions>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a976-0877-fbf0-ac1d" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4470-2839-f56b-81ec" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cc8-1e58-31e5-8ffc" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d6fc-c529-b310-cb1e" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3df8-c8ee-f37f-65e6" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d492-9c42-c951-c003" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e7f-779a-debf-c777" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="465b-e852-0aab-5eb3" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7308-c26b-ecbb-c8d9" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9276,20 +9242,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb1-7912-9fb9-c17d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="7fab-36b8-bb09-9995" name="Combat shield" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a976-0877-fbf0-ac1d" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4470-2839-f56b-81ec" type="notInstanceOf"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Any ASSAULT, FIGHTER, or LEADER operative armed with a pistol may take a Combat Shield gaining the following ability.</characteristic>
-              </characteristics>
-            </profile>
             <profile id="ad90-d832-a2a9-408b" name="Combat shield" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
               <characteristics>
                 <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">During the Firefight Phase an operative equipped with a combat shield may add +1 to a single defence or attack dice per roll. If applied to an attack dice as part of a Fight action the result may only be used toParry.</characteristic>
@@ -9303,10 +9255,14 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <selectionEntry id="e71d-198e-df70-220e" name="Digital weapons" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9315,7 +9271,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <profiles>
             <profile id="dcc6-dfdd-9df2-6b8b" name="Digital weapons" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
               <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. Once per game, during the Roll Attack Dice step of a Fight action, this operative may retain a single failed hit as a critical hit. This hit must be used as a Strike.</characteristic>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Once per game, during the Roll Attack Dice step of a Fight action, this operative may retain a single failed hit as a critical hit. This hit must be used as a Strike.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9328,11 +9284,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd23-a637-c21e-8faa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c0e7-937f-a7d0-ee3a" name="Frag grenade" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">The operative is equipped with the following ranged weapon for the battle:</characteristic>
-              </characteristics>
-            </profile>
             <profile id="c10a-6d18-78e7-a621" name="⌖Frag grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
@@ -9340,7 +9291,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
                 <characteristic name="D" typeId="337a-2e5b-e4e3-f489">2/3</characteristic>
                 <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟,  Limited, Blast ⬤, Indirect
  </characteristic>
-                <characteristic name="!" typeId="c495-8d08-b6b8-b434"/>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9357,16 +9308,19 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <selectionEntry id="0e94-d316-2026-0d2d" name="Halo blade" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a54a-3452-a021-d373" type="notInstanceOf"/>
-              </conditions>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c9ae-9e7f-06fc-0af9" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a54a-3452-a021-d373" type="notInstanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -9375,11 +9329,6 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a6-4be1-4c45-b6aa" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ec13-caee-74d2-d0b6" name="Halo Blade" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">BLACKSHIELD LEADER or SUB-CONSUL only. Replace this operative’s combat weapons with the following;</characteristic>
-              </characteristics>
-            </profile>
             <profile id="8ce4-af4d-3f3e-df79" name="⚔ Halo Blade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
               <characteristics>
                 <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
@@ -9402,21 +9351,19 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <selectionEntry id="1885-f291-db4f-bbdd" name="Jump Pack" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a619-bfad-f5b2-5a23" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a976-0877-fbf0-ac1d" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b6-dba2-b177-5fc3" type="max"/>
           </constraints>
-          <profiles>
-            <profile id="01b3-498f-f9d3-aff8" name="Jump Pack" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
-              <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">Any ASSAULT operative may take a Jump Pack, thatoperative gains the following ability and action;</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <infoLinks>
             <infoLink id="97f1-26c3-eab5-4043" name="Jump Pack Assault (2AP)" hidden="false" targetId="8f3d-e000-7405-4b24" type="profile"/>
             <infoLink id="5f42-983f-7e68-07be" name="Jump Pack" hidden="false" targetId="8a9c-cd0b-27be-77cb" type="profile"/>
@@ -9437,20 +9384,39 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12dd-3bd7-9dd2-a5fb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="dada-4c95-5b85-00e5" name="Smoke grenade" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+            <profile id="8387-507c-ab1c-7aae" name="Smoke Grenade (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
               <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">RECON operative only. The operative can perform the followingaction during the battle: </characteristic>
+                <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Place the centre of one Smoke token on a point within ⬟ of this operative. That token creates an area of smoke with a ⬤ radius and unlimited upward height (but not below) measured from the centre of that token. Until the end of the Turning Point, an operative is not Visible if a Cover line drawn to it crosses an area of smoke. This operative can only perform this action once, and cannot perform this action while within Engagement Range of enemy operatives.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="ff8f-4685-3345-8704" name="Smoke Grenade (1AP)" hidden="false" targetId="5e6d-8ada-564d-383f" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cd12-85c4-6de7-a8fe" name="Suspensor web" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c6fc-9707-7488-03bf" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a9f-3997-5b4d-50de" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6809-35df-2e46-98fa" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6519-b6f9-186f-29ee" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5b6-5895-9207-68c8" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="717f-dfad-31e8-8d0a" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47cb-121e-c305-2b3c" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="def1-33e1-089e-e12c" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d4-896d-2f79-cf96" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a12a-7b7b-6bd6-33e3" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="222a-1743-b675-c651" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c4bd-e866-1ece-53a0" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd09-a7b0-6117-304b" type="max"/>
           </constraints>
@@ -9468,9 +9434,14 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <selectionEntry id="2583-67e5-9906-5d83" name="Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9479,7 +9450,7 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <profiles>
             <profile id="0413-6cba-7f66-71a8" name="Terminator Armour" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
               <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. This operatives DF characteristic changes to * and their Wounds are increased to 15. Additionally they gain the following ability;</characteristic>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">This operatives DF characteristic changes to * and their Wounds are increased to 15.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9493,20 +9464,17 @@ Until the end of the Turning Point, all operatives involved in this action may n
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="7.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3331-a92f-402c-684f" name="Oath of moment" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3331-a92f-402c-684f" name="Oath of Moment" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c5-3e2b-51ca-ed60" type="max"/>
           </constraints>
           <profiles>
-            <profile id="211a-fbae-793f-7d15" name="Oath of Moment" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
+            <profile id="4b28-fffd-e77e-ee3c" name="Oath of Moment" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
               <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">The operative gains the following ability for the battle</characteristic>
+                <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Once per battle, when this operative is fighting in combat, making a shooting attack or a shooting attack is being made against it, you can use the Command Re-roll Tactical Ploy (see the Kill Team Core Book) without spending any CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <infoLinks>
-            <infoLink id="e7fc-1501-c95f-4181" name="Oath of Moment" hidden="false" targetId="b256-b881-7021-70fa" type="profile"/>
-          </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="1.0"/>
           </costs>
@@ -9514,9 +9482,14 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <selectionEntry id="dea7-6d07-7699-c039" name="Refractor field" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3198-c1ce-dfd0-fb4f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6540-3b94-ae84-32eb" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9525,12 +9498,12 @@ Until the end of the Turning Point, all operatives involved in this action may n
           <profiles>
             <profile id="775c-03e3-86ba-4b53" name="Refractor field" hidden="false" typeId="ef4d-f12f-036e-9f14" typeName="Equipment">
               <characteristics>
-                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">LEADER or SUB-CONSUL only. When targeted by a Shooting attack this operative may retain a defence dice as a normal success as if they were in Cover.</characteristic>
+                <characteristic name="Equipment" typeId="f20a-32bc-0370-b877">When targeted by a Shooting attack, this operative may retain a defence dice as a normal success as if they were in Cover.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="0.0"/>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0b46-b98f-f372-0250" name="Phoenix spear" hidden="false" collective="false" import="true" type="upgrade">
@@ -9839,6 +9812,32 @@ Until the end of the Turning Point, all operatives involved in this action may n
           </infoLinks>
           <costs>
             <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e6d0-ba9b-c329-4940" name="Krak grenade" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba8d-8849-1a02-6f0f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="281e-87f6-00a0-e968" name="⌖ Krak grenade" hidden="false" typeId="a917-3c2e-f7b8-1bdc" typeName="Weapons">
+              <characteristics>
+                <characteristic name="A" typeId="5f37-25bb-661b-5c9c">4</characteristic>
+                <characteristic name="WS/BS" typeId="32b4-9a0e-e740-6031">3+</characteristic>
+                <characteristic name="D" typeId="337a-2e5b-e4e3-f489">4/5</characteristic>
+                <characteristic name="SR" typeId="c9c0-f6c9-c787-e650">Rng ⬟,  Limited, AP1, Indirect
+ </characteristic>
+                <characteristic name="!" typeId="c495-8d08-b6b8-b434">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="32e0-aeec-e8d8-8db8" name="APx" hidden="false" targetId="db98-339e-d0a2-e042" type="rule"/>
+            <infoLink id="1f0b-541d-d67b-a0dc" name="Indirect" hidden="false" targetId="653d-16a5-eefb-8b71" type="rule"/>
+            <infoLink id="86ec-fca5-de80-b710" name="Limited x" hidden="false" targetId="1eb0-6ad3-3e5a-d8ec" type="rule"/>
+            <infoLink id="fc7d-a09f-9a93-07b7" name="Rng x" hidden="false" targetId="92de-2ad3-3554-0b3e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" EP" typeId="c61a-51a3-370d-bf55" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10168,19 +10167,9 @@ Until the end of the Turning Point, all operatives involved in this action may n
         <characteristic name="!" typeId="c495-8d08-b6b8-b434">P1</characteristic>
       </characteristics>
     </profile>
-    <profile id="5e6d-8ada-564d-383f" name="Smoke Grenade (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
-      <characteristics>
-        <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Place the centre of one Smoke token on a point within ⬟ of this operative. That token creates an area of smoke with a ⬤ radius and unlimited upward height (but not below) measured from the centre of that token. Until the end of the Turning Point, an operative is not Visible if a Cover line drawn to it crosses an area of smoke. This operative can only perform this action once, and cannot perform this action while within Engagement Range of enemy operatives.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="9d49-4fd4-a962-e9ae" name="Augury (1AP)" hidden="false" typeId="17cd-eb4c-f9cd-36f2" typeName="Unique Actions">
       <characteristics>
         <characteristic name="Unique Action" typeId="8d9f-0a91-4133-bc4a">Select one friendly LEGIONES ASTARTES operative within ⬛of and Visible to this operative. Until the end of the Turning Point, that operative&apos;s ranged weapons are treated as having the No Cover special rule. This operative cannot performthis action while within Engagement Range of enemy operatives.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b256-b881-7021-70fa" name="Oath of Moment" hidden="false" typeId="f52d-76ec-b279-093b" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Ability" typeId="dff3-a2cc-d103-683d">Oath of Moment: Once per battle, when this operative is fighting in combat, making a shooting attack or a shooting attack is being made against it, you can use the Command Re-roll Tactical Ploy (see the Kill Team CoreBook) without spending any CP.</characteristic>
       </characteristics>
     </profile>
     <profile id="fe7e-3c88-6581-5300" name="Crush" hidden="false" typeId="031c-1555-fc2c-3d40" typeName="Psychic Power">
