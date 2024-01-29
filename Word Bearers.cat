@@ -19,6 +19,7 @@
     <entryLink id="85e8-a11d-26c8-939b" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3e14-a1be-54b9-c6b6" name="Word Bearers" hidden="false" targetId="387a-85c6-5ce0-f3f2" primary="false"/>
+        <categoryLink id="5e96-1308-2aaa-2066" name="Lexicanium" hidden="false" targetId="be72-7625-3978-94b0" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ba64-3e9f-17ad-9afa" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">

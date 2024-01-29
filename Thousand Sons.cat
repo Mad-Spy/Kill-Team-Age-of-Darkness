@@ -28,6 +28,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="030e-5d1a-f685-101c" name="Legion Assault Sergeant" hidden="false" collective="false" import="true" targetId="de5c-ff7a-9c80-79fd" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="a9bc-226b-95c7-e279" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="ba41-2883-9c99-6f22" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="0fea-f990-ce4d-616b" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -35,6 +38,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="9133-3222-ac47-d6c6" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="893e-629e-fd10-1c1a" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="1667-0f6b-0cac-d02c" name="Legion Assault Terminator" hidden="false" collective="false" import="true" targetId="3ac0-784a-7841-f234" type="selectionEntry">
@@ -48,6 +52,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="9349-f0db-fe25-1326" name="Legion Breacher Sergeant" hidden="false" collective="false" import="true" targetId="2b1f-7f28-7ba2-f456" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="2c64-cd1f-9297-96eb" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="01c8-407d-2eb0-3359" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="d3cb-082d-a590-d6a1" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -55,6 +62,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="062f-8550-9d53-0987" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="9fc0-a206-c8d7-999c" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="6e3a-b712-8d24-3b8a" name="Legion Demolition Breacher" hidden="false" collective="false" import="true" targetId="122c-87ae-7fee-ef5f" type="selectionEntry">
@@ -94,6 +102,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ea76-5a20-a293-fa86" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="df70-06bb-e8f2-ba94" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="1c1b-c229-d540-4726" name="Legion Medicae" hidden="false" collective="false" import="true" targetId="7cf5-9441-7f57-69c7" type="selectionEntry">
@@ -122,6 +131,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="a1ad-3884-ec9c-b927" name="Legion Recon Sergeant" hidden="false" collective="false" import="true" targetId="1ce0-ff35-6298-c5ee" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="3449-5a4b-f2d8-aae7" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f617-a352-6f7c-9969" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="6ccd-8316-815d-c61e" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -129,6 +141,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="a142-b724-dd31-490a" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="eb66-c3ef-6c5e-3e8f" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="55b2-11e9-07cd-546c" name="Legion Recon Sniper" hidden="false" collective="false" import="true" targetId="c4bd-e866-1ece-53a0" type="selectionEntry">
@@ -167,6 +180,9 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="4f6a-87ba-99d2-680d" name="Legion Tactical Sergeant" hidden="false" collective="false" import="true" targetId="be72-d436-d6cd-1649" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="62c9-6e70-d06f-438e" name="Manifest Psychic Powers (1AP)" hidden="false" targetId="8c37-d6a2-83b3-a09c" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e607-094f-9141-5ce0" name="Thousand Sons" hidden="false" targetId="c7e6-0fa5-b1ec-ef45" primary="false"/>
         <categoryLink id="1454-9596-1d3d-b657" name="Initiate" hidden="false" targetId="0568-a8be-2b7f-9677" primary="false"/>
@@ -174,6 +190,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="b644-1d37-32af-1608" name="Initates of the Cults Arcana" hidden="false" collective="false" import="true" targetId="2258-48cb-6de9-8696" type="selectionEntryGroup"/>
+        <entryLink id="985d-ea9f-1fb7-ad78" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="5476-29e2-7e6a-c426" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="d0b3-699d-e264-201e" name="Legion Tactical Support Astartes" hidden="false" collective="false" import="true" targetId="264f-31e0-61c0-69cc" type="selectionEntry">
